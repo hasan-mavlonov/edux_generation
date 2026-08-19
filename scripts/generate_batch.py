@@ -13,7 +13,7 @@ if not os.getenv("GEMINI_API_KEY"):
 
 # --- adjust these for whatever slice you're testing ---
 N = 10
-SUBJECTS = "Matematika, Informatika"
+SUBJECTS = os.environ.get("EDUX_SUBJECTS", "Matematika, Informatika")
 GRADE = 7
 DIFFICULTY_MIX = "spread across 0.9, 1.5, and 2.6 — don't cluster on one tier"
 FORMAT_MIX = "mostly mcq, but include 2-3 open format"

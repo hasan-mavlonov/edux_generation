@@ -1,17 +1,17 @@
 """
-Independent solve-check, formalized. For every problem in a raw generated_batch
-file, this asks the model to solve it FRESH (no access to the generation-time
-answer), compares the result to the stated answer, and only appends matches to
-data/verified_pool.jsonl -- which build_dataset.py also pulls into training data.
+Independent solve-check. For every problem in a raw generated_batch file, this
+asks the model to solve it FRESH (no access to the generation-time answer),
+compares the result to the stated answer, and only appends matches to
+data/verified_pool.jsonl.
 
-This is the automated version of what we did by hand throughout the pilot
-(13/13 on real problems, 5/5 and 20/20 on generated batches). It raises the
-floor, it doesn't replace human review -- paid-tier content still needs a
-person to sign off before deployment, and formula-answer physics problems
-always need human review since they can't be auto-graded reliably.
+v2: fixes a bug where MCQ answers were compared as raw letters against the
+fresh solve's computed value, causing near-constant false mismatches (e.g.
+stated "B" vs fresh "45" when B literally IS 45). Now cross-references against
+the parsed choices. Also fixes comma-decimal answers being misclassified as
+"formula" answers and skipped.
 
 Usage:
-    python scripts/solve_check.py data/raw/pending/gen_Matematika-Informatika_g7_20260816_182804.txt
+    python scripts/solve_check.py data/raw/pending/gen_Matematika-Informatika_g7_20260818_163325.txt
 """
 import getpass
 import json
@@ -30,6 +30,7 @@ if not os.getenv("GEMINI_API_KEY"):
 MODEL = "gemini-3.6-flash"
 BLOCK_RE = re.compile(r"<subject>.*?</answer>", re.DOTALL)
 TAG_RE = re.compile(r"<(\w+)>(.*?)</\1>", re.DOTALL)
+CHOICE_RE = re.compile(r"([A-D])\)\s*([^A-D]+?)(?=\s*[A-D]\)|$)")
 
 
 def parse_blocks(raw_text: str) -> list[dict]:
@@ -42,14 +43,25 @@ def parse_blocks(raw_text: str) -> list[dict]:
     return blocks
 
 
-def solve_fresh(client, problem: str, choices: str | None) -> str:
-    prompt = (
-        "Solve this competition problem step by step. Give ONLY the final answer "
-        "on the last line, prefixed with 'FINAL:'.\n\n"
-        f"Problem: {problem}"
-    )
-    if choices:
-        prompt += f"\nChoices: {choices}"
+def parse_choices_map(choices_str: str) -> dict:
+    """'A) 37  B) 45  C) 53  D) 43' -> {'A': '37', 'B': '45', 'C': '53', 'D': '43'}"""
+    return {letter: value.strip() for letter, value in CHOICE_RE.findall(choices_str)}
+
+
+def solve_fresh(client, problem: str, choices: str | None, fmt: str) -> str:
+    if fmt == "mcq" and choices:
+        prompt = (
+            "Solve this competition problem step by step, then identify which "
+            "answer choice is correct. Give ONLY the letter (A, B, C, or D) on "
+            "the last line, prefixed with 'FINAL:'.\n\n"
+            f"Problem: {problem}\nChoices: {choices}"
+        )
+    else:
+        prompt = (
+            "Solve this competition problem step by step. Give ONLY the final "
+            "numeric/short answer on the last line, prefixed with 'FINAL:'.\n\n"
+            f"Problem: {problem}"
+        )
     response = client.models.generate_content(model=MODEL, contents=prompt)
     text = response.text.strip()
     for line in reversed(text.splitlines()):
@@ -58,14 +70,38 @@ def solve_fresh(client, problem: str, choices: str | None) -> str:
     return text.splitlines()[-1].strip() if text else ""
 
 
-def answers_match(stated: str, fresh: str) -> bool:
-    s, f = stated.strip().lower(), fresh.strip().lower()
-    if s == f:
+def is_probably_numeric(answer: str) -> bool:
+    try:
+        float(answer.strip().replace(",", "."))
+        return True
+    except ValueError:
+        return False
+
+
+def answers_match(stated: str, fresh: str, fmt: str, choices_map: dict | None = None) -> bool:
+    s, f = stated.strip(), fresh.strip()
+    if fmt == "mcq" and choices_map:
+        f_letter = f.upper().rstrip(").").strip()
+        if f_letter in choices_map:
+            return f_letter == s.upper()
+        # fresh solve gave a raw value instead of a letter -- find which
+        # choice that value actually corresponds to
+        for letter, value in choices_map.items():
+            if value.strip().lower() == f.strip().lower():
+                return letter == s.upper()
+            try:
+                if abs(float(value.replace(",", ".")) - float(f.replace(",", "."))) < 0.01:
+                    return letter == s.upper()
+            except ValueError:
+                continue
+        return False
+    s_l, f_l = s.lower(), f.lower()
+    if s_l == f_l:
         return True
     try:
         return abs(float(s.replace(",", ".")) - float(f.replace(",", "."))) < 0.01
     except ValueError:
-        return s in f or f in s  # loose fallback for mcq letters / short strings
+        return s_l in f_l or f_l in s_l
 
 
 def main():
@@ -79,22 +115,25 @@ def main():
     print(f"Parsed {len(blocks)} problems from {raw_path.name}")
 
     client = genai.Client()
-    verified_path = Path(__file__).resolve().parent.parent / "data" / "verified_pool.jsonl"
-    flagged_path = Path(__file__).resolve().parent.parent / "data" / "flagged_for_review.jsonl"
+    root = Path(__file__).resolve().parent.parent
+    verified_path = root / "data" / "verified_pool.jsonl"
+    flagged_path = root / "data" / "flagged_for_review.jsonl"
     verified_path.parent.mkdir(parents=True, exist_ok=True)
 
     passed, flagged = 0, 0
     with verified_path.open("a", encoding="utf-8") as out, flagged_path.open("a", encoding="utf-8") as flag_out:
         for i, block in enumerate(blocks, 1):
-            is_formula = "format" in block and block.get("format") == "open" and not block["answer"].replace(".", "").replace("-", "").isdigit()
-            if is_formula:
+            fmt = block.get("format", "mcq")
+            choices_map = parse_choices_map(block["choices"]) if fmt == "mcq" and "choices" in block else None
+
+            if fmt == "open" and not is_probably_numeric(block["answer"]):
                 print(f"[{i}/{len(blocks)}] SKIPPED (formula answer, needs human review): {block['problem'][:60]}...")
                 flag_out.write(json.dumps({**block, "reason": "formula_answer", "fresh_solve": None}, ensure_ascii=False) + "\n")
                 flagged += 1
                 continue
 
-            fresh = solve_fresh(client, block["problem"], block.get("choices"))
-            if answers_match(block["answer"], fresh):
+            fresh = solve_fresh(client, block["problem"], block.get("choices"), fmt)
+            if answers_match(block["answer"], fresh, fmt, choices_map):
                 out.write(json.dumps(block, ensure_ascii=False) + "\n")
                 passed += 1
                 print(f"[{i}/{len(blocks)}] PASS")
@@ -107,7 +146,7 @@ def main():
     print(f"{flagged} flagged for human review -- see {flagged_path}")
     print("Run scripts/build_dataset.py next to fold verified_pool.jsonl into train.jsonl")
 
-    checked_dir = Path(__file__).resolve().parent.parent / "data" / "raw" / "checked"
+    checked_dir = root / "data" / "raw" / "checked"
     checked_dir.mkdir(parents=True, exist_ok=True)
     dest = checked_dir / raw_path.name
     raw_path.replace(dest)
