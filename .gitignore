@@ -2,3 +2,7 @@
 .env
 data/raw/*.txt
 .venv
+checkpoints/
+__pycache__/
+*.pyc
+*.log
