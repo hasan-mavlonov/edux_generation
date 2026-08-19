@@ -1,0 +1,203 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Hisoblang: $\frac{2024^2 - 2012^2}{2030^2 - 2006^2}$</problem>
+<choices>A) 0,5  B) 2  C) 0,25  D) 1</choices>
+<solution>Qisqa ko'paytirish formulasi $a^2 - b^2 = (a-b)(a+b)$ dan foydalanamiz.
+Surat: $2024^2 - 2012^2 = (2024 - 2012)(2024 + 2012) = 12 \cdot 4036$.
+Maxraj: $2030^2 - 2006^2 = (2030 - 2006)(2030 + 2006) = 24 \cdot 4036$.
+Kasrni hisoblasak: $\frac{12 \cdot 4036}{24 \cdot 4036} = \frac{12}{24} = \frac{1}{2} = 0,5$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$\overline{4x5y2}$ besh xonali son 36 ga qoldiqsiz bo'linadi. $x$ va $y$ raqamlar bo'lsa, $x+y$ ning qabul qilishi mumkin bo'lgan eng katta qiymatini toping.</problem>
+<choices>A) 14  B) 16  C) 15  D) 17</choices>
+<solution>Son 36 ga bo'linishi uchun u ham 4 ga, ham 9 ga bo'linishi kerak.
+4 ga bo'linish belgisi: sonning oxirgi ikki raqamidan tashkil topgan son 4 ga bo'linishi kerak. Ya'ni $\overline{y2}$ soni 4 ga karrali bo'lishi uchun $y \in \{1, 3, 5, 7, 9\}$ bo'lishi mumkin.
+9 ga bo'linish belgisi: raqamlar yig'indisi 9 ga bo'linishi kerak. $4 + x + 5 + y + 2 = 11 + x + y$.
+$x+y$ ning maksimal qiymatini topish talab qilingan. $x \le 9$ va $y \le 9$ bo'lgani uchun $x+y \le 18$. 
+$11 + x + y$ yig'indi 9 ga karrali bo'lishi kerak. U 18, 27 yoki 36 ga teng bo'lishi mumkin.
+Agar yig'indi 18 bo'lsa, $x+y = 7$.
+Agar yig'indi 27 bo'lsa, $x+y = 16$.
+Agar yig'indi 36 bo'lsa, $x+y = 25$ (lekin raqamlar yig'indisi eng ko'pi bilan $9+9=18$ bo'lishi mumkin, shuning uchun bu o'rinli emas).
+Demak, eng katta mumkin bo'lgan $x+y = 16$. Buni qanoatlantiruvchi holat mavjudmi? $y$ toq raqam bo'lishi kerak, shuning uchun $y=9$ desak, $x=7$ bo'ladi va shartlar bajariladi ($47592$ soni 36 ga bo'linadi). Eng katta qiymat 16.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Line L is parallel to BC and intersects AB at D and AC at E. Angle ADE = 50 degrees, angle AED = 70 degrees. Point F lies on BC such that BF = BD. Line segment DF connects D and F.</diagram_spec>
+<problem>Quyidagi chizmada ko'rsatilganidek, ABC uchburchakning AB va AC tomonlarida mos ravishda D va E nuqtalar olingan bo'lib, DE kesma BC asosga parallel. Agar $\angle ADE = 50^\circ$ va $\angle AED = 70^\circ$ bo'lsa hamda BC tomonda $BD = BF$ bo'ladigan F nuqta olingan bo'lsa, $\angle BFD$ burchakning kattaligini toping.</problem>
+<choices>A) 65°  B) 50°  C) 75°  D) 60°</choices>
+<solution>DE parallel BC bo'lgani uchun, mos burchaklar teng bo'ladi: $\angle B = \angle ADE = 50^\circ$.
+BDF uchburchakda shartga ko'ra $BD = BF$, ya'ni bu uchburchak teng yonli.
+Teng yonli uchburchakning asosidagi burchaklari teng: $\angle BDF = \angle BFD$.
+Uchburchakning ichki burchaklari yig'indisi $180^\circ$ ga teng ekanidan: $\angle BDF + \angle BFD + \angle B = 180^\circ$.
+$2 \cdot \angle BFD + 50^\circ = 180^\circ \implies 2 \cdot \angle BFD = 130^\circ \implies \angle BFD = 65^\circ$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $11011_2$ soni sakkizlik sanoq sistemasida qanday yoziladi?</problem>
+<solution>Ikkilik sanoq sistemasidan sakkizlikka o'tish uchun ikkilik sonni o'ngdan chapga qarab 3 tadan (triada) guruhlarga ajratamiz:
+$11011 \rightarrow 011 \text{ va } 011$.
+Har bir triadaning o'nlikdagi qiymatini topamiz:
+$011_2 = 3$
+$011_2 = 3$
+Ikkala raqamni birlashtirsak, sakkizlik sanoq sistemasida $33_8$ hosil bo'ladi. Muqobil usul: avval o'nlikka o'tkazish $16+8+0+2+1 = 27_{10}$, so'ngra 8 ga bo'lish $27 / 8 = 3$ (qoldiq 3), natija 33.</solution>
+<answer>33</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar mantiqiy o'zgaruvchilarning qiymatlari $A = Yolg'on$ (0), $B = Rost$ (1) va $C = Rost$ (1) bo'lsa, quyidagi mantiqiy ifodaning natijasini toping: 
+$(A \lor C) \land (\neg B \lor A)$
+Izoh: $\lor$ (YOKI), $\land$ (VA), $\neg$ (EMAS) amallarini bildiradi.</problem>
+<choices>A) Rost  B) Yolg'on  C) A va B ga bog'liq emas  D) Ifoda xato</choices>
+<solution>Qiymatlarni o'rniga qo'yamiz: $A = 0$, $B = 1$, $C = 1$.
+1-qism: $(A \lor C) = (0 \lor 1) = 1$ (Rost).
+2-qism: $(\neg B \lor A) = (\neg 1 \lor 0) = (0 \lor 0) = 0$ (Yolg'on).
+Ikkala qismni $\land$ (VA) bilan bog'laymiz: $1 \land 0 = 0$ (Yolg'on).
+Natija: Yolg'on.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>1, 2, 3, 4, 5 raqamlari yordamida barcha raqamlari turlicha bo'lgan 5 xonali sonlar tuzildi. Ularning nechtasida 1 raqami o'zining joyida (ya'ni chapdan 1-o'rinda) EMAS, 2 raqami o'zining joyida (2-o'rinda) EMAS va 3 raqami o'zining joyida (3-o'rinda) EMAS bo'ladi? (4 va 5 raqamlari istalgan joyda bo'lishi mumkin).</problem>
+<solution>Jami 5 ta turli raqamdan $5! = 120$ xil son tuzish mumkin. 
+$A_1$: 1 raqami 1-o'rinda bo'lgan sonlar to'plami. Ularning soni $4! = 24$ ta.
+$A_2$: 2 raqami 2-o'rinda bo'lgan sonlar to'plami ($4! = 24$ ta).
+$A_3$: 3 raqami 3-o'rinda bo'lgan sonlar to'plami ($4! = 24$ ta).
+Bizga $|S| - |A_1 \cup A_2 \cup A_3|$ kerak. Kiritish-chiqarish (PIE) formulasiga ko'ra:
+$|A_1 \cup A_2 \cup A_3| = |A_1| + |A_2| + |A_3| - (|A_1 \cap A_2| + |A_1 \cap A_3| + |A_2 \cap A_3|) + |A_1 \cap A_2 \cap A_3|$.
+Ixtiyoriy 2 ta shart bir vaqtda bajarilgan (masalan, 1 va 2 o'z joyida) sonlar $3! = 6$ ta. Bunday juftliklar 3 ta, demak yig'indisi $3 \cdot 6 = 18$.
+Uchalasi ham o'z joyida bo'lgan sonlar $2! = 2$ ta.
+$|A_1 \cup A_2 \cup A_3| = 24 + 24 + 24 - 18 + 2 = 72 - 18 + 2 = 56$.
+Shartni qanoatlantiruvchi sonlar: $120 - 56 = 64$ ta.</solution>
+<answer>64</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel dasturida kataklarga quyidagi qiymatlar kiritilgan: A1=5, A2=10, B1=15, B2=20. Agar C1 yacheykaga "=SUM(A1:B2) - AVERAGE(A1:B2)*COUNT(A1:B2)" formulasi kiritilsa, C1 yacheykada qanday natija hosil bo'ladi?</problem>
+<choices>A) 50  B) 10  C) 0  D) -10</choices>
+<solution>Formula 3 ta funksiyadan iborat.
+1) SUM(A1:B2) - ko'rsatilgan diapazondagi sonlar yig'indisi: $5 + 10 + 15 + 20 = 50$.
+2) AVERAGE(A1:B2) - o'rta arifmetik qiymat: $50 / 4 = 12,5$.
+3) COUNT(A1:B2) - sonli ma'lumot qatnashgan kataklar soni: 4 ta katak.
+Endi formulani hisoblaymiz: $50 - 12,5 \cdot 4 = 50 - 50 = 0$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$x$ va $y$ natural sonlar bo'lib, $xy - 2x + 3y = 22$ tenglamani qanoatlantiradi. Barcha mumkin bo'lgan $x$ larning yig'indisini toping.</problem>
+<choices>A) 18  B) 19  C) 20  D) 15</choices>
+<solution>Tenglamaning chap tomonini ko'paytuvchilarga ajratish uchun sun'iy ravishda guruhlaymiz:
+$xy - 2x + 3y = 22$
+$x(y - 2) + 3y = 22$
+Ikkala tomondan 6 ni ayiramiz (yoki $3(y-2)$ hosil qilish uchun qo'shamiz/ayiramiz):
+$x(y - 2) + 3y - 6 = 22 - 6$
+$x(y - 2) + 3(y - 2) = 16$
+$(x + 3)(y - 2) = 16$
+$x$ va $y$ natural sonlar bo'lgani uchun $x \ge 1 \implies x + 3 \ge 4$. 
+16 ning 4 dan katta yoki teng bo'lgan bo'luvchilari: 4, 8, 16.
+1) $x + 3 = 4 \implies x = 1$. Unda $y - 2 = 4 \implies y = 6$ (natural son).
+2) $x + 3 = 8 \implies x = 5$. Unda $y - 2 = 2 \implies y = 4$ (natural son).
+3) $x + 3 = 16 \implies x = 13$. Unda $y - 2 = 1 \implies y = 3$ (natural son).
+Barcha mumkin bo'lgan $x$ larning yig'indisi: $1 + 5 + 13 = 19$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Maktab hovlisiga 48 ta qizil va 72 ta oq atirgul ko'chatlari keltirildi. Ularni shunday qatorlarga ekish kerakki, har bir qatorda qizil atirgullar soni o'zaro teng, oq atirgullar soni ham o'zaro teng bo'lsin va hech qanday ko'chat ortib qolmasin. Eng ko'pi bilan shunday qatorlardan nechtasini hosil qilish mumkin?</problem>
+<choices>A) 12  B) 18  C) 24  D) 36</choices>
+<solution>Qatorlar soni maksimal bo'lishi uchun bu son 48 va 72 ning eng katta umumiy bo'luvchisi (EKUB) bo'lishi kerak.
+Tub ko'paytuvchilarga ajratamiz:
+$48 = 2^4 \cdot 3$
+$72 = 2^3 \cdot 3^2$
+EKUB(48, 72) = $2^3 \cdot 3 = 8 \cdot 3 = 24$. 
+(Har bir qatorda $48/24=2$ ta qizil va $72/24=3$ ta oq atirgul bo'ladi).</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Algoritm quyidagicha ishlaydi:
+1. X = 1, Y = 1, S = 0
+2. Toki X < 15 bo'lsa, tsikl takrorlansin:
+3.    S = S + Y
+4.    X = X + Y
+5.    Y = Y + 1
+6. Tsikl tugagach S ning qiymati chop etilsin.
+Dastur ishlashi yakunlangach chop etilgan S ning qiymatini toping.</problem>
+<solution>Algoritmning har bir qadamini bajaramiz:
+Boshlang'ich holat: X = 1, Y = 1, S = 0.
+1-iteratsiya: X = 1 < 15 (Rost).
+  S = 0 + 1 = 1
+  X = 1 + 1 = 2
+  Y = 1 + 1 = 2
+2-iteratsiya: X = 2 < 15 (Rost).
+  S = 1 + 2 = 3
+  X = 2 + 2 = 4
+  Y = 2 + 1 = 3
+3-iteratsiya: X = 4 < 15 (Rost).
+  S = 3 + 3 = 6
+  X = 4 + 3 = 7
+  Y = 3 + 1 = 4
+4-iteratsiya: X = 7 < 15 (Rost).
+  S = 6 + 4 = 10
+  X = 7 + 4 = 11
+  Y = 4 + 1 = 5
+5-iteratsiya: X = 11 < 15 (Rost).
+  S = 10 + 5 = 15
+  X = 11 + 5 = 16
+  Y = 5 + 1 = 6
+6-iteratsiya: X = 16 < 15 (Yolg'on). Tsikl tugaydi.
+Natijada chop etiladigan S ning qiymati 15 ga teng.</solution>
+<answer>15</answer>
+</example>

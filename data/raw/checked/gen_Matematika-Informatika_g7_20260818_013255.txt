@@ -1,0 +1,129 @@
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ota va o'g'ilning yoshlari yig'indisi 52 ga teng. 4 yildan so'ng otaning yoshi o'g'lining yoshidan 3 marta katta bo'ladi. O'g'il hozir necha yoshda?</problem>
+<choices>A) 10  B) 11  C) 12  D) 14</choices>
+<solution>Ayni paytda o'g'ilning yoshi x bo'lsin. U holda otaning yoshi (52 - x) bo'ladi. 4 yildan so'ng o'g'il (x + 4), ota esa (52 - x + 4) = (56 - x) yoshda bo'ladi. Masala shartiga ko'ra: 56 - x = 3(x + 4) tenglama tuziladi. Buni yechamiz: 56 - x = 3x + 12, 4x = 44, x = 11. O'g'il hozir 11 yoshda.</solution>
+<answer>B</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi 11010 soni va sakkizlik sanoq sistemasidagi 47 sonlarining yig'indisini o'nlik sanoq sistemasida toping.</problem>
+<choices>A) 55  B) 65  C) 71  D) 83</choices>
+<solution>Avval ikkala sonni o'nlik sanoq sistemasiga o'tkazamiz. 11010 (2) = 1·2⁴ + 1·2³ + 0·2² + 1·2¹ + 0·2⁰ = 16 + 8 + 0 + 2 + 0 = 26. Sakkizlikdagi 47 (8) = 4·8¹ + 7·8⁰ = 32 + 7 = 39. Ularning yig'indisi o'nlikda: 26 + 39 = 65.</solution>
+<answer>B</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Parallel lines a and b intersected by transversal line c. The intersection points are A (on line a) and B (on line b). The interior consecutive angles formed by the transversal are bisected by lines that intersect at point C.</diagram_spec>
+<problem>a va b parallel to'g'ri chiziqlarni c kesuvchi mos ravishda A va B nuqtalarda kesib o'tadi. A va B nuqtalardagi ichki bir tomonli burchaklarning bissektrisalari C nuqtada kesishadi. ∠ACB burchakning kattaligini toping.</problem>
+<choices>A) 45°  B) 60°  C) 90°  D) 120°</choices>
+<solution>Parallel to'g'ri chiziqlarni uchinchi chiziq kesib o'tganda hosil bo'lgan ichki bir tomonli burchaklar yig'indisi 180° ga teng, ya'ni α + β = 180°. Bissektrisalar bu burchaklarni teng ikkiga bo'ladi, shuning uchun hosil bo'lgan ABC uchburchakning ikkita burchagi yig'indisi α/2 + β/2 = (α + β)/2 = 180° / 2 = 90° bo'ladi. Uchburchakning ichki burchaklari yig'indisi 180° bo'lganligi sababli, uchinchi burchak ∠ACB = 180° - 90° = 90° ni tashkil qiladi.</solution>
+<answer>C</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Faqat 4 va 0 raqamlaridan tashkil topgan va 45 ga qoldiqsiz bo'linadigan eng kichik natural sonni toping.</problem>
+<solution>Son 45 ga bo'linishi uchun u ham 5 ga, ham 9 ga qoldiqsiz bo'linishi kerak. 5 ga bo'linishi uchun son 0 yoki 5 bilan tugashi shart. Faqat 4 va 0 qatnashgani uchun u 0 bilan tugashi kerak. 9 ga bo'linishi uchun esa raqamlar yig'indisi 9 ga karrali bo'lishi lozim. Son faqat 4 va 0 lardan iborat bo'lgani sababli, raqamlar yig'indisi 4 ning karralisi bo'ladi. 9 va 4 ning eng kichik umumiy karralisi 36. Demak, raqamlar yig'indisi 36 bo'lishi uchun bizga 9 ta 4 raqami kerak (9·4=36). Eng kichik sonni hosil qilish uchun 4 raqamlarini oldinga, nolni esa oxiriga joylashtiramiz. Natija: 4444444440.</solution>
+<answer>4444444440</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel dasturida kataklarga quyidagi qiymatlar kiritilgan: A1=5, B1=4 va C1=3. Quyidagi formulaning natijasini toping:
+=SUM(A1:C1)*AVERAGE(A1:B1) - MAX(A1:C1)</problem>
+<solution>Formuladagi funksiyalarni alohida hisoblaymiz:
+1) SUM(A1:C1) bu A1, B1, C1 yig'indisi: 5 + 4 + 3 = 12.
+2) AVERAGE(A1:B1) bu A1 va B1 ning o'rta arifmetigi: (5 + 4) / 2 = 4.5.
+3) MAX(A1:C1) bu A1, B1, C1 orasidagi eng kattasi, ya'ni 5.
+Endi ifodani hisoblaymiz: 12 · 4.5 - 5 = 54 - 5 = 49.</solution>
+<answer>49</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>3 nafar o'g'il bola va 2 nafar qiz bola bitta qatordagi 5 ta stulga o'tirishmoqchi. Ikkita qiz bola yonma-yon o'tirmasligi sharti bilan, ularni necha xil usulda joylashtirish mumkin?</problem>
+<choices>A) 48  B) 72  C) 84  D) 120</choices>
+<solution>Barcha 5 kishini joylashtirish usullari soni: 5! = 120 ta.
+Endi ikkita qiz bola yonma-yon o'tiradigan holatlarni hisoblaymiz: 2 ta qizni bitta butun (yagona) ob'ekt deb tasavvur qilsak, 3 ta o'g'il bola bilan birga jami 4 ta ob'ekt hosil bo'ladi. Ularni 4! = 24 xil usulda joylashtirish mumkin. Qizlar o'zaro joy almashishini hisobga olsak, 24 · 2! = 48 xil usulda qizlar yonma-yon o'tiradi.
+Qizlar yonma-yon o'tirmaydigan holatlar soni = (Jami holatlar) - (Qizlar yonma-yon holatlar) = 120 - 48 = 72.</solution>
+<answer>B</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturlash muhitida x o'zgaruvchiga 1, y o'zgaruvchiga 0 qiymati berildi. Keyin "5 marta takrorlash" (Repeat 5) sikli ichida quyidagi ikkita amaliyot ketma-ket bajarildi:
+1) y ni x ga oshirish (y = y + x)
+2) x ni x · 2 qiymatiga o'rnatish (x = x · 2)
+Sikl to'liq tugagach, y o'zgaruvchi qanday qiymatni qabul qiladi?</problem>
+<choices>A) 15  B) 31  C) 32  D) 63</choices>
+<solution>Boshlang'ich holat: x = 1, y = 0.
+1-qadam (takrorlash): y = 0 + 1 = 1, x = 1 · 2 = 2.
+2-qadam: y = 1 + 2 = 3, x = 2 · 2 = 4.
+3-qadam: y = 3 + 4 = 7, x = 4 · 2 = 8.
+4-qadam: y = 7 + 8 = 15, x = 8 · 2 = 16.
+5-qadam: y = 15 + 16 = 31, x = 16 · 2 = 32.
+Sikl 5 marta ishlaganidan so'ng y ning qiymati 31 ga teng bo'ladi.</solution>
+<answer>B</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar nolga teng bo'lmagan x haqiqiy soni uchun x² - 5x + 1 = 0 o'rinli bo'lsa, x⁴ + 1/x⁴ ifodaning qiymatini toping.</problem>
+<choices>A) 527  B) 529  C) 623  D) 625</choices>
+<solution>Berilgan x² - 5x + 1 = 0 tenglamani x ga bo'lamiz:
+x - 5 + 1/x = 0, bundan x + 1/x = 5.
+Ushbu tenglikning ikkala tomonini kvadratga ko'taramiz:
+(x + 1/x)² = 25  =>  x² + 2(x)(1/x) + 1/x² = 25  =>  x² + 2 + 1/x² = 25  =>  x² + 1/x² = 23.
+Yana bir marta ikkala tomonni kvadratga ko'taramiz:
+(x² + 1/x²)² = 23²  =>  x⁴ + 2(x²)(1/x²) + 1/x⁴ = 529  =>  x⁴ + 2 + 1/x⁴ = 529  =>  x⁴ + 1/x⁴ = 527.</solution>
+<answer>A</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>x va y ketma-ket keluvchi natural sonlar bo'lib, ularning eng kichik umumiy karralisi EKUK(x, y) = 210 ga teng. x + y ning qiymatini toping.</problem>
+<solution>Ketma-ket keluvchi ikki natural son har doim o'zaro tub bo'ladi, ya'ni ularning eng katta umumiy bo'luvchisi (EKUB) 1 ga teng. O'zaro tub sonlarning eng kichik umumiy karralisi bu sonlarning ko'paytmasiga teng: EKUK(x, y) = x · y.
+Demak, x · y = 210.
+Ketma-ket keluvchi va ko'paytmasi 210 bo'lgan natural sonlarni izlaymiz: 14 · 15 = 210.
+Shuning uchun x va y sonlari 14 va 15. Ularning yig'indisi: 14 + 15 = 29.</solution>
+<answer>29</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Mantiqiy o'zgaruvchilar berilgan: A = 1 (Rost), B = 0 (Yolg'on), C = 1 (Rost).
+Quyidagi mantiqiy ifodaning natijasini toping:
+(A AND (NOT B)) OR (NOT (A OR C))</problem>
+<choices>A) 0  B) 1  C) Ifodani hisoblab bo'lmaydi  D) Ba'zan 1, ba'zan 0</choices>
+<solution>Ifodani qadamma-qadam hisoblaymiz:
+1) NOT B = NOT 0 = 1.
+2) A AND (NOT B) = 1 AND 1 = 1.
+3) A OR C = 1 OR 1 = 1.
+4) NOT (A OR C) = NOT 1 = 0.
+5) Ikkala qismni OR orqali birlashtiramiz: 1 OR 0 = 1.
+Natija: 1 (Rost).</solution>
+<answer>B</answer>

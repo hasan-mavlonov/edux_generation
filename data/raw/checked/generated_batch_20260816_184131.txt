@@ -1,0 +1,107 @@
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Kiber-musobaqada robot faqat ikkilik sanoq sistemasida berilgan buyruqlar asosida qadam tashlaydi. Unga "101101" qadam oldinga yurish buyrug'i berildi. Robot o'nlik sanoq sistemasida necha qadam oldinga yuradi?</problem>
+<choices>A) 37  B) 45  C) 53  D) 43</choices>
+<solution>Ikkilik sanoq sistemasidagi sonni o'nlikka o'tkazamiz: 1·2⁵ + 0·2⁴ + 1·2³ + 1·2² + 0·2¹ + 1·2⁰ = 32 + 0 + 8 + 4 + 0 + 1 = 45.</solution>
+<answer>B</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Noldan farqli a, b, c raqamlaridan tuzilgan ikki xonali sonlar uchun 10(a+b+c) emas, balki shunday shart berilgan: \overline{ab} + \overline{bc} + \overline{ca} = 198 tenglik bajariladi. Ushbu raqamlar yig'indisi a+b+c ni toping.</problem>
+<choices>A) 16  B) 17  C) 18  D) 19</choices>
+<solution>Har bir ikki xonali sonni xona qo'shiluvchilariga ajratamiz: \overline{ab} = 10a + b. Ularni yig'sak, (10a+b) + (10b+c) + (10c+a) = 11a + 11b + 11c = 11(a+b+c) hosil bo'ladi. Demak, 11(a+b+c) = 198. Bundan a+b+c = 198 / 11 = 18.</solution>
+<answer>C</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel dasturida A1 yacheykaga 5, B1 yacheykaga 7, va C1 yacheykaga 2 qiymatlari kiritilgan. D1 yacheykaga `=A1+B1*C1-MAX(A1:C1)` formulasi yozilsa, D1 da qanday natija hosil bo'ladi?</problem>
+<solution>Formulani hisoblash tartibi amallar ustuvorligiga asoslanadi. A1=5, B1=7, C1=2. Ko'paytirish birinchi bajariladi: B1*C1 = 7*2 = 14. Keyin qo'shish: A1 + 14 = 5 + 14 = 19. MAX(A1:C1) funksiyasi A1, B1 va C1 yacheykalaridagi (5, 7, 2) qiymatlarning eng kattasini qaytaradi, u 7 ga teng. Yakuniy ayirish: 19 - 7 = 12.</solution>
+<answer>12</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar haqiqiy x soni x² - 3x + 1 = 0 tenglamani qanoatlantirsa, x⁴ + 1/x⁴ ifodaning qiymatini toping.</problem>
+<choices>A) 49  B) 45  C) 51  D) 47</choices>
+<solution>x² - 3x + 1 = 0 ekanligidan x aniq 0 emas. Tenglamaning ikkala qismini x ga bo'lamiz: x - 3 + 1/x = 0, bundan x + 1/x = 3. Ikkala tomonni kvadratga ko'taramiz: (x + 1/x)² = 3² → x² + 2·x·(1/x) + 1/x² = 9 → x² + 1/x² = 7. Olingan ifodani yana bir bor kvadratga ko'taramiz: (x² + 1/x²)² = 7² → x⁴ + 2 + 1/x⁴ = 49 → x⁴ + 1/x⁴ = 47.</solution>
+<answer>D</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D lies on segment BC. Segments AD and BD are equal length. Segments AC and CD are equal length. Angle C is 40 degrees.</diagram_spec>
+<problem>ABC uchburchakda BC tomonda shunday D nuqta olinganki, unda AD = BD va AC = CD shartlar bajariladi. Agar ∠ACD = 40° bo'lsa, uchburchakning B burchagini (∠ABC ni) toping.</problem>
+<choices>A) 35°  B) 40°  C) 30°  D) 20°</choices>
+<solution>ΔACD uchburchakda AC=CD bo'lgani uchun u teng yonli. Teng yonli uchburchakning asosidagi burchaklari teng, shuning uchun ∠ADC = ∠CAD = (180° - 40°)/2 = 70°. D nuqta BC kesmada yotgani uchun ∠ADB burchak ∠ADC ga qo'shni burchak bo'ladi: ∠ADB = 180° - 70° = 110°. Endi ΔABD ga qaraymiz. Unda AD=BD berilgan, ya'ni bu uchburchak ham teng yonli. Demak, ∠ABC = ∠DAB = (180° - 110°)/2 = 35°.</solution>
+<answer>A</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi mantiqiy ifodani soddalashtiring: F = (A AND B) OR (NOT A AND B) OR (A AND NOT B)</problem>
+<choices>A) A AND B  B) 1  C) A OR B  D) NOT A OR B</choices>
+<solution>Mantiqiy amallarni algebraik shaklda yozamiz: F = (A·B) + (¬A·B) + (A·¬B). Dastlabki ikkita haddan B ni qavsdan tashqariga chiqaramiz: B(A + ¬A) + A·¬B. Mantiq qonunlariga ko'ra A + ¬A = 1, shunday qilib ifoda B·1 + A·¬B = B + A·¬B ko'rinishiga keladi. Yutish qonuniga (taqsimot qonuniga) ko'ra, B + A·¬B = (B + A)·(B + ¬B) = (A + B)·1 = A + B. Ya'ni natija A OR B.</solution>
+<answer>C</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>1, 2, 3 va 4 raqamlaridan foydalanib, raqamlari bir-biridan farq qiladigan (takrorlanmaydigan) nechta turli uch xonali sonlarni tuzish mumkin?</problem>
+<solution>Uch xonali sonning yuzlar xonasi uchun 4 xil (1, 2, 3, 4) tanlov mavjud. Ulardan bittasi ishlatib bo'lingach, o'nlar xonasi uchun 3 xil tanlov, birlar xonasi uchun esa 2 xil tanlov qoladi. Jami kombinatsiyalar soni ko'paytirish qoidasiga ko'ra topiladi: 4 × 3 × 2 = 24 ta.</solution>
+<answer>24</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>N = 2⁴ · 3³ · 5² ko'rinishida berilgan N sonining natural bo'luvchilaridan nechtasi 15 ga qoldiqsiz bo'linadi?</problem>
+<solution>N sonining qandaydir d bo'luvchisi 15 ga qoldiqsiz bo'linishi uchun u d = 15·k ko'rinishida bo'lishi kerak. Bunda 15 = 3·5 bo'lgani uchun, k soni N/15 = (2⁴ · 3³ · 5²) / (3¹ · 5¹) = 2⁴ · 3² · 5¹ sonining natural bo'luvchisi bo'lishi shart. Boshqacha aytganda, 15 ga bo'linuvchi bo'luvchilar soni k ning barcha natural bo'luvchilar soniga teng. Uning darajalariga 1 ni qo'shib ko'paytiramiz: (4+1)(2+1)(1+1) = 5 × 3 × 2 = 30.</solution>
+<answer>30</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturlash muhitida quyidagi algoritm ishlagandan so'ng `x` o'zgaruvchisining oxirgi qiymati qanday bo'ladi?
+1) `x` = 0
+2) 5 marta takrorlang:
+   a) `x` = `x` + 3
+   b) Agar `x` > 10 bo'lsa, u holda `x` = `x` - 2</problem>
+<choices>A) 9  B) 11  C) 13  D) 15</choices>
+<solution>Sikl ichidagi buyruqlar jami 5 marta ketma-ket bajariladi. 
+1-qadam: x = 0+3 = 3. 3 > 10 sharti yolg'on, x o'zgarmaydi.
+2-qadam: x = 3+3 = 6. 6 > 10 sharti yolg'on, x o'zgarmaydi.
+3-qadam: x = 6+3 = 9. 9 > 10 sharti yolg'on, x o'zgarmaydi.
+4-qadam: x = 9+3 = 12. Endi 12 > 10 sharti rost (True), shuning uchun x = 12-2 = 10.
+5-qadam: x = 10+3 = 13. Yana 13 > 10 sharti rost (True), demak x = 13-2 = 11.
+Barcha sikllar tugadi, o'zgaruvchining oxirgi qiymati 11.</solution>
+<answer>B</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Otaning yoshi 35 da, o'g'ilning yoshi esa 11 da. Necha yildan keyin otaning yoshi o'g'lining yoshidan roppa-rosa 2 marta katta bo'ladi?</problem>
+<choices>A) 11  B) 12  C) 15  D) 13</choices>
+<solution>Aytaylik, y yildan keyin ota o'g'lidan 2 marta katta bo'ladi. U holda y yildan so'ng otaning yoshi 35+y, o'g'ilning yoshi 11+y ga teng bo'ladi. Ularning kelajakdagi yoshlari bo'yicha tenglama tuzamiz: 35 + y = 2(11 + y). Qavslarni ochamiz: 35 + y = 22 + 2y. Noma'lumlarni bir tomonga o'tkazsak: 2y - y = 35 - 22, ya'ni y = 13. Tekshirib ko'rsak: 13 yildan so'ng ota 48 ga, o'g'il esa 24 ga kiradi (48 = 24 * 2).</solution>
+<answer>D</answer>

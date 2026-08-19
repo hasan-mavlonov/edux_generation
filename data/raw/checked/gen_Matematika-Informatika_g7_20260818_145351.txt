@@ -1,0 +1,149 @@
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$x=2025$ bo'lsa, $\frac{x^3 + 1}{x^2 - 2024} - 2024$ ifodaning qiymatini toping.</problem>
+<choices>A) 1  B) 2  C) 2025  D) 2026</choices>
+<solution>We substitute $x=2025$ into the denominator. Notice that $2024 = 2025 - 1 = x - 1$. So the denominator becomes $x^2 - (x - 1) = x^2 - x + 1$. 
+The fraction is $\frac{x^3 + 1}{x^2 - x + 1}$. Using the sum of cubes identity, $x^3 + 1 = (x + 1)(x^2 - x + 1)$.
+Thus, the fraction simplifies to $x + 1$. 
+The entire expression becomes $(x + 1) - 2024$. 
+Since $x = 2025$, this is $(2025 + 1) - 2024 = 2026 - 2024 = 2$.</solution>
+<answer>B</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $101101_2$ va $11011_2$ sonlarining yig'indisini toping va natijadagi birlar (1) sonini aniqlang.</problem>
+<choices>A) 2  B) 3  C) 4  D) 5</choices>
+<solution>First, convert the binary numbers to decimal to perform the addition easily (or add them directly in binary). 
+$101101_2 = 32 + 0 + 8 + 4 + 0 + 1 = 45$.
+$11011_2 = 16 + 8 + 0 + 2 + 1 = 27$.
+Sum in decimal: $45 + 27 = 72$.
+Now, convert 72 back to binary: $72 = 64 + 8 = 2^6 + 2^3$.
+In binary, this is $1001000_2$.
+Counting the number of 1s in the binary representation, we have exactly two 1s.</solution>
+<answer>A</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with vertices A at top, B at bottom left, C at bottom right. Point D lies on segment BC such that AD is perpendicular to BC (AD is an altitude). Point E lies on segment BC such that AE bisects angle BAC. Angle ABC is 70 degrees, Angle ACB is 50 degrees.</diagram_spec>
+<problem>Quyidagi chizmada ko'rsatilganidek, ABC uchburchakning A uchidan BC tomonga AD balandlik va AE bissektrisa tushirilgan. Agar $\angle B = 70^\circ$ va $\angle C = 50^\circ$ bo'lsa, $\angle DAE$ burchakning kattaligini toping.</problem>
+<choices>A) 10°  B) 15°  C) 20°  D) 5°</choices>
+<solution>Sum of angles in $\triangle ABC$ is $180^\circ$. So, $\angle A = 180^\circ - (70^\circ + 50^\circ) = 60^\circ$.
+Since $AE$ is the angle bisector of $\angle A$, we have $\angle CAE = \frac{60^\circ}{2} = 30^\circ$.
+Since $AD$ is the altitude to $BC$, in right-angled $\triangle ADC$, the angle $\angle CAD = 90^\circ - \angle C = 90^\circ - 50^\circ = 40^\circ$.
+The angle between the altitude and the bisector is $\angle DAE = \angle CAD - \angle CAE = 40^\circ - 30^\circ = 10^\circ$.</solution>
+<answer>A</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Raqamlari yig'indisi 9 ga teng bo'lgan va 5 ga qoldiqsiz bo'linadigan nechta to'rt xonali natural son mavjud?</problem>
+<solution>A 4-digit number $\overline{abcd}$ is divisible by 5 if $d=0$ or $d=5$. Also, $a \ge 1$.
+Case 1: $d=0$. The sum of remaining digits is $a+b+c = 9$. Let $a' = a - 1 \ge 0$. Then $a'+b+c = 8$. The number of non-negative integer solutions is $\binom{8 + 3 - 1}{3 - 1} = \binom{10}{2} = 45$.
+Case 2: $d=5$. The sum of remaining digits is $a+b+c = 4$. Let $a' = a - 1 \ge 0$. Then $a'+b+c = 3$. The number of non-negative integer solutions is $\binom{3 + 3 - 1}{3 - 1} = \binom{5}{2} = 10$.
+Total number of such numbers = $45 + 10 = 55$.</solution>
+<answer>55</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Mantiqiy ifoda berilgan: `(X VA (EMAS Y)) YOKI Z`. Agar X = Rost (1), Y = Rost (1), Z = Yolg'on (0) bo'lsa, ushbu ifodaning natijasi qanday bo'ladi?</problem>
+<choices>A) 0  B) 1  C) Xato yuz beradi  D) Ba'zan 1, ba'zan 0</choices>
+<solution>Substitute the given logic values into the expression: X=1, Y=1, Z=0.
+First, evaluate NOT Y (`EMAS Y`): NOT 1 = 0.
+Next, evaluate the AND condition (`VA`): X AND (NOT Y) = 1 AND 0 = 0.
+Finally, evaluate the OR condition (`YOKI`): 0 OR Z = 0 OR 0 = 0. 
+The final logic result is 0 (False).</solution>
+<answer>A</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$7^{2025} + 3^{2025}$ yig'indining oxirgi raqamini toping.</problem>
+<choices>A) 0  B) 4  C) 6  D) 8</choices>
+<solution>We analyze the cycle of last digits for powers of 7 and 3.
+Powers of 7 end in: 7, 9, 3, 1... (cycle length 4).
+Powers of 3 end in: 3, 9, 7, 1... (cycle length 4).
+Since $2025 = 4 \times 506 + 1$, the exponent 2025 leaves a remainder of 1 when divided by 4.
+Therefore, the last digit of $7^{2025}$ is the 1st number in its cycle, which is 7.
+Similarly, the last digit of $3^{2025}$ is the 1st number in its cycle, which is 3.
+Adding the last digits gives $7 + 3 = 10$. The final digit of the sum is 0.</solution>
+<answer>A</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Dasturda quyidagi algoritm bajarildi: Boshida $X = 2$ ga teng. Sikl 5 marta takrorlandi va har bir qadamda $X$ ning qiymati $2$ ga ko'paytirilib, natijadan $1$ ayrildi ($X \leftarrow X * 2 - 1$). Algoritm yakunlangach, $X$ ning qiymati nechaga teng bo'ladi?</problem>
+<solution>Let's trace the loop step-by-step for 5 iterations.
+Initial: X = 2
+Step 1: X = 2 * 2 - 1 = 3
+Step 2: X = 3 * 2 - 1 = 5
+Step 3: X = 5 * 2 - 1 = 9
+Step 4: X = 9 * 2 - 1 = 17
+Step 5: X = 17 * 2 - 1 = 33
+(The underlying mathematical formula is $X_n = 2^n + 1$, for $n=5$, $X_5 = 32 + 1 = 33$).</solution>
+<answer>33</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Uzunligi 400 metr bo'lgan aylanasimon yugurish yo'lakchasida ikki yuguruvchi bir nuqtadan bir vaqtda yugurishni boshladi. Agar ular qarama-qarshi yo'nalishda yugursa, har 40 soniyada uchrashadilar. Agar ular bir xil yo'nalishda yugursa, tez yuguruvchi sekin yuguruvchini har 200 soniyada quvib yetadi. Tez yuguruvchining tezligini (m/s) toping.</problem>
+<choices>A) 4  B) 5  C) 6  D) 8</choices>
+<solution>Let the speeds of the fast and slow runners be $v_1$ and $v_2$ m/s, respectively ($v_1 > v_2$).
+When running in opposite directions, their relative speed is $v_1 + v_2$. They cover a combined distance of 400 m in 40 s:
+$v_1 + v_2 = 400 / 40 = 10$ m/s.
+When running in the same direction, their relative speed is $v_1 - v_2$. The faster runner covers an extra lap of 400 m in 200 s:
+$v_1 - v_2 = 400 / 200 = 2$ m/s.
+Adding the two equations: $2v_1 = 12 \implies v_1 = 6$ m/s.
+Subtracting them gives $2v_2 = 8 \implies v_2 = 4$ m/s. The faster runner's speed is 6 m/s.</solution>
+<answer>C</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Hajmi 150 MB (Megabayt) bo'lgan fayl internetdan yuklab olinmoqda. Faylning dastlabki 30 MB qismi 24 Mbps (Megabit taqsim soniya) tezlikda yuklandi. Shundan so'ng tarmoq tezligi pasayib, qolgan qismi 16 Mbps tezlikda yuklandi. Faylni to'liq yuklab olish uchun jami qancha vaqt (soniya) sarflangan? (1 Bayt = 8 bit)</problem>
+<choices>A) 60  B) 70  C) 75  D) 120</choices>
+<solution>First, convert the download speeds from Megabits per second (Mbps) to Megabytes per second (MB/s) by dividing by 8.
+Speed 1: 24 Mbps / 8 = 3 MB/s.
+Speed 2: 16 Mbps / 8 = 2 MB/s.
+Part 1 (first 30 MB) time: 30 MB / 3 MB/s = 10 seconds.
+Remaining file size: 150 MB - 30 MB = 120 MB.
+Part 2 (remaining 120 MB) time: 120 MB / 2 MB/s = 60 seconds.
+Total time = 10 s + 60 s = 70 seconds.</solution>
+<answer>B</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Qutida 10 ta qizil, 8 ta ko'k va 5 ta yashil rangdagi paypoqlar bor. Qutiga qaramasdan kamida nechta paypoq olinsa, ular orasida qizil rangli paypoqdan aniq bir juft (kamida 2 ta) bo'lishi kafolatlanadi?</problem>
+<solution>To guarantee getting at least 2 red socks, we must consider the worst-case scenario. The worst-case is pulling out all socks of other colors before getting the required number of red socks.
+All blue socks = 8
+All green socks = 5
+Total non-red socks = 13.
+If we pick 13 socks, they could all be blue and green. 
+The 14th pick forces us to take 1 red sock. 
+The 15th pick forces us to take a 2nd red sock. 
+Therefore, 8 + 5 + 2 = 15 socks must be picked.</solution>
+<answer>15</answer>

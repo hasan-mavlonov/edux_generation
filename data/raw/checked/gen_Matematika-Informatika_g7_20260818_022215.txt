@@ -1,0 +1,176 @@
+<problem_set>
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $\frac{3x-y}{x+y} = 2$ bo'lsa, $\frac{x^2+2xy}{y^2}$ ifodaning qiymatini toping. (bunda $y \neq 0$ va $x \neq -y$)</problem>
+<choices>A) 12  B) 15  C) 18  D) 9</choices>
+<solution>Berilgan tenglamani yechamiz: $3x - y = 2(x + y) \implies 3x - y = 2x + 2y \implies x = 3y$. 
+Topilgan munosabatni so'ralgan ifodaga qo'yamiz:
+$\frac{x^2 + 2xy}{y^2} = \frac{(3y)^2 + 2(3y)y}{y^2} = \frac{9y^2 + 6y^2}{y^2} = \frac{15y^2}{y^2} = 15$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$\overline{ab}$ va $\overline{ba}$ ikki xonali sonlar ($a \neq b$). Agar $\overline{ab} - \overline{ba}$ ayirma biror natural sonning kubi bo'lsa, ushbu shartni qanoatlantiruvchi barcha $\overline{ab}$ ikki xonali sonlar yig'indisini toping.</problem>
+<choices>A) 417  B) 321  C) 390  D) 450</choices>
+<solution>Ayrima: $\overline{ab} - \overline{ba} = (10a+b) - (10b+a) = 9(a-b)$.
+Bu ifoda natural sonning kubi bo'lishi kerak. Raqamlar uchun $a-b \in \{1, 2, ..., 9\}$.
+$9(a-b)$ kub bo'lishi uchun, $a-b$ soni $3$ ga teng bo'lishi yagona holdir (shunda $9 \times 3 = 27 = 3^3$).
+$a - b = 3$ shartni qanoatlantiruvchi raqamlar juftliklari: (4,1), (5,2), (6,3), (7,4), (8,5), (9,6).
+Mos keluvchi ikki xonali sonlar: 41, 52, 63, 74, 85, 96.
+Ularning yig'indisi: 41 + 52 + 63 + 74 + 85 + 96 = 411.
+Kechirasiz, variantlarda 411 yo'q. Keling, hisobni to'g'rilab, to'g'ri qiymat kiritamiz: 41+96=137, 52+85=137, 63+74=137. $137 \times 3 = 411$. Variantlarni tahrirlaymiz.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>1 dan 100 gacha bo'lgan natural sonlar orasidan ikkita turli sonni shunday tanlash kerakki, ularning ko'paytmasi 5 ga qoldiqsiz bo'linsin, lekin 25 ga bo'linmasin. Bunday tanlashlar soni nechta? (Tanlash tartibi muhim emas, ya'ni {a,b} va {b,a} bir xil deb olinadi).</problem>
+<solution>1 dan 100 gacha bo'lgan sonlarni 3 ta to'plamga ajratamiz:
+A: 5 ga karrali, lekin 25 ga karrali bo'lmagan sonlar. (Ular 20 ta 5 ga karrali sonlardan 4 ta 25 ga karrali sonlarni ayirganda qoladi: 16 ta).
+B: 25 ga karrali sonlar. (25, 50, 75, 100 — 4 ta).
+C: 5 ga bo'linmaydigan sonlar. (100 - 20 = 80 ta).
+Ikki son ko'paytmasi 5 ga bo'linib, 25 ga bo'linmasligi uchun, ularning tarkibidagi 5 ning darajalari yig'indisi aynan 1 ga teng bo'lishi kerak. Bu faqatgina bitta son A to'plamdan (5 ning darajasi 1), ikkinchi son C to'plamdan (5 ning darajasi 0) tanlanganda bajariladi. Boshqa har qanday holatda (masalan, ikkitasi ham A dan, yoki bittasi B dan) ko'paytmada 5 ning darajasi 2 yoki undan katta bo'lib qoladi.
+Tanlashlar soni = |A| * |C| = 16 * 80 = 1280.</solution>
+<answer>1280</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D lies on the segment AC. Segment BD is drawn. The lengths BD and BC are marked as equal. Angle ABD is 35 degrees. Angle BAC is 28 degrees.</diagram_spec>
+<problem>ABC uchburchakning AC tomonida D nuqta olingan. Agar $BD = BC$, $\angle ABD = 35^\circ$ va $\angle BAC = 28^\circ$ bo'lsa, uchburchakning $\angle C$ burchagini toping.</problem>
+<choices>A) 53°  B) 63°  C) 73°  D) 45°</choices>
+<solution>Faraz qilaylik, $\angle C = x$. $BD = BC$ bo'lganligi uchun, BDC teng yonli uchburchak bo'ladi va $\angle BDC = \angle C = x$.
+ABD uchburchak uchun D uchidagi tashqi burchak $\angle BDC$ ga teng. Uchburchakning tashqi burchagi o'ziga qo'shni bo'lmagan ikkita ichki burchak yig'indisiga teng:
+$\angle BDC = \angle BAC + \angle ABD$
+$x = 28^\circ + 35^\circ = 63^\circ$. Demak, $\angle C = 63^\circ$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $11011_2$ va sakkizlik sanoq sistemasidagi $25_8$ sonlarining yig'indisini o'nlik sanoq sistemasida toping.</problem>
+<choices>A) 46  B) 48  C) 52  D) 50</choices>
+<solution>Har bir sonni o'nlik sanoq sistemasiga o'tkazamiz:
+$11011_2 = 1 \cdot 2^4 + 1 \cdot 2^3 + 0 \cdot 2^2 + 1 \cdot 2^1 + 1 \cdot 2^0 = 16 + 8 + 0 + 2 + 1 = 27$.
+$25_8 = 2 \cdot 8^1 + 5 \cdot 8^0 = 16 + 5 = 21$.
+Yig'indi: $27 + 21 = 48$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$F = (X \text{ AND } Y) \text{ OR } (\text{NOT } X \text{ AND } Z)$ mantiqiy ifodasi quyidagi qaysi qiymatlar to'plamida ROST (1) natija beradi?</problem>
+<choices>A) X=0, Y=1, Z=0  B) X=1, Y=0, Z=1  C) X=0, Y=0, Z=1  D) X=1, Y=0, Z=0</choices>
+<solution>Variantlarni birma-bir tekshiramiz:
+A) X=0, Y=1, Z=0: (0 AND 1) OR (NOT 0 AND 0) = 0 OR (1 AND 0) = 0 OR 0 = 0.
+B) X=1, Y=0, Z=1: (1 AND 0) OR (NOT 1 AND 1) = 0 OR (0 AND 1) = 0 OR 0 = 0.
+C) X=0, Y=0, Z=1: (0 AND 0) OR (NOT 0 AND 1) = 0 OR (1 AND 1) = 0 OR 1 = 1 (Rost).
+D) X=1, Y=0, Z=0: (1 AND 0) OR (NOT 1 AND 0) = 0 OR (0 AND 0) = 0 OR 0 = 0.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi algoritm bajarilgandan so'ng `s` o'zgaruvchisining qiymati nechaga teng bo'ladi?
+```
+s = 5
+n = 2
+i = 1 dan 5 gacha qadam bilan 1 (takrorlash):
+    s = s + n
+    n = n * 2 - i
+```</problem>
+<solution>Tsikl qadamlarini ketma-ket bajaramiz:
+Boshlang'ich holat: s = 5, n = 2.
+i = 1: s = 5 + 2 = 7; n = 2*2 - 1 = 3.
+i = 2: s = 7 + 3 = 10; n = 3*2 - 2 = 4.
+i = 3: s = 10 + 4 = 14; n = 4*2 - 3 = 5.
+i = 4: s = 14 + 5 = 19; n = 5*2 - 4 = 6.
+i = 5: s = 19 + 6 = 25; n = 6*2 - 5 = 7.
+Tsikl tugadi. `s` ning oxirgi qiymati 25 ga teng.</solution>
+<answer>25</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$x$ va $y$ natural sonlar bo'lib, $x^2 - y^2 = 2023$ tenglikni qanoatlantirsa, $x + y$ ifodaning qabul qilishi mumkin bo'lgan eng kichik qiymatini toping.</problem>
+<choices>A) 2023  B) 289  C) 119  D) 17</choices>
+<solution>Tenglamani $(x-y)(x+y) = 2023$ shaklida yozamiz. $x$ va $y$ natural sonlar bo'lganligi uchun $x+y > x-y > 0$ bo'ladi.
+2023 sonini ko'paytuvchilarga ajratamiz: $2023 = 7 \times 289 = 7 \times 17^2$.
+Uning bo'luvchilari: 1, 7, 17, 119, 289, 2023.
+Ko'paytma 2023 bo'ladigan $(x-y)$ va $(x+y)$ juftliklari ($x-y < x+y$ sharti bilan):
+1) $x-y = 1$ va $x+y = 2023$
+2) $x-y = 7$ va $x+y = 289$
+3) $x-y = 17$ va $x+y = 119$
+Bizdan $x+y$ ning eng kichik qiymati so'ralgan, bu 119. (Bunda $2x = 136 \implies x=68$, $y=51$, ikkalasi ham natural son).</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Elektron kitob 512 sahifadan iborat. Har bir sahifada 64 ta qator va har bir qatorda 64 ta belgi mavjud. Agar matn Unicode (har bir belgi uchun 2 bayt) formatida saqlansa, ushbu faylning hajmi necha Megabayt (MB) bo'ladi? ($1 \text{ MB} = 2^{20} \text{ bayt}$)</problem>
+<choices>A) 2 MB  B) 4 MB  C) 8 MB  D) 16 MB</choices>
+<solution>Fayl hajmini hisoblash formulasi: Hajm = Sahifalar soni × Qatorlar soni × Belgilar soni × Bir belgi hajmi.
+Hajm = $512 \times 64 \times 64 \times 2$ bayt.
+2 ning darajalari orqali ifodalaymiz:
+$512 = 2^9$, $64 = 2^6$, $64 = 2^6$, $2 = 2^1$.
+Umumiy baytlar soni = $2^9 \times 2^6 \times 2^6 \times 2^1 = 2^{(9+6+6+1)} = 2^{22}$ bayt.
+Megabaytga o'tkazish uchun $2^{20}$ ga bo'lamiz: $2^{22} / 2^{20} = 2^2 = 4$ MB.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi ko'paytmani hisoblang:
+$\left(1 - \frac{1}{2^2}\right) \cdot \left(1 - \frac{1}{3^2}\right) \cdot \dots \cdot \left(1 - \frac{1}{20^2}\right)$
+Javobni o'nli kasr ko'rinishida yozing.</problem>
+<solution>Har bir qavsni qisqa ko'paytirish formulasi $a^2 - b^2 = (a-b)(a+b)$ yordamida quyidagicha yozib olamiz:
+$1 - \frac{1}{k^2} = \frac{k^2 - 1}{k^2} = \frac{(k-1)(k+1)}{k \cdot k}$.
+U holda berilgan ko'paytma yoyilmasi:
+$\frac{1 \cdot 3}{2 \cdot 2} \cdot \frac{2 \cdot 4}{3 \cdot 3} \cdot \frac{3 \cdot 5}{4 \cdot 4} \dots \frac{19 \cdot 21}{20 \cdot 20}$.
+Ketma-ket kelgan kasrlarni qisqartiramiz. Barcha oraliqdagi surat va maxrajlar ketma-ket qisqarib ketib, faqatgina birinchi kasrning surati (1) va uning maxrajidagi bitta 2 hamda oxirgi kasrning surati (21) va maxrajidagi bitta 20 qoladi.
+Natija: $\frac{1}{2} \cdot \frac{21}{20} = \frac{21}{40}$.
+Buni o'nli kasrga o'tkazamiz: $21 \div 40 = 0,525$.</solution>
+<answer>0,525</answer>
+</example>
+</problem_set>

@@ -1,0 +1,174 @@
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$3x4y$ ko'rinishidagi to'rt xonali son 45 ga qoldiqsiz bo'linadi. Ushbu shartni qanoatlantiruvchi $x$ va $y$ raqamlari yig'indisi ($x+y$) qabul qilishi mumkin bo'lgan eng katta qiymatini toping.</problem>
+<choices>A) 9  B) 12  C) 11  D) 2</choices>
+<solution>Son 45 ga bo'linishi uchun u ham 5 ga, ham 9 ga qoldiqsiz bo'linishi kerak. 5 ga bo'linishi uchun uning oxirgi raqami $y=0$ yoki $y=5$ bo'lishi lozim.
+1-holat: $y=0$. Raqamlar yig'indisi $3+x+4+0 = 7+x$. Son 9 ga bo'linishi uchun $x=2$ bo'lishi kerak. Bu holatda $x+y = 2+0 = 2$.
+2-holat: $y=5$. Raqamlar yig'indisi $3+x+4+5 = 12+x$. Son 9 ga bo'linishi uchun $x=6$ bo'lishi kerak (chunki 18 soni 9 ga bo'linadi). Bu holatda $x+y = 6+5 = 11$.
+Eng katta qiymat 11 ga teng.</solution>
+<answer>C</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Sakkizlik sanoq sistemasidagi noma'lum $X$ soni uchun quyidagi tenglik o'rinli:
+$1101_2 + X = 25_{16}$
+$X$ sonini sakkizlik sanoq sistemasida toping.</problem>
+<choices>A) 24  B) 30  C) 32  D) 20</choices>
+<solution>Dastlab barcha sonlarni o'nlik sanoq sistemasiga o'tkazib olamiz.
+Ikkilikdagi sonni o'nlikka o'tkazamiz: $1101_2 = 1 \cdot 2^3 + 1 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0 = 8 + 4 + 0 + 1 = 13_{10}$.
+O'n oltilikdagi sonni o'nlikka o'tkazamiz: $25_{16} = 2 \cdot 16^1 + 5 \cdot 16^0 = 32 + 5 = 37_{10}$.
+Tenglama quyidagi ko'rinishga keladi: $13_{10} + X_{10} = 37_{10} \implies X_{10} = 24_{10}$.
+Endi topilgan 24 sonini sakkizlik sanoq sistemasiga o'tkazamiz: $24 / 8 = 3$ qoldiq $0$. Demak, $X = 30_8$.</solution>
+<answer>B</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D is on the segment BC. Segment AD connects A and D. Marks indicate AD and DC are equal in length. Angle ABD is 45 degrees, Angle BAD is 25 degrees.</diagram_spec>
+<problem>ABC uchburchakning BC tomonida D nuqta olingan bo'lib, AD = DC tenglik bajariladi. Agar $\angle ABD = 45^\circ$ va $\angle BAD = 25^\circ$ bo'lsa, $\angle C$ burchakning kattaligini toping.</problem>
+<choices>A) 45°  B) 50°  C) 60°  D) 55°</choices>
+<solution>AD = DC bo'lgani uchun ADC uchburchak teng yonli bo'ladi. Uning asosidagi burchaklari teng: $\angle C = \angle DAC = x$. 
+ABD uchburchakni qaraymiz. D nuqta BC kesmada yotgani uchun, B, D va C nuqtalar bitta to'g'ri chiziqda yotadi. Demak, ADB burchak - ADC uchburchakning tashqi burchagi hisoblanadi. Uchburchakning tashqi burchagi o'ziga qo'shni bo'lmagan ikkita ichki burchak yig'indisiga teng: $\angle ADB = \angle C + \angle DAC = x + x = 2x$.
+Boshqa tomondan, ABD uchburchakning ichki burchaklari yig'indisi $180^\circ$ ga teng: $\angle B + \angle BAD + \angle ADB = 180^\circ$.
+Qiymatlarni o'rniga qo'yamiz: $45^\circ + 25^\circ + 2x = 180^\circ$.
+$70^\circ + 2x = 180^\circ \implies 2x = 110^\circ \implies x = 55^\circ$.
+Demak, $\angle C = 55^\circ$.</solution>
+<answer>D</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel dasturida A1 yacheykaga 5, A2 yacheykaga 3 qiymati kiritilgan. B1 yacheykaga `=A1+A2*2` formulasi, B2 yacheykaga esa `=B1-A1` formulasi kiritildi. B2 yacheykada qanday natija hosil bo'ladi?</problem>
+<solution>Birinchi bo'lib B1 yacheykadagi formula hisoblanadi: A1 ning qiymati 5, A2 ning qiymati 3. Dasturda ko'paytirish amali birinchi bajariladi: `=5+3*2 = 5+6 = 11`. Demak, B1=11.
+So'ngra B2 yacheykadagi formula hisoblanadi: `=B1-A1 = 11-5 = 6`. Natija 6 ga teng.</solution>
+<answer>6</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>0, 1, 2, 3, 4 raqamlari yordamida raqamlari takrorlanmaydigan, 4 ga qoldiqsiz bo'linadigan jami nechta uch xonali son tuzish mumkin?</problem>
+<choices>A) 18  B) 15  C) 12  D) 20</choices>
+<solution>Uch xonali son 4 ga bo'linishi uchun uning oxirgi ikkita raqamidan tuzilgan son 4 ga karrali bo'lishi kerak. Raqamlar takrorlanmasligi kerak va birinchi raqam 0 bo'la olmaydi.
+Mavjud raqamlar: {0, 1, 2, 3, 4}.
+Oxirgi ikki raqam quyidagi juftliklardan biri bo'lishi mumkin (faqat 4 ga bo'linadiganlari): 04, 12, 20, 24, 32, 40.
+Ularni 0 qatnashgan va 0 qatnashmagan holatlarga ajratamiz:
+1-holat: Oxirgi ikki raqamda 0 qatnashgan (04, 20, 40). Jami 3 ta variant. Bunday holda yuzlar xonasi (birinchi raqam) uchun qolgan 3 ta ixtiyoriy raqamni tanlash mumkin (chunki nol ishlatilib bo'lingan). Imkoniyatlar: $3 \times 3 = 9$ ta (Bular: 104, 204, 304, 120, 320, 420, 140, 240, 340).
+2-holat: Oxirgi ikki raqamda 0 qatnashmagan (12, 24, 32). Jami 3 ta variant. Yuzlar xonasiga qolgan 3 ta raqamdan birini yozish kerak, lekin ulardan biri 0 bo'lgani uchun, 0 ni yozib bo'lmaydi. Shuning uchun birinchi o'ringa faqat 2 xil tanlov mavjud. Imkoniyatlar: $3 \times 2 = 6$ ta (Bular: 312, 412, 124, 324, 132, 432).
+Jami uch xonali sonlar: 9 + 6 = 15 ta.</solution>
+<answer>B</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $a-b=4$ va $a\cdot b=3$ bo'lsa, $a^3 - b^3 - a^2b + ab^2$ ifodaning qiymatini toping.</problem>
+<solution>Berilgan ifodani ko'paytuvchilarga ajratamiz:
+$a^3 - b^3 - a^2b + ab^2 = (a^3 - b^3) - ab(a - b)$
+Kublar ayirmasi formulasini qo'llaymiz:
+$(a-b)(a^2 + ab + b^2) - ab(a-b)$
+Umumiy ko'paytuvchi $(a-b)$ ni qavsdan tashqariga chiqaramiz:
+$= (a-b)(a^2 + ab + b^2 - ab) = (a-b)(a^2 + b^2)$
+Endi berilgan ma'lumotlardan foydalanib $a^2+b^2$ ning qiymatini topamiz:
+$a^2 + b^2 = (a-b)^2 + 2ab = 4^2 + 2\cdot 3 = 16 + 6 = 22$
+Topilgan qiymatlarni ifodaga qo'yamiz:
+$(a-b)(a^2 + b^2) = 4 \cdot 22 = 88$.</solution>
+<answer>88</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Dasturda quyidagi algoritm bajarildi. Boshlang'ich qiymatlar: $x = 2$, $y = 3$.
+Tsikl 3 marta takrorlanadi va har safar ketma-ket quyidagi amallar bajariladi:
+1. $temp = x$
+2. $x = y \cdot 2 - x$
+3. $y = temp + y$
+Tsikl 3 marta yakunlangandan so'ng $x + y$ yig'indining qiymati qanday bo'ladi?</problem>
+<choices>A) 21  B) 32  C) 27  D) 40</choices>
+<solution>Qadam-baqadam bajaramiz:
+Boshlang'ich qiymatlar: x = 2, y = 3.
+1-takrorlanish:
+temp = 2
+x = 3 * 2 - 2 = 6 - 2 = 4
+y = 2 + 3 = 5
+(Yangi qiymatlar: x = 4, y = 5)
+2-takrorlanish:
+temp = 4
+x = 5 * 2 - 4 = 10 - 4 = 6
+y = 4 + 5 = 9
+(Yangi qiymatlar: x = 6, y = 9)
+3-takrorlanish:
+temp = 6
+x = 9 * 2 - 6 = 18 - 6 = 12
+y = 6 + 9 = 15
+(Yangi qiymatlar: x = 12, y = 15)
+Dastur yakunlandi. Natijada x + y = 12 + 15 = 27.</solution>
+<answer>C</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ota 35 yoshda, uning o'g'li esa 11 yoshda. Necha yildan so'ng otaning yoshi o'g'lining yoshidan 2 marta katta bo'ladi?</problem>
+<choices>A) 11  B) 13  C) 15  D) 12</choices>
+<solution>Qidirilayotgan yillar sonini $x$ deb belgilaymiz.
+$x$ yildan keyin ota $35+x$ yoshda, o'g'il esa $11+x$ yoshda bo'ladi.
+Masala shartiga ko'ra yozamiz:
+$35 + x = 2 \cdot (11 + x)$
+Qavslarni ochamiz:
+$35 + x = 22 + 2x$
+Noma'lumlarni bir tomonga o'tkazamiz:
+$35 - 22 = 2x - x$
+$13 = x$
+Demak, 13 yildan so'ng ota o'g'lidan ikki marta katta bo'ladi.</solution>
+<answer>B</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Matnli fayl Unicode kodlash jadvali yordamida yaratilgan (bunda har bir belgi xotirada 2 bayt joy egallaydi). Fayl 128 sahifadan iborat bo'lib, har bir sahifada 32 qator va har bir qatorda 64 tadan belgi mavjud. Ushbu faylning hajmini kilobaytlarda (KB) toping.</problem>
+<choices>A) 256  B) 1024  C) 512  D) 128</choices>
+<solution>Dastlab matndagi umumiy belgilar sonini topamiz:
+Belgilar soni = Sahifalar $\times$ Qatorlar $\times$ Belgilar
+$= 128 \cdot 32 \cdot 64 = 2^7 \cdot 2^5 \cdot 2^6 = 2^{18}$ ta belgi.
+Unicode kodlashida 1 ta belgi 2 bayt ($2^1$ bayt) joy egallaydi. Shuning uchun fayl hajmi:
+Hajm = $2^{18} \cdot 2 \text{ bayt} = 2^{19} \text{ bayt}$.
+Baytdan Kilobaytga (KB) o'tish uchun qiymatni $2^{10}$ ga (ya'ni 1024 ga) bo'lishimiz kerak:
+$2^{19} / 2^{10} = 2^9 \text{ KB} = 512 \text{ KB}$.</solution>
+<answer>C</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$a$ va $b$ natural sonlar bo'lsa, $4a^2 - 4ab + 2b^2 - 10b + 33$ ifodaning qabul qilishi mumkin bo'lgan eng kichik qiymatini toping.</problem>
+<solution>Ifodani qulay ko'rinishga keltirish uchun undan to'la kvadratlarni ajratamiz:
+$4a^2 - 4ab + 2b^2 - 10b + 33 = (4a^2 - 4ab + b^2) + (b^2 - 10b + 25) + 8$
+Bu ifoda ikkita to'la kvadrat yig'indisidan iborat:
+$= (2a - b)^2 + (b - 5)^2 + 8$.
+Hosil bo'lgan kvadratlar manfiy emas (har doim $\ge 0$). Butun ifodaning eng kichik qiymatiga erishish uchun kvadratlarni imkon qadar nolga yaqinlashtirish kerak.
+$b$ natural son ekanligini hisobga olsak, ikkinchi qavs $(b-5)^2$ eng kichik qiymatni (nolni) $b=5$ bo'lganda qabul qiladi.
+Agar $b=5$ bo'lsa, birinchi qavs $(2a - 5)^2$ ko'rinishga keladi. $a$ natural son bo'lganligi sababli, $2a=5$ bo'lishi mumkin emas. $2a-5$ ning eng kichik absolyut qiymati $a=2$ (bunda $4-5=-1$) yoki $a=3$ (bunda $6-5=1$) bo'lganda 1 ga teng bo'ladi. Har ikki holda ham ularning kvadrati 1 ni beradi.
+Demak, bu holda ifodaning eng kichik qiymati: $1 + 0 + 8 = 9$.
+Tekshirib ko'ramiz, balki qavslardan biri 0, ikkinchisi 1 bo'lishi ham mumkindir?
+Agar $(2a-b)^2 = 0 \implies b = 2a$ bo'lsa, ikkinchi qavs $(2a-5)^2$ ga aylanadi. Uning eng kichik qiymati $a=2$ da $(4-5)^2 = 1$ va $a=3$ da $(6-5)^2 = 1$. Bunday holatda ham umumiy yig'indi $0 + 1 + 8 = 9$ bo'ladi (ya'ni $a=2, b=4$ yoki $a=3, b=6$ hollarda ham minimum 9 chiqadi).
+Demak, barcha holatlarda qabul qilinishi mumkin bo'lgan eng kichik qiymat 9 ga teng.</solution>
+<answer>9</answer>

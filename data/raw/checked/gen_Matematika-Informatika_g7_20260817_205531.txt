@@ -1,0 +1,203 @@
+<problem_1>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$4^{2025} + 7^{2025}$ yig'indining oxirgi raqamini toping.</problem>
+<choices>A) 1  B) 3  C) 7  D) 9</choices>
+<solution>Darajalarning oxirgi raqamlari qonuniyatini ko'rib chiqamiz:
+4 ning darajalari: $4^1 \rightarrow 4$, $4^2 \rightarrow 6$, $4^3 \rightarrow 4$ (davriylik 2 ta). 2025 toq son bo'lgani uchun $4^{2025}$ ning oxirgi raqami 4 ga teng.
+7 ning darajalari: $7^1 \rightarrow 7$, $7^2 \rightarrow 9$, $7^3 \rightarrow 3$, $7^4 \rightarrow 1$ (davriylik 4 ta). $2025 = 4 \cdot 506 + 1$ bo'lganligi sababli, qoldiq 1 ga teng. Demak, $7^{2025}$ ning oxirgi raqami $7^1$ ning oxirgi raqami bilan bir xil, ya'ni 7.
+Yig'indining oxirgi raqami: $4 + 7 = 11$. Natijada oxirgi raqam 1 bo'ladi.</solution>
+<answer>A</answer>
+</problem_1>
+
+<problem_2>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with AB = AC. Point D lies on the side AC. The line segments AD, BD, and BC are all equal in length (AD = BD = BC).</diagram_spec>
+<problem>ABC teng yonli uchburchakda ($AB = AC$) AC tomonida shunday D nuqta olinganki, unda $AD = BD = BC$ tenglik bajariladi. Uchburchakning A burchagini (gradusda) toping.</problem>
+<choices>A) 36°  B) 45°  C) 30°  D) 72°</choices>
+<solution>$\angle A = x$ deb belgilaymiz.
+$\triangle ABD$ teng yonli ($AD = BD$) bo'lgani uchun uning asosidagi burchaklari teng: $\angle ABD = \angle A = x$.
+Uchburchakning tashqi burchagi xossasiga ko'ra: $\angle BDC = \angle A + \angle ABD = x + x = 2x$.
+$\triangle BDC$ ham teng yonli ($BD = BC$) bo'lgani uchun asosidagi burchaklari teng: $\angle C = \angle BDC = 2x$.
+$\triangle ABC$ berilishiga ko'ra teng yonli ($AB = AC$), shuning uchun $\angle ABC = \angle C = 2x$.
+Uchburchak ichki burchaklari yig'indisi 180° ekanligidan: $\angle A + \angle ABC + \angle C = 180^\circ \implies x + 2x + 2x = 180^\circ \implies 5x = 180^\circ \implies x = 36^\circ$.
+Demak, $\angle A = 36^\circ$.</solution>
+<answer>A</answer>
+</problem_2>
+
+<problem_3>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Raqamlari qat'iy o'suvchi tartibda joylashgan (ya'ni $a < b < c$) va raqamlari yig'indisi 3 ga qoldiqsiz bo'linadigan nechta $\overline{abc}$ uch xonali son mavjud?</problem>
+<solution>Raqamlar 1 dan 9 gacha bo'lishi mumkin (nol qatnashmaydi, chunki agar $a=0$ bo'lsa, son uch xonali bo'lmaydi va boshqa raqamlar 0 dan katta bo'lishi shart).
+Raqamlarni 3 ga bo'lingandagi qoldiqlariga ko'ra 3 ta guruhga ajratamiz:
+0-guruh: {3, 6, 9} (3 ta)
+1-guruh: {1, 4, 7} (3 ta)
+2-guruh: {2, 5, 8} (3 ta)
+Uchta raqam yig'indisi 3 ga karrali bo'lishi uchun quyidagi ikki holatdan biri bajarilishi kerak:
+1-holat: Barcha 3 ta raqam bitta guruhdan olinadi. 
+Har bir guruhda 3 tadan raqam bor, ularni tanlash usullari $1 + 1 + 1 = 3$ ta. (Masalan, {3,6,9}, {1,4,7}, {2,5,8}).
+2-holat: Har bir guruhdan bittadan raqam olinadi.
+Tanlash usullari soni: $3 \times 3 \times 3 = 27$ ta.
+Jami raqamlar uchliklari soni: $3 + 27 = 30$ ta.
+Har bir tanlangan $(a, b, c)$ raqamlar uchligi uchun ularni faqat bitta usul bilan o'suvchi tartibda joylashtirish mumkin (masalan, 7, 4, 1 tanlansa, faqat 147 soni yasaladi).
+Shuning uchun bunday sonlar jami 30 ta.</solution>
+<answer>30</answer>
+</problem_3>
+
+<problem_4>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $1011_2$ va $110_2$ sonlarining yig'indisini o'nlik sanoq sistemasida toping.</problem>
+<choices>A) 17  B) 21  C) 15  D) 19</choices>
+<solution>Sonlarni o'nlik sanoq sistemasiga o'tkazamiz:
+$1011_2 = 1 \cdot 2^3 + 0 \cdot 2^2 + 1 \cdot 2^1 + 1 \cdot 2^0 = 8 + 0 + 2 + 1 = 11_{10}$
+$110_2 = 1 \cdot 2^2 + 1 \cdot 2^1 + 0 \cdot 2^0 = 4 + 2 + 0 = 6_{10}$
+Ushbu sonlarning yig'indisi: $11 + 6 = 17$.</solution>
+<answer>A</answer>
+</problem_4>
+
+<problem_5>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Tenglamani yeching ($x > 0$):
+$\frac{1}{x(x+1)} + \frac{1}{(x+1)(x+2)} + \dots + \frac{1}{(x+9)(x+10)} = \frac{10}{39}$</problem>
+<solution>Kasrlarni ajratib yozish usulidan (teleskopik yig'indi) foydalanamiz:
+$\frac{1}{x(x+1)} = \frac{1}{x} - \frac{1}{x+1}$
+Shu qoidani barcha hadlarga qo'llasak, yig'indi quyidagicha soddalashadi:
+$(\frac{1}{x} - \frac{1}{x+1}) + (\frac{1}{x+1} - \frac{1}{x+2}) + \dots + (\frac{1}{x+9} - \frac{1}{x+10})$
+Ichki hadlar qisqarib ketadi va faqat birinchi hamda oxirgi hadlar qoladi:
+$\frac{1}{x} - \frac{1}{x+10} = \frac{x+10-x}{x(x+10)} = \frac{10}{x(x+10)}$
+Tenglamaga ko'ra, bu ifoda $\frac{10}{39}$ ga teng:
+$\frac{10}{x(x+10)} = \frac{10}{39}$
+Maxrajlarni tenglashtiramiz:
+$x(x+10) = 39$
+$x^2 + 10x - 39 = 0$
+Kvadrat tenglamani yechamiz:
+$(x - 3)(x + 13) = 0$
+$x > 0$ shartga ko'ra, musbat yechim $x = 3$.</solution>
+<answer>3</answer>
+</problem_5>
+
+<problem_6>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel dasturida kataklarga quyidagi qiymatlar kiritilgan: A1=5, B1=12, C1=7. 
+D1 katakda `=IF(OR(A1>C1; B1<A1*3); A1+B1; B1-C1)` formulasi yozilgan. D1 katakda qanday natija hosil bo'ladi?</problem>
+<choices>A) 17  B) 5  C) 19  D) 12</choices>
+<solution>D1 katakdagi IF (AGAR) funksiyasining shart qismini tekshiramiz: `OR(A1>C1; B1<A1*3)`
+1-shart: A1>C1 $\rightarrow$ 5 > 7 (Yolg'on / False)
+2-shart: B1<A1*3 $\rightarrow$ 12 < 5*3 $\rightarrow$ 12 < 15 (Rost / True)
+OR (YOKI) mantiqiy amali uchun shartlardan biri Rost bo'lsa, umumiy natija Rost bo'ladi. Demak, shart qismi True natija beradi.
+IF funksiyasi shart bajarilganda (True) birinchi amalni, ya'ni `A1+B1` ifodani hisoblaydi: 5 + 12 = 17.</solution>
+<answer>A</answer>
+</problem_6>
+
+<problem_7>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$p$ va $q$ tub sonlari uchun $p^2 - 2q^2 = 1$ tenglik o'rinli bo'lsa, $p^2 + q^2$ ifodaning qiymatini toping.</problem>
+<choices>A) 13  B) 17  C) 25  D) 29</choices>
+<solution>Tenglamani quyidagi ko'rinishga keltiramiz:
+$p^2 - 1 = 2q^2 \implies (p-1)(p+1) = 2q^2$
+Agar $p = 2$ bo'lsa, tenglamaning chap qismi $2^2 - 1 = 3$ bo'ladi, bu esa $2q^2$ ga teng bo'lishi mumkin emas (chunki 3 juft son emas). Demak, $p$ toq tub son.
+Agar $p$ toq bo'lsa, $(p-1)$ va $(p+1)$ ikkita ketma-ket juft son bo'ladi. Ularning biri 2 ga, ikkinchisi esa albatta 4 ga karrali bo'ladi.
+Demak, ularning ko'paytmasi $2 \times 4 = 8$ ga karrali. Bu shuni anglatadiki, tenglamaning chap qismi 8 ga bo'linadi.
+Agar $2q^2$ soni 8 ga bo'linsa, demak, $q^2$ soni 4 ga bo'linadi, bundan kelib chiqadiki, $q$ juft son bo'lishi kerak.
+Yagona juft tub son $q = 2$. 
+$q = 2$ ni tenglamaga qo'yamiz: $p^2 - 2(2^2) = 1 \implies p^2 - 8 = 1 \implies p^2 = 9 \implies p = 3$.
+Haqiqatan ham, 3 va 2 ikkalasi ham tub sonlar.
+Bizdan $p^2 + q^2$ qiymatini topish so'ralgan: $3^2 + 2^2 = 9 + 4 = 13$.</solution>
+<answer>A</answer>
+</problem_7>
+
+<problem_8>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ifodaning qiymatini hisoblang: $\frac{3^{2025} - 3^{2023}}{3^{2024} + 3^{2023}}$</problem>
+<choices>A) 2  B) 3  C) 4  D) 1,5</choices>
+<solution>Kasrning surat va maxrajidan eng kichik darajali ko'paytuvchini, ya'ni $3^{2023}$ ni qavsdan tashqariga chiqaramiz.
+Surat: $3^{2025} - 3^{2023} = 3^{2023} \cdot (3^2 - 1) = 3^{2023} \cdot (9 - 1) = 3^{2023} \cdot 8$
+Maxraj: $3^{2024} + 3^{2023} = 3^{2023} \cdot (3^1 + 1) = 3^{2023} \cdot (3 + 1) = 3^{2023} \cdot 4$
+Kasrni yozamiz:
+$\frac{3^{2023} \cdot 8}{3^{2023} \cdot 4}$
+$3^{2023}$ lar qisqarib ketadi, va natija: $\frac{8}{4} = 2$.</solution>
+<answer>A</answer>
+</problem_8>
+
+<problem_9>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Algoritmda $X$ va $Y$ o'zgaruvchilarining boshlang'ich qiymatlari $X=1$, $Y=1$ ga teng. Quyidagi sikl (takrorlash) 5 marta bajariladi:
+$Z = X + Y$
+$X = Y$
+$Y = Z$
+Sikl to'liq yakunlangach, $Y$ o'zgaruvchining qiymati necha bo'ladi?</problem>
+<solution>Boshlang'ich holat: X = 1, Y = 1
+1-takrorlanish:
+Z = 1 + 1 = 2
+X = 1
+Y = 2
+2-takrorlanish:
+Z = 1 + 2 = 3
+X = 2
+Y = 3
+3-takrorlanish:
+Z = 2 + 3 = 5
+X = 3
+Y = 5
+4-takrorlanish:
+Z = 3 + 5 = 8
+X = 5
+Y = 8
+5-takrorlanish:
+Z = 5 + 8 = 13
+X = 8
+Y = 13
+Sikl 5 marta ishlagandan so'ng Y ning qiymati 13 ga teng bo'ladi (bu Fibonachchi ketma-ketligini hosil qiluvchi algoritm).</solution>
+<answer>13</answer>
+</problem_9>
+
+<problem_10>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>7 ta qutida jami 43 ta olma bor. Qutilardagi olmalar soni ixtiyoriy bo'lishi mumkin (ayrim qutilar bo'sh bo'lishi ham mumkin). Eng ko'p olma solingan qutida kamida nechta olma bo'lishi kafolatlanadi?</problem>
+<choices>A) 6  B) 7  C) 8  D) 9</choices>
+<solution>Bu masala Dirixle (Kaptarxonalar) prinsipiga asoslangan. Eng ko'p olma solingan qutidagi olmalar soni imkon qadar kam bo'lishi uchun, olmalarni barcha qutilarga iloji boricha teng taqsimlash kerak.
+43 ta olmani 7 ta qutiga bo'lamiz: $43 = 7 \cdot 6 + 1$.
+Agar barcha qutilarda ko'pi bilan 6 tadan olma bor deb faraz qilsak, maksimal olmalar soni jami $7 \cdot 6 = 42$ ta bo'lar edi.
+Biroq bizda jami 43 ta olma bor. Shuning uchun qutilardan kamida bittasida albatta 6+1=7 ta yoki undan ko'p olma bo'lishi shart.
+Demak, eng ko'p olma solingan qutida kamida 7 ta olma bo'lishi qat'iy kafolatlanadi.</solution>
+<answer>B</answer>
+</problem_10>

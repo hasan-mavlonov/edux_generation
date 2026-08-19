@@ -1,0 +1,178 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ifodaning qiymatini hisoblang: (2027² − 2019²) / 16</problem>
+<choices>A) 2023  B) 4046  C) 1011  D) 2025</choices>
+<solution>Qisqa ko'paytirish formulalaridan a² − b² = (a − b)(a + b) formulasini qo'llaymiz. 
+Suratdagi ifoda: 2027² − 2019² = (2027 − 2019)(2027 + 2019) = 8 · 4046. 
+Kasrni hisoblaymiz: (8 · 4046) / 16 = 4046 / 2 = 2023.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi 10110₂ va sakkizlik sanoq sistemasidagi 34₈ sonlari yig'indisini o'n oltilik sanoq sistemasida toping.</problem>
+<choices>A) 32  B) 2A  C) 50  D) 42</choices>
+<solution>Avval ikkala sonni o'nlik sanoq sistemasiga o'tkazamiz:
+10110₂ = 1·2⁴ + 0·2³ + 1·2² + 1·2¹ + 0·2⁰ = 16 + 0 + 4 + 2 + 0 = 22₁₀.
+34₈ = 3·8¹ + 4·8⁰ = 24 + 4 = 28₁₀.
+Ular yig'indisi: 22 + 28 = 50₁₀.
+Endi 50₁₀ sonini o'n oltilik sanoq sistemasiga o'tkazamiz: 50 ni 16 ga bo'lamiz (butun qismi 3, qoldiq 2). Demak, natija 32₁₆.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>1 dan 100 gacha bo'lgan toq sonlar ichida faqatgina uchta turli natural bo'luvchiga ega bo'lgan barcha sonlarning yig'indisini toping.</problem>
+<solution>Son faqatgina 3 ta turli natural bo'luvchiga ega bo'lishi uchun u tub sonning kvadrati (p²) bo'lishi kerak. Uning bo'luvchilari 1, p va p² bo'ladi.
+Bizga 100 dan kichik toq sonlar kerak, demak biz faqat toq tub sonlarning kvadratlarini qidiramiz.
+Bunday toq tub sonlar: p = 3, p = 5, p = 7.
+Ularning kvadratlari mos ravishda 9, 25 va 49. Keyingi tub son 11 ning kvadrati 121 (100 dan katta, mos kelmaydi).
+Barcha qidirilayotgan sonlar: 9, 25, 49. Ularning yig'indisi: 9 + 25 + 49 = 83.</solution>
+<answer>83</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. AB = AC. Point D lies on BC. Line segment AD is drawn. AD = BD. Angle DAC = 30 degrees.</diagram_spec>
+<problem>ABC teng yonli uchburchakda (AB = AC) BC tomonda D nuqta olingan. Agar AD = BD va ∠DAC = 30° bo'lsa, ∠B burchakning kattaligini toping.</problem>
+<choices>A) 40°  B) 50°  C) 60°  D) 75°</choices>
+<solution>Faraz qilaylik, ∠B = x.
+AB = AC bo'lgani uchun ABC uchburchak teng yonli, demak ∠C = ∠B = x.
+AD = BD bo'lgani uchun ABD uchburchak ham teng yonli, demak ∠DAB = ∠B = x.
+ABC uchburchakning A burchagi: ∠BAC = ∠DAB + ∠DAC = x + 30°.
+ABC uchburchakning barcha ichki burchaklari yig'indisi 180° ga teng: ∠BAC + ∠B + ∠C = (x + 30°) + x + x = 180°.
+Tenglamani yechamiz: 3x + 30° = 180° → 3x = 150° → x = 50°.
+Demak, ∠B = 50°.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>A = Yolg'on, B = Rost, C = Rost bo'lganda quyidagi mantiqiy ifodaning natijasini toping: 
+(A OR B) AND (NOT A OR NOT C)</problem>
+<choices>A) Rost  B) Yolg'on  C) Ifodada xatolik bor  D) Ma'lumot yetarli emas</choices>
+<solution>Qiymatlarni ifodaga qo'yamiz: A = 0, B = 1, C = 1.
+1) Birinchi qavs: (0 OR 1) = 1 (Rost).
+2) Ikkinchi qavs: NOT 0 = 1, NOT 1 = 0. Bu yerdan (1 OR 0) = 1 (Rost).
+3) Qavslarni AND bilan bog'laymiz: 1 AND 1 = 1 (Rost).</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Matematika to'garagida 4 nafar o'g'il bola va 5 nafar qiz bola qatnashadi. Ulardan 4 kishilik jamoa tuzish kerak (bunda jamoada aynan 2 ta o'g'il va 2 ta qiz bola bo'lishi shart). Lekin o'g'il bolalardan biri Ali va qizlardan biri Valiya o'zaro kelisha olmagani uchun ular bitta jamoada birga bo'lishi mumkin emas. Shartlarni qanoatlantiradigan bunday jamoalarni necha xil usulda tuzish mumkin?</problem>
+<solution>Hech qanday cheklovsiz 2 ta o'g'il va 2 ta qiz tanlash usullari soni:
+C(4, 2) · C(5, 2) = (4·3/2) · (5·4/2) = 6 · 10 = 60 ta jamoa.
+Endi Ali va Valiya birga qatnashgan jamoalar sonini topamiz: agar jamoaga ular kiritilsa, qolgan 1 ta o'g'il o'rinini 3 nafar o'g'il boladan, qolgan 1 ta qiz o'rinini esa 4 nafar qizdan tanlash kerak bo'ladi.
+Bunday jamoalar soni: C(3, 1) · C(4, 1) = 3 · 4 = 12 ta.
+Ali va Valiya birga bo'lishi mumkin emasligi sababli barcha imkoniyatlardan shu holatlarni olib tashlaymiz:
+Yaroqli jamoalar = 60 - 12 = 48.</solution>
+<answer>48</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel elektron jadvalida A1, A2 va A3 kataklarda mos ravishda 15, 8 va 20 sonlari yozilgan. Quyidagi formulaning hisoblash natijasi qanday bo'ladi?
+=IF(MOD(A1; 2)=0; SUM(A1:A3); MAX(A2:A3) - MIN(A1:A2))</problem>
+<choices>A) 43  B) 12  C) 7  D) 28</choices>
+<solution>MOD(A1; 2) bu 15 sonini 2 ga bo'lgandagi qoldiq, ya'ni 1.
+1 = 0 sharti noto'g'ri (FALSE). Shuning uchun IF funksiyasi ikkinchi (shart bajarilmagandagi) harakatni hisoblaydi: MAX(A2:A3) - MIN(A1:A2).
+MAX(A2:A3) = MAX(8; 20) = 20.
+MIN(A1:A2) = MIN(15; 8) = 8.
+Natija: 20 - 8 = 12.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>x, y va z musbat haqiqiy sonlar bo'lib, quyidagi tengliklarni qanoatlantiradi:
+x + 1/y = 4
+y + 1/z = 1
+z + 1/x = 7/3
+x·y·z ko'paytmaning qiymatini toping.</problem>
+<choices>A) 2  B) 1  C) 3/2  D) 5/3</choices>
+<solution>Uchala tenglamani o'zaro ko'paytiramiz:
+(x + 1/y)(y + 1/z)(z + 1/x) = 4 · 1 · 7/3 = 28/3.
+Qavslarni ochamiz:
+xyz + x + y + z + 1/x + 1/y + 1/z + 1/(xyz) = 28/3.
+Buni qayta guruhlaymiz: xyz + (x + 1/y) + (y + 1/z) + (z + 1/x) + 1/(xyz).
+Bizga (x + 1/y) + (y + 1/z) + (z + 1/x) = 4 + 1 + 7/3 = 22/3 ekanligi ma'lum.
+O'rniga qo'yamiz: xyz + 22/3 + 1/(xyz) = 28/3.
+Bundan xyz + 1/(xyz) = 2 kelib chiqadi.
+t = xyz desak, t + 1/t = 2. Uni t ga ko'paytirib, t² - 2t + 1 = 0 holatga keltiramiz. (t - 1)² = 0, ya'ni t = 1.
+Demak, xyz = 1.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>3²⁰²⁴ + 4²⁰²⁵ yig'indining oxirgi raqamini toping.</problem>
+<choices>A) 7  B) 5  C) 3  D) 9</choices>
+<solution>3 ning darajalari har 4 tadan keyin takrorlanadi: 3¹=3, 3²=9, 3³=27 (7), 3⁴=81 (1). 2024 darajasi 4 ga qoldiqsiz bo'linadi, demak uning oxirgi raqami 1 ga teng.
+4 ning darajalari har 2 tadan keyin takrorlanadi: toq darajalarda 4, juft darajalarda 6. 2025 - toq son, demak 4²⁰²⁵ ning oxirgi raqami 4 ga teng.
+Yig'indining oxirgi raqami: 1 + 4 = 5.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Robot koordinatalar tekisligining (0; 0) nuqtasida Shimol (musbat Y o'qi) yo'nalishiga qarab turibdi. Unda o'zgaruvchi N bor va uning boshlang'ich qiymati 1 ga teng. Robot quyidagi buyruqlar ketma-ketligini roppa-rosa 15 marta takrorlaydi:
+1) Oldinga N qadam yurish
+2) O'ngga 90 gradus burilish
+3) N ning qiymatini 2 ga oshirish.
+Ushbu algoritm to'liq yakunlangach, robot to'xtagan nuqtaning x va y koordinatalari yig'indisini toping.</problem>
+<solution>Robot har bir qadamda N qadam bosadi (N = 1, 3, 5, 7, ...). 
+Har 4 qadam bir to'liq tsiklni tashkil qilib, yo'nalish takrorlanadi (Shimol, Sharq, Janub, G'arb).
+Tsikl (k, k+2, k+4, k+6):
+X (gorizontal) o'zgarishi: Sharq (k+2) - G'arb (k+6) = -4.
+Y (vertikal) o'zgarishi: Shimol (k) - Janub (k+4) = -4.
+15 ta sikl 3 ta to'liq 4-qadamli tsikl va oxirida yana 3 ta qadamni beradi.
+3 ta to'liq tsikl (12 marta ijro) dan so'ng: X = 3·(-4) = -12, Y = 3·(-4) = -12.
+12-qadamdan so'ng N = 1 + 12·2 = 25 bo'ladi.
+13-qadam: Shimolga 25. Y = -12 + 25 = 13.
+14-qadam: Sharqqa 27. X = -12 + 27 = 15.
+15-qadam: Janubga 29. Y = 13 - 29 = -16.
+Yakuniy manzil: X = 15, Y = -16.
+Ular yig'indisi: 15 + (-16) = -1.</solution>
+<answer>-1</answer>
+</example>

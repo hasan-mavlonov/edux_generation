@@ -1,0 +1,192 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$\frac{2024^3 + 2022^3}{4046} - 2024 \cdot 2022$ ifodaning qiymatini hisoblang.</problem>
+<choices>A) 2  B) 4  C) 2023  D) 4046</choices>
+<solution>$a^3+b^3 = (a+b)(a^2-ab+b^2)$ formulasidan foydalanamiz, bu yerda $a=2024, b=2022$. Demak, $a+b = 4046$.
+Kasrning surati: $4046 \cdot (2024^2 - 2024 \cdot 2022 + 2022^2)$.
+Kasr maxrajidagi 4046 bilan qisqarib ketadi, natijada $2024^2 - 2024 \cdot 2022 + 2022^2$ qoladi.
+Ayirishni bajaramiz: $(2024^2 - 2024 \cdot 2022 + 2022^2) - 2024 \cdot 2022 = 2024^2 - 2 \cdot 2024 \cdot 2022 + 2022^2$.
+Bu ifoda qisqa ko'paytirish formulasi $(2024 - 2022)^2$ ga teng.
+$(2)^2 = 4$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $A = 2025^{2026} + 2026^{2025}$ bo'lsa, $A$ sonini 7 ga bo'lgandagi qoldiqni toping.</problem>
+<choices>A) 1  B) 3  C) 5  D) 6</choices>
+<solution>Har bir qo'shiluvchini alohida 7 ga bo'lgandagi qoldiqni topamiz.
+$2025 \div 7 = 289$ (qoldiq 2), demak $2025 \equiv 2 \pmod 7$.
+$2^3 = 8 \equiv 1 \pmod 7$ ekanligini bilgan holda, $2^{2026}$ ni soddalashtiramiz:
+$2026 = 3 \cdot 675 + 1$, shuning uchun $2^{2026} = (2^3)^{675} \cdot 2^1 \equiv 1^{675} \cdot 2 \equiv 2 \pmod 7$.
+Ikkinchi qo'shiluvchi: $2026 \div 7 = 289$ (qoldiq 3), demak $2026 \equiv 3 \pmod 7$.
+$3^6 = 729 \equiv 1 \pmod 7$. Darajani hisoblaymiz:
+$2025 = 6 \cdot 337 + 3$, shuning uchun $3^{2025} = (3^6)^{337} \cdot 3^3 \equiv 1^{337} \cdot 27 \pmod 7$.
+$27 \div 7$ da qoldiq 6 qoladi, demak $27 \equiv 6 \pmod 7$.
+Ikkala qoldiqni qo'shamiz: $2 + 6 = 8 \equiv 1 \pmod 7$.
+Javob: 1.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with AB=12, AC=24. D lies on BC. AD is the angle bisector of angle A. E lies on AB. F lies on AC. Segment DE is parallel to AC. Segment DF is parallel to AB.</diagram_spec>
+<problem>ABC uchburchakda AB = 12 va AC = 24. A burchakning AD bissektrisasi o'tkazilgan (D nuqta BC tomonda yotadi). AB tomonda E nuqta, AC tomonda F nuqta shunday olinganki, DE kesma AC ga parallel, DF kesma esa AB ga parallel. AEDF to'rtburchakning perimetrini toping.</problem>
+<choices>A) 32  B) 36  C) 48  D) 24</choices>
+<solution>DE || AC va DF || AB bo'lgani uchun AEDF to'rtburchak parallelogramm hisoblanadi.
+AD bissektrisa bo'lgani uchun, $\angle EAD = \angle FAD$. DE || AC bo'lganidan ichki almashinuvchi burchaklar teng bo'ladi, ya'ni $\angle EDA = \angle FAD$.
+Demak, $\angle EAD = \angle EDA$, bundan $AE = ED$. Barcha tomonlari teng bo'lgan parallelogramm – rombdir.
+Rombning tomonini $x$ deb belgilaymiz ($AE = ED = DF = FA = x$).
+$\triangle BDE \sim \triangle BCA$ (chunki DE || AC):
+Mos tomonlar nisbati o'zaro teng bo'ladi: $BE / AB = DE / AC \implies (12 - x) / 12 = x / 24$.
+Tenglamani yechamiz: $2 \cdot (12 - x) = x \implies 24 - 2x = x \implies 3x = 24 \implies x = 8$.
+Rombning tomoni 8 ga teng, uning perimetri esa $4 \cdot 8 = 32$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $1011_2 + x = 20_8$ tenglik o'rinli bo'lsa, $x$ ning o'nlik sanoq sistemasidagi qiymatini toping.</problem>
+<choices>A) 5  B) 7  C) 9  D) 11</choices>
+<solution>Har ikkala sonni o'nlik sanoq sistemasiga o'tkazamiz:
+Ikkilikdagi son: $1011_2 = 1 \cdot 2^3 + 0 \cdot 2^2 + 1 \cdot 2^1 + 1 \cdot 2^0 = 8 + 0 + 2 + 1 = 11_{10}$.
+Sakkizlikdagi son: $20_8 = 2 \cdot 8^1 + 0 \cdot 8^0 = 16 + 0 = 16_{10}$.
+Tenglamani o'nlik sanoq sistemasida yechamiz: $11 + x = 16 \implies x = 5$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi mantiqiy ifoda berilgan: `F = (A OR B) AND (NOT A OR C)`.
+Agar A = True (1) bo'lsa, F ning natijasi ham True (1) chiqishi uchun B va C mantiqiy o'zgaruvchilari qanday qiymat qabul qilishi shart?</problem>
+<choices>A) B har qanday, C = True
+B) B = True, C = True
+C) B = False, C har qanday
+D) B = True, C = False</choices>
+<solution>A = 1 (True) bo'lgan holatni tahlil qilamiz:
+Birinchi qavs: (1 OR B) B ning qiymatidan qat'i nazar har doim True (1) ga teng.
+Ikkinchi qavs: NOT A ifodasi NOT 1 = 0 (False) bo'ladi. Shuning uchun (0 OR C) shunchaki C ga teng bo'ladi.
+Jami ifoda shakli: F = 1 AND C = C.
+F ning natijasi True (1) bo'lishi uchun C = 1 (True) bo'lishi shart. B ning qiymati esa natijaga ta'sir qilmaydi (0 yoki 1 bo'lishi mumkin).
+Demak, javob: B har qanday, C = True.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Faqat 0, 1, 2 va 3 raqamlaridan foydalanib, yonma-yon turgan ikkita raqami bir xil bo'lmagan jami nechta to'rt xonali son tuzish mumkin?</problem>
+<solution>To'rt xonali sonning birinchi raqami 0 bo'la olmaydi.
+1-o'rin (minglar xonasi) uchun 3 ta tanlov bor: 1, 2, 3.
+2-o'rin (yuzlar xonasi) uchun yana 3 ta tanlov bor: o'zidan oldingi raqamdan boshqa har qanday raqam qo'yish mumkin (bu yerda 0 ham kiradi).
+3-o'rin (o'nlar xonasi) uchun 3 ta tanlov bor: o'zidan oldingi (2-o'rindagi) raqamdan farqli har qanday raqam.
+4-o'rin (birlar xonasi) uchun 3 ta tanlov bor: o'zidan oldingi (3-o'rindagi) raqamdan farqli har qanday raqam.
+Ko'paytirish qoidasiga ko'ra, jami variantlar soni: $3 \cdot 3 \cdot 3 \cdot 3 = 81$ ta.</solution>
+<answer>81</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Ali, Vali va G'ani birgalikda bir ishni 4 kunda tugatadi. Agar Ali va Vali birgalikda ishlasa, shu ishni 6 kunda, Vali va G'ani birgalikda ishlasa, 8 kunda tugatishadi. Agar Ali va G'ani birgalikda ishlasa, bu ishni necha kunda tugatishadi? (Javobni o'nli kasr ko'rinishida yozing)</problem>
+<solution>Har birining 1 kunda bajaradigan ish unumdorligini mos ravishda $a$, $v$ va $g$ deb belgilaymiz.
+Masala shartiga ko'ra quyidagi tenglamalar formulasini tuzamiz:
+1) $a + v + g = 1/4$
+2) $a + v = 1/6$
+3) $v + g = 1/8$
+Birinchi tenglamadagi $a + v$ ning o'rniga ikkinchi tenglamadan $1/6$ ni qo'yamiz: $1/6 + g = 1/4 \implies g = 1/4 - 1/6 = 3/12 - 2/12 = 1/12$.
+Uchinchi tenglamadan $v$ ni topamiz: $v = 1/8 - g = 1/8 - 1/12 = 3/24 - 2/24 = 1/24$.
+Ikkinchi tenglamadan $a$ ni topamiz: $a = 1/6 - v = 1/6 - 1/24 = 4/24 - 1/24 = 3/24 = 1/8$.
+Ali va G'ani bir kunda birgalikda ishning qanday qismini bajarishini hisoblaymiz: $a + g = 1/8 + 1/12 = 3/24 + 2/24 = 5/24$.
+Ular ishni to'liq tugatishi uchun ketadigan vaqt unumdorlikning teskarisiga teng: $24/5 = 4.8$ kun.</solution>
+<answer>4.8</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Dasturda X=2 va Y=0 boshlang'ich qiymatga ega. Quyidagi sikl 5 marta takrorlanadi:
+1. Y = Y + X
+2. X = X * 2
+Sikl tugagandan so'ng Y o'zgaruvchisining qiymati qanday bo'ladi?</problem>
+<choices>A) 30  B) 62  C) 64  D) 126</choices>
+<solution>Sikl qadamlarini ketma-ket bajaramiz:
+1-qadam: Y = 0 + 2 = 2; X = 2 * 2 = 4.
+2-qadam: Y = 2 + 4 = 6; X = 4 * 2 = 8.
+3-qadam: Y = 6 + 8 = 14; X = 8 * 2 = 16.
+4-qadam: Y = 14 + 16 = 30; X = 16 * 2 = 32.
+5-qadam: Y = 30 + 32 = 62; X = 32 * 2 = 64.
+5 marta takrorlangandan so'ng Y ning qiymati 62 ga teng bo'ladi.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi ko'paytmani hisoblang:
+$\left(1 - \frac{4}{9}\right) \left(1 - \frac{4}{25}\right) \left(1 - \frac{4}{49}\right) \dots \left(1 - \frac{4}{625}\right)$</problem>
+<choices>A) 9/25  B) 27/50  C) 27/25  D) 3/25</choices>
+<solution>Har bir ko'paytuvchini umumiy formulaga keltiramiz:
+$1 - \frac{4}{(2k+1)^2} = \frac{(2k+1)^2 - 4}{(2k+1)^2} = \frac{(2k+1-2)(2k+1+2)}{(2k+1)^2} = \frac{(2k-1)(2k+3)}{(2k+1)^2}$.
+Bu yerda $k$ indeks 1 dan 12 ga qadar o'zgaradi, chunki oxirgi hadning maxraji $625 = 25^2 = (2 \cdot 12 + 1)^2$.
+Ko'paytmani qisqartirish uchun alohida guruhlab yozamiz:
+$\left( \frac{1 \cdot 5}{3 \cdot 3} \right) \cdot \left( \frac{3 \cdot 7}{5 \cdot 5} \right) \cdot \left( \frac{5 \cdot 9}{7 \cdot 7} \right) \dots \left( \frac{23 \cdot 27}{25 \cdot 25} \right)$
+Buni ikkita yig'ma mahsulotga ajratish mumkin: $\left( \prod \frac{2k-1}{2k+1} \right) \times \left( \prod \frac{2k+3}{2k+1} \right)$.
+Birinchi mahsulot: $\frac{1}{3} \cdot \frac{3}{5} \cdot \frac{5}{7} \dots \frac{23}{25} = \frac{1}{25}$.
+Ikkinchi mahsulot: $\frac{5}{3} \cdot \frac{7}{5} \cdot \frac{9}{7} \dots \frac{27}{25} = \frac{27}{3} = 9$.
+Ularning ko'paytmasi: $\frac{1}{25} \cdot 9 = \frac{9}{25}$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Excel dasturida A1:A5 kataklarda mos ravishda 10, 15, 20, 25, 30 qiymatlari, B1:B5 kataklarda esa 2, 4, 1, 5, 3 qiymatlari kiritilgan. C1 katakka quyidagi formula yozildi:
+`=SUMIF(A1:A5; ">15"; B1:B5) * COUNTIF(B1:B5; "<4")`
+C1 katakdagi natijani toping.</problem>
+<choices>A) 24  B) 27  C) 36  D) 18</choices>
+<solution>Formula ikkita hisoblash qismidan iborat:
+1-qism: `SUMIF(A1:A5; ">15"; B1:B5)`
+A1:A5 oralig'ida 15 dan katta bo'lgan shartni qanoatlantiruvchi qiymatlarni topamiz: bular 20 (A3), 25 (A4), 30 (A5).
+Ularga mos ravishda B ustunidagi (summa qilinadigan oraliqdagi) qiymatlarni yig'amiz: B3 = 1, B4 = 5, B5 = 3. Ularning yig'indisi: 1 + 5 + 3 = 9.
+2-qism: `COUNTIF(B1:B5; "<4")`
+B1:B5 oralig'ida 4 dan kichik bo'lgan sonlar nechta ekanligini sanaymiz: ular 2 (B1), 1 (B3) va 3 (B5). Jami 3 ta katak ushbu shartni qanoatlantiradi.
+Ikkala qismni bir-biriga ko'paytiramiz: $9 \cdot 3 = 27$.
+Natija 27 ga teng.</solution>
+<answer>B</answer>
+</example>

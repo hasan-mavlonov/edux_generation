@@ -1,0 +1,179 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $a=111$ va $b=89$ bo'lsa, $\frac{a^3 - b^3}{a - b} - ab$ ifodaning qiymatini hisoblang.</problem>
+<choices>A) 19822  B) 20000  C) 20242  D) 22442</choices>
+<solution>Qisqa ko'paytirish formulalaridan foydalanamiz: $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$.
+Kasrning suratiga bu ifodani qo'yib, maxrajdagi $(a - b)$ bilan qisqartirsak, $a^2 + ab + b^2$ qoladi.
+Undan $ab$ ni ayiramiz: $a^2 + ab + b^2 - ab = a^2 + b^2$.
+Berilgan sonlarni o'rniga qo'yamiz: $111^2 + 89^2$. Bu ifodani hisoblashni osonlashtirish uchun $111 = 100 + 11$ va $89 = 100 - 11$ ekanidan foydalanamiz:
+$111^2 + 89^2 = (100+11)^2 + (100-11)^2 = 2 \cdot (100^2 + 11^2) = 2 \cdot (10000 + 121) = 2 \cdot 10121 = 20242$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>To'rt xonali $\overline{3a4b}$ soni 36 ga qoldiqsiz bo'linadi (bunda $a$ va $b$ — raqamlar). $a+b$ yig'indining qabul qilishi mumkin bo'lgan eng katta va eng kichik qiymatlari ayirmasini toping.</problem>
+<choices>A) 7  B) 9  C) 11  D) 8</choices>
+<solution>Son 36 ga bo'linishi uchun u ham 4 ga, ham 9 ga bo'linishi kerak.
+4 ga bo'linish belgisi: sonning oxirgi ikkita raqamidan tuzilgan son 4 ga bo'linishi kerak. Bizda bu $\overline{4b}$. Demak, $b$ raqami faqat 0, 4 yoki 8 bo'lishi mumkin (40, 44, 48 sonlari 4 ga karrali).
+9 ga bo'linish belgisi: raqamlar yig'indisi 9 ga bo'linishi kerak. Yig'indi $3+a+4+b = 7+a+b$.
+Holatlarni ko'rib chiqamiz:
+1) Agar $b=0$ bo'lsa: $7+a+0 \equiv 0 \pmod 9 \implies a=2$. Bunda $a+b = 2+0=2$.
+2) Agar $b=4$ bo'lsa: $7+a+4 = 11+a \equiv 0 \pmod 9 \implies a=7$. Bunda $a+b = 7+4=11$.
+3) Agar $b=8$ bo'lsa: $7+a+8 = 15+a \equiv 0 \pmod 9 \implies a=3$. Bunda $a+b = 3+8=11$.
+$a+b$ qabul qila oladigan qiymatlar: 2 va 11.
+Eng katta qiymat = 11, eng kichik qiymat = 2. Ularning ayirmasi: $11 - 2 = 9$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $110101_2$ soni bilan sakkizlik sanoq sistemasidagi $47_8$ sonining yig'indisini o'nlik sanoq sistemasida hisoblang.</problem>
+<solution>Avval ikkala sonni o'nlik sanoq sistemasiga o'tkazib olamiz.
+$110101_2 = 1 \cdot 2^5 + 1 \cdot 2^4 + 0 \cdot 2^3 + 1 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0 = 32 + 16 + 0 + 4 + 0 + 1 = 53$.
+$47_8 = 4 \cdot 8^1 + 7 \cdot 8^0 = 32 + 7 = 39$.
+Yig'indini topamiz: $53 + 39 = 92$.</solution>
+<answer>92</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. AD is the angle bisector of A, D lies on BC. E lies on AB such that ED is parallel to AC.</diagram_spec>
+<problem>$ABC$ uchburchakda $A$ burchakning bissektrisasi $BC$ tomonni $D$ nuqtada kesadi. $D$ nuqtadan $AC$ tomonga parallel bo'lgan to'g'ri chiziq o'tkazilib, u $AB$ tomonni $E$ nuqtada kesadi. Agar $\angle ADE = 32^\circ$ va $\angle ABC = 54^\circ$ bo'lsa, $\angle BCA$ burchakning kattaligini toping.</problem>
+<choices>A) $58^\circ$  B) $62^\circ$  C) $64^\circ$  D) $72^\circ$</choices>
+<solution>$ED \parallel AC$ va $AD$ to'g'ri chiziq ularni kesib o'tuvchi bo'lgani uchun, ichki almashinuvchi burchaklar teng bo'ladi: $\angle DAC = \angle ADE = 32^\circ$.
+$AD$ nuri $A$ burchakning bissektrisasi bo'lgani sababli, $\angle BAD = \angle DAC = 32^\circ$.
+Demak, uchburchakning to'liq $A$ burchagi $\angle BAC = 32^\circ + 32^\circ = 64^\circ$ ni tashkil qiladi.
+$ABC$ uchburchakning ichki burchaklari yig'indisi $180^\circ$ ga teng ekanidan foydalanib $C$ burchakni topamiz:
+$\angle BCA = 180^\circ - (\angle BAC + \angle ABC) = 180^\circ - (64^\circ + 54^\circ) = 180^\circ - 118^\circ = 62^\circ$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Mantiqiy algebra amallaridan tashkil topgan $F = \text{NOT}(A \text{ OR NOT } B) \text{ AND } (C \text{ XOR } B)$ ifodasi Rost (1) natija berishi uchun $A$, $B$ va $C$ o'zgaruvchilari mos ravishda qanday qiymatlarni qabul qilishi kerak? (Bu yerda XOR – qat'iy disyunksiya, ya'ni "inkor qiluvchi Yoki").</problem>
+<choices>A) A=1, B=0, C=1  B) A=0, B=0, C=1  C) A=1, B=1, C=0  D) A=0, B=1, C=0</choices>
+<solution>Ifoda konyunksiya (AND) amali bilan birlashtirilganligi sababli, natija 1 (Rost) bo'lishi uchun uning ikkala qismi ham 1 ga teng bo'lishi shart.
+1-qism: $\text{NOT}(A \text{ OR NOT } B) = 1$. Demak, qavs ichi nolga teng bo'lishi kerak: $A \text{ OR NOT } B = 0$. Disyunksiya amali faqat ikkala argument ham 0 bo'lganda 0 natija beradi, bundan $A = 0$ va $\text{NOT } B = 0$ (ya'ni $B = 1$) kelib chiqadi.
+2-qism: $C \text{ XOR } B = 1$. Yuqorida $B = 1$ ekanini topdik. XOR amali ikkita o'zgaruvchi turlicha qiymatga ega bo'lgandagina 1 beradi. $B = 1$ bo'lgani uchun, $C = 0$ bo'lishi shart ($0 \text{ XOR } 1 = 1$).
+Natija: $A = 0$, $B = 1$, $C = 0$.</solution>
+<answer>D</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>1, 2, 3, 4, 5, 6 raqamlari yordamida (raqamlar takrorlanishi mumkin) to'rt xonali sonlar tuzilmoqda. Agar tuzilgan sonning ixtiyoriy ikkita yonma-yon raqami o'zaro farq qilsa (ya'ni bir xil raqamlar yonma-yon kelmasa), tarkibida kamida bitta "5" raqami qatnashgan nechta shunday to'rt xonali son tuzish mumkin?</problem>
+<solution>Barcha shartni qanoatlantiruvchi (yonma-yon raqamlari har xil bo'lgan) 4 xonali sonlar miqdorini kombinatorika qoidasiga ko'ra topamiz:
+1-o'rin (minglar xonasi) uchun 6 ta tanlov mavjud.
+2-o'rin uchun 5 ta tanlov bor (oldindagi raqamdan farqli har qanday raqam).
+3-o'rin va 4-o'rinlar uchun ham huddi shunday 5 tadan tanlov mavjud.
+Jami shunday sonlar: $6 \cdot 5 \cdot 5 \cdot 5 = 750$ ta.
+Endi bular orasidan umuman "5" raqami qatnashmaganlarini, ya'ni faqat qolgan 5 ta (1, 2, 3, 4, 6) raqamdan tuzilganlarini sanaymiz:
+Bunday sonlar uchun xuddi shu qoida bo'yicha:
+1-o'rinda 5 ta tanlov, 2-, 3- va 4-o'rinlarda o'zidan oldingisidan farqli 4 tadan tanlov mavjud.
+Umuman 5 qatnashmaganlar soni: $5 \cdot 4 \cdot 4 \cdot 4 = 320$ ta.
+Demak, kamida bitta "5" qatnashgan sonlar miqdori: jami sonlardan 5 qatnashmaganlarini ayirib tashlaganga teng: $750 - 320 = 430$ ta.</solution>
+<answer>430</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel dasturida kataklarga quyidagi qiymatlar yozilgan: A1=10, A2=15, B1=20, B2=5. Agar C1 katagiga `=SUM(A1:B2) - AVERAGE(A1:A2)*2` formulasi kiritilsa, ushbu katakda qanday natija hosil bo'ladi?</problem>
+<choices>A) 30  B) 25  C) 0  D) 50</choices>
+<solution>SUM(A1:B2) funksiyasi A1 dan B2 gacha bo'lgan to'rtburchak sohadagi to'rtta katak yig'indisini hisoblaydi: $10 + 15 + 20 + 5 = 50$.
+AVERAGE(A1:A2) funksiyasi esa A1 va A2 kataklarining o'rta arifmetigini topadi: $(10 + 15) / 2 = 25 / 2 = 12.5$.
+Endi to'liq ifodani hisoblaymiz: $50 - 12.5 \cdot 2 = 50 - 25 = 25$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$x, y, z$ musbat haqiqiy sonlar uchun $\frac{2x}{y} + \frac{y}{2z} + \frac{z}{x} = 3$ tenglik o'rinli bo'lsa, $\frac{x^2 + y^2 + z^2}{xz}$ kasrning qiymatini toping.</problem>
+<choices>A) 3  B) 4.5  C) 6  D) 9</choices>
+<solution>Masalada berilgan 3 ta musbat qo'shiluvchi uchun Koshi tengsizligini (AM-GM: o'rta arifmetik $\ge$ o'rta geometrik) qo'llaymiz:
+$\frac{2x}{y} + \frac{y}{2z} + \frac{z}{x} \ge 3 \sqrt[3]{\frac{2x}{y} \cdot \frac{y}{2z} \cdot \frac{z}{x}} = 3 \sqrt[3]{1} = 3$.
+Masala shartida bu ifodaning yig'indisi aynan 3 ga teng ekanligi berilgan. Koshi tengsizligida tenglik holati faqat qo'shiluvchilar o'zaro teng bo'lgandagina o'rinli bo'ladi.
+Ya'ni: $\frac{2x}{y} = 1$, $\frac{y}{2z} = 1$, $\frac{z}{x} = 1$.
+Bundan quyidagi xulosalarga kelamiz: $y = 2x$, $y = 2z$, va $z = x$. Demak, barcha o'zgaruvchilarni $x$ orqali ifodalash mumkin: $z = x$ va $y = 2x$.
+Buni so'ralgan ifodaga qo'yamiz:
+$\frac{x^2 + (2x)^2 + x^2}{x \cdot x} = \frac{x^2 + 4x^2 + x^2}{x^2} = \frac{6x^2}{x^2} = 6$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$3^{2025} + 4^{2025}$ yig'indini 13 ga bo'lgandagi qoldiqni toping.</problem>
+<solution>Modulyar arifmetika qoidalaridan foydalanamiz. Darajalar asosi bo'lgan 3 va 4 ni 13 modulida o'rganamiz.
+$3^3 = 27$ ekanini bilamiz. 27 ni 13 ga bo'lganda qoldiq 1 ga teng ($27 = 13 \cdot 2 + 1 \implies 3^3 \equiv 1 \pmod{13}$).
+Daraja 2025 ni 3 ga bo'lamiz: $2025 = 3 \cdot 675$. Demak:
+$3^{2025} = (3^3)^{675} \equiv 1^{675} \equiv 1 \pmod{13}$.
+Xuddi shunday, 4 raqami uchun: $4^3 = 64$. 64 ni 13 ga bo'lganda qoldiq 12 ga, ya'ni -1 ga teng ($64 = 13 \cdot 5 - 1 \implies 4^3 \equiv -1 \pmod{13}$).
+Ikkinchi qismni hisoblaymiz:
+$4^{2025} = (4^3)^{675} \equiv (-1)^{675} \equiv -1 \pmod{13}$ (chunki daraja toq son).
+Ikkala qismni qo'shamiz: $1 + (-1) = 0$. Demak, berilgan yig'indi 13 ga qoldiqsiz bo'linadi va qoldiq 0 ga teng.</solution>
+<answer>0</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Kompyuter dasturida quyidagi algoritm ishladi:
+1. x = 2, y = 5
+2. Toki x < 15 bo'lsa, sikl bajarilsin:
+      x = x + y
+      y = y - 1
+Sikl tugagandan so'ng x va y o'zgaruvchilarning oxirgi qiymatlari ko'paytmasi (x * y) nechaga teng bo'ladi?</problem>
+<choices>A) 14  B) 28  C) 32  D) 16</choices>
+<solution>Algoritm qadamlarini bittalab ko'rib chiqamiz:
+Boshlang'ich holat: x = 2, y = 5.
+1-qadam: x < 15 (2 < 15) -> Rost.
+x = 2 + 5 = 7; y = 5 - 1 = 4.
+2-qadam: x < 15 (7 < 15) -> Rost.
+x = 7 + 4 = 11; y = 4 - 1 = 3.
+3-qadam: x < 15 (11 < 15) -> Rost.
+x = 11 + 3 = 14; y = 3 - 1 = 2.
+4-qadam: x < 15 (14 < 15) -> Rost.
+x = 14 + 2 = 16; y = 2 - 1 = 1.
+5-qadam: x < 15 (16 < 15) -> Yolg'on. Sikl ishlashni to'xtatadi.
+O'zgaruvchilarning yakuniy qiymatlari: x = 16, y = 1. Ularning ko'paytmasi: 16 * 1 = 16.</solution>
+<answer>D</answer>
+</example>

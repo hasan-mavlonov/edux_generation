@@ -1,0 +1,182 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Hisoblang: (2025² − 1975²) / 2000</problem>
+<choices>A) 100  B) 50  C) 200  D) 25</choices>
+<solution>Qisqa ko'paytirish formulasidan (a² - b² = (a-b)(a+b)) foydalanamiz:
+2025² − 1975² = (2025 - 1975)(2025 + 1975) = 50 · 4000 = 200000.
+Olingan natijani 2000 ga bo'lamiz: 200000 / 2000 = 100.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasida berilgan 1011₂ va 110₂ sonlarining yig'indisini o'nlik sanoq sistemasida toping.</problem>
+<choices>A) 17  B) 15  C) 18  D) 19</choices>
+<solution>Dastlab ikkilik sanoq sistemasidagi sonlarni o'nlik sistemaga o'tkazamiz:
+1011₂ = 1·2³ + 0·2² + 1·2¹ + 1·2⁰ = 8 + 0 + 2 + 1 = 11.
+110₂ = 1·2² + 1·2¹ + 0·2⁰ = 4 + 2 + 0 = 6.
+Ularning o'nlik sanoq sistemasidagi yig'indisi: 11 + 6 = 17.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. D and E lie on the side BC. Segment AD is the altitude to BC (angle ADB = 90 degrees). Segment AE is the angle bisector of angle BAC. Angle ABC = 70 degrees, angle ACB = 30 degrees.</diagram_spec>
+<problem>ABC uchburchakda ∠B = 70° va ∠C = 30° ga teng. A uchdan BC tomonga AD balandlik va AE bissektrisa tushirilgan (D va E nuqtalar BC tomonda yotadi). ∠DAE burchakning kattaligini toping.</problem>
+<choices>A) 10°  B) 20°  C) 30°  D) 40°</choices>
+<solution>Uchburchakning ichki burchaklari yig'indisi 180° bo'lgani uchun:
+∠A = 180° - (70° + 30°) = 80°.
+AE bissektrisa bo'lgani uchun, u ∠A ni teng ikkiga bo'ladi:
+∠BAE = ∠A / 2 = 80° / 2 = 40°.
+AD balandlik bo'lgani uchun, ABD to'g'ri burchakli uchburchakdir (∠ADB = 90°).
+Bu uchburchakdan ∠BAD ni topamiz: ∠BAD = 90° - ∠B = 90° - 70° = 20°.
+Shunday qilib, izlanayotgan burchak: ∠DAE = ∠BAE - ∠BAD = 40° - 20° = 20°.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Raqamlari yig'indisidan 15 marta katta bo'lgan uch xonali natural sonni toping.</problem>
+<solution>Uch xonali sonni 100a + 10b + c ko'rinishida yozamiz. Masala shartiga ko'ra:
+100a + 10b + c = 15(a + b + c)
+Qavslarni ochib, o'xshash hadlarni ixchamlaymiz:
+100a + 10b + c = 15a + 15b + 15c
+85a = 5b + 14c
+Raqamlar b ≤ 9 va c ≤ 9 bo'lgani uchun, o'ng tomonning maksimal qiymati: 5(9) + 14(9) = 45 + 126 = 171.
+Demak, 85a ≤ 171 shartdan a faqat 1 yoki 2 bo'lishi mumkin.
+Agar a = 2 bo'lsa: 85(2) = 170. 5b + 14c = 170. 170 va 5b sonlari 5 ga karrali, demak 14c ham 5 ga bo'linishi kerak. c=0 yoki c=5 bo'lishi mumkin. Agar c=0 bo'lsa, 5b=170 → b=34 (raqam emas). Agar c=5 bo'lsa, 14(5)=70 → 5b=100 → b=20 (raqam emas). Demak a ≠ 2.
+Agar a = 1 bo'lsa: 85 = 5b + 14c. 85 va 5b sonlari 5 ga bo'linadi, demak 14c ham 5 ga bo'linadi (c=0 yoki 5). 
+c = 0 da: 5b = 85 → b = 17 (xato).
+c = 5 da: 14(5) = 70. 5b = 85 - 70 = 15 → b = 3. 
+Demak, a = 1, b = 3, c = 5. Qidirilayotgan son: 135.</solution>
+<answer>135</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel dasturida A1 katakda 8, B1 katakda 4 qiymati kiritilgan. C1 katakda quyidagi formula yozilgan: =IF(OR(A1>10; B1<5); A1*B1; A1+B1). C1 katakda qanday natija hosil bo'ladi?</problem>
+<choices>A) 12  B) 32  C) 4  D) 0</choices>
+<solution>Formulaning shart qismini tekshiramiz: OR(A1>10; B1<5).
+A1>10 sharti: 8 > 10 (FALSE, Yolg'on).
+B1<5 sharti: 4 < 5 (TRUE, Rost).
+OR (YOKI) mantiqiy amali kamida bitta shart TRUE bo'lsa, TRUE natijani qaytaradi.
+Shart TRUE bo'lgani uchun, IF (AGAR) funksiyasi birinchi (rost bo'lgandagi) amalni bajaradi: A1*B1.
+A1*B1 = 8 * 4 = 32.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Raqamlari qat'iy o'suvchi tartibda joylashgan (chapdan o'ngga) va birinchi hamda oxirgi raqamlari yig'indisi 10 ga teng bo'lgan nechta to'rt xonali natural son mavjud?</problem>
+<choices>A) 34  B) 35  C) 21  D) 44</choices>
+<solution>To'rt xonali sonni abcd ko'rinishida yozamiz (a < b < c < d). Shartga ko'ra a + d = 10.
+a va d raqamlarining quyidagi juftliklari bo'lishi mumkin:
+1) a = 1, d = 9: O'rtadagi b va c raqamlarni {2, 3, 4, 5, 6, 7, 8} to'plamdan tanlash kerak. 7 ta raqamdan istalgan 2 tasini tanlash yo'llari soni (ularni o'suvchi tartibda qo'yish usuli yagona): C(7,2) = 7·6 / 2 = 21 ta.
+2) a = 2, d = 8: b va c larni {3, 4, 5, 6, 7} to'plamdan (5 ta raqam) tanlaymiz. C(5,2) = 5·4 / 2 = 10 ta.
+3) a = 3, d = 7: b va c larni {4, 5, 6} to'plamdan (3 ta raqam) tanlaymiz. C(3,2) = 3·2 / 2 = 3 ta.
+4) a = 4, d = 6: b va c larni o'rtadagi yagona {5} raqamdan tanlash kerak. Ikkita turli raqam tanlab bo'lmaydi: C(1,2) = 0 ta.
+Jami bunday sonlar: 21 + 10 + 3 = 34 ta.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>A, B va C mantiqiy o'zgaruvchilar bo'lsa, (A XOR B) AND (NOT C OR B) = 1 (rost) natijani beradigan (A, B, C) qiymatlar juftliklari (to'plamlari) soni nechta?</problem>
+<solution>Mantiqiy ifoda AND amali bilan bog'langan. Natija 1 bo'lishi uchun har ikkala qavs 1 ga teng bo'lishi kerak.
+1-shart: A XOR B = 1. Demak, A va B turlicha bo'lishi kerak. Ikkita holat bor:
+1-holat: A = 1, B = 0.
+2-holat: A = 0, B = 1.
+Endi 2-shartni tekshiramiz: NOT C OR B = 1.
+1-holat uchun (A=1, B=0): NOT C OR 0 = 1 bo'lishi uchun NOT C = 1 bo'lishi shart. Demak C = 0. Bitta yechim: (1, 0, 0).
+2-holat uchun (A=0, B=1): NOT C OR 1 = 1 ifodasi C ning ixtiyoriy qiymatida o'rinli. Demak C = 0 yoki C = 1 bo'lishi mumkin. Ikkita yechim: (0, 1, 0) va (0, 1, 1).
+Umumiy qanoatlantiruvchi to'plamlar soni: 1 + 2 = 3 ta.</solution>
+<answer>3</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Otaning hozirgi yoshi o'g'lining yoshidan 4 marta katta. 5 yildan so'ng ularning yoshlari yig'indisi 60 ga teng bo'ladi. Otaning hozirgi yoshini toping.</problem>
+<solution>O'g'lining hozirgi yoshini x deb belgilaymiz. U holda otaning hozirgi yoshi 4x bo'ladi.
+5 yildan keyin o'g'ilning yoshi x + 5, otaning yoshi esa 4x + 5 bo'ladi.
+Ularning yoshlari yig'indisi 60 ga tengligidan tenglama tuzamiz:
+(x + 5) + (4x + 5) = 60
+5x + 10 = 60
+5x = 50
+x = 10 (o'g'ilning yoshi).
+Otaning yoshi: 4x = 4 · 10 = 40.</solution>
+<answer>40</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>a va b natural sonlar uchun a < b, EKUB(a,b) = 5 va EKUK(a,b) = 105 ekanligi ma'lum. Ushbu shartlarni qanoatlantiruvchi (a, b) juftliklar sonini toping.</problem>
+<choices>A) 1  B) 2  C) 3  D) 4</choices>
+<solution>EKUB(a,b) = 5 bo'lgani uchun sonlarni a = 5x va b = 5y ko'rinishida yozamiz (bunda x va y o'zaro tub natural sonlar, x < y).
+EKUK(a,b) formula bo'yicha: 5xy = 105. 
+Bundan xy = 21. 
+Ko'paytmasi 21 bo'lgan va x < y shartni qanoatlantiruvchi o'zaro tub (x, y) juftliklarini topamiz:
+1) x = 1, y = 21 (o'zaro tub). Bu holda a = 5, b = 105.
+2) x = 3, y = 7 (o'zaro tub). Bu holda a = 15, b = 35.
+Jami shartni qanoatlantiruvchi juftliklar soni 2 ta.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>x va y haqiqiy sonlar bo'lsa, 2x² + 2xy + y² - 2x + 2y + 2026 ifodaning eng kichik qiymatini toping.</problem>
+<choices>A) 2021  B) 2026  C) 2025  D) 2020</choices>
+<solution>Berilgan algebraik ifodani to'la kvadratlarga ajratib soddalashtiramiz. 
+2x² + 2xy + y² - 2x + 2y + 2026 ifodadan oldin (x+y+1)² ni ajratishga harakat qilamiz:
+(x + y + 1)² = x² + y² + 1 + 2xy + 2x + 2y.
+Asl ifodadan shu qismini ayirsak:
+(2x² + 2xy + y² - 2x + 2y + 2026) - (x² + y² + 2xy + 2x + 2y + 1) = x² - 4x + 2025.
+Endi x² - 4x + 2025 qismini to'la kvadratga keltiramiz:
+x² - 4x + 4 + 2021 = (x - 2)² + 2021.
+Demak, butun ifoda quyidagicha yoziladi:
+f(x,y) = (x + y + 1)² + (x - 2)² + 2021.
+Kvadratlar har doim manfiy bo'lmagani uchun (≥ 0), ifodaning eng kichik qiymati ikkala qavs ichi nolga teng bo'lganda erishiladi:
+x - 2 = 0 → x = 2,
+x + y + 1 = 0 → 2 + y + 1 = 0 → y = -3.
+Bu nuqtada ifodaning qiymati 0 + 0 + 2021 = 2021 bo'ladi.</solution>
+<answer>A</answer>
+</example>

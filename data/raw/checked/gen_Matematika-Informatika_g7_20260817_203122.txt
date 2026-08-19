@@ -1,0 +1,197 @@
+<problem>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $a - b = 4$ va $a^2 + b^2 = 26$ bo'lsa, $a^3 - b^3$ ifodaning qiymatini toping.</problem>
+<choices>A) 124  B) 104  C) 156  D) 84</choices>
+<solution>Qisqa ko'paytirish formulalaridan foydalanamiz: $(a - b)^2 = a^2 - 2ab + b^2$. Berilgan qiymatlarni o'rniga qo'yamiz: $4^2 = 26 - 2ab \implies 16 = 26 - 2ab \implies 2ab = 10 \implies ab = 5$.
+Endi kublar ayirmasi formulasini yozamiz: $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$.
+Bu ifodani hisoblash uchun barcha kerakli qiymatlar mavjud:
+$a^3 - b^3 = 4 \cdot (26 + 5) = 4 \cdot 31 = 124$.</solution>
+<answer>A</answer>
+</problem>
+
+<problem>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$3^{2026} + 4^{2026}$ sonini 5 ga bo'lgandagi qoldiqni toping.</problem>
+<choices>A) 0  B) 1  C) 2  D) 3</choices>
+<solution>Har bir qo'shiluvchining 5 ga bo'lgandagi qoldig'ini alohida hisoblaymiz.
+Modulyar arifmetikaga ko'ra, $3 \equiv -2 \pmod 5$ va $4 \equiv -1 \pmod 5$.
+$4^{2026} \equiv (-1)^{2026} = 1 \pmod 5$.
+Endi $3^{2026}$ ni hisoblaymiz: $3^{2026} \equiv (-2)^{2026} = 2^{2026} \pmod 5$.
+Fermaning kichik teoremasi yoki qoldiqlar davriyligidan foydalanamiz: $2^1 \equiv 2$, $2^2 \equiv 4$, $2^3 \equiv 3$, $2^4 \equiv 1 \pmod 5$. Davr 4 ga teng.
+Darajani 4 ga bo'lamiz: $2026 = 4 \cdot 506 + 2$.
+Demak, $2^{2026} = (2^4)^{506} \cdot 2^2 \equiv 1 \cdot 4 = 4 \pmod 5$.
+Ikkala qoldiqni qo'shamiz: $4 + 1 = 5 \equiv 0 \pmod 5$.
+Demak, yig'indi 5 ga qoldiqsiz bo'linadi.</solution>
+<answer>A</answer>
+</problem>
+
+<problem>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Raqamlari noldan farqli bo'lgan va $a < b < c > d > e$ shartni qanoatlantiruvchi nechta 5 xonali $\overline{abcde}$ soni mavjud?</problem>
+<solution>1 dan 9 gacha bo'lgan raqamlardan 5 ta turlicha raqamni tanlab olish usullari soni $C_9^5 = \frac{9!}{5! \cdot 4!} = 126$ ga teng.
+Biror tanlangan 5 ta raqamlar to'plamini olaylik (masalan, 1, 3, 4, 7, 8). Shartga ko'ra, $c$ raqami qolgan barcha raqamlardan katta bo'lishi kerak, shuning uchun tanlangan raqamlarning eng kattasi mutlaqo $c$ ning o'rniga yoziladi (bitta aniq tanlov).
+Qolgan 4 ta raqamdan 2 tasini $a$ va $b$ o'rni uchun tanlaymiz. Ular $a < b$ sharti tufayli qat'iy o'sish tartibida yozilishi kerak, buning usullari soni $C_4^2 = 6$.
+Qolgan oxirgi 2 ta raqam esa avtomatik ravishda $d$ va $e$ o'rniga yoziladi, chunki ular $d > e$ shartiga ko'ra kamayish tartibida tushadi.
+Umumiy qanoatlantiruvchi sonlar miqdori: $126 \cdot 6 = 756$.</solution>
+<answer>756</answer>
+</problem>
+
+<problem>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with AB=AC. Point D on side BC. Point E on side AC. Segments AD, BD, and AE are equal in length. Angle C is 40 degrees.</diagram_spec>
+<problem>Yondagi chizmada ko'rsatilganidek, $ABC$ teng yonli uchburchakda ($AB = AC$), $BC$ tomonda $D$ nuqta va $AC$ tomonda $E$ nuqta shunday olinganki, bunda $AD = BD$ va $AD = AE$ shartlar bajariladi. Agar $\angle C = 40^\circ$ bo'lsa, $\angle CDE$ burchakning kattaligini toping.</problem>
+<choices>A) 10°  B) 20°  C) 30°  D) 40°</choices>
+<solution>$AB = AC$ bo'lgani uchun asosidagi burchaklar teng: $\angle B = \angle C = 40^\circ$. 
+Uchburchakning ichki burchaklari yig'indisi $180^\circ$ ekanligidan $\angle BAC = 180^\circ - (40^\circ + 40^\circ) = 100^\circ$.
+$AD = BD$ bo'lganligi sababli, $\triangle ABD$ teng yonli va uning asosidagi burchaklari teng: $\angle BAD = \angle B = 40^\circ$.
+Bundan, uchburchak tashqi burchagi xossasiga ko'ra $\angle ADC = \angle B + \angle BAD = 40^\circ + 40^\circ = 80^\circ$ (yoki $\angle DAC$ orqali hisoblasa ham bo'ladi).
+$\angle DAC$ burchakni topamiz: $\angle DAC = \angle BAC - \angle BAD = 100^\circ - 40^\circ = 60^\circ$.
+$\triangle ADE$ ni ko'rib chiqamiz: masala shartiga ko'ra $AD = AE$, shuning uchun u teng yonli. Uning uchidagi burchagi $\angle DAE = 60^\circ$ bo'lgani uchun, qolgan ikkita burchagi ham $60^\circ$ ga teng bo'ladi (ya'ni $\triangle ADE$ muntazam uchburchak). Demak, $\angle ADE = 60^\circ$.
+Bizdan $\angle CDE$ so'ralgan: $\angle CDE = \angle ADC - \angle ADE = 80^\circ - 60^\circ = 20^\circ$.</solution>
+<answer>B</answer>
+</problem>
+
+<problem>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $101101_2$ soniga o'n oltilik sanoq sistemasidagi $2F_{16}$ soni qo'shildi. Yig'indining sakkizlik sanoq sistemasidagi qiymatini toping.</problem>
+<choices>A) $134_8$  B) $142_8$  C) $126_8$  D) $114_8$</choices>
+<solution>Avval ikkala sonni ham o'nlik sanoq sistemasiga o'tkazib olamiz:
+$101101_2 = 1 \cdot 2^5 + 0 \cdot 2^4 + 1 \cdot 2^3 + 1 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0 = 32 + 8 + 4 + 1 = 45_{10}$.
+$2F_{16} = 2 \cdot 16^1 + 15 \cdot 16^0 = 32 + 15 = 47_{10}$.
+Endi ularning yig'indisini hisoblaymiz: $45 + 47 = 92_{10}$.
+Hosil bo'lgan o'nlik sonni sakkizlik sanoq sistemasiga o'tkazamiz:
+$92 \div 8 = 11$ (qoldiq 4),
+$11 \div 8 = 1$ (qoldiq 3),
+$1 \div 8 = 0$ (qoldiq 1).
+Qoldiqlarni teskari tartibda o'qib, $134_8$ ni hosil qilamiz.</solution>
+<answer>A</answer>
+</problem>
+
+<problem>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$X, Y, Z$ mantiqiy o'zgaruvchilari (qiymati $0$ yoki $1$) berilgan.
+$F(X, Y, Z) = (X \lor \neg Y) \land (Y \lor Z)$
+mantiqiy ifoda rost (ya'ni qiymati $1$) bo'ladigan turli $(X, Y, Z)$ qiymatlar uchliklari soni nechta?
+(Bunda: $\lor$ — mantiqiy qo'shish (OR), $\land$ — mantiqiy ko'paytirish (AND), $\neg$ — inkor (NOT)).</problem>
+<solution>Mantiqiy ko'paytirish ($\land$) natijasi $1$ bo'lishi uchun har ikkala qavs ichidagi ifodalar $1$ ga teng bo'lishi kerak. Ikkita holatni ko'rib chiqamiz:
+1-holat: $Y = 1$.
+U holda ikkinchi qavs $(1 \lor Z)$ har doim $1$ ga teng bo'ladi. Birinchi qavs $(X \lor \neg 1) = (X \lor 0) = X$ bo'ladi. Ifoda $1$ bo'lishi uchun $X = 1$ bo'lishi shart. Bu holatda $Z$ ning qiymati natijaga ta'sir qilmaydi, u $0$ yoki $1$ bo'lishi mumkin. Uchliklar: (1, 1, 0) va (1, 1, 1). Jami 2 ta.
+2-holat: $Y = 0$.
+U holda birinchi qavs $(X \lor \neg 0) = (X \lor 1)$ har doim $1$ ga teng bo'ladi. Ikkinchi qavs esa $(0 \lor Z) = Z$ bo'ladi. Ifoda $1$ bo'lishi uchun $Z = 1$ bo'lishi shart. Bu holatda $X$ ixtiyoriy $0$ yoki $1$ bo'lishi mumkin. Uchliklar: (0, 0, 1) va (1, 0, 1). Jami 2 ta.
+Ikkala holat bo'yicha umumiy yechimlar soni: 2 + 2 = 4 ta.</solution>
+<answer>4</answer>
+</problem>
+
+<problem>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel dasturida katakchalarga quyidagi qiymatlar kiritilgan:
+A1 = 7, B1 = 3, C1 = 5.
+D1 katakchasiga quyidagi formula yozildi:
+`=IF(OR(A1<B1; C1*2>B1+A1); SUM(A1:C1); AVERAGE(A1:C1))`
+D1 katakchasida qanday natija hosil bo'ladi?</problem>
+<choices>A) 5  B) 15  C) 10  D) 0</choices>
+<solution>`IF` funksiyasi uch qismdan iborat: shart, rost bo'lgandagi natija va yolg'on bo'lgandagi natija.
+Shartni tekshiramiz: `OR(A1<B1; C1*2>B1+A1)`.
+Birinchi mantiqiy ifoda: `A1 < B1` $\implies 7 < 3$ (Yolg'on / FALSE).
+Ikkinchi mantiqiy ifoda: `C1 * 2 > B1 + A1` $\implies 5 \cdot 2 > 3 + 7 \implies 10 > 10$ (Yolg'on / FALSE).
+`OR` (YOKI) amali kamida bitta rost qiymat bo'lsagina rost natija beradi. Bu yerda ikkalasi ham Yolg'on bo'lgani sababli, umumiy shart Yolg'on (FALSE).
+Shuning uchun `IF` funksiyasining uchinchi qismi (yolg'on holati) bajariladi: `AVERAGE(A1:C1)`.
+Bu funksiya A1, B1 va C1 katakchalardagi sonlarning o'rta arifmetigini hisoblaydi: $(7 + 3 + 5) / 3 = 15 / 3 = 5$.</solution>
+<answer>A</answer>
+</problem>
+
+<problem>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$|x| + |y| < 100$ va $2x + 3y = 12$ shartlarni bir vaqtda qanoatlantiruvchi $(x, y)$ butun sonlar juftliklari nechta?</problem>
+<choices>A) 40  B) 39  C) 41  D) 38</choices>
+<solution>Ikkinchi tenglamadan $x$ ni ifodalab olamiz: $2x = 12 - 3y \implies x = 6 - 1.5y$.
+$x$ va $y$ butun son bo'lishi kerak bo'lgani uchun, $y$ juft son bo'lishi shart. $y = 2k$ ($k \in \mathbb{Z}$) almashtirishini bajaramiz.
+U holda $x = 6 - 1.5(2k) = 6 - 3k$ bo'ladi.
+Buni tengsizlikka qo'yamiz: $|6 - 3k| + |2k| < 100$. Ushbu modul tengsizlikni oraliqlarga ajratib yechamiz:
+1-holat: $k \ge 2$ bo'lsa, $(3k - 6) + 2k < 100 \implies 5k < 106 \implies k \le 21$. Bunday $k$ lar: 2 dan 21 gacha (20 ta).
+2-holat: $0 \le k < 2$ bo'lsa, ya'ni $k=0$ yoki $k=1$. U holda $(6 - 3k) + 2k < 100 \implies 6 - k < 100 \implies k > -94$. $k=0$ va $k=1$ mos keladi (2 ta).
+3-holat: $k < 0$ bo'lsa, $(6 - 3k) - 2k < 100 \implies 6 - 5k < 100 \implies -5k < 94 \implies k > -18.8$. Demak $k$ qabul qiladigan qiymatlar: -18 dan -1 gacha (18 ta).
+Jami topilgan butun $k$ lar soni: $20 + 2 + 18 = 40$ ta. Har bir $k$ uchun yagona butun yechim juftligi hosil bo'ladi.</solution>
+<answer>A</answer>
+</problem>
+
+<problem>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Natural bo'luvchilari soni roppa-rosa 15 ta bo'lgan eng kichik natural sonni toping.</problem>
+<solution>Natural son $n$ ni tub ko'paytuvchilarga ajratamiz: $n = p_1^{a_1} \cdot p_2^{a_2} \dots$
+Uning natural bo'luvchilari soni quyidagi formula bilan topiladi: $(a_1 + 1)(a_2 + 1)\dots = 15$.
+15 sonini ko'paytuvchilarga ajratishning ikkita usuli bor: $15$ va $3 \cdot 5$.
+1-usul: Agar $a_1 + 1 = 15$ bo'lsa, u holda ko'rsatkich $a_1 = 14$. Son ko'rinishi $n = p^{14}$ bo'ladi. Eng kichik qiymat: $2^{14} = 16384$.
+2-usul: Agar $(a_1 + 1)(a_2 + 1) = 3 \cdot 5$ bo'lsa, darajalar $2$ va $4$ bo'ladi. Son ko'rinishi $n = p_1^2 \cdot p_2^4$ bo'ladi.
+Sonni imkon qadar kichik qilish uchun eng kichik tub sonlarni eng katta darajalarga qo'yamiz.
+$p_2 = 2$ va $p_1 = 3$ desak: $n = 3^2 \cdot 2^4 = 9 \cdot 16 = 144$.
+Agar teskarisi (p_1=2, p_2=3) olinsa: $n = 2^2 \cdot 3^4 = 4 \cdot 81 = 324$.
+Eng kichik natija: 144.</solution>
+<answer>144</answer>
+</problem>
+
+<problem>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Dasturlash tilida `A` massiv elementlari quyidagicha hosil qilinadi:
+`A[1] = 1`, `A[2] = 2`.
+$i \ge 3$ qadamlar uchun quyidagi qoidalar qo'llaniladi:
+Agar $A[i-1] \cdot A[i-2]$ ko'paytma juft bo'lsa, $A[i] = A[i-1] + A[i-2] - 1$ hisoblanadi.
+Agar ko'paytma toq bo'lsa, $A[i] = A[i-1] \cdot A[i-2] + 2$ hisoblanadi.
+Dastur ishlashi natijasida $A[13]$ ning qiymati necha bo'lishini toping.</problem>
+<choices>A) 145  B) 144  C) 233  D) 234</choices>
+<solution>Dastlabki hadlarni ko'rib chiqamiz:
+A[1] = 1 (toq), A[2] = 2 (juft).
+Ketma-ket ikkita sonning ko'paytmasi toq bo'lishi uchun ularning har ikkalasi ham toq bo'lishi shart.
+Qadamlarni bajaramiz:
+$A[1] \cdot A[2] = 1 \cdot 2 = 2$ (juft). Demak, $A[3] = 2 + 1 - 1 = 2$ (juft).
+$A[2] \cdot A[3] = 2 \cdot 2 = 4$ (juft). Demak, $A[4] = 2 + 2 - 1 = 3$ (toq).
+$A[3] \cdot A[4] = 2 \cdot 3 = 6$ (juft). Demak, $A[5] = 3 + 2 - 1 = 4$ (juft).
+E'tibor qilsak, oldingi ikkita sonning hech bo'lmaganda bittasi doimo juft bo'lyapti (hech qachon ikkita toq son yonma-yon kelmaydi). Shuning uchun "ko'paytma toq bo'lsa" degan shart DASTURDA HECH QACHON ISHLAMAYDI.
+Barcha $i \ge 3$ uchun $A[i] = A[i-1] + A[i-2] - 1$ o'rinli bo'ladi.
+Qulaylik uchun $B[i] = A[i] - 1$ deymiz.
+U holda $B[1] = 0$, $B[2] = 1$ va $B[i] = B[i-1] + B[i-2]$ bo'ladi.
+Bu hammaga ma'lum Fibonachchi ketma-ketligidir: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144...
+Indekslar bo'yicha: B[1]=0, B[2]=1, ..., B[13] = 144 (Fibonachchining 12-hadi).
+Demak, $A[13] = B[13] + 1 = 144 + 1 = 145$.</solution>
+<answer>A</answer>
+</problem>

@@ -1,0 +1,174 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Hisoblang: (2024² − 2020²) / 8</problem>
+<choices>A) 2021  B) 1011  C) 2022  D) 4044</choices>
+<solution>Kvadratlar ayirmasi formulasidan a² − b² = (a−b)(a+b) foydalanamiz:
+2024² − 2020² = (2024 − 2020)(2024 + 2020) = 4 · 4044. 
+Hosil bo'lgan natijani 8 ga bo'lamiz: (4 · 4044) / 8 = 4044 / 2 = 2022.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Kompyuter xotirasidagi ma'lumotlar ustida amallar bajarilmoqda. Ikkilik sanoq sistemasidagi 10101₂ va 110₂ sonlarining yig'indisini o'nlik sanoq sistemasida toping.</problem>
+<choices>A) 27  B) 29  C) 23  D) 31</choices>
+<solution>Avval sonlarni o'nlik sanoq sistemasiga o'tkazamiz. 
+Birinchi son: 10101₂ = 1·2⁴ + 0·2³ + 1·2² + 0·2¹ + 1·2⁰ = 16 + 0 + 4 + 0 + 1 = 21. 
+Ikkinchi son: 110₂ = 1·2² + 1·2¹ + 0·2⁰ = 4 + 2 + 0 = 6. 
+Ularning o'nlik sistemadagi yig'indisi: 21 + 6 = 27.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>3²⁰²⁵ + 4²⁰²⁶ sonini 5 ga bo'lgandagi qoldiqni toping.</problem>
+<solution>Modulli arifmetika qoidalaridan foydalanamiz. 
+3 ning darajalarini 5 ga bo'lgandagi qoldiqlari davriydir: 3¹=3, 3²=9≡4, 3³=27≡2, 3⁴=81≡1 (mod 5). Davr 4 ga teng. Daraja ko'rsatkichi 2025 ni 4 ga bo'lsak, qoldiq 1 qoladi (2025 = 4·506 + 1). Demak, 3²⁰²⁵ ≡ 3¹ ≡ 3 (mod 5).
+Ikkinchi qo'shiluvchi uchun: 4 ≡ -1 (mod 5). Uning juft darajasi 4²⁰²⁶ ≡ (-1)²⁰²⁶ = 1 (mod 5).
+Ikkala qoldiqni qo'shamiz: 3 + 1 = 4. 4 soni 5 dan kichik bo'lgani uchun yakuniy qoldiq 4 ga teng.</solution>
+<answer>4</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Hajmi 120 Megabayt (MB) bo'lgan fayl internet tarmog'i orqali soniyasiga 15 Megabit (Mbit/s) tezlikda yuklanmoqda. Ushbu fayl to'liq yuklanishi uchun necha soniya vaqt ketadi?</problem>
+<choices>A) 8  B) 64  C) 120  D) 32</choices>
+<solution>Fayl hajmi va yuklanish tezligini bitta o'lchov birligiga keltirib olamiz. 1 Bayt = 8 bit ekanligi ma'lum. Fayl hajmini Megabitga o'tkazamiz: 
+V = 120 MB = 120 · 8 Mbit = 960 Mbit. 
+Yuklanish vaqtini topish uchun hajmni tezlikka bo'lamiz: 
+t = V / v = 960 / 15 = 64 soniya.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D lies on the line segment BC. Segments AB, AD, and DC have identical tick marks indicating they are equal in length (AB = AD = DC). The angle BAD is marked as 40°.</diagram_spec>
+<problem>Quyidagi chizmada ko'rsatilganidek, ABC uchburchakning BC tomonida D nuqta olingan. Agar AB = AD = DC va ∠BAD = 40° bo'lsa, ∠ACB burchakning kattaligini toping.</problem>
+<choices>A) 30°  B) 40°  C) 35°  D) 25°</choices>
+<solution>ABD uchburchakda AB = AD bo'lgani uchun u teng yonli. Demak uning asosidagi burchaklari teng: ∠ABD = ∠ADB = (180° − 40°) / 2 = 70°.
+∠ADB burchak ADC uchburchak uchun tashqi burchak bo'lib hisoblanadi. Shuning uchun u o'ziga qo'shni bo'lmagan ikkita ichki burchak yig'indisiga teng: ∠ADB = ∠DAC + ∠ACD = 70°.
+Masala shartiga ko'ra AD = DC, ya'ni ADC ham teng yonli uchburchak, bu yerdan ∠DAC = ∠ACD kelib chiqadi. 
+U holda, 2 · ∠ACD = 70°, bundan ∠ACD = 35°. ∠ACB aynan ∠ACD burchakning o'zidir, demak javob 35°.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>1, 2, 3, 4, 5 raqamlaridan foydalanib (raqamlar takrorlanishi mumkin), ixtiyoriy ikkita yonma-yon turgan raqamining yig'indisi juft son bo'ladigan nechta turli 4 xonali son tuzish mumkin?</problem>
+<solution>Ikkita raqamning yig'indisi juft bo'lishi uchun ular bir xil juftlikka ega bo'lishi kerak (ya'ni ikkalasi ham toq yoki ikkalasi ham juft). Yonma-yon turgan har qanday ikkita raqam uchun bu o'rinli bo'lishi talab etilganidan, izlanayotgan 4 xonali sonning barcha raqamlari faqat toq yoki faqat juft raqamlardan tashkil topishi shart.
+Berilgan to'plamda toq raqamlar 3 ta ({1, 3, 5}), juft raqamlar esa 2 ta ({2, 4}).
+Faqat toq raqamlardan tuzilgan 4 xonali sonlar soni: 3 · 3 · 3 · 3 = 81 ta.
+Faqat juft raqamlardan tuzilgan 4 xonali sonlar soni: 2 · 2 · 2 · 2 = 16 ta.
+Jami qanoatlantiruvchi sonlar: 81 + 16 = 97 ta.</solution>
+<answer>97</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Elektron jadvalda (MS Excel) A1=5, B1=10, C1=15 qiymatlari kiritilgan. D1 katagiga quyidagi formula yozildi:
+=ЕСЛИ(И(A1&lt;B1; C1&lt;B1); "Rost"; ЕСЛИ(A1+B1=C1; A1*2; C1/3))
+D1 katakda qanday natija hosil bo'ladi?</problem>
+<choices>A) Rost  B) 5  C) 10  D) 15</choices>
+<solution>Formulaning birinchi shart qismini tekshiramiz: И(A1&lt;B1; C1&lt;B1). Mantiqiy "VA" (И) amalida barcha shartlar qanoatlantirilishi kerak. A1&lt;B1 (5&lt;10) — bu qism rost. Lekin C1&lt;B1 (15&lt;10) — bu yolg'on. Shuning uchun umumiy shart yolg'on (Loj) hisoblanadi.
+Endi formulaning yolg'on bo'lgandagi bo'limiga o'tamiz, u yerda ichma-ich yana bitta ЕСЛИ (IF) joylashgan: ЕСЛИ(A1+B1=C1; A1*2; C1/3). 
+Ushbu shartni tekshiramiz: A1+B1=C1 (5+10=15) — bu rost!
+Shart rost bo'lganligi uchun birinchi qism, ya'ni A1*2 bajariladi. Natija: 5 * 2 = 10.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Bir guruh o'quvchilar sayohat uchun avtobusni 1200 ming so'mga ijaraga olishdi. Sayohatga ketish oldidan 4 ta o'quvchi bora olmasligini ma'lum qildi. Natijada guruhda qolgan har bir o'quvchi dastlabki kelishilgan summadan 10 ming so'm ko'proq pul to'lashiga to'g'ri keldi. Dastlab guruhda nechta o'quvchi bo'lgan?</problem>
+<choices>A) 20  B) 16  C) 30  D) 24</choices>
+<solution>Dastlabki o'quvchilar sonini x deb belgilaymiz. Dastlabki reja bo'yicha har bir o'quvchi to'lashi kerak bo'lgan summa 1200 / x ming so'm edi. 
+4 kishi bormaydigan bo'lgach, o'quvchilar soni (x−4) ta bo'ldi va har bir kishining to'lovi 1200 / (x−4) ming so'mga aylandi. 
+Masala shartiga ko'ra bu to'lovlar farqi 10 ga teng: 1200 / (x−4) − 1200 / x = 10.
+Tenglamaning ikkala tomonini 10 ga qisqartirib umumiy maxraj beramiz:
+120x − 120(x−4) = x(x−4)
+120x − 120x + 480 = x² − 4x
+x² − 4x − 480 = 0.
+Viyet teoremasidan yoki diskriminantdan ildizlarni topamiz: x₁ = 24, x₂ = −20. O'quvchilar soni manfiy bo'la olmaydi, demak dastlab guruhda 24 ta o'quvchi bo'lgan.</solution>
+<answer>D</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Dasturlash algoritmida A va B o'zgaruvchilarga mos ravishda 2 va 3 butun qiymatlari berildi. Keyin quyidagi ketma-ketlikdagi buyruqlar takrorlanish (tsikl) bloki ichida ketma-ket 4 marta bajarildi:
+1-qadam: C = 2 * A + B
+2-qadam: A = B
+3-qadam: B = C
+Ushbu tsikl to'liq yakunlagach, B o'zgaruvchisining qiymati nechaga teng bo'ladi?</problem>
+<solution>Algoritmning ishlashini qadamma-qadam ko'rib chiqamiz. Boshlang'ich holat: A = 2, B = 3.
+1-marta aylanish (iteratsiya): 
+C = 2*2 + 3 = 7. Yangi qiymatlar: A = 3, B = 7.
+2-marta aylanish: 
+C = 2*3 + 7 = 13. Yangi qiymatlar: A = 7, B = 13.
+3-marta aylanish: 
+C = 2*7 + 13 = 27. Yangi qiymatlar: A = 13, B = 27.
+4-marta aylanish: 
+C = 2*13 + 27 = 53. Yangi qiymatlar: A = 27, B = 53.
+To'rtinchi marta bajarilib tugagach, B ning yakuniy qiymati 53 ga teng bo'ladi.</solution>
+<answer>53</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>2xy − 3x + 4y = 27 tenglamani qanoatlantiruvchi barcha natural (x, y) sonlar juftliklari uchun x + y ifodaning qabul qilishi mumkin bo'lgan eng kichik qiymatini toping.</problem>
+<choices>A) 6  B) 8  C) 12  D) 21</choices>
+<solution>Tenglamani guruhlash yordamida ko'paytuvchilarga ajratish oson bo'lishi uchun uning ikkala tomonini 2 ga ko'paytiramiz:
+4xy − 6x + 8y = 54.
+Birinchi ikkita haddan 2x ni qavsdan tashqariga chiqaramiz:
+2x(2y − 3) + 8y = 54.
+Endi sun'iy ravishda ikkala tomondan 12 ayiramiz, shunda (2y − 3) ko'paytuvchi hosil bo'ladi:
+2x(2y − 3) + 4(2y − 3) = 54 − 12
+(2x + 4)(2y − 3) = 42
+2(x + 2)(2y − 3) = 42
+(x + 2)(2y − 3) = 21.
+Masala shartida x va y natural sonlar (x≥1, y≥1) ekanligi aytilgan. Demak, x+2 ≥ 3.
+21 ning musbat ko'paytuvchilari juftliklari: (3, 7), (7, 3) va (21, 1). Barcha holatlarni tekshiramiz:
+1) x+2 = 3, 2y−3 = 7 ⟹ x = 1, 2y = 10 ⟹ y = 5. Yig'indi: 1 + 5 = 6.
+2) x+2 = 7, 2y−3 = 3 ⟹ x = 5, 2y = 6 ⟹ y = 3. Yig'indi: 5 + 3 = 8.
+3) x+2 = 21, 2y−3 = 1 ⟹ x = 19, 2y = 4 ⟹ y = 2. Yig'indi: 19 + 2 = 21.
+x+y yig'indining eng kichik qiymati 6 ga teng.</solution>
+<answer>A</answer>
+</example>

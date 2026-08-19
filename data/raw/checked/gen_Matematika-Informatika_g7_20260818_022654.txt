@@ -1,0 +1,186 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Hisoblang: $\frac{56^3 + 44^3}{100} - 56 \cdot 44$</problem>
+<choices>A) 144  B) 100  C) 124  D) 164</choices>
+<solution>Qisqa ko'paytirish formulasidan foydalanamiz: $a^3+b^3 = (a+b)(a^2-ab+b^2)$. 
+Kasrning surati: $56^3 + 44^3 = (56+44)(56^2 - 56 \cdot 44 + 44^2) = 100 \cdot (56^2 - 56 \cdot 44 + 44^2)$. 
+Uni 100 ga bo'lsak, $56^2 - 56 \cdot 44 + 44^2$ qoladi. 
+So'ngra berilgan ifodadan $56 \cdot 44$ ni ayiramiz:
+$56^2 - 56 \cdot 44 + 44^2 - 56 \cdot 44 = 56^2 - 2 \cdot 56 \cdot 44 + 44^2 = (56-44)^2 = 12^2 = 144$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$\overline{7A3B4}$ ko'rinishidagi besh xonali son 36 ga qoldiqsiz bo'linadi (bunda $A$ va $B$ — raqamlar). $A \cdot B$ ko'paytmaning qabul qilishi mumkin bo'lgan eng katta qiymatini toping.</problem>
+<choices>A) 36  B) 42  C) 40  D) 48</choices>
+<solution>Son 36 ga bo'linishi uchun u ham 4 ga, ham 9 ga bo'linishi kerak. 
+4 ga bo'linish belgisi: oxirgi ikkita raqamdan tuzilgan son 4 ga bo'linishi lozim. Demak, $\overline{B4}$ soni 4 ga karrali. Bu shartdan $B \in \{0, 2, 4, 6, 8\}$ ekanligini topamiz.
+9 ga bo'linish belgisi: raqamlar yig'indisi 9 ga bo'linishi kerak. $7+A+3+B+4 = 14+A+B$.
+Har bir $B$ uchun $A$ ni topamiz:
+- $B=0 \implies 14+A$ (9 ga bo'linishi uchun) $\implies A=4$. $A \cdot B = 0$.
+- $B=2 \implies 16+A \implies A=2$. $A \cdot B = 4$.
+- $B=4 \implies 18+A \implies A=0$ yoki $9$. $A \cdot B = 0$ yoki $36$.
+- $B=6 \implies 20+A \implies A=7$. $A \cdot B = 42$.
+- $B=8 \implies 22+A \implies A=5$. $A \cdot B = 40$.
+Ko'paytmaning eng katta qiymati 42 ga teng.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. D is a point on BC. AD is the angle bisector of angle A. E is a point on AB. Line segment ED is drawn such that AE = ED. Angle B is 80 degrees, Angle C is 40 degrees.</diagram_spec>
+<problem>$ABC$ uchburchakda $AD$ bissektrisa o'tkazilgan ($D$ nuqta $BC$ tomonda yotadi). $AB$ tomonida shunday $E$ nuqta olindiki, unda $AE = ED$ tenglik bajarildi. Agar $\angle B = 80^\circ$ va $\angle C = 40^\circ$ bo'lsa, $\angle EDB$ burchakning kattaligini toping.</problem>
+<choices>A) 30°  B) 40°  C) 50°  D) 60°</choices>
+<solution>Uchburchakning ichki burchaklari yig'indisidan $\angle A = 180^\circ - (80^\circ + 40^\circ) = 60^\circ$ ni topamiz.
+$AD$ bissektrisa bo'lgani uchun $\angle DAB = \angle DAC = 30^\circ$.
+$\triangle AED$ uchburchakda $AE = ED$, ya'ni u teng yonli. Shuning uchun asosidagi burchaklar teng: $\angle EDA = \angle EAD = 30^\circ$.
+Uchburchakning ichki burchaklari yig'indisidan $\angle AED = 180^\circ - (30^\circ + 30^\circ) = 120^\circ$.
+Unga qo'shni bo'lgan $\angle BED = 180^\circ - 120^\circ = 60^\circ$.
+Endi $\triangle BED$ uchburchakni qaraymiz. Uning ikkita burchagi ma'lum: $\angle B = 80^\circ$ va $\angle BED = 60^\circ$.
+Uchinchi burchak $\angle EDB = 180^\circ - (80^\circ + 60^\circ) = 40^\circ$ bo'ladi.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Raqamlari ko'paytmasi 60 ga teng bo'lgan nechta besh xonali natural son mavjud?</problem>
+<solution>Sonning raqamlari ko'paytmasi 60 ga teng bo'lishi uchun bu raqamlar to'plami 60 ning tub ko'paytuvchilarga ajratilmasidan kelib chiqadi. $60 = 2^2 \cdot 3 \cdot 5$.
+Besh xonali sonning raqamlari (0 dan farqli 5 ta raqam) ko'paytmasi 60 bo'lishi variantlari:
+60 ni 5 ta bir xonali sonlar ko'paytmasi shaklida quyidagicha guruhlash mumkin:
+1-holat: 5, 4, 3, 1, 1 (ko'paytmasi 60). Bunday sonlar miqdori o'rin almashtirishlar orqali topiladi: $5! / 2! = 120 / 2 = 60$ ta.
+2-holat: 5, 6, 2, 1, 1 (chunki 2 va 3 ni birlashtirib 6 hosil qilish mumkin). O'rin almashtirishlar: $5! / 2! = 60$ ta.
+3-holat: 5, 3, 2, 2, 1 (barcha tub sonlar va 1). O'rin almashtirishlar (ikkita 2 qatnashgan): $5! / 2! = 60$ ta.
+Boshqa variantlar yo'q, chunki ikkita raqamni birlashtirib ikki xonali son (masalan 12 yoki 15) yasab bo'lmaydi.
+Jami: $60 + 60 + 60 = 180$ ta son mavjud.</solution>
+<answer>180</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ali kompyuter tarmog'ida ma'lumot uzatish tezligini o'lchadi. Natija ikkilik sanoq sistemasida $1101100_2$ Mbit/s ni ko'rsatdi. Bu tezlik o'nlik sanoq sistemasida necha Mbit/s ga teng bo'ladi?</problem>
+<choices>A) 104  B) 108  C) 110  D) 112</choices>
+<solution>Ikkilik sanoq sistemasidagi sonni o'nlik sanoq sistemasiga o'tkazish uchun uning raqamlarini ikkining darajalariga ko'paytirib chiqamiz (o'ngdan chapga, 0-darajadan boshlab):
+$1101100_2 = 1 \cdot 2^6 + 1 \cdot 2^5 + 0 \cdot 2^4 + 1 \cdot 2^3 + 1 \cdot 2^2 + 0 \cdot 2^1 + 0 \cdot 2^0$.
+Hisoblaymiz: $64 + 32 + 0 + 8 + 4 + 0 + 0 = 108$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Mantiqiy ifoda berilgan: $F = \neg(A \lor \neg B) \land C$. 
+(Bunda $\neg$ — INKOR, $\lor$ — YOKI, $\land$ — VA mantiqiy amallari).
+Qaysi $A, B$ va $C$ mantiqiy qiymatlarida $F$ ifoda ROST (ya'ni 1) qiymat qabul qiladi?</problem>
+<choices>A) A=1, B=0, C=1  B) A=0, B=1, C=1  C) A=0, B=0, C=1  D) A=1, B=1, C=0</choices>
+<solution>$F = 1$ bo'lishi uchun uning VA ($\land$) amali bilan bog'langan har ikkala qismi 1 bo'lishi kerak.
+Demak, $C = 1$ va $\neg(A \lor \neg B) = 1$.
+Inkor qilingan qavs 1 bo'lishi uchun, qavsning ichi 0 bo'lishi zarur: $A \lor \neg B = 0$.
+YOKI ($\lor$) amali natijasi 0 bo'lishi uchun esa barcha qismlar 0 bo'lishi shart. Ya'ni $A = 0$ va $\neg B = 0$.
+$\neg B = 0$ dan ko'rinib turibdiki, $B = 1$.
+Natija: $A=0, B=1, C=1$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Dasturlash tilida quyidagi algoritm yozilgan:
+a = 2
+b = 3
+Sikl i = 1 dan 5 gacha qadam 1 bilan:
+    c = a + b
+    a = b
+    b = c + i
+Sikl tugadi.
+
+Natijada b o'zgaruvchisining qiymati nechaga teng bo'ladi?</problem>
+<solution>Siklning har bir qadamini alohida hisoblaymiz:
+Boshlang'ich holat: a = 2, b = 3.
+i=1 qadamda: c = 2 + 3 = 5, a = 3, b = 5 + 1 = 6.
+i=2 qadamda: c = 3 + 6 = 9, a = 6, b = 9 + 2 = 11.
+i=3 qadamda: c = 6 + 11 = 17, a = 11, b = 17 + 3 = 20.
+i=4 qadamda: c = 11 + 20 = 31, a = 20, b = 31 + 4 = 35.
+i=5 qadamda: c = 20 + 35 = 55, a = 35, b = 55 + 5 = 60.
+Sikl 5-qadamdan so'ng tugaydi. Oxirgi natija b = 60.</solution>
+<answer>60</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$x$ va $y$ natural sonlar uchun $x^2 - y^2 = 2025$ tenglik o'rinli bo'lsa, $x+y$ yig'indining qabul qilishi mumkin bo'lgan eng kichik qiymatini toping.</problem>
+<choices>A) 81  B) 75  C) 135  D) 45</choices>
+<solution>Tenglikni $(x-y)(x+y) = 2025$ ko'rinishida yozamiz. 
+$x$ va $y$ natural sonlar ($1, 2, \dots$) bo'lgani uchun ularning yig'indisi va ayirmasi ham butun bo'ladi hamda $x+y > x-y > 0$ shart bajariladi.
+$x+y$ ning eng kichik qiymatini topish uchun 2025 ning ikkita ko'paytuvchisi bir-biriga imkon qadar yaqin bo'lishi kerak.
+$2025$ ning tub ko'paytuvchilarga ajratilmasi: $3^4 \cdot 5^2$.
+2025 ni ikkita son ko'paytmasi sifatida quyidagicha yozish mumkin: $1 \times 2025, 3 \times 675, 5 \times 405, 9 \times 225, 15 \times 135, 25 \times 81, 27 \times 75, 45 \times 45$.
+$y > 0$ bo'lganligi sababli, $x+y \neq x-y$, demak $45 \times 45$ variantini ololmaymiz (chunki unda $y=0$ bo'lib qoladi).
+Ungacha bo'lgan eng yaqin ko'paytuvchilar juftligi: $27 \times 75$.
+Shunda $x-y = 27$ va $x+y = 75$ bo'ladi (bu tenglamalar sistemasidan $x=51, y=24$ ekanini topish mumkin va ular natural sonlardir). 
+Demak, yig'indining eng kichik qiymati 75 ga teng.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Uchta avtobus bekatdan mos ravishda har 12, 18 va 30 daqiqada yo'lga chiqadi. Ular soat 07:00 da bekatdan birgalikda jo'nab ketishdi. Eng kamida necha daqiqadan so'ng bu uchta avtobus yana bekatdan birgalikda jo'nab ketishadi?</problem>
+<solution>Avtobuslar yana birga jo'nashi uchun o'tishi kerak bo'lgan vaqt ularning harakatlanish oraliqlari vaqtlariga karrali bo'lishi lozim. Eng kam vaqtni topish uchun ularning Eng Kichik Umumiy Karralisi (EKUK) ni topamiz.
+12 = 2² · 3
+18 = 2 · 3²
+30 = 2 · 3 · 5
+EKUK(12, 18, 30) = 2² · 3² · 5 = 4 · 9 · 5 = 180.
+Demak, ular 180 daqiqadan so'ng (ya'ni 3 soatdan keyin) yana birgalikda bekatdan jo'naydi.</solution>
+<answer>180</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Axborot hajmi o'lchov birliklaridan foydalanib hisoblang: Sig'imi 2 GB (gigabayt) bo'lgan xotira qurilmasiga har birining hajmi 512 KB (kilobayt) bo'lgan elektron kitoblardan ko'pi bilan nechtasini joylashtirish mumkin? ($1 \text{ MB} = 1024 \text{ KB}, 1 \text{ GB} = 1024 \text{ MB}$).</problem>
+<choices>A) 2048  B) 4096  C) 1024  D) 8192</choices>
+<solution>Barcha o'lchovlarni bir xil birlikka, ya'ni Kilobayt (KB) ga o'tkazamiz yoki 2 ning darajalari shaklida hisoblaymiz.
+Fleshka hajmi: $2 \text{ GB} = 2 \cdot 1024 \text{ MB} = 2048 \text{ MB}$.
+Buni KB ga o'tkazamiz: $2048 \text{ MB} = 2048 \cdot 1024 \text{ KB}$.
+Kitob hajmi $512 \text{ KB}$ ga teng.
+Kitoblar soni = $(2048 \cdot 1024) / 512 = 2048 \cdot (1024 / 512) = 2048 \cdot 2 = 4096$ ta.
+Darajalar bilan ishlasak qulayroq: $2 \text{ GB} = 2^1 \cdot 2^{10} \cdot 2^{10} \text{ KB} = 2^{21} \text{ KB}$. Bitta kitob $512 \text{ KB} = 2^9 \text{ KB}$. $2^{21} / 2^9 = 2^{12} = 4096$.</solution>
+<answer>B</answer>
+</example>

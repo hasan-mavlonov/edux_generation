@@ -15,6 +15,7 @@ pipeline works end to end -- not a production run. Re-run with a bigger
 train.jsonl once scripts/build_dataset.py has more verified data behind it.
 """
 import argparse
+import os
 
 from datasets import load_dataset
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
@@ -22,7 +23,7 @@ from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 from trl import SFTTrainer, SFTConfig
 import torch
 
-MODEL_NAME = "Qwen/Qwen3-8B"
+MODEL_NAME = os.environ.get("EDUX_MODEL_NAME", "Qwen/Qwen3-8B")
 
 
 def parse_args():

@@ -1,0 +1,203 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$x = 2024$ bo'lganda, $(x+5)(x^2-5x+25) - (x-5)(x^2+5x+25)$ ifodaning qiymatini toping.</problem>
+<choices>A) 250  B) 2024  C) 0  D) 125</choices>
+<solution>Qisqa ko'paytirish formulalaridan foydalanamiz: 
+$(a+b)(a^2-ab+b^2) = a^3+b^3$ va $(a-b)(a^2+ab+b^2) = a^3-b^3$.
+Birinchi qism: $(x+5)(x^2-5x+25) = x^3 + 5^3 = x^3 + 125$.
+Ikkinchi qism: $(x-5)(x^2+5x+25) = x^3 - 5^3 = x^3 - 125$.
+Ushbu ifodalarni ayiramiz: $(x^3 + 125) - (x^3 - 125) = x^3 + 125 - x^3 + 125 = 250$.
+Demak, ifodaning qiymati x ning qiymatiga bog'liq emas va har doim 250 ga teng.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkita raqami ham noldan farqli bo'lgan $\overline{ab}$ ikki xonali soni uchun $\overline{ab} = 4(a+b)$ shart bajariladi. Shunday shartni qanoatlantiruvchi barcha ikki xonali sonlarning yig'indisini toping.</problem>
+<solution>Ikki xonali sonni xonalar yig'indisi ko'rinishida yozamiz: $\overline{ab} = 10a + b$.
+Tenglamaga qo'yamiz: $10a + b = 4a + 4b$.
+Buni soddalashtiramiz: $6a = 3b \Rightarrow 2a = b$.
+$a$ va $b$ raqamlar ($1 \le a \le 9$, $0 \le b \le 9$) bo'lgani uchun mos raqamlar juftliklarini topamiz:
+Agar $a=1$ bo'lsa, $b=2$ (Son: 12)
+Agar $a=2$ bo'lsa, $b=4$ (Son: 24)
+Agar $a=3$ bo'lsa, $b=6$ (Son: 36)
+Agar $a=4$ bo'lsa, $b=8$ (Son: 48)
+Boshqa hollarda $b$ raqam bo'lmaydi ($b \ge 10$).
+Barcha topilgan sonlar yig'indisi: $12 + 24 + 36 + 48 = 120$.</solution>
+<answer>120</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>10 lik sanoq sistemasidagi 2024 sonini 2 lik sanoq sistemasiga o'tkazganda hosil bo'ladigan sonda nechta "1" raqami qatnashadi?</problem>
+<choices>A) 6  B) 7  C) 8  D) 9</choices>
+<solution>2024 sonini 2 ning darajalari yig'indisi ko'rinishida yozib chiqamiz:
+2024 ning eng katta ikkilik darajasi 1024 ($2^{10}$).
+2024 - 1024 = 1000
+1000 - 512 ($2^9$) = 488
+488 - 256 ($2^8$) = 232
+232 - 128 ($2^7$) = 104
+104 - 64 ($2^6$) = 40
+40 - 32 ($2^5$) = 8
+8 - 8 ($2^3$) = 0.
+Shunday qilib, 2024 = $2^{10} + 2^9 + 2^8 + 2^7 + 2^6 + 2^5 + 2^3$. Ushbu yig'indida 7 ta ikkining darajasi ishtirok etmoqda. Ikkilik sanoq sistemasida har bir bunday daraja bitta "1" ga mos keladi. Ikkilik ko'rinishi: 11111101000. Demak, "1" lar soni 7 ta.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D lies on the side AC. Lengths AB = BD = DC. Angle BAC = 70 degrees.</diagram_spec>
+<problem>Quyidagi chizmada ko'rsatilganidek, ABC uchburchakning AC tomonida D nuqta olingan bo'lib, AB = BD = DC shart bajariladi. Agar ∠BAC = 70° bo'lsa, ∠BCA burchakning kattaligini toping.</problem>
+<choices>A) 30°  B) 35°  C) 40°  D) 45°</choices>
+<solution>ABD uchburchakda AB = BD, shuning uchun bu uchburchak teng yonli va uning asosidagi burchaklari teng: ∠BDA = ∠BAC = 70°.
+Uchburchak ichki burchaklari yig'indisi 180° ekanligidan, ∠ABD = 180° - (70° + 70°) = 40°.
+Endi BDC uchburchakni ko'ramiz. ∠BDA burchak BDC uchburchak uchun tashqi burchak hisoblanadi. Tashqi burchak o'ziga qo'shni bo'lmagan ikkita ichki burchak yig'indisiga teng: ∠BDA = ∠DBC + ∠BCA.
+BDC uchburchakda BD = DC bo'lgani uchun u ham teng yonli va asosidagi burchaklari teng: ∠DBC = ∠BCA.
+Tenglamani yozamiz: 70° = ∠BCA + ∠BCA $\Rightarrow 2\angle BCA = 70° \Rightarrow \angle BCA = 35°$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel dasturida A1 katakda 5, A2 katakda 8, A3 katakda 12 qiymatlari kiritilgan. B1 katakka `=IF(MOD(A3; A1)>2; MAX(A1:A3)^2; MIN(A1:A3)*COUNT(A1:A3))` formulasi kiritildi. B1 katakda qanday natija hosil bo'ladi?</problem>
+<choices>A) 144  B) 15  C) 64  D) 40</choices>
+<solution>Formulaning shart qismini tekshiramiz: `MOD(A3; A1) > 2`.
+MOD funksiyasi bo'linishdan qolgan qoldiqni topadi. A3=12 va A1=5. 12 ni 5 ga bo'lganda qoldiq 2 ga teng. 
+`2 > 2` sharti YOLG'ON (FALSE). Shuning uchun IF funksiyasi ikkinchi qismni (shart yolg'on bo'lgandagi holat) bajaradi: `MIN(A1:A3)*COUNT(A1:A3)`.
+`MIN(5; 8; 12) = 5`.
+`COUNT(5; 8; 12) = 3` (3 ta raqamli katak mavjud).
+Ularning ko'paytmasi: 5 * 3 = 15. Natija 15 ga teng.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>1, 2, 3, 4, 5 raqamlaridan foydalanib nechta shunday 4 xonali sonlar tuzish mumkinki, ularda hech qaysi ikkita juft raqam ketma-ket (yonma-yon) kelmaydi? (Raqamlar takrorlanishi mumkin).</problem>
+<solution>Raqamlarni ikkita guruhga bo'lamiz: Toq raqamlar (T = {1, 3, 5}, 3 ta) va Juft raqamlar (J = {2, 4}, 2 ta).
+Qoida: ikkita juft raqam yonma-yon kelishi mumkin emas (JJ bo'lmasligi kerak). 
+$a_n$ - toq raqam bilan tugaydigan $n$ xonali mos sonlar miqdori.
+$b_n$ - juft raqam bilan tugaydigan $n$ xonali mos sonlar miqdori.
+1-xona uchun: $a_1 = 3$, $b_1 = 2$.
+2-xona uchun:
+- Agar toq bilan tugasa, undan oldin toq ham, juft ham kelishi mumkin: $a_2 = 3(a_1 + b_1) = 3(3 + 2) = 15$.
+- Agar juft bilan tugasa, undan oldin faqat toq kelishi kerak: $b_2 = 2(a_1) = 2 \cdot 3 = 6$.
+3-xona uchun:
+$a_3 = 3(a_2 + b_2) = 3(15 + 6) = 3 \cdot 21 = 63$.
+$b_3 = 2(a_2) = 2 \cdot 15 = 30$.
+4-xona uchun:
+$a_4 = 3(a_3 + b_3) = 3(63 + 30) = 3 \cdot 93 = 279$.
+$b_4 = 2(a_3) = 2 \cdot 63 = 126$.
+Jami mos keladigan 4 xonali sonlar: $a_4 + b_4 = 279 + 126 = 405$ ta.</solution>
+<answer>405</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$x$ va $y$ butun sonlar bo'lsa, $xy + 3x - 2y = 17$ tenglama nechta $(x; y)$ yechimlar juftligiga ega?</problem>
+<choices>A) 2  B) 3  C) 4  D) Cheksiz ko'p</choices>
+<solution>Tenglamani ko'paytuvchilarga ajratish usulidan (Simon's Favorite Factoring Trick) foydalanamiz:
+$xy + 3x - 2y = 17$. 
+$x$ ni qavsdan tashqariga chiqaramiz: $x(y + 3) - 2y = 17$. 
+Yana $(y + 3)$ hosil qilish uchun ifodaga o'zgarish kiritamiz: $x(y + 3) - 2(y + 3) + 6 = 17$. 
+Buni soddalashtiramiz: $(x - 2)(y + 3) = 11$. 
+$x$ va $y$ butun sonlar bo'lgani uchun $(x - 2)$ va $(y + 3)$ ham butun sonlar va ular 11 ning ko'paytuvchilari bo'lishi kerak. 11 tub son bo'lgani uchun uning ko'paytuvchilari: (1; 11), (11; 1), (-1; -11), (-11; -1).
+Har bir holat o'ziga xos $x$ va $y$ ning butun qiymatlarini beradi.
+Bular: (3; 8), (13; -2), (1; -14) va (-9; -4).
+Jami topilgan butun yechimlar juftligi 4 ta.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$F(A,B,C) = (A \text{ YOKI } B) \text{ VA } (\text{INKOR } C)$ mantiqiy ifoda ROST (ya'ni qiymati 1) bo'lishi uchun quyidagi qaysi qiymatlar to'plami mos keladi?</problem>
+<choices>A) A=0, B=0, C=0  B) A=1, B=0, C=1  C) A=0, B=1, C=0  D) A=1, B=1, C=1</choices>
+<solution>Ifoda 1 ga (ROST) teng bo'lishi uchun "VA" amali bilan bog'langan har ikkala qavs ham 1 ga teng bo'lishi shart.
+1) $\text{INKOR } C = 1$ bo'lishi uchun $C = 0$ bo'lishi kerak.
+2) $A \text{ YOKI } B = 1$ bo'lishi uchun $A$ yoki $B$ ning kamida bittasi 1 ga teng bo'lishi kerak.
+Javob variantlarini tekshiramiz:
+A variant: A=0, B=0 $\Rightarrow$ $0 \text{ YOKI } 0 = 0$. (Natija: 0).
+B variant: C=1 $\Rightarrow$ $\text{INKOR } 1 = 0$. (Natija: 0).
+C variant: A=0, B=1 $\Rightarrow$ $0 \text{ YOKI } 1 = 1$. C=0 $\Rightarrow$ $\text{INKOR } 0 = 1$. $1 \text{ VA } 1 = 1$. (To'g'ri keladi).
+D variant: C=1 $\Rightarrow$ $\text{INKOR } 1 = 0$. (Natija: 0).</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Qayiq daryoning A punktidan B punktigacha oqim bo'ylab 4 soatda suzib boradi, B dan A ga esa 6 soatda qaytadi. Oqimsiz ko'lda shu qayiq A dan B gacha bo'lgan masofaga teng yo'lni necha soatda bosib o'tadi?</problem>
+<choices>A) 4,8 soat  B) 5 soat  C) 5,2 soat  D) 4,5 soat</choices>
+<solution>Qayiqning xususiy tezligi $v$, oqimning tezligi $u$, A va B orasidagi masofa $S$ bo'lsin.
+Oqim bo'ylab tezlik: $v + u = \frac{S}{4}$.
+Oqimga qarshi tezlik: $v - u = \frac{S}{6}$.
+Bizdan oqimsiz ko'ldagi vaqt so'ralgan, ya'ni $t = \frac{S}{v}$. Buning uchun $v$ ni $S$ orqali ifodalab olamiz.
+Ikkala tenglamani qo'shamiz: 
+$(v + u) + (v - u) = \frac{S}{4} + \frac{S}{6}$
+$2v = \frac{3S + 2S}{12} = \frac{5S}{12}$
+$v = \frac{5S}{24}$.
+Endi kerakli vaqtni topamiz: 
+$t = \frac{S}{v} = \frac{S}{\frac{5S}{24}} = \frac{24}{5} = 4,8$ soat.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi algoritm ishlashi yakunida `s` o'zgaruvchisining qiymati qanday bo'ladi?
+1. x = 2; y = 5; s = 0;
+2. TOKI x < 15 BAJAR:
+3.    s = s + x * y;
+4.    x = x + 3;
+5.    y = y - 1;
+6. SIKL TUGADI;
+7. s ni chop etish.</problem>
+<choices>A) 76  B) 90  C) 107  D) 54</choices>
+<solution>Algoritmning sikldagi har bir qadamini bajaramiz:
+Boshlang'ich holat: x = 2, y = 5, s = 0.
+1-qadam: x=2 (2<15 ROST). s = 0 + 2*5 = 10. x = 2+3 = 5, y = 5-1 = 4.
+2-qadam: x=5 (5<15 ROST). s = 10 + 5*4 = 30. x = 5+3 = 8, y = 4-1 = 3.
+3-qadam: x=8 (8<15 ROST). s = 30 + 8*3 = 54. x = 8+3 = 11, y = 3-1 = 2.
+4-qadam: x=11 (11<15 ROST). s = 54 + 11*2 = 76. x = 11+3 = 14, y = 2-1 = 1.
+5-qadam: x=14 (14<15 ROST). s = 76 + 14*1 = 90. x = 14+3 = 17, y = 1-1 = 0.
+6-qadam: x=17 (17<15 YOLG'ON). Sikl tugadi.
+Yakuniy qadamda `s` ning qiymati 90 ga teng bo'ldi.</solution>
+<answer>B</answer>
+</example>

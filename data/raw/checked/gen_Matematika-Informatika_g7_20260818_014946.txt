@@ -1,0 +1,201 @@
+```xml
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$1! + 2! + 3! + \dots + 2026!$ yig'indini 18 ga bo'lgandagi qoldiqni toping. (Bunda $n! = 1 \cdot 2 \cdot 3 \dots n$)</problem>
+<choices>A) 3  B) 9  C) 15  D) 0</choices>
+<solution>Faktorialning ta'rifiga ko'ra $6! = 720$ va u 18 ga qoldiqsiz bo'linadi ($720 = 18 \times 40$). Demak, $n \ge 6$ bo'lgan barcha $n!$ sonlari 18 ga qoldiqsiz bo'linadi. 
+Biz faqat dastlabki 5 ta hadning yig'indisini hisoblashimiz yetarli:
+$1! = 1$
+$2! = 2$
+$3! = 6$
+$4! = 24$
+$5! = 120$
+Yig'indi: $1 + 2 + 6 + 24 + 120 = 153$.
+Endi 153 ni 18 ga bo'lamiz: $153 = 18 \times 8 + 9$. 
+Demak, izlanayotgan qoldiq 9 ga teng.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $1011_2$ va $1101_2$ sonlarining yig'indisini o'n oltilik (HEX) sanoq sistemasida toping.</problem>
+<choices>A) 18  B) 1A  C) 16  D) 24</choices>
+<solution>Avval sonlarni o'nlik sanoq sistemasiga o'tkazamiz:
+$1011_2 = 1 \cdot 8 + 0 \cdot 4 + 1 \cdot 2 + 1 \cdot 1 = 11_{10}$
+$1101_2 = 1 \cdot 8 + 1 \cdot 4 + 0 \cdot 2 + 1 \cdot 1 = 13_{10}$
+Ularning yig'indisi: $11 + 13 = 24_{10}$.
+Endi 24 ni o'n oltilik sanoq sistemasiga o'tkazamiz: $24 / 16 = 1$ (qoldiq 8).
+Natija: $18_{16}$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$x$ va $y$ natural sonlar bo'lib, $x^2 - y^2 = 2025$ tenglikni qanoatlantirsa, $x+y$ ifodaning eng kichik qiymatini toping.</problem>
+<solution>Tenglamani ko'paytuvchilarga ajratamiz: $(x-y)(x+y) = 2025$. 
+$x$ va $y$ natural sonlar bo'lganligi uchun $x+y > x-y \ge 1$ va $x+y$ hamda $x-y$ sonlari 2025 ning ko'paytuvchilari bo'lishi kerak.
+Biz $x+y$ ning eng kichik qiymatini topishimiz kerak. $2025$ ning ko'paytuvchilari juftliklarini yozamiz:
+$1 \times 2025$, $3 \times 675$, $5 \times 405$, $9 \times 225$, $15 \times 135$, $25 \times 81$, $27 \times 75$, $45 \times 45$.
+Agar $x+y=45$ va $x-y=45$ bo'lsa, bundan $y=0$ chiqadi. Ammo $y$ natural son (ya'ni $y \ge 1$) bo'lishi shart, shuning uchun bu holat yechim bo'lolmaydi.
+Undan keyingi eng kichik $x+y$ qiymat bu $75$ dir. Bu holatda $x+y=75$ va $x-y=27$ bo'ladi.
+Sistemani yechsak: $2x = 102 \implies x = 51$ va $2y = 48 \implies y = 24$.
+Ikkala son ham natural son. Demak, $x+y$ ning eng kichik mumkin bo'lgan qiymati 75.</solution>
+<answer>75</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Raqamlari yig'indisi 24 ga teng bo'lgan nechta uch xonali son mavjud?</problem>
+<choices>A) 10  B) 12  C) 15  D) 8</choices>
+<solution>Uch xonali sonni $\overline{abc}$ ko'rinishida yozamiz. Shartga ko'ra $a+b+c = 24$, bunda $1 \le a \le 9$ va $0 \le b, c \le 9$.
+$x = 9-a$, $y = 9-b$, $z = 9-c$ deb belgilaymiz. U holda $a, b, c$ larning maksimal qiymati 9 bo'lgani uchun $x, y, z \ge 0$ butun sonlar bo'ladi.
+Tenglamaga qo'yamiz: $(9-x) + (9-y) + (9-z) = 24 \implies 27 - (x+y+z) = 24 \implies x+y+z = 3$.
+Ushbu tenglamaning nomanfiy butun yechimlari soni "takrorli kombinatorika" qoidasiga ko'ra $C(3+3-1, 3-1) = C(5, 2) = \frac{5 \cdot 4}{2 \cdot 1} = 10$ ga teng.
+$x, y, z \le 3$ bo'lgani uchun $a, b, c \ge 6$ sharti avtomatik bajariladi. Demak, barcha topilgan yechimlar yaroqli. Jami shunday sonlar 10 ta (bular: 996, 969, 699, 987, 978, 897, 879, 798, 789, 888).</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel dasturida A1=7, B1=4, C1=0 qiymatlari kiritilgan bo'lsa, `=IF(AND(A1+B1>10, NOT(C1=0)), A1*B1, A1+B1)` formulasining natijasi qanday bo'ladi?</problem>
+<choices>A) 28  B) 11  C) 0  D) Yolg'on</choices>
+<solution>Formulaning ichki mantiqiy shartlarini bosqichma-bosqich tekshiramiz:
+1. `A1+B1>10` tekshiriladi: $7+4 = 11$, va $11 > 10$. Bu qism TRUE (Rost).
+2. `C1=0` tekshiriladi: $0 = 0$. Bu TRUE. Shuning uchun `NOT(C1=0)` funksiyasi FALSE (Yolg'on) qiymat qaytaradi.
+3. `AND(TRUE, FALSE)` mantiqiy ko'paytirish amali ikkala shart rost bo'lgandagina TRUE qaytaradi. Bitta FALSE bo'lganligi sababli, `AND` funksiyasi FALSE qaytaradi.
+4. `IF` funksiyasi shart FALSE bo'lganda o'zining uchinchi argumentini (yolg'on holatdagi qiymatni) bajaradi. Bu parametr `A1+B1` dir.
+5. $A1+B1 = 7+4 = 11$. Natija 11.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Rectangle ABCD. Point E lies on the segment BC. Point F lies on the segment CD. Segments AE, EF, and FA are drawn to form triangle AEF. The areas of the three corner right triangles ABE, ECF, and FDA are identified implicitly by the text.</diagram_spec>
+<problem>ABCD to'g'ri to'rtburchak berilgan. Uning BC tomonida E nuqta, CD tomonida F nuqta olingan. Agar ABE uchburchak yuzi 12 ga, ECF uchburchak yuzi 9 ga, FDA uchburchak yuzi 6 ga teng bo'lsa, AEF uchburchakning yuzini toping.</problem>
+<choices>A) 21  B) 24  C) 27  D) 15</choices>
+<solution>To'g'ri to'rtburchak tomonlarini $AB = x$ va $BC = y$ deb belgilaymiz. Uning to'la yuzi $S = xy$.
+Burchaklardagi uchburchaklar yuzalari formulasidan:
+1) $S_{\triangle ABE} = \frac{1}{2} x \cdot BE = 12 \implies BE = \frac{24}{x}$
+2) $S_{\triangle FDA} = \frac{1}{2} y \cdot DF = 6 \implies DF = \frac{12}{y}$
+Shundan kelib chiqib qolgan kesmalarni topamiz:
+$EC = y - BE = y - \frac{24}{x}$
+$FC = x - DF = x - \frac{12}{y}$
+Uchinchi uchburchak yuzi:
+$S_{\triangle ECF} = \frac{1}{2} \cdot EC \cdot FC = \frac{1}{2} (y - \frac{24}{x})(x - \frac{12}{y}) = 9$
+Qavslarni ochamiz: $(y - \frac{24}{x})(x - \frac{12}{y}) = 18$
+$xy - 12 - 24 + \frac{288}{xy} = 18$
+$xy$ o'rniga $S$ ni qo'yamiz: $S - 36 + \frac{288}{S} = 18 \implies S - 54 + \frac{288}{S} = 0$.
+Tenglamani $S$ ga ko'paytiramiz: $S^2 - 54S + 288 = 0$.
+Kvadrat tenglamani yechamiz: Viyet teoremasiga ko'ra $S_1 + S_2 = 54$ va $S_1 \cdot S_2 = 288$. Ildizlari: $48$ va $6$.
+Kichik uchburchaklar yuzalari yig'indisi $12+9+6 = 27$. Demak $S > 27$ bo'lishi shart. Shuning uchun faqat $S = 48$ o'rinli.
+Endi AEF uchburchak yuzini topamiz:
+$S_{\triangle AEF} = S - (S_{\triangle ABE} + S_{\triangle ECF} + S_{\triangle FDA}) = 48 - 27 = 21$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Algoritmda o'zgaruvchilar $X=0$ va $Y=5$ boshlang'ich qiymatga ega. Quyidagi tsikl 4 marta takrorlanadi: 
+1. $X \leftarrow X + Y$
+2. $Y \leftarrow Y - 1$
+Tsikl to'liq bajarilgandan so'ng, $X$ ning qiymati qanday bo'ladi?</problem>
+<choices>A) 14  B) 15  C) 10  D) 12</choices>
+<solution>Tsiklning har bir qadamini alohida hisoblaymiz:
+Boshlang'ich holat: X = 0, Y = 5.
+1-qadam: X = 0 + 5 = 5. Keyin Y = 5 - 1 = 4.
+2-qadam: X = 5 + 4 = 9. Keyin Y = 4 - 1 = 3.
+3-qadam: X = 9 + 3 = 12. Keyin Y = 3 - 1 = 2.
+4-qadam: X = 12 + 2 = 14. Keyin Y = 2 - 1 = 1.
+To'rtinchi marta takrorlangandan so'ng tsikl to'xtaydi va X ning qiymati 14 ga teng bo'ladi.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Sonlar ketma-ketligi $a_1 = 2026$ va ixtiyoriy $n \ge 1$ uchun $a_{n+1} = \frac{a_n - 1}{a_n + 1}$ qoidasi bilan berilgan. $a_{2026} \cdot a_{2028}$ ko'paytmaning qiymatini toping.</problem>
+<solution>Ketma-ketlikning dastlabki hadlarini ixtiyoriy $x$ uchun hisoblab ko'ramiz (bunda $x = a_1$):
+$a_1 = x$
+$a_2 = \frac{x - 1}{x + 1}$
+$a_3 = \frac{\frac{x - 1}{x + 1} - 1}{\frac{x - 1}{x + 1} + 1} = \frac{\frac{x - 1 - x - 1}{x + 1}}{\frac{x - 1 + x + 1}{x + 1}} = \frac{-2}{2x} = -\frac{1}{x}$
+$a_4 = \frac{-\frac{1}{x} - 1}{-\frac{1}{x} + 1} = \frac{\frac{-1 - x}{x}}{\frac{-1 + x}{x}} = \frac{-(x + 1)}{-(1 - x)} = -\frac{x + 1}{x - 1}$
+$a_5 = \frac{-\frac{x + 1}{x - 1} - 1}{-\frac{x + 1}{x - 1} + 1} = \frac{\frac{-x - 1 - x + 1}{x - 1}}{\frac{-x - 1 + x - 1}{x - 1}} = \frac{-2x}{-2} = x = a_1$.
+Ko'rib turganimizdek, ketma-ketlik 4 davrli, ya'ni $a_{n+4} = a_n$.
+Bizdan $a_{2026} \cdot a_{2028}$ ni topish so'ralmoqda.
+$2026 = 4 \times 506 + 2 \implies 2026 \equiv 2 \pmod 4$. Demak, $a_{2026} = a_2$.
+$2028 = 4 \times 507 + 0 \implies 2028 \equiv 4 \pmod 4$. Demak, $a_{2028} = a_4$.
+Biz $a_2 \cdot a_4$ ni topishimiz kerak:
+$a_2 \cdot a_4 = \left( \frac{x - 1}{x + 1} \right) \cdot \left( -\frac{x + 1}{x - 1} \right) = -1$.
+Bunda $x = 2026$ ekanligining ahamiyati yo'q, ko'paytma doim -1 ga teng.</solution>
+<answer>-1</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ali va Vali bitta xil kitob sotib olmoqchi bo'lishdi. Kitobni sotib olish uchun Aliga 2026 so'm, Valiga esa 1000 so'm yetmadi. Ular pullarini birlashtirishganda ham bitta kitob sotib olishga mablag'lari yetmadi. Agar kitobning narxi butun son bo'lsa, uning eng katta bo'lishi mumkin bo'lgan narxini (so'mda) toping.</problem>
+<choices>A) 3026  B) 3025  C) 3027  D) 2026</choices>
+<solution>Kitobning narxi $P$ bo'lsin.
+Alining puli: $P - 2026$. (Puli bor bo'lishi uchun $P \ge 2026$ bo'lishi kerak).
+Valining puli: $P - 1000$.
+Ularning umumiy puli: $(P - 2026) + (P - 1000) = 2P - 3026$.
+Shartga ko'ra, umumiy pullari ham kitob narxidan kam:
+$2P - 3026 < P$
+Bu tengsizlikdan $P < 3026$ kelib chiqadi.
+$P$ butun son bo'lganligi sababli, $P$ ning eng katta qiymati $3026 - 1 = 3025$ bo'ladi.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Hajmi 120 MB (Megabayt) bo'lgan fayl tarmoq orqali 16 Mbit/s (Megabit/sekund) tezlik bilan uzatilmoqda. Ushbu faylni to'liq uzatish uchun necha sekund vaqt ketadi?</problem>
+<choices>A) 7.5  B) 15  C) 60  D) 120</choices>
+<solution>Tezlik va hajm o'lchov birliklarini bir xil shaklga keltirishimiz kerak.
+Fayl hajmi: $V = 120$ Megabayt (MB).
+1 Bayt = 8 bit. Shuning uchun MB ni Mbit (Megabit) ga o'tkazamiz:
+$V = 120 \times 8 = 960$ Megabit (Mbit).
+Fayl uzatish tezligi: $v = 16$ Mbit/s.
+Vaqtni topish formulasi: $t = V / v$.
+$t = 960 / 16 = 60$ sekund.
+Demak, faylni to'liq uzatish uchun 60 sekund vaqt ketadi.</solution>
+<answer>C</answer>
+</example>
+```

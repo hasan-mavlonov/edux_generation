@@ -1,0 +1,155 @@
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $a+b=10$ va $a\cdot b=21$ bo'lsa, $a^2+b^2$ ifodaning qiymatini toping.</problem>
+<choices>A) 58  B) 79  C) 100  D) 42</choices>
+<solution>Qisqa ko'paytirish formulalaridan foydalanamiz: $(a+b)^2 = a^2 + 2ab + b^2$.
+Bizga kerakli qismni ajratib olamiz: $a^2+b^2 = (a+b)^2 - 2ab$. 
+Berilgan qiymatlarni o'rniga qo'yamiz: $a^2+b^2 = 10^2 - 2\cdot 21 = 100 - 42 = 58$.</solution>
+<answer>A</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Isosceles triangle ABC with AB=BC. Point D is on side BC. Line segment AD is drawn such that AD = AB. Angle DAC = 15 degrees.</diagram_spec>
+<problem>ABC teng yonli uchburchakda ($AB=BC$). $BC$ tomonda $D$ nuqta olingan bo'lib, $AD = AB$ tenglik bajariladi. Agar $\angle DAC = 15^\circ$ bo'lsa, $\angle B$ burchakning kattaligini toping.</problem>
+<choices>A) 40°  B) 55°  C) 70°  D) 85°</choices>
+<solution>Uchburchak $ABC$ teng yonli ($AB=BC$) bo'lgani uchun uning asosidagi burchaklari teng: $\angle BAC = \angle BCA = \alpha$.
+$\angle DAC = 15^\circ$ ekanligidan $\angle DAB = \alpha - 15^\circ$ bo'ladi.
+Uchburchak $ABD$ ham teng yonli ($AD = AB$) bo'lgani uchun, asosidagi burchaklari teng bo'ladi: $\angle ABD = \angle ADB$. $\angle ABD$ bu $\angle B$ burchakning o'zi.
+Uchburchak $ABC$ dagi burchaklar yig'indisidan: $\angle B = 180^\circ - 2\alpha$.
+Demak, $\angle ADB = 180^\circ - 2\alpha$.
+Uchburchak $ABD$ ning ichki burchaklari yig'indisi: $\angle DAB + \angle ABD + \angle ADB = 180^\circ$.
+Qiymatlarni o'rniga qo'yamiz: $(\alpha - 15^\circ) + (180^\circ - 2\alpha) + (180^\circ - 2\alpha) = 180^\circ$.
+Soddalashtiramiz: $\alpha - 15 + 360 - 4\alpha = 180 \Rightarrow 3\alpha = 165 \Rightarrow \alpha = 55^\circ$.
+Nihoyat, $\angle B = 180^\circ - 2(55^\circ) = 180^\circ - 110^\circ = 70^\circ$.</solution>
+<answer>C</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasida berilgan $10110_2$ va $1101_2$ sonlarining yig'indisini hisoblang va natijani o'nlik sanoq sistemasida yozing.</problem>
+<solution>Berilgan sonlarni alohida o'nlik sanoq sistemasiga o'tkazib olamiz.
+$10110_2 = 1\cdot 2^4 + 0\cdot 2^3 + 1\cdot 2^2 + 1\cdot 2^1 + 0\cdot 2^0 = 16 + 0 + 4 + 2 + 0 = 22$.
+$1101_2 = 1\cdot 2^3 + 1\cdot 2^2 + 0\cdot 2^1 + 1\cdot 2^0 = 8 + 4 + 0 + 1 = 13$.
+Ularning yig'indisi: $22 + 13 = 35$.</solution>
+<answer>35</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>1 dan 100 gacha bo'lgan (1 va 100 ham kiradi) natural sonlar orasidan ixtiyoriy ravishda eng kamida nechta son tanlab olinganda, ularning orasida yig'indisi 105 ga teng bo'ladigan ikkita son albatta topiladi?</problem>
+<choices>A) 51  B) 52  C) 53  D) 54</choices>
+<solution>1 dan 100 gacha bo'lgan sonlar ichida yig'indisi 105 bo'ladigan juftliklarni aniqlaymiz:
+Ular (5, 100), (6, 99), (7, 98), ..., (52, 53).
+Bunday juftliklar soni: $52 - 5 + 1 = 48$ ta.
+Juftliklarga kirmaydigan sonlar (yig'indisi 105 ni bera olmaydiganlari): 1, 2, 3, 4 (jami 4 ta son).
+Dirixle prinsipiga ko'ra (eng yomon holatda), biz hech qanday juftlik hosil qilmasligimiz uchun avval barcha juftlikka kirmaydigan 4 ta sonni, so'ngra 48 ta juftlikning har biridan faqat bittadan sonni (masalan faqat kichiklarini) tanlashimiz mumkin. 
+Bu holda yig'indisi 105 ga teng juftlik hosil bo'lmaydi va tanlangan sonlar miqdori $4 + 48 = 52$ ta bo'ladi.
+Qo'shimcha yana 1 ta son tanlash (53-chi son) majburiy ravishda yuqoridagi 48 ta juftlikdan birining ikkinchi qismini olishga olib keladi. Natijada yig'indisi 105 ga teng bo'lgan ikkita son albatta topiladi.</solution>
+<answer>C</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi algoritm ishlashi natijasida S o'zgaruvchisining yakuniy qiymati qanday bo'ladi?
+Boshlang'ich qiymat: S = 0
+Sikl: i = 1 dan 5 gacha qadam 1 bilan
+    S = S + i * 2</problem>
+<choices>A) 15  B) 20  C) 30  D) 60</choices>
+<solution>Sikl i ning 1 dan 5 gacha bo'lgan qiymatlarida 5 marta aylanadi:
+i=1: S = 0 + 1 * 2 = 2
+i=2: S = 2 + 2 * 2 = 6
+i=3: S = 6 + 3 * 2 = 12
+i=4: S = 12 + 4 * 2 = 20
+i=5: S = 20 + 5 * 2 = 30
+Demak, yakuniy qiymat S = 30.</solution>
+<answer>C</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Qutida jami 48 ta qizil va ko'k sharlar bor. Qizil sharlar soni ko'k sharlar sonidan 3 marta ko'p. Qutidan nechta qizil shar olinib o'rniga shuncha ko'k shar solinsa, qizil va ko'k sharlar soni o'zaro tenglashadi?</problem>
+<choices>A) 12  B) 16  C) 18  D) 24</choices>
+<solution>Dastlabki holatda ko'k sharlar sonini $x$ desak, qizil sharlar soni $3x$ bo'ladi.
+Jami sharlar soni: $x + 3x = 48 \Rightarrow 4x = 48 \Rightarrow x = 12$.
+Demak, 12 ta ko'k va 36 ta qizil shar bor.
+Sharlar soni tenglashishi uchun ularning har biri $48 / 2 = 24$ tadan bo'lishi kerak.
+Buning uchun qizil sharlardan (36 - 24 = 12) 12 tasini olib, o'rniga 12 ta ko'k shar qo'shish kerak bo'ladi.</solution>
+<answer>A</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel elektron jadvalida A1, A2 va A3 yacheykalarda mos ravishda 8, 10 va 6 butun sonlari yozilgan. Quyidagi formulaning natijasini hisoblang: =MAX(A1:A3)*MIN(A1; A3) - AVERAGE(A1:A3)</problem>
+<choices>A) 52  B) 44  C) 42  D) 60</choices>
+<solution>Formuladagi funksiyalarni alohida hisoblaymiz:
+1) MAX(A1:A3) - A1 dan A3 gacha bo'lgan oraliqdagi (8, 10, 6) eng katta sonni topadi = 10.
+2) MIN(A1; A3) - ro'yxatni ajratuvchi nuqtali vergul bo'lgani uchun faqat A1 (8) va A3 (6) yacheykalari ichidan eng kichigini topadi = 6.
+3) AVERAGE(A1:A3) - 8, 10 va 6 sonlarining o'rta arifmetigini hisoblaydi = (8+10+6)/3 = 24/3 = 8.
+Endi amallarni bajaramiz: $10 \cdot 6 - 8 = 60 - 8 = 52$.</solution>
+<answer>A</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$p$, $q$ va $r$ turli tub sonlar bo'lib, $p \cdot q \cdot r = 5(p + q + r)$ tenglikni qanoatlantiradi. $p^2 + q^2 + r^2$ ifodaning qiymatini toping.</problem>
+<solution>Tenglikning o'ng tomonida 5 tub soni bor, demak chap tomondagi $p, q, r$ sonlaridan biri albatta 5 ga teng bo'lishi shart.
+Faraz qilaylik, $p = 5$. Tenglikka qo'yamiz:
+$5 \cdot q \cdot r = 5(5 + q + r)$
+$q \cdot r = 5 + q + r$
+$q \cdot r - q - r = 5$
+Tenglikning ikkala tomoniga 1 qo'shamiz:
+$q \cdot r - q - r + 1 = 6$
+$(q-1)(r-1) = 6$
+q va r - tub sonlar. 6 ning ko'paytuvchilari 1x6 yoki 2x3.
+1-holat: $q-1=1$ va $r-1=6 \Rightarrow q=2$ va $r=7$. Barcha {5, 2, 7} sonlar turli tub sonlardir.
+2-holat: $q-1=2$ va $r-1=3 \Rightarrow q=3$ va $r=4$. Lekin 4 tub son emas.
+Demak, biz qidirgan turli tub sonlar: 2, 5 va 7 ekan.
+Ularning kvadratlari yig'indisi: $p^2 + q^2 + r^2 = 2^2 + 5^2 + 7^2 = 4 + 25 + 49 = 78$.</solution>
+<answer>78</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>128 sahifali elektron hujjatning har bir sahifasi 64 qatordan, har bir qator esa 64 ta belgidan iborat. Agar barcha belgilar Unicode (1 ta belgi = 16 bit) standartida kodlangan bo'lsa, ushbu hujjat kompyuter xotirasida qancha joy (Kilobaytda) egallaydi?</problem>
+<choices>A) 512  B) 1024  C) 2048  D) 256</choices>
+<solution>Hujjatdagi jami belgilar sonini hisoblaymiz:
+$K = 128 \times 64 \times 64 = 2^7 \times 2^6 \times 2^6 = 2^{19}$ ta belgi.
+1 ta belgi Unicode'da 16 bit joy egallaydi. 16 bit = 2 Bayt = $2^1$ Bayt.
+Jami hajmi (Baytlarda): $V = 2^{19} \times 2^1 = 2^{20}$ Bayt.
+Hajmni Kilobayt (KB) ga o'tkazish uchun 1024 ga ($2^{10}$ ga) bo'lamiz:
+$V_{KB} = 2^{20} / 2^{10} = 2^{10}$ KB = 1024 KB.</solution>
+<answer>B</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Hisoblang: $100 \cdot \left(1 - \frac{1}{2}\right) \cdot \left(1 - \frac{1}{3}\right) \cdot \left(1 - \frac{1}{4}\right) \cdot \dots \cdot \left(1 - \frac{1}{25}\right)$</problem>
+<solution>Qavs ichidagi ifodalarni alohida kasr shakliga o'tkazamiz:
+$\left(1 - \frac{1}{2}\right) = \frac{1}{2}$, $\left(1 - \frac{1}{3}\right) = \frac{2}{3}$, $\left(1 - \frac{1}{4}\right) = \frac{3}{4}$, ..., $\left(1 - \frac{1}{25}\right) = \frac{24}{25}$.
+Endi ularni ko'paytiramiz:
+$100 \cdot \frac{1}{2} \cdot \frac{2}{3} \cdot \frac{3}{4} \cdot \dots \cdot \frac{24}{25}$
+Ketma-ket qisqarish sodir bo'ladi (surat va maxraj o'zaro yo'qoladi), faqat birinchi kasrning surati va oxirgi kasrning maxraji qoladi:
+$100 \cdot \frac{1}{25} = 4$.</solution>
+<answer>4</answer>

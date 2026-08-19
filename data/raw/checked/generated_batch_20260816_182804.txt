@@ -1,0 +1,140 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x = \frac{3^{2024} - 3^{2022}}{3^{2022}}$ bo'lsa, $x^2 + x + 1$ ifodaning qiymatini toping.</problem>
+<choices>A) 73  B) 65  C) 81  D) 91</choices>
+<solution>Ifodani soddalashtiramiz: $x = \frac{3^{2022}(3^2 - 1)}{3^{2022}} = 3^2 - 1 = 9 - 1 = 8$. 
+$x$ ning qiymatini so'ralgan ifodaga qo'yamiz: $x^2 + x + 1 = 8^2 + 8 + 1 = 64 + 8 + 1 = 73$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$N = 1 \cdot 2 \cdot 3 \cdot \dots \cdot 20 + 7^{2024}$ sonini 10 ga bo'lgandagi qoldiqni toping.</problem>
+<choices>A) 3  B) 7  C) 9  D) 1</choices>
+<solution>Birinchi qo'shiluvchi $1 \cdot 2 \cdot \dots \cdot 20$ (ya'ni 20!) ko'paytmasi bo'lib, uning tarkibida 2 va 5 ko'paytuvchilari mavjud. Shuning uchun u oxiri 0 bilan tugaydi va 10 ga qoldiqsiz bo'linadi. 
+Ikkinchi qo'shiluvchi $7^{2024}$ sonining oxirgi raqamini topamiz. 7 ning darajalari oxirgi raqami 4 qadamda takrorlanadi (7, 9, 3, 1). Daraja ko'rsatkichi 2024 soni 4 ga qoldiqsiz bo'linganligi sababli, oxirgi raqam siklning oxirgisi, ya'ni 1 bo'ladi. Demak, $0 + 1 = 1$, qoldiq 1 ga teng.</solution>
+<answer>D</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasida berilgan $1101_2$ va $1011_2$ sonlarining yig'indisini o'nlik sanoq sistemasida toping.</problem>
+<solution>Avval sonlarni o'nlik sanoq sistemasiga o'tkazamiz:
+$1101_2 = 1\cdot 2^3 + 1\cdot 2^2 + 0\cdot 2^1 + 1\cdot 2^0 = 8 + 4 + 0 + 1 = 13$.
+$1011_2 = 1\cdot 2^3 + 0\cdot 2^2 + 1\cdot 2^1 + 1\cdot 2^0 = 8 + 0 + 2 + 1 = 11$.
+Yig'indi: $13 + 11 = 24$. Natija o'nlik sanoq sistemasida 24 ga teng.</solution>
+<answer>24</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. External angle bisectors of angles B and C intersect at point O outside the triangle. Angle BAC is 70 degrees.</diagram_spec>
+<problem>ABC uchburchakning A burchagi $70^\circ$. B va C burchaklarining tashqi bissektrisalari uchburchak tashqarisidagi O nuqtada kesishadi. $\angle BOC$ burchakning kattaligini toping.</problem>
+<choices>A) 70°  B) 110°  C) 55°  D) 125°</choices>
+<solution>Uchburchakning ikkita tashqi burchak bissektrisalari orasidagi burchak formulasiga ko'ra, bu burchak $\angle BOC = 90^\circ - \frac{\angle A}{2}$ ga teng. 
+Berilishiga ko'ra $\angle A = 70^\circ$, bundan $\angle BOC = 90^\circ - \frac{70^\circ}{2} = 90^\circ - 35^\circ = 55^\circ$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Excel dasturida quyidagi formula yozilgan: `=IF(AND(15>10; OR(5=5; 7<3)); 2024; 2025)`. Ushbu formula bajarilgach, hujjat katagida qanday natija hosil bo'ladi?</problem>
+<choices>A) TRUE  B) FALSE  C) 2025  D) 2024</choices>
+<solution>`OR(5=5; 7<3)` sharti `ROST` (TRUE) natija beradi, chunki uning ichidagi `5=5` sharti to'g'ri. `15>10` sharti ham `ROST`. Demak, `AND(ROST; ROST)` funksiyasining natijasi `ROST` bo'ladi. 
+`IF` funksiyasining birinchi parametri (mantiqiy sharti) rost bo'lsa, u birinchi qiymatni qaytaradi, ya'ni 2024 ni. Aks holda 2025 qaytarilgan bo'lardi.</solution>
+<answer>D</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>1 dan 10 gacha bo'lgan natural sonlar to'plamidan (1, 2, ..., 10) nechta turli xil usulda 3 ta sonni tanlash mumkin, shundayki, tanlangan sonlarning yig'indisi juft bo'lsin?</problem>
+<solution>Ushbu to'plamda 5 ta toq (1, 3, 5, 7, 9) va 5 ta juft (2, 4, 6, 8, 10) son mavjud. 
+Tanlangan 3 ta sonning yig'indisi juft bo'lishi uchun faqat ikkita holat o'rinli bo'lishi kerak:
+1) Uchta son ham juft: Buning usullar soni $C(5,3) = \frac{5!}{3!2!} = 10$.
+2) Bitta son juft va ikkitasi toq: Bitta juft sonni tanlash $C(5,1) = 5$ usul. Ikkita toq sonni tanlash $C(5,2) = 10$ usul. Birgalikda tanlash ko'paytirish qoidasiga ko'ra $5 \times 10 = 50$ ta usul.
+Jami usullar soni: $10 + 50 = 60$.</solution>
+<answer>60</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikki xonali $\overline{ab}$ sonining raqamlari o'rnini almashtirib, unga dastlabki sonni qo'shganda, biror natural sonning kvadrati hosil bo'ladi. Shunday xossaga ega bo'lgan eng katta va eng kichik ikki xonali $\overline{ab}$ sonlarining ayirmasini toping ($a \neq 0, b \neq 0$).</problem>
+<choices>A) 54  B) 63  C) 72  D) 45</choices>
+<solution>Berilgan shartga ko'ra $\overline{ab} + \overline{ba} = (10a+b) + (10b+a) = 11(a+b)$. 
+Bu yig'indi to'la kvadrat bo'lishi uchun $11(a+b)$ ifoda asosi 11 bo'lgan darajalarga ega bo'lishi kerak. Yig'indi $11^2$ ga karrali bo'lishi uchun $a+b$ yig'indi 11 ga bo'linishi shart. Raqamlar uchun eng katta yig'indi $9+9=18$, shuning uchun $2 \le a+b \le 18$ oraliqda faqat $a+b=11$ qanoatlantiradi. 
+Buni qanoatlantiruvchi raqamlar $(a, b)$ juftliklari: (2,9), (3,8), (4,7), (5,6), (6,5), (7,4), (8,3), (9,2). 
+Eng katta mos son $\overline{ab} = 92$, eng kichik son esa $\overline{ab} = 29$. Ayirma: $92 - 29 = 63$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida qahramon (sprayt) quyidagi algoritm bo'yicha harakatlanadi:
+"5 marta takrorla" bloki ichida "4 marta takrorla" bloki, uning ichida esa "10 qadam yur" buyrug'i joylashgan. Algoritm to'liq yakunlangach, sprayt jami necha qadam yurgan bo'ladi?</problem>
+<choices>A) 40  B) 50  C) 90  D) 200</choices>
+<solution>Bu yerda ichma-ich joylashgan takrorlash davrlari mavjud. Ichki davr 4 marta takrorlanadi va har bir qadamda sprayt 10 qadamdan yuradi, demak, ichki davrning bitta marta to'liq ishlashi $4 \times 10 = 40$ qadamni tashkil etadi. Tashqi davr esa ushbu harakatni 5 marta amalga oshiradi. 
+Jami bosib o'tilgan qadamlar soni: $5 \times 40 = 200$ qadam.</solution>
+<answer>D</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x - \frac{1}{x} = 5$ bo'lsa, $x^3 - \frac{1}{x^3}$ ifodaning qiymatini toping.</problem>
+<choices>A) 115  B) 125  C) 140  D) 110</choices>
+<solution>Qisqa ko'paytirish formulalaridan $a^3 - b^3 = (a-b)^3 + 3ab(a-b)$ ni qo'llaymiz. Bu yerda $a=x$ va $b=\frac{1}{x}$.
+Formula bo'yicha: $x^3 - \frac{1}{x^3} = \left(x - \frac{1}{x}\right)^3 + 3 \cdot x \cdot \frac{1}{x} \cdot \left(x - \frac{1}{x}\right)$.
+Tenglikdagi $x \cdot \frac{1}{x} = 1$ qisqaradi. Berilgan $x - \frac{1}{x} = 5$ qiymatni o'rniga qo'yamiz:
+$5^3 + 3 \cdot 1 \cdot 5 = 125 + 15 = 140$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D lies on side BC such that BD:DC = 2:5. Point E is the midpoint of segment AD. Connect C to E.</diagram_spec>
+<problem>ABC uchburchakning BC tomonida D nuqta olingan bo'lib, ular orasidagi nisbat $BD:DC = 2:5$ ni tashkil etadi. AD kesmaning o'rtasida E nuqta yotadi. Agar ABC uchburchakning yuzi $140 \text{ sm}^2$ bo'lsa, CDE uchburchakning yuzini toping ($sm^2$).</problem>
+<solution>1) ABC uchburchakning BC tomoni jami $2 + 5 = 7$ qismga bo'lingan. ADC uchburchak yuzi butun uchburchak yuzining BC tomondagi DC kesmaga mutanosib qismiga teng, chunki balandliklari bir xil. 
+$S_{ADC} = \frac{DC}{BC} S_{ABC} = \frac{5}{7} \cdot 140 = 100 \text{ sm}^2$.
+2) ADC uchburchakda CE kesma o'tkazilgan va E nuqta AD tomonning o'rtasi bo'lganligi sababli, CE kesma ADC uchburchakning medianasi hisoblanadi. Mediana uchburchak yuzini teng ikkiga bo'ladi.
+$S_{CDE} = \frac{1}{2} S_{ADC} = \frac{1}{2} \cdot 100 = 50 \text{ sm}^2$.</solution>
+<answer>50</answer>
+</example>

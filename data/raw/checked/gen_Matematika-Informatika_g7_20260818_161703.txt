@@ -1,0 +1,156 @@
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Hisoblang: (102³ − 98³) / 4 − 3 · 102 · 98</problem>
+<choices>A) 4  B) 8  C) 16  D) 64</choices>
+<solution>Qisqa ko'paytirish formulasidan foydalanamiz: a³ − b³ = (a − b)(a² + ab + b²). 
+Ushbu ifodani (a − b)((a − b)² + 3ab) ko'rinishida yozish mumkin.
+a = 102 va b = 98 bo'lsa, a − b = 4 bo'ladi.
+Kasrning surati: 4 · (4² + 3 · 102 · 98). Kasrni 4 ga bo'lsak, 16 + 3 · 102 · 98 qoladi.
+Undan 3 · 102 · 98 ni ayirib tashlasak, natija 16 ga teng bo'ladi.</solution>
+<answer>C</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi 11011₂ va 101₂ sonlarining yig'indisini o'nlik sanoq sistemasida toping.</problem>
+<choices>A) 30  B) 31  C) 32  D) 33</choices>
+<solution>Ikkilik sanoq sistemasidagi sonlarni o'nlik sistemaga o'tkazamiz:
+11011₂ = 1·16 + 1·8 + 0·4 + 1·2 + 1·1 = 16 + 8 + 0 + 2 + 1 = 27.
+101₂ = 1·4 + 0·2 + 1·1 = 5.
+Ularning yig'indisi o'nlik sistemada: 27 + 5 = 32.</solution>
+<answer>C</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>7x34y ko'rinishidagi besh xonali son 36 ga qoldiqsiz bo'linadi. Agar x va y raqamlar turlicha (x ≠ y) bo'lsa, x·y ko'paytmaning eng katta qiymatini toping.</problem>
+<solution>Son 36 ga qoldiqsiz bo'linishi uchun u ham 4 ga, ham 9 ga bo'linishi kerak.
+4 ga bo'linish alomati: oxirgi ikkita raqamdan tuzilgan son 4 ga karrali bo'lishi kerak. Demak, 4y soni 4 ga bo'linishi uchun y ∈ {0, 4, 8} bo'lishi mumkin.
+9 ga bo'linish alomati: raqamlar yig'indisi 9 ga karrali bo'lishi kerak. 7 + x + 3 + 4 + y = 14 + x + y yig'indi 9 ga bo'linishi kerak.
+1) Agar y = 0 bo'lsa, 14 + x soni 9 ga bo'linishi uchun x = 4 bo'lishi kerak. Ko'paytma: 4 · 0 = 0.
+2) Agar y = 4 bo'lsa, 18 + x soni 9 ga bo'linishi uchun x = 0 yoki x = 9. Bunda ko'paytma: 0 · 4 = 0 yoki 9 · 4 = 36.
+3) Agar y = 8 bo'lsa, 22 + x soni 9 ga bo'linishi uchun x = 5. x ≠ y sharti qanoatlantiriladi (5 ≠ 8). Ko'paytma: 5 · 8 = 40.
+Demak, ko'paytmaning eng katta qiymati 40.</solution>
+<answer>40</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D lies on the side BC. The lengths of segments BD, AD, and AC are strictly equal (BD = AD = AC). Angle BAC = 105 degrees.</diagram_spec>
+<problem>ABC uchburchakning BC tomonida D nuqta olingan bo'lib, BD = AD = AC shart bajariladi. Agar ∠BAC = 105° bo'lsa, ∠C ning qiymatini toping.</problem>
+<choices>A) 40°  B) 45°  C) 50°  D) 55°</choices>
+<solution>BD = AD bo'lgani uchun ABD uchburchak teng yonli, demak ∠B = ∠DAB = x.
+Uchburchakning tashqi burchagi xossasiga ko'ra, ∠ADC burchak ABD uchburchakning B va A uchlaridagi ichki burchaklari yig'indisiga teng: ∠ADC = x + x = 2x.
+AD = AC bo'lgani uchun ADC uchburchak ham teng yonli, demak ∠C = ∠ADC = 2x.
+ABC uchburchakning barcha ichki burchaklari yig'indisi: ∠B + ∠C + ∠BAC = 180°.
+x + 2x + 105° = 180° → 3x = 75° → x = 25°.
+∠C = 2x bo'lgani uchun ∠C = 2 · 25° = 50°.</solution>
+<answer>C</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Elektron jadvalda (Excel) quyidagi formula yozilgan: =IF(AND(A1>5; OR(B1<10; C1=5)); A1+B1; A1*C1). Agar A1 = 6, B1 = 12 va C1 = 5 bo'lsa, ushbu katakda qanday natija hosil bo'ladi?</problem>
+<choices>A) 18  B) 30  C) 11  D) 72</choices>
+<solution>Mantiqiy ifodalarni bosqichma-bosqich hisoblaymiz:
+1. OR(B1<10; C1=5) ni tekshiramiz: 12<10 (FALSE), lekin 5=5 (TRUE). OR operatori kamida bitta rost bo'lsa TRUE qaytaradi, demak natija TRUE.
+2. AND(A1>5; TRUE) ni tekshiramiz: 6>5 (TRUE) bo'lgani uchun, AND ifodasi ikkala tomon TRUE bo'lganda TRUE qaytaradi. Natija TRUE.
+3. IF(shart; qiymat_agar_rost; qiymat_agar_yolg'on) funksiyasi shart rost bo'lganligi sababli birinchi ifodani (A1+B1) bajaradi.
+A1 + B1 = 6 + 12 = 18.</solution>
+<answer>A</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>1 dan 5 gacha bo'lgan raqamlardan foydalanib barcha raqamlari har xil bo'lgan besh xonali sonlar tuzildi. Ularning nechtasida 1 raqami 2 raqamidan doimo chaproqda (yonma-yon bo'lishi shart emas) va shu bilan birga 3 raqami 4 raqamidan doimo o'ngroqda joylashgan?</problem>
+<choices>A) 20  B) 24  C) 30  D) 60</choices>
+<solution>Jami turli raqamli besh xonali sonlar soni: 5! = 120 ta.
+Shartning birinchi qismi: "1 raqami 2 raqamidan chaproqda". 1 va 2 raqamlarining o'zaro joylashishi (boshqalari qanday bo'lishidan qat'i nazar) 2 xil bo'ladi (1 chapda yoki 2 chapda). Teng ehtimolli bo'lgani uchun bunday sonlar jami sonlarning yarmiga teng: 120 / 2 = 60 ta.
+Shartning ikkinchi qismi: "3 raqami 4 raqamidan o'ngroqda". 3 va 4 raqamlarining joylashishi 1 va 2 ning joylashishiga bog'liq bo'lmagan o'zaro mustaqil hodisadir. Ularning ham faqat yarmi ushbu shartga javob beradi. 
+Demak, ikkala shart ham bajariladigan sonlar soni: 60 / 2 = 30 ta.
+Buni kombinatorika orqali ham tekshiramiz: 5 ta o'rindan 2 tasini 1 va 2 uchun tanlaymiz — C(5,2) = 10, ularni o'rniga 1 xil tartibda joylaymiz. Qolgan 3 ta o'rindan 2 tasini 3 va 4 uchun tanlaymiz — C(3,2) = 3, yana 1 xil tartibda joylaymiz. Qolgan 1 ta o'ringa 5 ni joylaymiz (1 xil). 10 · 3 · 1 = 30.</solution>
+<answer>C</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>m va n natural sonlari uchun 3m² + 2n = 2024 tenglik o'rinli bo'lsa, m ning qabul qilishi mumkin bo'lgan eng katta qiymatini toping.</problem>
+<solution>Tenglikdan 2n = 2024 − 3m² hosil bo'ladi.
+n natural son (n ≥ 1) bo'lgani uchun 2n ≥ 2 shart bajarilishi kerak.
+Demak, 2024 − 3m² ≥ 2 → 3m² ≤ 2022 → m² ≤ 674.
+m ning eng katta butun qiymatini tekshiramiz: 26² = 676 (katta), 25² = 625 (to'g'ri keladi). Biroq 25 ni tenglikka qo'ysak, 2024 − 3(25²) = 2024 − 1875 = 149.
+2n = 149 bo'ladi, lekin bu holda n natural son bo'lmay qoladi, chunki 2024 juft son, 2n ham juft son bo'lgani uchun 3m² albatta juft bo'lishi, ya'ni m ning o'zi juft bo'lishi shart.
+m juft bo'lishi shart ekan, 25 dan kichik eng katta juft natural son m = 24 ni tekshiramiz.
+m = 24 bo'lsa, 3·(24²) = 3·576 = 1728. 2024 − 1728 = 296, bundan n = 148, ya'ni natural son chiqdi. Demak, m ning eng katta qiymati 24 ga teng.</solution>
+<answer>24</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Robot quyidagi algoritm bo'yicha harakatlanmoqda:
+Boshlang'ich holati: X = 0, Y = 0.
+Sikl 2025 marta takrorlanadi:
+1. X ning qiymati 2 taga oshiriladi.
+2. Y ning qiymati 1 taga kamaytiriladi.
+3. Agar X + Y yig'indi 3 ga qoldiqsiz bo'linsa, qo'shimcha amal bajariladi: X ning qiymati 1 taga kamaytiriladi va Y ning qiymati 2 taga oshiriladi.
+2025-marta sikl aylangandan so'ng robotning koordinatalari qanday bo'ladi?</problem>
+<choices>A) X = 3038, Y = -1  B) X = 3375, Y = -675  C) X = 4050, Y = -2025  D) X = 2024, Y = 1</choices>
+<solution>Dastlabki bir necha qadamni kuzatamiz:
+1-qadam (k=1): Oddiy amal X=2, Y=-1. Yig'indi = 1. Shart bajarilmaydi. Natija: X=2, Y=-1.
+2-qadam (k=2): X=4, Y=-2. Yig'indi = 2. Shart yo'q. Natija: X=4, Y=-2.
+3-qadam (k=3): O'zgarishdan so'ng X=6, Y=-3. Yig'indi = 3 (shart bajarildi). Qo'shimcha amal: X=5, Y=-1. (Yig'indi endi 4).
+4-qadam (k=4): X=7, Y=-2. Yig'indi = 5. Shart yo'q.
+5-qadam (k=5): X=9, Y=-3. Yig'indi = 6. Shart bajarildi! X=8, Y=-1.
+Qonuniyatni ko'rish mumkinki, qo'shimcha amal har qanday toq tartibli qadamlarda (k ≥ 3) ishga tushadi: k = 3, 5, 7, 9...
+2025 gacha (2025 ham toq) nechta toq son bo'lib o'tganligini hisoblaymiz: 3 dan 2025 gacha 2m+1 formula bo'yicha jami m = 1 dan 1012 gacha, ya'ni shart 1012 marta ishlaydi.
+Barcha 2025 marta oddiy qadam ishlaganida: X umumiy hisobda 2025·2 = 4050 ga, Y esa 2025·(-1) = -2025 ga yetardi.
+1012 marta ishlagan qo'shimcha shart natijasi o'laroq: X dan 1012 ayriladi, Y ga esa 1012·2 = 2024 qo'shiladi.
+X = 4050 − 1012 = 3038.
+Y = -2025 + 2024 = -1.</solution>
+<answer>A</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkita natural sonning yig'indisi 168 ga, ularning eng katta umumiy bo'luvchisi (EKUB) esa 24 ga teng. Shu sonlarning ko'paytmasi qabul qilishi mumkin bo'lgan eng kichik qiymatni toping.</problem>
+<choices>A) 3456  B) 5760  C) 6912  D) 4032</choices>
+<solution>Sonlar 24a va 24b bo'lsin, bunda a va b o'zaro tub natural sonlar, a ≤ b.
+Ularning yig'indisi 24a + 24b = 168.
+Bundan a + b = 7 hosil bo'ladi.
+a va b (o'zaro tub) ning qabul qilishi mumkin bo'lgan juftliklari: (1, 6), (2, 5) va (3, 4).
+Ularning ko'paytmasi P = 24a · 24b = 576ab ga teng bo'lib, ko'paytma eng kichik bo'lishi uchun a·b ham eng kichik bo'lishi kerak.
+a·b qiymatlari mos ravishda 6, 10 va 12 bo'ladi.
+Eng kichik qiymat a=1 va b=6 bo'lganda erishiladi (ab=6).
+Demak, eng kichik ko'paytma: 576 · 6 = 3456 ga teng. Bu sonlar mos ravishda 24 va 144.</solution>
+<answer>A</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Ota 36 yoshda, uning uchta farzandi esa 4, 6 va 10 yoshda. Necha yildan keyin ota va uning uchta farzandi yoshlarining yig'indisi 96 ga teng bo'ladi?</problem>
+<solution>Hozirgi vaqtda barcha 4 kishining umumiy yoshi: 36 + 4 + 6 + 10 = 56 yosh.
+Har yili ota va uning 3 nafar farzandining yoshi 1 yoshga kattalashadi, ya'ni umumiy yig'indi bir yilda jami 4 yoshga ortadi.
+Bizga umumiy yig'indi 96 bo'lishi kerak, hozirgi holatdan farq: 96 − 56 = 40 yoshni tashkil etadi.
+Bu yoshga yetish uchun 40 ni 4 kishiga bo'lamiz: 40 / 4 = 10 yil. Demak, 10 yildan keyin ularning umumiy yoshlari yig'indisi 96 ga teng bo'ladi.</solution>
+<answer>10</answer>

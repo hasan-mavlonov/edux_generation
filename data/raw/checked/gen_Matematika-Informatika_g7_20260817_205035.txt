@@ -1,0 +1,187 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikki xonali son o'zining raqamlari yig'indisidan 4 marta katta ekani ma'lum bo'lsa, bunday xossaga ega bo'lgan barcha ikki xonali sonlar yig'indisini toping.</problem>
+<choices>A) 120  B) 84  C) 96  D) 108</choices>
+<solution>Ikki xonali sonni $\overline{ab} = 10a + b$ ko'rinishida yozamiz. Shartga ko'ra: $10a + b = 4(a + b)$. Buni soddalashtiramiz: $10a + b = 4a + 4b \implies 6a = 3b \implies b = 2a$.
+$a$ va $b$ raqamlar hamda $a \neq 0$ bo'lganligi sababli, $a$ ning qabul qilishi mumkin bo'lgan qiymatlari 1, 2, 3, 4 bo'ladi (chunki $a \ge 5$ bo'lganda $b \ge 10$ bo'lib, raqam bo'lmay qoladi).
+Shunga mos ravishda hosil bo'ladigan sonlar: 12, 24, 36, 48.
+Ularning yig'indisi: 12 + 24 + 36 + 48 = 120.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Sanoq sistemalarida berilgan quyidagi tenglamani yeching: $10110_2 + X_8 = 3E_{16}$. $X$ ning qiymatini 8 lik sanoq sistemasida toping.</problem>
+<choices>A) 40  B) 50  C) 60  D) 44</choices>
+<solution>Barcha sonlarni 10 lik sanoq sistemasiga o'tkazamiz:
+$10110_2 = 1 \cdot 2^4 + 0 \cdot 2^3 + 1 \cdot 2^2 + 1 \cdot 2^1 + 0 \cdot 2^0 = 16 + 4 + 2 = 22_{10}$.
+$3E_{16} = 3 \cdot 16^1 + 14 \cdot 16^0 = 48 + 14 = 62_{10}$.
+Tenglama quyidagi ko'rinishga keladi: $22 + X_{10} = 62 \implies X_{10} = 40$.
+Endi 40 ni 8 lik sanoq sistemasiga o'tkazamiz: $40 \div 8 = 5$ (qoldiq 0). Demak, javob $50_8$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D is on the side BC. Segments AD, BD, and CD are marked with tick marks indicating they are equal in length (AD = BD = CD). Angle C at vertex C is marked as 35 degrees.</diagram_spec>
+<problem>Chizmada ABC uchburchak berilgan. D nuqta BC kesmada yotadi. Agar $AD = BD = CD$ va $\angle C = 35^\circ$ bo'lsa, $\angle BAD$ burchakning kattaligini toping.</problem>
+<choices>A) 35°  B) 45°  C) 55°  D) 65°</choices>
+<solution>$\triangle ADC$ uchburchakni qaraymiz. Shartga ko'ra $AD = CD$, demak bu teng yonli uchburchak bo'lib, asosidagi burchaklari teng: $\angle DAC = \angle C = 35^\circ$.
+Uchburchakning ichki burchaklari yig'indisidan: $\angle ADC = 180^\circ - (35^\circ + 35^\circ) = 110^\circ$.
+$\angle ADB$ va $\angle ADC$ qo'shni burchaklar bo'lgani uchun: $\angle ADB = 180^\circ - 110^\circ = 70^\circ$.
+Endi $\triangle ABD$ uchburchakni qaraymiz. Shartga ko'ra $AD = BD$, demak u ham teng yonli va asosidagi burchaklari teng: $\angle BAD = \angle ABD$.
+Ularning yig'indisi $180^\circ - 70^\circ = 110^\circ$. Demak, $\angle BAD = 110^\circ / 2 = 55^\circ$.
+(Qisqaroq usul: D nuqta BC ning o'rtasida va uning uchburchak uchidan masofasi yarim asosga teng bo'lgani uchun, ABC to'g'ri burchakli uchburchak va $\angle A = 90^\circ$. $\angle B = 90^\circ - 35^\circ = 55^\circ$. $\triangle ABD$ teng yonli bo'lganidan $\angle BAD = \angle B = 55^\circ$).</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$x^2 - y^2 = 2024$ tenglamani qanoatlantiruvchi $(x, y)$ natural sonlar juftliklari nechta?</problem>
+<solution>Tenglamani ko'paytuvchilarga ajratamiz: $(x - y)(x + y) = 2024$.
+Natural sonlar bo'lganligi uchun $x + y > x - y > 0$ va ularning juft-toqligi bir xil bo'lishi kerak (chunki ularning yig'indisi $2x$ juft son).
+$2024 = 2^3 \cdot 11 \cdot 23 = 8 \cdot 253$.
+Ikkala ko'paytuvchi ham juft bo'lishi majburiy (aks holda ko'paytma toq yoki faqat bittasi juft bo'lsa, ularning yig'indisi toq bo'lib qoladi va $x, y$ butun bo'lmaydi).
+$(x - y) = 2a$ va $(x + y) = 2b$ deb belgilasak, bu yerda $b > a > 0$.
+$2a \cdot 2b = 2024 \implies 4ab = 2024 \implies ab = 506$.
+$506 = 2 \cdot 11 \cdot 23$. Demak, 506 ning bo'luvchilari soni: $(1+1)(1+1)(1+1) = 8$ ta.
+Bu bo'luvchilar 4 ta $(a, b)$ juftlikni hosil qiladi (bunda $a < b$): (1, 506), (2, 253), (11, 46), (22, 23).
+Har bir $(a, b)$ juftlikdan yagona $(x, y)$ natural sonlar juftligi topiladi: $x = a+b$, $y = b-a$.
+Demak, bunday juftliklar soni 4 ta.</solution>
+<answer>4</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel elektron jadval dasturida A1=5, A2=8, A3=2, B1=3 qiymatlari kiritilgan. B2 katagiga `=A1*B1-A2/A3` formulasi yozilsa, bu katakda qanday natija hosil bo'ladi?</problem>
+<choices>A) 11  B) 13  C) 7,5  D) 15</choices>
+<solution>Excel formulalarida matematik amallar bajarilish ketma-ketligi qoidalari amal qiladi (avval ko'paytirish va bo'lish, so'ngra qo'shish va ayirish).
+B2 = A1 * B1 - A2 / A3
+B2 = 5 * 3 - 8 / 2 = 15 - 4 = 11.
+Natija 11 ga teng.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>"MAKTAB" so'zining barcha harflari ishtirok etgan o'zaro farq qiladigan turli so'zlar (harflar ketma-ketligi, ma'noga ega bo'lishi shart emas) tuzildi. Ularning nechtasida ikkita 'A' harfi yonma-yon KELMAGAN?</problem>
+<solution>"MAKTAB" so'zida 6 ta harf bor, ulardan 2 tasi 'A', qolganlari 'M', 'K', 'T', 'B' (har biridan 1 tadan).
+Barcha mumkin bo'lgan o'rin almashtirishlar soni: $P = \frac{6!}{2!} = \frac{720}{2} = 360$ ta.
+Endi ikkita 'A' harfi yonma-yon kelgan holatlar sonini topamiz. Buning uchun "AA" ni bitta ajralmas blok (harf) deb qaraymiz.
+U holda bizda jami 5 ta element bo'ladi ("AA", "M", "K", "T", "B").
+Bu 5 ta elementni o'rin almashtirishlari soni: $5! = 120$ ta.
+Ikkita 'A' harfi yonma-yon KELMAGAN holatlar soni: Umumiy holatlar - "AA" yonma-yon holatlar = 360 - 120 = 240 ta.</solution>
+<answer>240</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi algoritm ishga tushirilgandan so'ng `x` o'zgaruvchisining qiymati qanday bo'ladi?
+x = 0
+i = 1 dan 50 gacha (50 ham kiradi) sikl:
+  agar i ni 3 ga bo'lgandagi qoldiq 0 ga teng bo'lsa va 5 ga bo'lgandagi qoldiq 0 dan farqli bo'lsa:
+    x = x + i
+  agar i ni 15 ga bo'lgandagi qoldiq 0 ga teng bo'lsa:
+    x = x - i</problem>
+<choices>A) 318  B) 228  C) 408  D) 138</choices>
+<solution>Algoritmni qadam-baqadam tahlil qilamiz.
+Sikl 1 dan 50 gacha bo'lgan barcha butun sonlarni ko'rib chiqadi.
+Birinchi shart (`i % 3 == 0` va `i % 5 != 0`) bajarilganda `x` ga `i` qo'shiladi. Bu degani, 50 gacha bo'lgan 3 ga karrali, lekin 5 ga karrali bo'lmagan (ya'ni 15 ga karrali bo'lmagan) sonlar `x` ga qo'shiladi.
+3 ga karrali sonlar yig'indisi: $3 + 6 + 9 + \dots + 48 = 3 \cdot (1 + 2 + \dots + 16) = 3 \cdot 136 = 408$.
+Ularning ichidan 15 ga karrali sonlar (15, 30, 45) olib tashlanishi kerak, chunki ular 5 ga ham bo'linadi. Ularning yig'indisi: $15 + 30 + 45 = 90$.
+Demak, birinchi shartdan keyin `x` ning yig'iladigan qismi: $408 - 90 = 318$.
+Ikkinchi shart (`i % 15 == 0`) bajarilganda `x` dan `i` ayriladi. Bu sonlar: 15, 30, 45 bo'lib, ular `x` dan ayiriladi. Ayiriladigan umumiy miqdor = 90.
+Natija: $x = 318 - 90 = 228$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $\frac{a}{b} = \frac{3}{4}$ va $\frac{b}{c} = \frac{5}{6}$ bo'lsa, $\frac{3a - b}{2b + c}$ kasrning qiymatini toping.</problem>
+<choices>A) 25/64  B) 5/16  C) 15/32  D) 25/32</choices>
+<solution>Berilgan nisbatlarni bitta umumiy o'zgaruvchi orqali ifodalab olamiz.
+$a : b = 3 : 4$ va $b : c = 5 : 6$. Ikkala nisbatda ham qatnashgan $b$ ni tenglashtirish uchun birinchi kasrni 5 ga, ikkinchisini 4 ga ko'paytiramiz.
+$\frac{a}{b} = \frac{15}{20}$ va $\frac{b}{c} = \frac{20}{24}$.
+Demak, $a = 15x$, $b = 20x$, $c = 24x$ ko'rinishida yozishimiz mumkin ($x \neq 0$).
+Bularni so'ralgan ifodaga qo'yamiz:
+$\frac{3a - b}{2b + c} = \frac{3(15x) - 20x}{2(20x) + 24x} = \frac{45x - 20x}{40x + 24x} = \frac{25x}{64x} = \frac{25}{64}$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Logic circuit with three inputs A, B, and C. Inputs A and B are connected to an AND gate. Input C is connected to a NOT gate. The output of the AND gate and the output of the NOT gate are both connected as inputs to an OR gate. The final output of the OR gate is labeled F.</diagram_spec>
+<problem>Chizmada A, B va C kiritish signallariga ega mantiqiy sxema tasvirlangan. Unda A va B signallar mantiqiy ko'paytirish (AND), C signal mantiqiy inkor (NOT) elementiga kirgan, so'ngra ularning natijalari mantiqiy qo'shish (OR) elementiga uzatilgan. Sxemaning F chiqish signali 0 (Yolg'on) bo'lishi uchun kiritish signallari qanday bo'lishi kerak?</problem>
+<choices>A) A=1, B=1, C=0  B) A=0, B=1, C=1  C) A=1, B=1, C=1  D) A=0, B=0, C=0</choices>
+<solution>Chizmadagi sxema ko'rinishini mantiqiy ifoda shaklida yozib olamiz: $F = (A \text{ AND } B) \text{ OR } (\text{NOT } C)$.
+Natija $F = 0$ (Yolg'on) bo'lishi uchun OR mantiqiy amali qoidasiga ko'ra ikkala qism ham 0 bo'lishi kerak.
+1) $A \text{ AND } B = 0$
+2) $\text{NOT } C = 0$
+Ikkinchi shartdan kelib chiqadiki, $C = 1$ bo'lishi shart.
+Variantlarni qaraymiz:
+A variantda C=0, to'g'ri kelmaydi.
+D variantda C=0, to'g'ri kelmaydi.
+C variantda A=1, B=1 $\implies A \text{ AND } B = 1$, bu holda F=1 bo'lib qoladi.
+B variantda A=0, B=1 $\implies A \text{ AND } B = 0$ va C=1 $\implies \text{NOT } C = 0$. Ikkalasi ham 0, demak F=0. B variant to'g'ri.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Hisoblang: $\left(1 - \frac{1}{2^2}\right) \cdot \left(1 - \frac{1}{3^2}\right) \cdot \left(1 - \frac{1}{4^2}\right) \cdot \dots \cdot \left(1 - \frac{1}{20^2}\right)$.</problem>
+<choices>A) 21/40  B) 19/40  C) 21/20  D) 39/40</choices>
+<solution>Ifodaning umumiy ko'rinishini qisqa qisqa ko'paytirish formulasi $(a^2 - b^2 = (a-b)(a+b))$ yordamida yozib olamiz:
+$1 - \frac{1}{n^2} = \frac{n^2 - 1}{n^2} = \frac{(n-1)(n+1)}{n \cdot n}$.
+Barcha ko'paytuvchilarni shu tarzda yozib chiqamiz:
+$n=2$ uchun: $\frac{1 \cdot 3}{2 \cdot 2}$
+$n=3$ uchun: $\frac{2 \cdot 4}{3 \cdot 3}$
+$n=4$ uchun: $\frac{3 \cdot 5}{4 \cdot 4}$
+...
+$n=20$ uchun: $\frac{19 \cdot 21}{20 \cdot 20}$
+Ko'paytmani bitta qatorga yozsak:
+$\frac{1 \cdot 3}{2 \cdot 2} \cdot \frac{2 \cdot 4}{3 \cdot 3} \cdot \frac{3 \cdot 5}{4 \cdot 4} \dots \frac{19 \cdot 21}{20 \cdot 20}$.
+E'tibor bersak, ichki qismlar qisqarib ketadi. Masalan, birinchi kasrning suratidagi 3 ikkinchi kasrning maxrajidagi 3 bilan, ikkinchi kasrning suratidagi 2 birinchi kasrning maxrajidagi 2 bilan qisqaradi va hokazo.
+Faqatgina birinchi kasrning boshidagi $\frac{1}{2}$ qismi hamda oxirgi kasrning oxiridagi $\frac{21}{20}$ qismlarigina qisqarmay qoladi.
+Natija: $\frac{1}{2} \cdot \frac{21}{20} = \frac{21}{40}$.</solution>
+<answer>A</answer>
+</example>

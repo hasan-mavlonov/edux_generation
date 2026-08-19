@@ -1,0 +1,190 @@
+<problem_set>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$a$ va $b$ sonlari uchun $a+b=10$ va $a^2-b^2=40$ bo'lsa, $a^2+b^2$ ning qiymatini toping.</problem>
+<choices>A) 52  B) 58  C) 64  D) 100</choices>
+<solution>Qisqa ko'paytirish formulasiga ko'ra $a^2-b^2 = (a-b)(a+b)$. Qiymatlarni o'rniga qo'yamiz: $40 = (a-b) \cdot 10$, bundan $a-b = 4$. Bizda tenglamalar sistemasi hosil bo'ldi: $a+b=10$ va $a-b=4$. Ularni qo'shsak: $2a = 14 \implies a = 7$. Ayirsak: $2b = 6 \implies b = 3$. Endi $a^2+b^2$ ni hisoblaymiz: $7^2 + 3^2 = 49 + 9 = 58$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$N = \overline{4a7b2}$ ko'rinishidagi besh xonali son 36 ga qoldiqsiz bo'linadi. $a+b$ yig'indining eng katta qiymatini toping.</problem>
+<choices>A) 13  B) 14  C) 15  D) 17</choices>
+<solution>Son 36 ga qoldiqsiz bo'linishi uchun u ham 4 ga, ham 9 ga bo'linishi kerak. 
+1) 4 ga bo'linish belgisi: sonning oxirgi ikkita raqamidan tashkil topgan son 4 ga bo'linishi kerak. Ya'ni $\overline{b2}$ soni 4 ga bo'linishi kerak. Bu faqat $b \in \{1, 3, 5, 7, 9\}$ bo'lganda o'rinli (12, 32, 52, 72, 92).
+2) 9 ga bo'linish belgisi: sonning raqamlari yig'indisi 9 ga bo'linishi kerak. Raqamlar yig'indisi: $4 + a + 7 + b + 2 = a + b + 13$. 
+$a+b+13$ yig'indi 9 ga bo'linishi uchun u 18 yoki 27 bo'lishi mumkin (chunki eng katta raqamlar $a=9, b=9$ bo'lganda umumiy yig'indi 31 gacha boradi). 
+Agar $a+b+13 = 18$ bo'lsa, $a+b = 5$.
+Agar $a+b+13 = 27$ bo'lsa, $a+b = 14$.
+Eng katta qiymat 14. Bu holat $b \in \{5, 7, 9\}$ va $a \in \{9, 7, 5\}$ bo'lganda amalga oshadi.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>1 dan 100 gacha bo'lgan natural sonlar to'plamidan yig'indisi 3 ga qoldiqsiz bo'linadigan ikkita turli sonni necha xil usulda tanlash mumkin? (Tanlash tartibi ahamiyatga ega emas).</problem>
+<solution>1 dan 100 gacha bo'lgan sonlarni 3 ga bo'lgandagi qoldig'iga ko'ra 3 ta guruhga ajratamiz:
+- 1 qoldiq qoladiganlar (1, 4, 7, ..., 100) — jami 34 ta son;
+- 2 qoldiq qoladiganlar (2, 5, 8, ..., 98) — jami 33 ta son;
+- 3 ga qoldiqsiz bo'linadiganlar (3, 6, 9, ..., 99) — jami 33 ta son.
+Ikkita sonning yig'indisi 3 ga bo'linishi uchun:
+1-holat. Ikkala son ham 3 ga qoldiqsiz bo'linadigan guruhdan olinadi. Tanlashlar soni: $\frac{33 \times 32}{2} = 528$.
+2-holat. Bitta son 1 qoldiq qoladigan guruhdan, ikkinchisi 2 qoldiq qoladigan guruhdan olinadi. Tanlashlar soni: $34 \times 33 = 1122$.
+Jami usullar soni: $528 + 1122 = 1650$.</solution>
+<answer>1650</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>A triangle ABC with obtuse angle C=120 degrees. Points D and E lie on the segment AB such that the order of points is A, D, E, B. Line segments CD and CE are drawn. AC = AE and BC = BD.</diagram_spec>
+<problem>$ABC$ uchburchakda $\angle C = 120^\circ$. $AB$ tomonda $D$ va $E$ nuqtalar shunday olinganki, $D$ nuqta $A$ va $E$ nuqtalar orasida joylashgan. Agar $AC = AE$ va $BC = BD$ bo'lsa, $\angle DCE$ burchakni toping.</problem>
+<choices>A) 15°  B) 40°  C) 30°  D) 45°</choices>
+<solution>$AC = AE$ bo'lgani uchun $\triangle ACE$ teng yonli. Uning asosidagi burchaklari $\angle ACE = \angle AEC = \frac{180^\circ - \angle A}{2} = 90^\circ - \frac{\angle A}{2}$.
+Xuddi shunday, $BC = BD$ bo'lgani uchun $\triangle BCD$ ham teng yonli va $\angle BCD = \angle BDC = 90^\circ - \frac{\angle B}{2}$.
+Ushbu ikki burchak yig'indisi: $\angle ACE + \angle BCD = 180^\circ - \frac{\angle A + \angle B}{2}$.
+Uchburchakning ichki burchaklari yig'indisidan $\angle A + \angle B = 180^\circ - \angle C = 180^\circ - 120^\circ = 60^\circ$.
+Shuning uchun $\angle ACE + \angle BCD = 180^\circ - \frac{60^\circ}{2} = 150^\circ$.
+Chizmada $D$ nuqta $A$ va $E$ orasida bo'lgani uchun, $\angle ACE = \angle ACD + \angle DCE$ va $\angle BCD = \angle BCE + \angle DCE$.
+Ularni qo'shsak: $\angle ACE + \angle BCD = (\angle ACD + \angle DCE + \angle BCE) + \angle DCE = \angle C + \angle DCE$.
+Bundan $150^\circ = 120^\circ + \angle DCE \implies \angle DCE = 30^\circ$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Sakkizlik sanoq sistemasida berilgan $175_8$ soniga ikkilik sanoq sistemasidagi $1011_2$ soni qo'shildi. Natija o'nlik sanoq sistemasida nechaga teng bo'ladi?</problem>
+<choices>A) 142  B) 125  C) 136  D) 186</choices>
+<solution>Avval har ikkala sonni o'nlik sanoq sistemasiga o'tkazamiz:
+$175_8 = 1 \cdot 8^2 + 7 \cdot 8^1 + 5 \cdot 8^0 = 1 \cdot 64 + 56 + 5 = 125_{10}$.
+$1011_2 = 1 \cdot 2^3 + 0 \cdot 2^2 + 1 \cdot 2^1 + 1 \cdot 2^0 = 8 + 0 + 2 + 1 = 11_{10}$.
+Ularning yig'indisi: $125 + 11 = 136_{10}$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Algoritmdagi o'zgaruvchilar $A = 5$, $B = 8$ va $C = 3$ qiymatga ega bo'lganda, quyidagi mantiqiy ifodaning qiymatini hisoblang:
+((A + C > B) OR (B - A == C)) AND NOT (C * 2 < A)
+
+Natijani 1 (Rost) yoki 0 (Yolg'on) ko'rinishida yozing.</problem>
+<solution>Ifodani qadamma-qadam hisoblaymiz:
+1. `(A + C > B)` qismi: `(5 + 3 > 8)` bu `8 > 8` bo'lgani uchun `Yolg'on (False)`.
+2. `(B - A == C)` qismi: `(8 - 5 == 3)` bu `3 == 3` bo'lgani uchun `Rost (True)`.
+3. Ularni OR (yoki) bilan birlashtiramiz: `False OR True` natijasi `True`.
+4. `(C * 2 < A)` qismi: `(3 * 2 < 5)` bu `6 < 5` bo'lgani uchun `Yolg'on (False)`.
+5. Uning inkori (NOT): `NOT False` natijasi `Rost (True)`.
+6. Yakuniy AND (va) amali: `True AND True` natijasi `True`, ya'ni 1.</solution>
+<answer>1</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi algoritm ishlashi natijasida S o'zgaruvchisi qanday qiymat qabul qiladi?
+
+S = 0
+N = 1
+Toki N <= 5 bo'lsa, takrorla:
+    Agar N % 2 == 1 bo'lsa:
+        S = S + N * 2
+    Aks holda:
+        S = S - N
+    N = N + 1
+
+Izoh: % belgisi qoldiqni hisoblash amali.</problem>
+<choices>A) 10  B) 15  C) 8  D) 12</choices>
+<solution>Algoritm N=1 dan 5 gacha aylanadi (tsikl):
+1-qadam: N=1 (toq, %2==1). S = 0 + 1 * 2 = 2. N=2 bo'ladi.
+2-qadam: N=2 (juft, aks holda). S = 2 - 2 = 0. N=3 bo'ladi.
+3-qadam: N=3 (toq). S = 0 + 3 * 2 = 6. N=4 bo'ladi.
+4-qadam: N=4 (juft). S = 6 - 4 = 2. N=5 bo'ladi.
+5-qadam: N=5 (toq). S = 2 + 5 * 2 = 12. N=6 bo'ladi.
+N=6 bo'lganda tsikl sharti (N <= 5) bajarilmaydi va to'xtaydi. Yakuniy natija S = 12.</solution>
+<answer>D</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Qutida bir nechta qizil va ko'k sharlar bor. Qizil sharlar soni ko'k sharlar sonidan 3 marta ko'p. Agar qutidan 4 ta qizil shar olinib, o'rniga 6 ta ko'k shar solinsa, qizil va ko'k sharlar soni tenglashadi. Dastlab qutida jami nechta shar bo'lgan?</problem>
+<solution>Dastlabki ko'k sharlar sonini $x$ deb belgilaymiz. U holda qizil sharlar soni $3x$ bo'ladi.
+Qutidagi o'zgarishlardan so'ng:
+Qizil sharlar soni: $3x - 4$
+Ko'k sharlar soni: $x + 6$
+Ular tenglashgani uchun tenglama tuzamiz:
+$3x - 4 = x + 6$
+$2x = 10 \implies x = 5$ (ko'k sharlar).
+Qizil sharlar: $3 \times 5 = 15$.
+Jami sharlar soni: $5 + 15 = 20$ ta.</solution>
+<answer>20</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$a$ va $b$ musbat haqiqiy sonlar bo'lib, ular $5a^2 + b^2 - 4ab - 12a + 36 = 0$ tenglikni qanoatlantiradi. Agar $x = \frac{a}{b} + \frac{b}{a}$ bo'lsa, $x$ ning qiymatini toping.</problem>
+<choices>A) 2  B) 2.5  C) 3  D) 1.5</choices>
+<solution>Berilgan tenglamani to'la kvadratlarga ajratamiz:
+$5a^2 + b^2 - 4ab - 12a + 36 = 0$
+$(4a^2 - 4ab + b^2) + (a^2 - 12a + 36) = 0$
+Birinchi qavs $(2a - b)^2$ ga, ikkinchi qavs $(a - 6)^2$ ga teng.
+$(2a - b)^2 + (a - 6)^2 = 0$.
+Ikkita musbat (yoki nolga teng) sonlar yig'indisi faqatgina ikkisi ham nolga teng bo'lgandagina nol bo'ladi:
+$a - 6 = 0 \implies a = 6$
+$2a - b = 0 \implies b = 2a = 12$.
+Endi so'ralgan ifodani hisoblaymiz:
+$x = \frac{6}{12} + \frac{12}{6} = 0.5 + 2 = 2.5$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Parol 5 ta belgidan iborat. Birinchi ikkita belgi ingliz alifbosidagi katta unli harflardan (A, E, I, O, U), qolgan uchta belgi esa 0 dan 9 gacha bo'lgan turli raqamlardan iborat. Shunday parollardan jami nechtasini tuzish mumkin? (Parolda harflar takrorlanishi mumkin, ammo raqamlar takrorlanmasligi kerak).</problem>
+<choices>A) 25000  B) 12500  C) 18000  D) 1800</choices>
+<solution>Parolning belgilarini ikki qismga bo'lib ko'ramiz:
+1. Harflar qismi (2 ta o'rin): Jami 5 ta unli harf bor. Harflar takrorlanishi mumkin, demak birinchi o'ringa 5 ta, ikkinchi o'ringa ham 5 ta imkoniyat bor. $5 \times 5 = 25$ xil usul.
+2. Raqamlar qismi (3 ta o'rin): Jami 10 ta raqam (0 dan 9 gacha) bor. Raqamlar takrorlanmasligi kerak, shuning uchun tanlashlar soni: uchinchi o'ringa 10 ta, to'rtinchi o'ringa 9 ta, beshinchi o'ringa 8 ta. $10 \times 9 \times 8 = 720$ xil usul.
+Jami kombinatsiyalar sonini topish uchun ularni ko'paytiramiz: $25 \times 720 = 18000$.</solution>
+<answer>C</answer>
+</example>
+
+</problem_set>

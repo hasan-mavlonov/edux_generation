@@ -11,7 +11,7 @@ person to sign off before deployment, and formula-answer physics problems
 always need human review since they can't be auto-graded reliably.
 
 Usage:
-    python scripts/solve_check.py data/raw/generated_batch_20260815_140203.txt
+    python scripts/solve_check.py data/raw/pending/gen_Matematika-Informatika_g7_20260816_182804.txt
 """
 import getpass
 import json
@@ -27,7 +27,7 @@ load_dotenv(find_dotenv())
 if not os.getenv("GEMINI_API_KEY"):
     os.environ["GEMINI_API_KEY"] = getpass.getpass("GEMINI API KEY: ")
 
-MODEL = "gemini-3.1-pro-preview"
+MODEL = "gemini-3.6-flash"
 BLOCK_RE = re.compile(r"<subject>.*?</answer>", re.DOTALL)
 TAG_RE = re.compile(r"<(\w+)>(.*?)</\1>", re.DOTALL)
 
@@ -80,14 +80,16 @@ def main():
 
     client = genai.Client()
     verified_path = Path(__file__).resolve().parent.parent / "data" / "verified_pool.jsonl"
+    flagged_path = Path(__file__).resolve().parent.parent / "data" / "flagged_for_review.jsonl"
     verified_path.parent.mkdir(parents=True, exist_ok=True)
 
     passed, flagged = 0, 0
-    with verified_path.open("a", encoding="utf-8") as out:
+    with verified_path.open("a", encoding="utf-8") as out, flagged_path.open("a", encoding="utf-8") as flag_out:
         for i, block in enumerate(blocks, 1):
             is_formula = "format" in block and block.get("format") == "open" and not block["answer"].replace(".", "").replace("-", "").isdigit()
             if is_formula:
                 print(f"[{i}/{len(blocks)}] SKIPPED (formula answer, needs human review): {block['problem'][:60]}...")
+                flag_out.write(json.dumps({**block, "reason": "formula_answer", "fresh_solve": None}, ensure_ascii=False) + "\n")
                 flagged += 1
                 continue
 
@@ -98,11 +100,18 @@ def main():
                 print(f"[{i}/{len(blocks)}] PASS")
             else:
                 flagged += 1
+                flag_out.write(json.dumps({**block, "reason": "mismatch", "fresh_solve": fresh}, ensure_ascii=False) + "\n")
                 print(f"[{i}/{len(blocks)}] MISMATCH -- stated={block['answer']!r} fresh_solve={fresh!r} -- flagged for human review, not added")
 
     print(f"\n{passed} passed and appended to {verified_path}")
-    print(f"{flagged} flagged for human review (mismatch or formula-answer)")
-    print("Run scripts/build_dataset.py next to fold these into train.jsonl")
+    print(f"{flagged} flagged for human review -- see {flagged_path}")
+    print("Run scripts/build_dataset.py next to fold verified_pool.jsonl into train.jsonl")
+
+    checked_dir = Path(__file__).resolve().parent.parent / "data" / "raw" / "checked"
+    checked_dir.mkdir(parents=True, exist_ok=True)
+    dest = checked_dir / raw_path.name
+    raw_path.replace(dest)
+    print(f"\nMoved {raw_path.name} -> {dest} (marked as checked)")
 
 
 if __name__ == "__main__":

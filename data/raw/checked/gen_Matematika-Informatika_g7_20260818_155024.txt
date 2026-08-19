@@ -1,0 +1,186 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x=100$ bo'lsa, $(2x-1)(2x+1) - 4(x-2)(x+3)$ ifodaning qiymatini hisoblang.</problem>
+<choices>A) -377  B) 377  C) -423  D) 423</choices>
+<solution>Ifodani soddalashtiramiz: $(2x-1)(2x+1)$ qisqa ko'paytirish formulasiga ko'ra $4x^2 - 1$ ga teng. 
+Ikkinchi qismni ochib chiqamiz: $-4(x^2 + 3x - 2x - 6) = -4(x^2 + x - 6) = -4x^2 - 4x + 24$.
+Ikkalasini qo'shamiz: $4x^2 - 1 - 4x^2 - 4x + 24 = 23 - 4x$.
+Endi $x=100$ qiymatini o'rniga qo'yamiz: $23 - 4 \cdot 100 = 23 - 400 = -377$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasida berilgan $101101_2$ va $11011_2$ sonlari yig'indisini sakkizlik sanoq sistemasida toping.</problem>
+<choices>A) 110  B) 104  C) 130  D) 72</choices>
+<solution>Avval sonlarni o'nlik sanoq sistemasiga o'tkazib yig'indini hisoblaymiz:
+$101101_2 = 1 \cdot 2^5 + 0 \cdot 2^4 + 1 \cdot 2^3 + 1 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0 = 32 + 0 + 8 + 4 + 0 + 1 = 45_{10}$.
+$11011_2 = 1 \cdot 2^4 + 1 \cdot 2^3 + 0 \cdot 2^2 + 1 \cdot 2^1 + 1 \cdot 2^0 = 16 + 8 + 0 + 2 + 1 = 27_{10}$.
+Yig'indi: $45 + 27 = 72_{10}$.
+$72$ sonini sakkizlik sanoq sistemasiga o'tkazamiz: $72 / 8 = 9$ (qoldiq 0), $9 / 8 = 1$ (qoldiq 1), natija $110_8$.
+Yoki to'g'ridan-to'g'ri ikkilikda qo'shish: $101101_2 + 011011_2 = 1001000_2$. Uchtadan guruhlaymiz: $001$ $001$ $000 \rightarrow 110_8$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$n$ natural sonining teng yarmi biror butun sonning kvadrati, uchdan bir qismi biror butun sonning kubi va beshdan bir qismi biror butun sonning beshinchi darajasiga teng. Eng kichik shunday $n$ soni $n = 2^a \cdot 3^b \cdot 5^c$ ko'rinishida yozilishi mumkin bo'lsa, $a+b+c$ yig'indini toping.</problem>
+<solution>$n = 2^a \cdot 3^b \cdot 5^c$ shaklida qidiramiz.
+1) $n/2 = 2^{a-1} 3^b 5^c$ kvadrat bo'lishi uchun darajalar juft bo'lishi kerak: $a-1 \equiv 0 \pmod 2 \implies a$ toq; $b$ juft; $c$ juft.
+2) $n/3 = 2^a 3^{b-1} 5^c$ kub bo'lishi uchun darajalar 3 ga karrali bo'lishi kerak: $a \equiv 0 \pmod 3$; $b-1 \equiv 0 \pmod 3 \implies b \equiv 1 \pmod 3$; $c \equiv 0 \pmod 3$.
+3) $n/5 = 2^a 3^b 5^{c-1}$ beshinchi daraja bo'lishi uchun: $a \equiv 0 \pmod 5$; $b \equiv 0 \pmod 5$; $c-1 \equiv 0 \pmod 5 \implies c \equiv 1 \pmod 5$.
+Endi har bir daraja uchun eng kichik qiymatlarni topamiz:
+$a$: toq, 3 va 5 ga bo'linadi. 3 va 5 ning EKUKi 15. Eng kichik toq son: $a = 15$.
+$b$: juft, 5 ga bo'linadi (demak 10 ga karrali) va 3 ga bo'lganda qoldiq 1. 10 ga karrali bo'lgan eng kichik shunday son: $b = 10$.
+$c$: juft, 3 ga bo'linadi (demak 6 ga karrali) va 5 ga bo'lganda qoldiq 1. 6 ga karrali bo'lgan eng kichik shunday son: $c = 6$.
+Natija: $a+b+c = 15 + 10 + 6 = 31$.</solution>
+<answer>31</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Faqat toq raqamlardan tashkil topgan, barcha raqamlari har xil va 3 ga qoldiqsiz bo'linadigan uch xonali sonlar jami nechta?</problem>
+<choices>A) 24  B) 20  C) 36  D) 60</choices>
+<solution>Toq raqamlar to'plami: {1, 3, 5, 7, 9}. Ularning umumiy yig'indisi $1+3+5+7+9 = 25$.
+Uch xonali son 3 ga bo'linishi uchun uning raqamlari yig'indisi 3 ga bo'linishi kerak. 5 ta raqamdan 3 tasini tanlaganda yig'indi 3 ga bo'linishi uchun, tashlab yuborilgan 2 ta raqamning yig'indisi 3 ga bo'lganda 1 qoldiq berishi kerak (chunki $25 \equiv 1 \pmod 3$).
+Raqamlarning 3 ga bo'lgandagi qoldiqlari: 1(1), 3(0), 5(2), 7(1), 9(0).
+Tashlab yuboriladigan juftlikning yig'indisi 1 qoldiq berishi uchun, u bitta '0' va bitta '1' qoldiqqa ega raqamlardan iborat bo'lishi kerak.
+Mumkin bo'lgan bunday juftliklar (0 va 1 qoldiqlilar): {3, 1}, {3, 7}, {9, 1}, {9, 7}. Demak, 4 xil uchlik qolishi mumkin:
+1) {3, 1} yo'qolsa $\rightarrow$ {5, 7, 9}
+2) {3, 7} yo'qolsa $\rightarrow$ {1, 5, 9}
+3) {9, 1} yo'qolsa $\rightarrow$ {3, 5, 7}
+4) {9, 7} yo'qolsa $\rightarrow$ {1, 3, 5}
+Ushbu 4 xil raqamlar to'plamining har biridan $3! = 6$ xil turli uch xonali son tuzish mumkin. Jami: $4 \cdot 6 = 24$ ta son.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi mantiqiy ifodaning natijasini toping: `(A YOKI B) EMAS VA (C YOKI (D EMAS))`. Bunda mantiqiy o'zgaruvchilar quyidagi qiymatlarni qabul qiladi: A = 0, B = 0, C = 1, D = 1 (bunda 0 - Yolg'on, 1 - Rost).</problem>
+<choices>A) 1  B) 0  C) C va D o'zgaruvchilariga bog'liq emas  D) Ifodada sintaktik xatolik bor</choices>
+<solution>Ifodani bosqichma-bosqich hisoblaymiz:
+1) `A YOKI B` = `0 YOKI 0` = 0 (Yolg'on).
+2) `(A YOKI B) EMAS` = `0 EMAS` = 1 (Rost).
+3) `D EMAS` = `1 EMAS` = 0 (Yolg'on).
+4) `C YOKI (D EMAS)` = `1 YOKI 0` = 1 (Rost).
+5) Yakuniy ifoda: `1 VA 1` = 1 (Rost).
+Natija 1 ga teng.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. D is a point on the segment BC. Segment AD is drawn. Length AD = Length BD. Angle DAC = 30 degrees. Angle BCA = 40 degrees.</diagram_spec>
+<problem>ABC uchburchakda D nuqta BC tomonda yotadi. Agar $AD = BD$, $\angle DAC = 30^\circ$ va $\angle C = 40^\circ$ bo'lsa, $\angle B$ burchakning kattaligini toping.</problem>
+<choices>A) 40°  B) 55°  C) 70°  D) 65°</choices>
+<solution>ADC uchburchakning ichki burchaklari yig'indisi $180^\circ$ ga teng:
+$\angle ADC = 180^\circ - (\angle DAC + \angle C) = 180^\circ - (30^\circ + 40^\circ) = 110^\circ$.
+B, D va C nuqtalar bir to'g'ri chiziqda (BC kesmada) yotgani uchun, yondosh burchak xossasiga ko'ra:
+$\angle ADB = 180^\circ - \angle ADC = 180^\circ - 110^\circ = 70^\circ$.
+Masala shartiga ko'ra $AD = BD$, demak ABD uchburchak teng yonli bo'lib, uning asosi AB hisoblanadi.
+Teng yonli uchburchakning asosidagi burchaklari teng: $\angle B = \angle DAB$.
+Shuning uchun, $\angle B = (180^\circ - \angle ADB) / 2 = (180^\circ - 70^\circ) / 2 = 110^\circ / 2 = 55^\circ$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel dasturida kataklarga quyidagi qiymatlar kiritilgan: A1=3, A2=5, A3=3, B1=8, B2=1, B3=4. Biror katakka quyidagi formula yozildi:
+`=IF(AVERAGE(A1:B3)>4; SUMIF(A1:B3; ">3"); PRODUCT(COUNTIF(A1:A3; 3); MAX(B1:B3)))`
+Ushbu formula hisoblangandan so'ng ekranda qanday natija hosil bo'lishini toping.</problem>
+<solution>Bosqichma-bosqich hisoblaymiz:
+1) Shartni tekshiramiz: `AVERAGE(A1:B3)`. A1 dan B3 gacha bo'lgan 6 ta katakdagi sonlar yig'indisi: $3 + 5 + 3 + 8 + 1 + 4 = 24$. Ularning o'rta arifmetigi $24 / 6 = 4$.
+2) Shart qismi `4 > 4` ni tekshiradi. Bu shart Yolg'on (FALSE). Shuning uchun IF funksiyasining rost qismi (`SUMIF...`) o'tkazib yuborilib, uchinchi argumenti — yolg'on holatdagi qismi bajariladi.
+3) Yolg'on qismi: `PRODUCT(COUNTIF(A1:A3; 3); MAX(B1:B3))`.
+4) Birinchi argument: `COUNTIF(A1:A3; 3)`. A1:A3 oralig'ida (3, 5, 3) qiymatlari ichida 3 ga teng bo'lganlari 2 ta. Demak natija 2.
+5) Ikkinchi argument: `MAX(B1:B3)`. B1:B3 oralig'ida (8, 1, 4) eng katta qiymat 8.
+6) Yakuniy natija: `PRODUCT(2; 8)` ya'ni $2 \cdot 8 = 16$.</solution>
+<answer>16</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$||4x - 5| - 6| = 3$ tenglamaning barcha haqiqiy ildizlari ko'paytmasini toping.</problem>
+<choices>A) -3,5  B) -7  C) 3,5  D) 7</choices>
+<solution>Tashqi modulni ochamiz, bunda ikkita holat yuzaga keladi:
+1-holat: $|4x - 5| - 6 = 3 \implies |4x - 5| = 9$.
+Bu yana ikkiga ajraladi:
+a) $4x - 5 = 9 \implies 4x = 14 \implies x_1 = 3,5$.
+b) $4x - 5 = -9 \implies 4x = -4 \implies x_2 = -1$.
+
+2-holat: $|4x - 5| - 6 = -3 \implies |4x - 5| = 3$.
+Bu holat ham ikkiga ajraladi:
+c) $4x - 5 = 3 \implies 4x = 8 \implies x_3 = 2$.
+d) $4x - 5 = -3 \implies 4x = 2 \implies x_4 = 0,5$.
+
+Jami 4 ta yechim mavjud: $3,5$; $-1$; $2$; $0,5$.
+Ildizlar ko'paytmasini hisoblaymiz: $3,5 \cdot (-1) \cdot 2 \cdot 0,5 = -3,5 \cdot 1 = -3,5$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Hisoblang: $\left(1 - \frac{1}{4}\right) \cdot \left(1 - \frac{1}{9}\right) \cdot \left(1 - \frac{1}{16}\right) \cdots \left(1 - \frac{1}{400}\right)$</problem>
+<choices>A) 21/40  B) 20/39  C) 39/40  D) 19/40</choices>
+<solution>Har bir ko'paytuvchini umumiy maxrajga keltirib, qisqa ko'paytirish formulasi $(a^2 - b^2)$ yordamida yoyamiz:
+$1 - \frac{1}{k^2} = \frac{k^2 - 1}{k^2} = \frac{(k-1)(k+1)}{k \cdot k}$.
+Ifodani to'liq ko'rinishda yozamiz ($k$ 2 dan 20 gacha qiymat qabul qiladi):
+$\frac{1 \cdot 3}{2 \cdot 2} \cdot \frac{2 \cdot 4}{3 \cdot 3} \cdot \frac{3 \cdot 5}{4 \cdot 4} \cdots \frac{18 \cdot 20}{19 \cdot 19} \cdot \frac{19 \cdot 21}{20 \cdot 20}$.
+Ketma-ket qisqarishni ko'radigan bo'lsak, oraliqdagi barcha suratlardagi va maxrajlardagi qismlar qisqarib ketadi (teleskopik xususiyat). 
+Faqat birinchi ko'paytuvchining surati va maxrajidagi bitta qism ($\frac{1}{2}$) hamda oxirgi ko'paytuvchining surati va maxrajidagi bitta qism ($\frac{21}{20}$) qoladi:
+Natija: $\frac{1}{2} \cdot \frac{21}{20} = \frac{21}{40}$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Hajmi 600 MB (Megabayt) bo'lgan video fayl arxivator yordamida siqildi, natijada uning hajmi dastlabkiga nisbatan 40% ga qisqardi. Siqilgan faylni ma'lumot uzatish tezligi 48 Mbit/s (Megabit/sekund) bo'lgan tarmoq orqali jo'natish uchun necha sekund vaqt talab etiladi? (1 Bayt = 8 bit)</problem>
+<choices>A) 60  B) 100  C) 48  D) 80</choices>
+<solution>Faylni uzatish vaqtini topish uchun uning yakuniy hajmini hisoblab, tegishli o'lchov birligiga (Megabitga) o'tkazishimiz zarur.
+1) Faylning 40% ga siqilishi degani, u asl hajmining 60% qismini tashkil qiladi degani: $600 \cdot 0,6 = 360$ MB (yoki $600 - (600 \cdot 0,4) = 360$).
+2) Tarmoq tezligi Mbit/s (Megabit/sekund) da berilgan, shuning uchun fayl hajmini Baytdan bitga o'tkazamiz (1 Bayt = 8 bit):
+$360 \text{ MB} = 360 \cdot 8 \text{ Mbit} = 2880 \text{ Mbit}$.
+3) Uzatish vaqtini aniqlash formulasiga ko'ra ($t = \frac{Hajm}{Tezlik}$):
+$t = \frac{2880}{48} = 60$ sekund.</solution>
+<answer>A</answer>
+</example>

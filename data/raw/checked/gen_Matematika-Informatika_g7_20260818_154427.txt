@@ -1,0 +1,126 @@
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Hisoblang: (2024³ + 2023³) / (2024² − 2024 · 2023 + 2023²) − 2023</problem>
+<choices>A) 2023  B) 2024  C) 4047  D) 1</choices>
+<solution>a³ + b³ = (a+b)(a² − ab + b²) qisqa ko'paytirish formulasidan foydalanamiz. Bu erda a=2024, b=2023. Kasrning surati (2024+2023)(2024² − 2024·2023 + 2023²) ga teng bo'ladi. Maxrajdagi ifoda bilan qisqartirgandan so'ng, faqat (2024+2023) qoladi. Undan 2023 ni ayirsak: 2024 + 2023 − 2023 = 2024 natijasiga egamiz.</solution>
+<answer>B</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D lies on segment BC. Point E lies on segment AB. AD and ED are drawn. AC = AD, AE = AD. Angle ABC = 30 degrees, Angle BAC = 80 degrees.</diagram_spec>
+<problem>ABC uchburchak berilgan. BC tomonda D nuqta shunday olinganki, AC = AD tenglik o'rinli. AB tomonda esa E nuqta olingan va AE = AD. Agar ∠B = 30° va ∠BAC = 80° bo'lsa, ∠BDE burchakning kattaligini toping.</problem>
+<choices>A) 30°  B) 40°  C) 50°  D) 60°</choices>
+<solution>Uchburchak burchaklari yig'indisi 180° bo'lgani uchun ∠C = 180° − 80° − 30° = 70°. ADC uchburchak teng yonli (AC = AD), demak ∠ADC = ∠C = 70°. Uning uchinchi burchagi ∠DAC = 180° − 2·70° = 40°. Endi ∠DAB ni topamiz: ∠DAB = ∠BAC − ∠DAC = 80° − 40° = 40°. ADE uchburchak ham teng yonli (AE = AD), uning asosidagi burchaklari ∠ADE = ∠AED = (180° − 40°) / 2 = 70°. B, D, C nuqtalar bir to'g'ri chiziqda (BC kesmada) yotgani uchun ∠ADB = 180° − ∠ADC = 110°. E nuqta AB tomonda yotgani sababli, ∠BDE = ∠ADB − ∠ADE = 110° − 70° = 40°.</solution>
+<answer>B</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>n va n+2025 sonlari ikkalasi ham biror butun musbat sonlarning to'la kvadrati bo'ladigan nechta natural n soni mavjud?</problem>
+<solution>Faraz qilaylik, n = x² va n + 2025 = y² (bu yerda x, y butun musbat sonlar). U holda y² − x² = 2025, ya'ni (y−x)(y+x) = 2025 bo'ladi.
+2025 sonini tub ko'paytuvchilarga ajratamiz: 2025 = 45² = 3⁴ · 5². Uning natural bo'luvchilari soni: (4+1)(2+1) = 15 ta.
+(y−x) va (y+x) ko'paytuvchilar ikkalasi ham toq (chunki ko'paytma toq) va n soni natural bo'lgani uchun y+x > y−x o'rinli.
+Shunday (y−x) va (y+x) ko'paytuvchilar juftliklari soni (15 − 1)/2 = 7 ta.
+Ularning har biri uchun x = ((y+x) − (y−x)) / 2 formula yordamida butun musbat x soni topiladi (chunki eng yaqin ko'paytuvchilar juftligi 45 va 45, lekin y+x ≠ y−x bo'lgani u qabul qilinmaydi, ya'ni x har doim 0 dan katta). Natijada 7 xil natural x va unga mos 7 xil natural n soni mavjud.</solution>
+<answer>7</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi 101101_2 sonining o'nlik sanoq sistemasidagi qiymatini toping.</problem>
+<choices>A) 45  B) 43  C) 53  D) 37</choices>
+<solution>Sonni o'nlik tizimga o'tkazish uchun yozuvdagi raqamlarni o'ngdan chapga qarab ikkining mos darajalariga ko'paytirib chiqamiz:
+1·2⁵ + 0·2⁴ + 1·2³ + 1·2² + 0·2¹ + 1·2⁰ = 32 + 0 + 8 + 4 + 0 + 1 = 45.</solution>
+<answer>A</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel dasturida yacheykalarga quyidagi qiymatlar kiritilgan: A1 = 12, A2 = 8, B1 = 5, B2 = 3. C1 yacheykaga kiritilgan =SUM(A1:B2) + MAX(A1:B2)*MIN(A1:B2) formulasining hisoblash natijasi qanday bo'ladi?</problem>
+<solution>A1:B2 diapazoni berilgan 4 ta yacheykani to'liq qamrab oladi: 12, 8, 5, 3.
+SUM(A1:B2) funksiyasi ularning yig'indisini hisoblaydi: 12 + 8 + 5 + 3 = 28.
+MAX funksiyasi orasidan eng kattasini oladi: 12. MIN funksiyasi eng kichigini oladi: 3. Ularning ko'paytmasi 12 · 3 = 36.
+Umumiy natija ikkita qism yig'indisidan iborat: 28 + 36 = 64.</solution>
+<answer>64</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Sinfda 5 ta o'g'il va 4 ta qiz bola matematika to'garagiga qatnashadi. Ular orasidan olimpiadada jamoaviy qatnashish uchun 3 ta o'g'il va 2 ta qiz boladan iborat guruhni necha xil usulda tanlab olish mumkin?</problem>
+<choices>A) 60  B) 120  C) 30  D) 24</choices>
+<solution>O'g'il bolalarni tanlash guruhlari soni (tartib muhim emas) C(5, 3) = 5! / (3!·2!) = 10 ga teng.
+Qiz bolalarni tanlash guruhlari soni C(4, 2) = 4! / (2!·2!) = 6 ga teng.
+Ko'paytirish qoidasiga asosan, guruh tuzish uchun jami imkoniyatlar soni 10 · 6 = 60 bo'ladi.</solution>
+<answer>A</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar x² − 4x + 1 = 0 bo'lsa, x⁴ + 1/x⁴ ifodaning qiymatini toping.</problem>
+<choices>A) 194  B) 196  C) 254  D) 192</choices>
+<solution>Tenglamadan x ≠ 0 ekani ravshan. Berilgan x² − 4x + 1 = 0 tenglamaning ikkala qismini x ga bo'lamiz: x − 4 + 1/x = 0, ya'ni x + 1/x = 4.
+Ikkala tomonini kvadratga ko'taramiz: (x + 1/x)² = 16 → x² + 2·x·(1/x) + 1/x² = 16 → x² + 2 + 1/x² = 16 → x² + 1/x² = 14.
+Olingan natijani yana bir marta kvadratga ko'taramiz: (x² + 1/x²)² = 14² → x⁴ + 2 + 1/x⁴ = 196 → x⁴ + 1/x⁴ = 194.</solution>
+<answer>A</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi algoritm bajarilgandan so'ng "b" o'zgaruvchining qiymati qanday bo'lishini toping:
+
+a = 2, b = 3
+k = 1 dan 4 gacha takrorla:
+  c = a + b
+  a = b
+  b = c
+takrorlash tugadi</problem>
+<choices>A) 21  B) 13  C) 8  D) 34</choices>
+<solution>Algoritm har qadamda Fibonachchi sonlariga o'xshash tarzda ishlagan holda oldingi ikkita sonning yig'indisini hisoblab yangilaydi. Sikl 4 marta bajariladi.
+Boshlang'ich holat: a = 2, b = 3.
+1-qadam (k=1): c = 2+3=5, a = 3, b = 5.
+2-qadam (k=2): c = 3+5=8, a = 5, b = 8.
+3-qadam (k=3): c = 5+8=13, a = 8, b = 13.
+4-qadam (k=4): c = 8+13=21, a = 13, b = 21.
+Sikl tugadi. 'b' o'zgaruvchisining oxirgi qiymati 21.</solution>
+<answer>A</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>3²⁰²⁶ + 4²⁰²⁶ yig'indining oxirgi raqamini toping.</problem>
+<solution>3 ning darajalari (3, 9, 7, 1) ketma-ketlikda tugaydi, davri 4 ga teng. 2026 ni 4 ga bo'lganda qoldiq 2 ga teng bo'ladi. Bu degani 3²⁰²⁶ xuddi 3² kabi 9 bilan tugaydi.
+4 ning darajalari (4, 6) ketma-ketlikda tugaydi, davri 2. 2026 juft son bo'lganligi sababli 4²⁰²⁶ soni 6 bilan tugaydi.
+Ularning yig'indisining oxirgi raqami esa 9 + 6 = 15, ya'ni oxirgi raqami 5 ni beradi.</solution>
+<answer>5</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Internet tarmog'ida ma'lumotlarni uzatish tezligi 32 Mbps (Megabit/sekund) ni tashkil etadi. Hajmi 120 MB (Megabayt) bo'lgan faylni yuklab olish uchun necha sekund vaqt ketishini hisoblang.</problem>
+<choices>A) 3.75  B) 30  C) 240  D) 60</choices>
+<solution>Masalada tezlik Megabitlarda (Mbps), hajmi esa Megabaytlarda (MB) berilgan. Buni bir xil o'lchovga keltirish kerak (1 Bayt = 8 bit).
+Fayl hajmini Megabitlarga o'tkazamiz: 120 MB = 120 · 8 = 960 Mb (Megabit).
+Yuklab olish vaqtini topish uchun fayl hajmini tarmoq tezligiga bo'lamiz: 960 Mb / 32 Mbps = 30 sekund.</solution>
+<answer>B</answer>
