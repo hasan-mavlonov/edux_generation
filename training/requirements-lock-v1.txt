@@ -1,0 +1,8 @@
+# Exact training stack captured from the completed EduX v1 QLoRA run.
+# Source: pip freeze | grep -E "torch|transformers|trl|peft"
+# Captured on the AutoDL RTX 3080 Ti training instance.
+
+peft==0.20.0
+torch==2.5.1+cu121
+transformers==5.15.1
+trl==1.10.0
