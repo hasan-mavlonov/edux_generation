@@ -1,0 +1,212 @@
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x - y = 2$ va $x^2 - y^2 = 4$ tenglamalar sistemasini qanoq qiluvchi $x$ va $y$ sonlari orasidagi farqni toping.</problem>
+<choices>A) 1  B) 2  C) 3  D) 4</choices>
+<solution>Quyidagi qisqa formuladan foydalanamiz: $x^2 - y^2 = (x - y)(x + y)$. 
+Bilamizki, $x - y = 2$ va $x^2 - y^2 = 4$.
+Bunday holda, tenglamadan $4 = 2(x + y)$ hosil bo'ladi.
+Undan $x + y = 2$ topiladi.
+Endi bizga x va y ning yig'indisi va farzi berilgan. Buning orasidan har ikkala sonni topish mumkin: 
+$x - y = 2$ va $x + y = 2$ sistemasini yechamiz.
+Bundan ikkala tenglamani qo'shamiz: $2x = 4 \implies x = 2$.
+$x = 2$ ni birinchi tenglamaga qo'yamiz: $2 - y = 2 \implies y = 0$.
+Har ikkalasi sonlar orasidagi farq $x - y = 2 - 0 = 2$ ga teng.</solution>
+<answer>B</answer>
+
+<think>
+
+</think>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<problem>Uchinchi darajali $f(x)$ ko'paytmani tenglama $f(x) = 16$ yechimiga ega bo'lgan. Agar $f(x)$ ning $x = 1, 2, 4$ ga teng bo'lgan har bir qiymatda faqat 1 ta yechim bor bo'lsa, $f(x)$ ning boshqa yechimini toping.</problem>
+<solution>Agar $f(x)$ ko'paytmani $x = 1, 2, 4$ qiymatlarida faqat 1 ta yechim bo'lsa, u shunday bo'lishi mumkinki, uning qisqa ko'paytuvchilari ham shunday $ (x-a) $ shaklidagi qisqa ko'paytuvchilar bo'lsin, bunda $a$ yechimlar. Demak, $f(x) = (x-1)(x-2)(x-4) \cdot k$, bu yerda $k$ - bitta butun son. Endi $f(x) = 16$ tenglamani yechamiz: $(x-1)(x-2)(x-4) \cdot k = 16$. $k$ ning qiymati 1 ga teng bo'lsa, bu tenglama $(x-1)(x-2)(x-4) = 16$ bo'ladi. $x = 0$ ni o'tkazsak: $(-1)(-2)(-4) = -8$ ekanligini ko'ramiz. $
+
+<think>
+
+</think>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<problem>ABCD to'g'ri to'rtburchakda BC tomonida E nuqta, CD tomonida F nuqta, AD tomonida G nuqta oling. B va C nuqtalardan o'tuvchi to'g'ri chiziq, A va D nuqtalardan o'tuvchi to'g'ri chiziq, E va F nuqtalardan o'tuvchi to'g'ri chiziq (EFD kesmasi) va B va G nuqtalardan o'tuvchi to'g'ri chiziqni bir-biriga qarama-qarshi chiziqlarga qarab o'zaro to'g'ri chiziqlarga teng bo'ladigan usulda ayirib olinsa, F nuqta B va C nuqtalaridan o'tuvchi chiziqda joylashgan bo'lishi uchun ABC uchburchakning tomoni (AB, BC yoki AC) ning qaysi biri bo'lishi kerak?</problem>
+<choices>A) AB  B) BC  C) AC  D) to'g'ri to'rtburchakning ichida</choices>
+<solution>B va C nuqtalardan o'tuvchi to'g'ri chiziqni to'g'ri to'rtburchakning diagonaliga, A va D nuqtalardan o'tuvchi chiziqni esa diagonala yoki uning parallelyosidagicha qarab o'zaro
+
+<think>
+
+</think>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $2024$ sonini $7$ ga bo'lsak, qoldiq $q$ bo'ladi. Agar $q$ sonini 2024 ga bo'lsak, yana qoldiq $r$ bo'ladi. $r$ sonini toping.</problem>
+<solution>Berilgan shartga ko'ra, $2024 = 7 \cdot k + q$, bunda $0 \leq q < 7$. $q$ ni 2024 ga bo'lsak, $q = 2024 \cdot m + r$ (bu yerda $0 \leq r < 2024$). $q$ ning qiymatini 2024 ning 7 ga bo'linishi shartiga moslashtiramiz: $2024 \div 7 = 289$ qoldiq $r = 1$.
+Demak, $q = 2024 \cdot m + 1$.
+Endi 7 ga bo'lsak qoldiqni topamiz: $2024 \equiv 1 \mod 7$.
+Demak, $q = 1 \cdot m + 1 \mod 7 \equiv (m + 1) \mod 7$.
+Bu $q < 7$ ekanligini hisobga olsak, $m + 1$ yoki 0 bo'lishi kerak. Demak, $m = 0$.
+Shunday qilib, $q = 1$, bundan
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Yolg'on 0 va 1 raqamlaridan tashkil topgan 14 ta xonali xuddi shunday sonlar tuzilsa, bunday sonlarning nechasi 2 ga karrali bo'lishi mumkin?</problem>
+<choices>A) 2047  B) 4094  C) 4096  D) 8192</choices>
+<solution>2 ga karrali bo'lish uchun sonning oxirgi raqami 0 bo'lishi kerak. 14 ta xonali xuddi shunday raqamlar soni 2^14 = 4096 ta. Ulardan nechasi oxirgi raqami 0 bo'lishi mumkin? O'zgaruvchilarni qo'shish orqali 13 ta xonani 0 va 1 raqamlar bilan to'ldirish mumkin. Demak, bunday 14 ta xonali sonning 2 ga karrili bo'lishi uchun 2^13 = 8192 ta shart qanoqli son mavjud. Javob: D.</solution>
+<answer>D</answer>
+
+<think>
+
+</think>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<problem>Uchta o'zgaruvchilarni (x, y, z) qanday qiymatlari uchun ifoda $x^3 + y^3 + z^3 - 3xyz$ eng kichik bo'ladi, agar x + y + z = 1 bo'lsa?</problem>
+<solution>X, y, z musbat sonlar bo'lsin. Berilgan ifoda 3(x + y + z)(x^2 + y^2 + z^2 - xy - yz - zx) ga teng bo'ladi. Agar x + y + z = 1 bo'lsa, ifoda 3(1)(x^2 + y^2 + z^2 - xy - yz - zx) ga teng bo'ladi. 
+Endi yechim yoki x, y, z sonlarining o'rnini almashtirish orqali x, y, z sonlarining to'g'ri qismi bo'lgan (x^2 + y^2 + z^2 - xy - yz - zx) ifodaning qiymatini kamaytirishimiz kerak. 
+Bu ifodani quyidagicha yozish mumkin: (x - y)^2 + (y - z)^2 + (z - x)^2. 
+Demak, ifodaning eng kichik qiymati 0 ga teng bo'ladi. Bu faqat x = y = z bo'lganda (va uning yig'indisi 1 ga teng bo'lganda) mumkin. 
+Demak, x = y = z = 1/
+
+<think>
+
+</think>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Umumiy qiymat 100 ming so'mdan 160 ming so'mgacha oshgan. Ularning faqat 30% qismini 10% kamaytirishga va qolgan qismini 50% kamaytirishga topshirildi. Buni amalga oshirishdan so'ng umumiy qiymat qanday o'shgan?</problem>
+<choices>A) 34%  B) 32%  C) 40%  D) 30%</choices>
+<solution>Umumiy qiymat 160 - 100 = 60 ming so'm oshgan. 30% kichik qism: 100 ming so'm ning 30% i 30 ming so'm. Ularning 10% kamaytirilishi: 3 ming so'm (100 ming so'mning 10% i). Demak, 100 ming so'mdan 3 ming so'mni qo'shish orqali 103 ming so'm oshadi. Qolgan 70 ming so'mning 50% kamaytirilishi: 35 ming so'mni qo'shish orqali 103 + 35 = 138 ming so'm oshadi. Ularni qo'shish: 138 ming so'm - 100 ming so'm = 38 ming so'm oshgan.
+
+<think>
+
+</think>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$(a + b + c)^2 - (a^2 + b^2 + c^2)$ if $a + b + c = 0$.</problem>
+<choices>A) 0  B) 1  C) 2  D) 4</choices>
+<solution>Expand the left side using the binomial theorem:
+$(a + b + c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca$.
+Subtract $(a^2 + b^2 + c^2)$ from both sides:
+$(a + b + c)^2 - (a^2 + b^2 + c^2) = 2ab + 2bc + 2ca$.
+Factor out 2: $2(ab + bc + ca)$.
+Given that $a + b + c = 0$, we can use the identity:
+$(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)$.
+Substitute $a + b + c = 0$ into the identity: $0 = a^2 + b^2 + c^2 + 2(ab + bc + ca)$.
+Rearrange to solve for $ab + bc + ca$: $ab + bc + ca = -\frac{a^2 + b^2 + c^2}{2}$.
+Now substitute this into the expression we want to find:
+$2(ab + bc + ca) = 2(-\frac{a^2 + b^2 + c^2}{2}) = -(a^2 + b
+
+<think>
+
+</think>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<problem>4 ta AND o'zgaruvchiga (a, b, c, d) o'zgaruvchilar berilgan. Ular orasida faqat 1 ta o'zgaruvchi hamda 2 ta har doim 1 bo'lgan holatga kiradi. U holda AND o'zgaruvchining qanday holatida (0 yoki 1) bo'lishi kerak?</problem>
+<choices>A) 0  B) 1  C) 3  D) 4</choices>
+<solution>AND o'zgaruvchi faqat 1 har doim 1 bo'lgan holatda 1 qiymat qaytaradi. Boshqalarida esa 0 qiymat qaytaradi.
+Uchinchi va to'rtinchi o'zgaruvchilar har doim 1 bo'lganligi sababli, ularning AND o'zgaruvchisi ham 1 bo'ladi. Birinchi va ikkinchi o'zgaruvchilardan faqat bir tasi 1 bo'lganligi sababli, ularning AND o'zgaruvchisi 0 bo'ladi.
+U holda umumiy AND o'zgaruvchi 2 ta 1 va 2 ta 0 bo'ladi. Demak, o'zgaruvchi 1 bo'lishi mumkin bo'lmaydi.
+Demak, to'g'ri javob 0 bo'ladi.</solution>
+<answer>A</answer
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>1001₂ va 2016₁₀ sonlarining yig'indisini 16 sistemasiga o'tkazib, so'ralgan formatda berilgan holda natijani toping.</problem>
+<solution>1001₂ sonini 10 sistemasiga o'tkazamiz: 1·2³ + 0·2² + 0·2¹ + 1·2⁰ = 8 + 0 + 0 + 1 = 9₁₀.
+Sonlarni yig'indisini topamiz: 9 + 2016 = 2025.
+2025 sonini 16 sistemasiga o'tkazamiz: 2025 / 16 = 126 (qoldiq 9), 126 / 16 = 7 (qoldiq 14), 7 / 16 = 0 (qoldiq 7).
+16 sistemasidagi natija: A (10) soni har doim 10 soni bilan belgilanadi, 14 soni esa E (14) bilan belgilanadi.
+Natija: 7E9₁₆.</solution>
+<answer>7E9</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Xatoliksiz ishlaydigan pseudocode algoritm berilgan:
+a = 1
+b = 2
+c = 0
+for i = 1 to 4:
+    c = a + b
+    a = b
+    b = c
+Algoritm bajarildidan so'ng c ning qiymatini toping.</problem>
+<choices>A) 12  B) 13  C) 14  D) 15</choices>
+<solution>Algoritmning har qadamini tekshiramiz:
+1-qadam: a = 1, b = 2, c = 0
+2-qadam: i = 1 ga kirib, c = 1 + 2 = 3. a = 2, b = 3.
+3-qadam: i = 2 ga kirib, c = 2 + 3 = 5. a = 3, b = 5.
+4-qadam: i = 3 ga kirib, c = 3 + 5 = 8. a = 5, b = 8.
+5-qadam: i = 4 ga kirib, c = 5 + 8 = 13. a = 8, b = 13.
+Batafsillik bilan bajarilgan 4 ta takrorlashdan so'ng c ning qiymati 13 bo'ladi.</solution>
+<answer>B</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Excel sheetda A1 = 2, B1 = 1 va C1 = 3 qiymatlari yozilgan. A2 hujayadan C2 hujayaga qadar bo'lgan har qanday hujayada yig'indisini hisoblovchi formula yozing.</problem>
+<solution>A2 hujayasida =B1+C1 formulasi yozilsa, C2 hujayasida esa A2+B2+C2 formula yozilsa, ular quyidagi qiymatlarni beradi:
+A2 = 2 + 1 = 3, B2 = 3 (A2+1), C2 = 3 + 3 + 1 = 7.
+Endi C2 hujayasi orqali barcha hujayalarni yig'ishga ega bo'lamiz: C2 + D2 + E2 + F2 + G2 + H2 = 7 + 4 + 5 + 6 + 7 + 8 = 37.</solution>
+<answer>37</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>RGB rang kodlamo sistemasida quyidagi 3 ta ranglar berilgan:
+R = 128, G = 128, B = 128.
+Ushbu rangning 16-lik sistemasidagi o'ziga xos kodini toping.</problem>
+<choices>A) 0x808080  B) 0x888888  C) 0x7F7F7F  D) 0x808080</choices>
+<solution>R, G va B har biri 128 ga teng bo'lgan holda, ularni 16-lik sistemasiga o'tkazamiz:
+128 / 16 = 8 (qoldiq 0).
+Demak, har bir rangning 16-lik kodi 0x80 ga teng.
+Ushbu 3 ta rangni 16-lik sistemasida birga to'plash orqali 0x808080 ga kelamiz.</solution>
+<answer>A</answer>
+
+<think>
+
+</think>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>64 ta yolg'on va 32 ta rost bo'lgan biror sonni 2 ga ko'paytirish usullari orasidan qanday biri o'zgarishini yoritadi? (Yolg'on qiymat 0, rost qiymat 1).</problem>
+<choices>A) AND B) OR C) XOR D) NOT</choices>
+<solution>64 ta yolg'on va 32 ta rost qiymatli 2 ta son berilgan bo'lsin. Ular orasida 32 ta yolg'on qiymat yig'indisi 32 bo'lgan, demak, ikkala sonning ikkita qiymatni o'zaro qo'shish (OR) yig'indisi 32 bo'lgan bo'ladi. Agar AND orqali qo'shsa, ikkala sonning ham rost qiymatli qismi 0 ga teng bo'lmaydi. XOR orqali qo'shsa, 32 ta yolg'on qiymatni 0 ga teng qilib, 32 ta rost qiymatni 1 ga teng qilib qo'shish orqali 32 ta 1 yig'indisi hosil bo'ladi. NOT amali natijasida faqat yolg'on qiymatlar 1 ga, rost qiymatlar esa 0 ga o'tadi, demak, bu usulda yig'indisi 0 ga teng bo'l
