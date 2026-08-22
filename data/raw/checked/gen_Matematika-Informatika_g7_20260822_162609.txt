@@ -1,0 +1,127 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x + y = 10$ va $x^2 + y^2 = 58$ bo'lsa, $x^3 + y^3$ ning qiymatini toping.</problem>
+<choices>A) 340  B) 370  C) 410  D) 520</choices>
+<solution>$(x+y)^2 = x^2 + 2xy + y^2 \implies 100 = 58 + 2xy \implies xy = 21$. So'ngra $x^3 + y^3 = (x+y)(x^2 - xy + y^2) = 10 \cdot (58 - 21) = 370$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$N = 7^{2025} + 3$ sonini 10 ga bo'lgandagi qoldiqni toping.</problem>
+<choices>A) 0  B) 2  C) 4  D) 7</choices>
+<solution>7 ning darajalari oxirgi raqamlari 4 ta davr bilan takrorlanadi: $7^1 \equiv 7$, $7^2 \equiv 9$, $7^3 \equiv 3$, $7^4 \equiv 1 \pmod{10}$. $2025 = 4 \cdot 506 + 1$ bo'lgani uchun $7^{2025} \equiv 7 \pmod{10}$. Shuning uchun $N \equiv 7 + 3 = 10 \equiv 0 \pmod{10}$. Qoldiq 0 ga teng.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>1 dan 100 gacha bo'lgan natural sonlar orasida (1 va 100 ham kiradi) 3 ga ham, 5 ga ham bo'linmaydigan nechta natural son bor?</problem>
+<solution>1 dan 100 gacha sonlar orasida 3 ga bo'linadiganlar $\lfloor 100/3 \rfloor = 33$ ta, 5 ga bo'linadiganlar $\lfloor 100/5 \rfloor = 20$ ta, ikkalasiga ham (15 ga) bo'linadiganlar $\lfloor 100/15 \rfloor = 6$ ta. Kiritish-chiqarish formulasiga ko'ra, 3 ga yoki 5 ga bo'linadiganlar soni $33 + 20 - 6 = 47$ ta. Demak, 3 ga ham, 5 ga ham bo'linmaydiganlar soni $100 - 47 = 53$ ta.</solution>
+<answer>53</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $11011_2$ sonining o'nlik sanoq sistemasidagi qiymatini toping.</problem>
+<choices>A) 23  B) 25  C) 27  D) 29</choices>
+<solution>$11011_2 = 1 \cdot 2^4 + 1 \cdot 2^3 + 0 \cdot 2^2 + 1 \cdot 2^1 + 1 \cdot 2^0 = 16 + 8 + 0 + 2 + 1 = 27$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $A = 1$, $B = 0$, $C = 1$ bo'lsa, quyidagi mantiqiy ifodaning qiymatini toping: $(A \text{ AND } \text{NOT } B) \text{ OR } (\text{NOT } A \text{ AND } C)$</problem>
+<choices>A) 0  B) 1  C) -1  D) Xatolik</choices>
+<solution>$\text{NOT } B = 1 \implies A \text{ AND } \text{NOT } B = 1 \text{ AND } 1 = 1$. $\text{NOT } A = 0 \implies \text{NOT } A \text{ AND } C = 0 \text{ AND } 1 = 0$. $1 \text{ OR } 0 = 1$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with AB = BC. Point D lies on segment AC such that BD = AD. Angle CBD = 30 degrees.</diagram_spec>
+<problem>$ABC$ teng yonli uchburchakda $AB = BC$. $AC$ tomonda $D$ nuqta shunday olinganki, $BD = AD$ va $\angle CBD = 30^\circ$ bo'lsa, $\angle BAC$ burchakning daraja o'lchovini toping.</problem>
+<choices>A) 40°  B) 45°  C) 50°  D) 60°</choices>
+<solution>$\angle BAC = x$ bo'lsin. $AB = BC$ bo'lgani uchun $\angle BCA = x$. $\triangle ABD$ da $AD = BD$ bo'lgani uchun $\angle ABD = \angle BAD = x$. Shunday qilib, $\angle ABC = \angle ABD + \angle CBD = x + 30^\circ$. Uchburchak ichki burchaklari yig'indisi $x + x + (x + 30^\circ) = 180^\circ \implies 3x = 150^\circ \implies x = 50^\circ$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$x$ va $y$ musbat butun sonlar bo'lib, $x^2 - y^2 = 47$ tenglikni qanoatlantirsa, $x + y$ ning qiymatini toping.</problem>
+<solution>$x^2 - y^2 = (x - y)(x + y) = 47$. 47 tub son bo'lib, $x, y$ musbat va $x+y > x-y > 0$ bo'lgani uchun $x - y = 1$ va $x + y = 47$ bo'lishi shart. Demak, $x + y = 47$.</solution>
+<answer>47</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel elektron jadvalida A1=4, A2=8 va A3=12 qiymatlari berilgan. B1 katakchasiga `=AVERAGE(A1:A3)` formulasi kiritilsa, B1 katakchada qanday qiymat hosil bo'ladi?</problem>
+<solution>`=AVERAGE(A1:A3)` formulasi ko'rsatilgan diapazondagi sonlarning arifmetik o'rtachasini hisoblaydi: $(4 + 8 + 12) / 3 = 24 / 3 = 8$.</solution>
+<answer>8</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida $x$ o'zgaruvchisiga dastlab 0 qiymat berildi. So'ngra quyidagi sikl 5 marta bajarildi: "x ga 2 qo'shilsin, keyin x 2 ga ko'paytirilsin". Sikl yakunlangach $x$ ning qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 62  B) 120  C) 124  D) 252</choices>
+<solution>Har bir takrorlanishda $x \leftarrow (x + 2) \cdot 2$ bajariladi:
+1-qadam: $(0 + 2) \cdot 2 = 4$.
+2-qadam: $(4 + 2) \cdot 2 = 12$.
+3-qadam: $(12 + 2) \cdot 2 = 28$.
+4-qadam: $(28 + 2) \cdot 2 = 60$.
+5-qadam: $(60 + 2) \cdot 2 = 124$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Beshta o'quvchi (A, B, C, D, E) musobaqada mos ravishda 1-dan 5-gacha o'rinlarni egallashdi. Ma'lumki:
+1) A birinchi o'rinni olmadi.
+2) C kuchli uchlikka (1, 2 yoki 3-o'rin) kirdi, lekin 1-o'rinni olmadi.
+3) B eng oxirgi (5-) o'rinni egalladi.
+4) E o'quvchi D o'quvchidan keyingi o'rinlardan birida joylashdi.
+Agar C 3-o'rinni egallamagan bo'lsa, 1-o'rinni kim egallagan?</problem>
+<choices>A) A  B) C  C) D  D) E</choices>
+<solution>B 5-o'rinda. C kuchli uchlikda (1, 2, 3), lekin 1 va 3-o'rin emas, demak C 2-o'rinda. Qolgan bo'sh o'rinlar 1, 3, 4 hamda o'quvchilar A, D, E. A 1-o'rinda emas. E esa D dan keyin kelgan, demak D 1-o'rinni egallagan bo'lishi shart (E va A esa 3 va 4-o'rinlarni egallaydi). Demak, 1-o'rin sohibi D.</solution>
+<answer>C</answer>
+</example>

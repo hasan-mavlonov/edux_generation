@@ -1,0 +1,168 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Faylning umumiy hajmi 4 MB ga teng. Ushbu fayl Internet tarmog'idan 256 KB/s tezlik bilan yuklab olinmoqda. Agar faylning 50% qismi yuklab bo'lingan bo'lsa, qolgan qismini to'liq yuklab olish uchun necha sekund vaqt talab etiladi? (1 MB = 1024 KB)</problem>
+<choices>A) 4  B) 8  C) 16  D) 32</choices>
+<solution>Faylning qolgan 50% qismi: 4 MB / 2 = 2 MB. Kilobaytlarga o'tkazamiz: 2 MB = 2 · 1024 KB = 2048 KB.
+Yuklab olish vaqti: t = 2048 KB / 256 KB/s = 8 sekund.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $a + \dfrac{1}{a} = 5$ bo'lsa, $a^2 + \dfrac{1}{a^2}$ ifodaning qiymatini toping.</problem>
+<solution>Berilgan tenglikning ikkala tarafini kvadratga oshiramiz:
+$\left(a + \dfrac{1}{a}\right)^2 = 5^2 \implies a^2 + 2 \cdot a \cdot \dfrac{1}{a} + \dfrac{1}{a^2} = 25 \implies a^2 + 2 + \dfrac{1}{a^2} = 25$.
+Bu yerdan $a^2 + \dfrac{1}{a^2} = 25 - 2 = 23$.</solution>
+<answer>23</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Mantiqiy o'zgaruvchilar A va B berilgan. Quyidagi $F = (A \land \overline{B}) \lor (\overline{A} \land B)$ mantiqiy ifoda qaysi mantiqiy amalning (darvozaning) mulohazasini ifodalaydi?</problem>
+<choices>A) XOR (Mantiqiy istisno etuvchi YOKI)  B) NAND (Mantiqiy VA-EMAS)  C) NOR (Mantiqiy YOKI-EMAS)  D) XNOR (Mantiqiy tenglik)</choices>
+<solution>Ifodani tahlil qilamiz: $(A \land \overline{B}) \lor (\overline{A} \land B)$ ifoda faqat va faqat A va B mantiqiy qiymatlari har xil bo'lganda (biri 1, ikkinchisi 0 bo'lganda) 1 (rost) qiymat qaytaradi. Bu xossa XOR (istisno etuvchi YOKI) mantiqiy amaliga mos keladi.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel elektron jadvalida katakchalarga quyidagi qiymatlar kiritilgan: A1=4, A2=8, A3=12, B1=2, B2=3, B3=4. Agar C1 katakchaga `=SUM(A1:A3)/AVERAGE(B1:B3)` formulasi kiritilsa, C1 katakchada qanday natija hosil bo'ladi?</problem>
+<choices>A) 6  B) 8  C) 12  D) 24</choices>
+<solution>`SUM(A1:A3)` funksiyasi A1 dan A3 gacha bo'lgan yig'indini hisoblaydi: 4 + 8 + 12 = 24.
+`AVERAGE(B1:B3)` funksiyasi B1 dan B3 gacha bo'lgan sonlarning o'rta arifmetigini hisoblaydi: (2 + 3 + 4) / 3 = 9 / 3 = 3.
+Bo'lish amali: 24 / 3 = 8.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. D is the midpoint of side BC. Point E is the midpoint of segment AD. Line BE intersects side AC at point F. Segment AF = 4 cm.</diagram_spec>
+<problem>ABC uchburchakda AD mediana o'tkazilgan. AD kesmaning o'rtasi E nuqta deb olindi. BE to'g'ri chizig'i AC tomonni F nuqtada kesib o'tadi. Agar AF = 4 cm bo'lsa, AC tomonning uzunligini toping.</problem>
+<choices>A) 8 cm  B) 10 cm  C) 12 cm  D) 16 cm</choices>
+<solution>D nuqtadan BE ga parallel qilib DG to'g'ri chizig'ini o'tkazamiz (G nuqta AC tomonda yotadi).
+1) $\triangle ADG$ da E nuqta AD ning o'rtasi va $EF \parallel DG$ bo'lgani uchun, F nuqta AG kesmaning o'rtasi bo'ladi. Shuning uchun $AF = FG = 4$ cm.
+2) $\triangle FBC$ da D nuqta BC ning o'rtasi va $DG \parallel BF$ bo'lgani uchun, G nuqta FC kesmaning o me'yoriy o'rtasi bo'ladi. Shuning uchun $FG = GC = 4$ cm.
+Demak, $AC = AF + FG + GC = 4 + 4 + 4 = 12$ cm.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi algoritm bajarilgach, $a$ o'zgaruvchining yakuniy qiymatini toping:
+
+```text
+a = 0
+for i = 1 to 5 do:
+    for j = 1 to i do:
+        a = a + j
+    end for
+    a = a - i
+end for
+print(a)
+```</problem>
+<solution>Algoritmning har bir $i$ qadami uchun hisoblaymiz:
+- $i=1$: ichki siklda $j=1 \implies a = 0 + 1 = 1$. Sikldan so'ng: $a = 1 - 1 = 0$.
+- $i=2$: ichki siklda $j=1 \implies a = 0 + 1 = 1$; $j=2 \implies a = 1 + 2 = 3$. Sikldan so'ng: $a = 3 - 2 = 1$.
+- $i=3$: ichki siklda $j=1,2,3$ yig'indisi $1+2+3=6$ qo'shiladi $\implies a = 1 + 6 = 7$. Sikldan so'ng: $a = 7 - 3 = 4$.
+- $i=4$: ichki siklda $1+2+3+4=10$ qo'shiladi $\implies a = 4 + 10 = 14$. Sikldan so'ng: $a = 14 - 4 = 10$.
+- $i=5$: ichki siklda $1+2+3+4+5=15$ qo'shiladi $\implies a = 10 + 15 = 25$. Sikldan so'ng: $a = 25 - 5 = 20$.
+
+Natijada $a = 20$ bo'ladi.</solution>
+<answer>20</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Raqamlari yig'indisi 12 ga teng bo'lgan va $a < b < c$ shartni qanoatlantiruvchi barcha uch xonali $\overline{abc}$ natural sonlar nechta?</problem>
+<choices>A) 5  B) 6  C) 7  D) 8</choices>
+<solution>Shart bo'yicha $1 \le a < b < c \le 9$ va $a + b + c = 12$. Barcha mumkin bo'lgan $(a, b, c)$ uchliklarni saralaymiz:
+1) $a = 1$ bo'lganda: $b + c = 11$. Shart $1 < b < c \le 9$:
+   - $b = 2 \implies c = 9 \implies (1, 2, 9)$
+   - $b = 3 \implies c = 8 \implies (1, 3, 8)$
+   - $b = 4 \implies c = 7 \implies (1, 4, 7)$
+   - $b = 5 \implies c = 6 \implies (1, 5, 6)$ (Jami 4 ta)
+2) $a = 2$ bo'lganda: $b + c = 10$. Shart $2 < b < c \le 9$:
+   - $b = 3 \implies c = 7 \implies (2, 3, 7)$
+   - $b = 4 \implies c = 6 \implies (2, 4, 6)$ (Jami 2 ta)
+3) $a = 3$ bo'lganda: $b + c = 9$. Shart $3 < b < c \le 9$:
+   - $b = 4 \implies c = 5 \implies (3, 4, 5)$ (Jami 1 ta)
+4) $a \ge 4$ bo'lganda eng kichik yig'indi $4 + 5 + 6 = 15 > 12$ bo'ladi, yechim yo'q.
+
+Jami sonlar: $4 + 2 + 1 = 7$ ta.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq tizimidagi $101101_2$ va sakkizlik sanoq tizimidagi $35_8$ sonlarining yig'indisini o'nlik sanoq tizimida toping.</problem>
+<choices>A) 68  B) 72  C) 74  D) 80</choices>
+<solution>Ikkala sonni ham o'nlik sanoq tizimiga o'tkazamiz:
+$101101_2 = 1 \cdot 2^5 + 0 \cdot 2^4 + 1 \cdot 2^3 + 1 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0 = 32 + 0 + 8 + 4 + 0 + 1 = 45_{10}$.
+$35_8 = 3 \cdot 8^1 + 5 \cdot 8^0 = 24 + 5 = 29_{10}$.
+Yig'indi: $45 + 29 = 74$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Tizim uchun 4 ta belgidan iborat parol tuzish kerak. Parolning birinchi va ikkinchi belgilari kichik ingilz harflari ('a'-'z', jami 26 ta), uchinchi va to'rtinchi belgilari esa toq raqamlar (1, 3, 5, 7, 9) bo'lishi kerak. Agar parol ichida harflar ham, raqamlar ham takrorlanmasligi shart bo'lsa, nechta turli parol tuzish mumkin?</problem>
+<choices>A) 13000  B) 15600  C) 16900  D) 12000</choices>
+<solution>Ko'paytirish qoidasidan foydalanamiz:
+1) Birinchi belgi (harf): 26 ta tanlov.
+2) Ikkinchi belgi (takrorlanmaydigan harf): 25 ta tanlov.
+3) Uchinchi belgi (toq raqam): 5 ta tanlov.
+4) To'rtinchi belgi (takrorlanmaydigan toq raqam): 4 ta tanlov.
+
+Jami parollar soni: $26 \cdot 25 \cdot 5 \cdot 4 = 650 \cdot 20 = 13000$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Grafik tasvirning o'lchami $1024 \times 512$ pikseldan iborat. Tasvirning har bir pikseli rangini kodlash uchun 16 bit (2 bayt) xotira ajratilgan. Ushbu tasvirning xotiradagi hajmini kilobaytlarda (KB) toping. (1 KB = 1024 bayt)</problem>
+<solution>Jami piksellar soni: $1024 \cdot 512$.
+Tasvirning baytlardagi hajmi: $1024 \cdot 512 \cdot 2$ bayt.
+Kilobaytlarga o'tkazish uchun 1024 ga bo'lamiz:
+Hajmi (KB) = $\dfrac{1024 \cdot 512 \cdot 2}{1024} = 512 \cdot 2 = 1024$ KB.</solution>
+<answer>1024</answer>
+</example>

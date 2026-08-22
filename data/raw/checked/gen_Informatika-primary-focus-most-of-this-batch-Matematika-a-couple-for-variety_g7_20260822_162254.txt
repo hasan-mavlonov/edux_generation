@@ -1,0 +1,151 @@
+<problem_set>
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $10110_2$ va $1101_2$ sonlarining yig'indisi sakkizlik (8-lik) sanoq sistemasida qanday yoziladi?</problem>
+<choices>A) 43  B) 35  C) 53  D) 37</choices>
+<solution>Avval sonlarni o'nlik sanoq sistemasiga o'tkazamiz: $10110_2 = 16 + 4 + 2 = 22_{10}$ va $1101_2 = 8 + 4 + 1 = 13_{10}$. Ularning yig'indisi $22 + 13 = 35_{10}$. Endi 35 ni 8-lik sanoq sistemasiga o'tkazamiz: $35 = 4 \cdot 8 + 3$, ya'ni $43_8$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Uchta mantiqiy o'zgaruvchi berilgan: $A = 1$ (Rost), $B = 0$ (Yolg'on), $C = 1$ (Rost). Quyidagi mantiqiy ifodalarning qaysi biri YOLG'ON (0) qiymat qabul qiladi?</problem>
+<choices>A) (A AND NOT B) OR C  B) NOT(A OR B) AND C  C) (A OR B) AND NOT(B AND C)  D) NOT B OR (A AND NOT C)</choices>
+<solution>Barcha variantlarni hisoblaymiz:
+A) $(1 \land 1) \lor 1 = 1 \lor 1 = 1$.
+B) $\neg(1 \lor 0) \land 1 = \neg 1 \land 1 = 0 \land 1 = 0$.
+C) $(1 \lor 0) \land \neg(0 \land 1) = 1 \land \neg 0 = 1 \land 1 = 1$.
+D) $\neg 0 \lor (1 \land \neg 1) = 1 \lor 0 = 1$.
+Faqat B variantining qiymati 0 (Yolg'on) ga teng.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel jadvalida A1 katakchaga 2, A2 katakchaga 5 soni kiritilgan. A3 katakchaga `=A1*2 + A2` formulasi yozildi va u A5 katakchagacha (A3, A4 va A5 ga) nusxalandi. A5 katakchada hosil bo'ladigan qiymatni toping.</problem>
+<solution>Nisbiy murojaat sababli formula pastga nusxalanganda satr indekslari suriladi:
+A3 katakchada: `=A1*2 + A2` $\implies 2 \cdot 2 + 5 = 9$.
+A4 katakchada: `=A2*2 + A3` $\implies 5 \cdot 2 + 9 = 19$.
+A5 katakchada: `=A3*2 + A4` $\implies 9 \cdot 2 + 19 = 37$.</solution>
+<answer>37</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch muhitida sprait boshlang'ich $(0, 0)$ koordinatada turibdi va yo'nalishi $90^\circ$ (o'ngga). U ketma-ket quyidagi buyruqlarni bajardi:
+1. 100 qadam yurish
+2. Chapga $90^\circ$ burilish
+3. 50 qadam yurish
+4. Chapga $90^\circ$ burilish
+5. 40 qadam yurish
+Ushbu buyruqlar bajarilgandan so'ng spraitning yakuniy $(x, y)$ koordinatalarini toping.</problem>
+<choices>A) (60, 50)  B) (140, 50)  C) (60, -50)  D) (100, 50)</choices>
+<solution>1-qadamdan so'ng koordinata (100, 0) va yo'nalish $90^\circ$.
+2 va 3-qadamdan so'ng yo'nalish $0^\circ$ (tepaga), koordinata (100, 50).
+4 va 5-qadamdan so'ng yo'nalish $-90^\circ$ (chapga) bo'ladi va 40 qadam yurilgach $x = 100 - 40 = 60$, $y = 50$ saqlanadi. Yakuniy koordinata: (60, 50).</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Matnli faylda 1024 ta belgi bor. Har bir belgi Unicode kodirovkasida (16 bit) saqlanadi. Ushbu faylning hajmi necha Kilobayt (KB) bo'ladi?</problem>
+<solution>1 belgi = 16 bit = 2 bayt. Jami fayl hajmi = $1024 \cdot 2 = 2048$ bayt. 1 KB = 1024 bayt bo'lgani uchun fayl hajmi $2048 / 1024 = 2$ KB bo'ladi.</solution>
+<answer>2</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Qishloqdagi 64 ta uyga unikal ikkilik kodlar berilishi kerak. Har bir kodning uzunligi bir xil bo'lib, ikkita ketma-ket 1 raqami ishlatilishi taqiqlangan (masalan, 1010 joiz, lekin 1100 taqiqlangan). Ushbu shartni qanoatlantirgan holda barcha 64 ta uyni kodlash uchun eng kamida necha bitlik kod uzunligi talab qilinadi?</problem>
+<choices>A) 6  B) 7  C) 8  D) 9</choices>
+<solution>Uzunligi $n$ bo'lgan va ketma-ket 1 qatnashmagan ikkilik ketma-ketliklar soni $F_{n+2}$ Fibonachchi soniga teng:
+$n=6 \implies F_8 = 21$ ta kod;
+$n=7 \implies F_9 = 34$ ta kod;
+$n=8 \implies F_{10} = 55$ ta kod (64 ta uy uchun yetarli emas);
+$n=9 \implies F_{11} = 89$ ta kod ($89 \ge 64$, yetarli).
+Demak, eng kamida 9 bitlik kod kerak.</solution>
+<answer>D</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x + \dfrac{1}{x} = 5$ bo'lsa, $x^2 + \dfrac{1}{x^2}$ ifodaning qiymatini toping.</problem>
+<choices>A) 23  B) 25  C) 27  D) 21</choices>
+<solution>$x + \dfrac{1}{x} = 5$ tenglikning ikkala tarafini kvadratga oshiramiz:
+$\left(x + \dfrac{1}{x}\right)^2 = 5^2 \implies x^2 + 2 \cdot x \cdot \dfrac{1}{x} + \dfrac{1}{x^2} = 25 \implies x^2 + 2 + \dfrac{1}{x^2} = 25$.
+Natijada $x^2 + \dfrac{1}{x^2} = 25 - 2 = 23$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>7 ga bo'lganda 3 qoldiq, 5 ga bo'lganda esa 2 qoldiq beradigan eng kichik ikki xonali natural sonni toping.</problem>
+<solution>Qidirilayotgan son $n$ bo'lsin. Shartga ko'ra $n = 7k + 3$ ko'rinishida bo'ladi.
+$k=0 \implies n=3$ (bir xonali son);
+$k=1 \implies n=10$, $10 \pmod 5 = 0$;
+$k=2 \implies n=17$, $17 \pmod 5 = 2$.
+17 soni 7 ga bo'linganda 3 qoldiq ($17 = 7 \cdot 2 + 3$) va 5 ga bo'linganda 2 qoldiq ($17 = 5 \cdot 3 + 2$) beradi. Demak, eng kichik ikki xonali son 17 dir.</solution>
+<answer>17</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with AB = AC. Point D lies on segment AC. Segment BD is drawn such that AD = BD = BC. Angles: angle A = x, angle ABD = x, angle BDC = 2x, angle C = 2x, angle ABC = 2x.</diagram_spec>
+<problem>Teng yonli $ABC$ uchburchakda ($AB = AC$), $AC$ yon tomonda $D$ nuqta shunday olinganki, $AD = BD = BC$ tenglik bajariladi. $\angle ABC$ burchakning kattaligini toping.</problem>
+<choices>A) 36°  B) 54°  C) 72°  D) 108°</choices>
+<solution>$\angle A = x$ bo'lsin. $\triangle ABD$ teng yonli ($AD = BD$), shuning uchun $\angle ABD = \angle A = x$.
+Tashqi burchak xossasiga ko'ra $\angle BDC = \angle A + \angle ABD = 2x$.
+$\triangle BCD$ teng yonli ($BD = BC$), demak $\angle C = \angle BDC = 2x$.
+Boshida $AB = AC$ berilgan edi, shuning uchun $\angle ABC = \angle C = 2x$.
+$ABC$ uchburchak ichki burchaklari yig'indisi: $x + 2x + 2x = 180^\circ \implies 5x = 180^\circ \implies x = 36^\circ$.
+Shunda $\angle ABC = 2x = 72^\circ$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>IPv4 manzili nuqtalar bilan ajratilgan 4 ta o'nlik sondan (oktetdan) iborat bo'lib, har bir oktet 0 va 255 oralig'idagi son bo'lishi kerak. Quyidagi variantlardan qaysi biri to'g'ri shakllantirilgan IP-manzil hisoblanadi?</problem>
+<choices>A) 192.168.1.300  B) 256.100.0.1  C) 172.16.254.1  D) 10.1.2.3.4</choices>
+<solution>A variantda 300 > 255 (xato); B variantda 256 > 255 (xato); D variantda oktetlar soni 5 ta (xato). C variantda (172.16.254.1) barcha 4 ta son 0 dan 255 gacha oralikda joylashgan va standart talablariga to'liq javob beradi.</solution>
+<answer>C</answer>
+</example>
+</problem_set>

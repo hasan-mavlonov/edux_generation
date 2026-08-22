@@ -1,0 +1,154 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $10110_2$ va sakkizlik sanoq sistemasidagi $27_8$ sonlarining yig'indisini o'nlik sanoq sistemasida toping.</problem>
+<choices>A) 43  B) 45  C) 47  D) 49</choices>
+<solution>1) $10110_2$ sonini o'nlik sanoq sistemasiga o'tkazamiz: $1\cdot 2^4 + 0\cdot 2^3 + 1\cdot 2^2 + 1\cdot 2^1 + 0\cdot 2^0 = 16 + 0 + 4 + 2 + 0 = 22_{10}$.
+2) $27_8$ sonini o'nlik sanoq sistemasiga o'tkazamiz: $2\cdot 8^1 + 7\cdot 8^0 = 16 + 7 = 23_{10}$.
+3) Yig'indi: $22 + 23 = 45$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Tenglamani yeching: $3^{x+2} + 3^x = 270$</problem>
+<choices>A) 2  B) 3  C) 4  D) 5</choices>
+<solution>Ifodani ko'paytuvchilarga ajratamiz: $3^x \cdot 3^2 + 3^x = 270 \implies 3^x (9 + 1) = 270 \implies 3^x \cdot 10 = 270 \implies 3^x = 27$. $27 = 3^3$ bo'lgani uchun $x = 3$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>A va B mantiqiy o'zgaruvchilarning nechta juftlik qiymatlarida $(A \lor \neg B) \land (A \lor B)$ mantiqiy ifoda rost (1) qiymat qabul qiladi?</problem>
+<choices>A) 1  B) 2  C) 3  D) 4</choices>
+<solution>Mantiq algebrasi qonunlaridan foydalanib ifodani soddalashtiramiz: $(A \lor \neg B) \land (A \lor B) \equiv A \lor (\neg B \land B) \equiv A \lor 0 \equiv A$.
+Ifoda faqat $A = 1$ bo'lganda rost bo'ladi. Bunda $B$ o'zgaruvchi $0$ yoki $1$ qiymat olishi mumkin.
+Demak, 2 ta juftlikda: $(A=1, B=0)$ va $(A=1, B=1)$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Raqamlari takrorlanmaydigan va 5 ga bo'linadigan nechta uch xonali juft son mavjud?</problem>
+<choices>A) 64  B) 81  C) 72  D) 90</choices>
+<solution>Son 5 ga bo'linishi va juft bo'lishi uchun uning oxirgi raqami 0 bo'lishi shart.
+1) Birliklar xonasida faqat 0 raqami turadi (1 ta tanlov).
+2) Yuzliklar xonasida 0 dan tashqari istalgan raqam (1-9) turishi mumkin (9 ta tanlov).
+3) O'nliklar xonasida 0 va yuzliklar xonasidagi raqamdan tashqari qolgan 8 ta raqam turishi mumkin (8 ta tanlov).
+Jami uch xonali juft sonlar soni: $9 \cdot 8 \cdot 1 = 72$ ta.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Elektron jadvalda (Excel) A1=4, A2=8 va A3=12 qiymatlar berilgan. Agar B1 katakka `=SUM(A1:A3)/COUNT(A1:A3)` formulasi kiritilsa, B1 katakda qanday son hosil bo'ladi?</problem>
+<solution>`SUM(A1:A3)` funksiyasi A1, A2, A3 kataklardagi sonlar yig'indisini hisoblaydi: $4 + 8 + 12 = 24$.
+`COUNT(A1:A3)` funksiyasi son o'z ichiga olgan kataklar sonini hisoblaydi: 3 ta.
+Formulaga ko'ra: $24 / 3 = 8$.</solution>
+<answer>8</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi algoritm bajarilgach, $S$ o'zgaruvchisining yakuniy qiymatini toping:
+1. $S = 0$
+2. $i = 1$
+3. Toki $i \le 20$ bo'lguncha takrorla:
+    a) Agar $i$ soni 3 ga qoldiqsiz bo'linsa, $S = S + i$
+    b) Aks holda, agar $i$ soni 5 ga qoldiqsiz bo'linsa, $S = S - i$
+    c) $i = i + 1$
+4. $S$ ni chiqarish.</problem>
+<choices>A) 28  B) 43  C) 13  D) 63</choices>
+<solution>1 dan 20 gacha bo'lgan sonlar tekshiriladi:
+1) $i$ 3 ga bo'linadigan sonlar (3, 6, 9, 12, 15, 18) birinchi shartni qanoatlantiradi va $S$ ga qo'shiladi:
+$3 + 6 + 9 + 12 + 15 + 18 = 63$.
+2) 3 ga bo'linmaydigan, lekin 5 ga bo'linadigan sonlar (5, 10, 20) ikkinchi shartga tushadi va $S$ dan ayriladi (15 soni 3 ga bo'lingani uchun bu shartga o'tmaydi):
+$5 + 10 + 20 = 35$.
+3) Yakuniy qiymat: $S = 63 - 35 = 28$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Isosceles triangle ABC with AB = AC. Point D lies on BC such that AD = BD. Point E lies on AC such that DE is perpendicular to AC (angle DEC = 90 degrees). Angle BAD = 30 degrees.</diagram_spec>
+<problem>Teng yonli $ABC$ ($AB = AC$) uchburchakning $BC$ tomonida $D$ nuqta shunday tanlanganki, $AD = BD$ bo'ladi. $D$ nuqtadan $AC$ tomonga o'tkazilgan perpendikulyarning asosi $E$ nuqta. Agar $\angle BAD = 30^\circ$ bo'lsa, $\angle EDC$ burchakning daraja o'lchovini toping.</problem>
+<solution>1) $\triangle ABD$ teng yonli ($AD = BD$), shuning uchun $\angle B = \angle BAD = 30^\circ$.
+2) $\triangle ABC$ teng yonli ($AB = AC$) bo'lgani uchun $\angle C = \angle B = 30^\circ$.
+3) $D$ nuqtadan $AC$ ga perpendikulyar tushirilgan, ya'ni $\triangle DEC$ to'g'ri burchakli uchburchak ($\angle DEC = 90^\circ$).
+4) $\triangle DEC$ ichki burchaklar yig'indisidan: $\angle EDC = 90^\circ - \angle C = 90^\circ - 30^\circ = 60^\circ$.</solution>
+<answer>60</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Fayl hajmi 1,5 Megabayt (MB). Ushbu faylni uzatish tezligi 512 Kilobit/sekund (Kbit/s) bo'lgan aloqa kanali orqali to'liq uzatish uchun qancha sekund vaqt talab etiladi? ($1\text{ MB} = 1024\text{ KB}$, $1\text{ KB} = 1024\text{ Bayt}$, $1\text{ Bayt} = 8\text{ bit}$, $1\text{ Kbit} = 1024\text{ bit}$).</problem>
+<choices>A) 12  B) 24  C) 32  D) 48</choices>
+<solution>1) Fayl hajmini bitlarga o'tkazamiz:
+$1,5\text{ MB} = 1,5 \cdot 1024\text{ KB} = 1,5 \cdot 1024 \cdot 1024\text{ Bayt} = 1,5 \cdot 1024 \cdot 1024 \cdot 8\text{ bit}$.
+2) Uzatish tezligini bit/s ga o'tkazamiz:
+$512\text{ Kbit/s} = 512 \cdot 1024\text{ bit/s}$.
+3) Uzatish vaqti $t = \dfrac{\text{Fayl hajmi}}{\text{Tezlik}}$:
+$t = \dfrac{1,5 \cdot 1024 \cdot 1024 \cdot 8}{512 \cdot 1024} = \dfrac{1,5 \cdot 1024 \cdot 8}{512} = 1,5 \cdot 2 \cdot 8 = 24\text{ sekund}$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Bir belgini kodlash uchun 8 bit xotira ajratiladigan tizimda 16 sahifadan iborat matn saqlangan. Har bir sahifada 32 ta satr va har bir satrda 64 ta belgi bor. Ushbu matn necha Kilobayt (KB) xotirani egallaydi? ($1\text{ KB} = 1024\text{ bayt}$).</problem>
+<solution>1) Matndagi jami belgilar sonini hisoblaymiz:
+$N = 16 \cdot 32 \cdot 64 = 2^4 \cdot 2^5 \cdot 2^6 = 2^{15} = 32768$ ta belgi.
+2) Har bir belgi 8 bit = 1 bayt bo'lgani uchun matn hajmi 32768 bayt bo'ladi.
+3) Kilobaytlarda: $32768 / 1024 = 32\text{ KB}$.</solution>
+<answer>32</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$N = 2^4 \cdot 3^2 \cdot 5^1$ sonining natural bo'luvchilari orasidan 6 ga karrali bo'lganlari nechta?</problem>
+<choices>A) 12  B) 16  C) 20  D) 30</choices>
+<solution>6 ga karrali bo'lgan bo'luvchilar $2^a \cdot 3^b \cdot 5^c$ ko'rinishida bo me'yorlanadi, bunda:
+- $a$ darajasi minimum 1 bo'lishi kerak: $a \in \{1, 2, 3, 4\}$ (4 ta imkoniyat).
+- $b$ darajasi minimum 1 bo'lishi kerak: $b \in \{1, 2\}$ (2 ta imkoniyat).
+- $c$ darajasi istalgan bo'lishi mumkin: $c \in \{0, 1\}$ (2 ta imkoniyat).
+Jami 6 ga karrali bo'luvchilar soni: $4 \cdot 2 \cdot 2 = 16$ ta.</solution>
+<answer>B</answer>
+</example>

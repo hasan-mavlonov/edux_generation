@@ -1,0 +1,191 @@
+<problem_set>
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasida berilgan $1101_2$ va $11_2$ sonlarining ko'paytmasi o'nlik sanoq sistemasida nechaga teng bo'ladi?</problem>
+<choices>A) 33  B) 39  C) 42  D) 45</choices>
+<solution>Avval berilgan ikkilik sonlarni o'nlik sanoq sistemasiga o'tkazamiz:
+$1101_2 = 1\cdot2^3 + 1\cdot2^2 + 0\cdot2^1 + 1\cdot2^0 = 8 + 4 + 0 + 1 = 13_{10}$.
+$11_2 = 1\cdot2^1 + 1\cdot2^0 = 2 + 1 = 3_{10}$.
+Ularning ko'paytmasi: $13 \cdot 3 = 39$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Mantiqiy o'zgaruvchilar $A, B, C$ uchun $F(A, B, C) = (A \text{ YOKI } \text{EMON } B) \text{ VA } (B \text{ YOKI } C)$ mantiqiy ifoda berilgan. $A, B, C$ o'zgaruvchilarning 8 ta mumkin bo me'yoriy qiymat to'plamidan nechtasida $F$ ning qiymati 1 (rost) ga teng bo'ladi?</problem>
+<choices>A) 3  B) 4  C) 5  D) 6</choices>
+<solution>Ifodani tahlil qilamiz: $F = (A \lor \neg B) \land (B \lor C)$.
+Barcha 8 ta holatni tekshiramiz:
+1) (0,0,0): $(0 \lor 1) \land (0 \lor 0) = 1 \land 0 = 0$
+2) (0,0,1): $(0 \lor 1) \land (0 \lor 1) = 1 \land 1 = 1$
+3) (0,1,0): $(0 \lor 0) \land (1 \lor 0) = 0 \land 1 = 0$
+4) (0,1,1): $(0 \lor 0) \land (1 \lor 1) = 0 \land 1 = 0$
+5) (1,0,0): $(1 \lor 1) \land (0 \lor 0) = 1 \land 0 = 0$
+6) (1,0,1): $(1 \lor 1) \land (0 \lor 1) = 1 \land 1 = 1$
+7) (1,1,0): $(1 \lor 0) \land (1 \lor 0) = 1 \land 1 = 1$
+8) (1,1,1): $(1 \lor 0) \land (1 \lor 1) = 1 \land 1 = 1$
+Natijada 4 ta holatda (001, 101, 110, 111) ifoda qiymati 1 ga teng.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Stereo formatdagi (2 kanalli) audio fayl 44,1 kHz chastota va 16 bitli kodlash chuqurligi bilan 10 sekund davomida yozib olindi. So'ngra ushbu fayl 1:4 nisbatda siqildi. Siqilgan fayl 35,28 kbps (kilobit/sekund, $1\text{ kbps} = 1000\text{ bit/s}$) tezlikka ega tarmoq kanali orqali uzatilsa, uzatish uchun qancha sekund vaqt talab etiladi?</problem>
+<solution>1. Dastlabki fayl hajmini hisoblaymiz:
+$\text{Hajm} = 2 \text{ kanal} \times 44100 \text{ Hz} \times 16 \text{ bit} \times 10 \text{ s} = 14\ 112\ 000 \text{ bit}$.
+2. Siqilgandan keyingi hajm:
+$14\ 112\ 000 / 4 = 3\ 528\ 000 \text{ bit}$.
+3. Uzatish tezligi:
+$35,28 \text{ kbps} = 35\ 280 \text{ bit/s}$.
+4. Uzatish vaqti:
+$t = \dfrac{3\ 528\ 000}{35\ 280} = 100 \text{ sekund}$.</solution>
+<answer>100</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel elektron jadvalida A1 katakda 12, A2 katakda 18 soni yozilgan. B1 katakka `=A1*2 + A2` formulasi kiritingan. B2 katakka esa `=SUM(A1:B1)/3` formulasi kiritilsa, B2 katakda qanday natija hosil bo'ladi?</problem>
+<solution>1. B1 katak qiymati: $12 \cdot 2 + 18 = 24 + 18 = 42$.
+2. `A1:B1` diapazoni A1 va B1 kataklarni o'z ichiga oladi.
+3. `SUM(A1:B1)` = $12 + 42 = 54$.
+4. B2 katak qiymati: $54 / 3 = 18$.</solution>
+<answer>18</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturlash muhitida $x = 1$ va $y = 0$ boshlang'ich qiymatlar berildi. So'ngra quyidagi takrorlash bloki bajarildi:
+"takrorla 5 marta":
+    $y = y + x$
+    $x = x \cdot 2$
+Sikl yakunlangandan keyin $y$ o'zgaruvchisining qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 15  B) 31  C) 63  D) 32</choices>
+<solution>Har bir qadam bo'yicha hisoblaymiz:
+Boshlang'ich: x = 1, y = 0.
+1-qadam: y = 0 + 1 = 1, x = 1 * 2 = 2
+2-qadam: y = 1 + 2 = 3, x = 2 * 2 = 4
+3-qadam: y = 3 + 4 = 7, x = 4 * 2 = 8
+4-qadam: y = 7 + 8 = 15, x = 8 * 2 = 16
+5-qadam: y = 15 + 16 = 31, x = 16 * 2 = 32
+Sikl oxirida y = 31 ga teng bo'ladi.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Rekursiv funksiya quyidagicha aniqlangan:
+$F(n) = 1$, agar $n \le 1$ bo'lsa;
+$F(n) = F(n-1) + 2 \cdot F(n-2)$, agar $n > 1$ bo'lsa.
+Ushbu funksiyaning $F(6)$ qiymatini toping.</problem>
+<choices>A) 31  B) 43  C) 65  D) 21</choices>
+<solution>Funksiyaning ketma-ket qiymatlarini hisoblaymiz:
+F(0) = 1
+F(1) = 1
+F(2) = F(1) + 2·F(0) = 1 + 2(1) = 3
+F(3) = F(2) + 2·F(1) = 3 + 2(1) = 5
+F(4) = F(3) + 2·F(2) = 5 + 2(3) = 11
+F(5) = F(4) + 2·F(3) = 11 + 2(5) = 21
+F(6) = F(5) + 2·F(4) = 21 + 2(11) = 43.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Komppyuter tarmog'ida kompyuterning IP manzili `192.168.10.75` va osttarmoq niqobi (subnet mask) `255.255.255.192` deb berilgan. Ushbu kompyuter tegishli bo'lgan tarmoq manzilini toping.</problem>
+<choices>A) 192.168.10.0  B) 192.168.10.64  C) 192.168.10.128  D) 192.168.10.32</choices>
+<solution>Tarmoq manzilini topish uchun IP manzil va niqobning oxirgi baytini ikkilik ko'rinishida mantiqiy "VA" (AND) amali orqali ko'paytiramiz:
+IP manzilning oxirgi bayti: $75_{10} = 01001011_2$.
+Niqobning oxirgi bayti: $192_{10} = 11000000_2$.
+Bitma-bit AND amali:
+  01001011
+& 11000000
+----------
+  01000000
+$01000000_2 = 64_{10}$.
+Demak, tarmoq manzili `192.168.10.64` bo'ladi.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$N = 7^{2026} + 3$ natural sonini 10 ga bo'lgandagi qoldiqni toping.</problem>
+<choices>A) 0  B) 2  C) 6  D) 8</choices>
+<solution>7 ning darajalari oxirgi raqamining davriyligini aniqlaymiz:
+$7^1 \equiv 7 \pmod{10}$
+$7^2 \equiv 9 \pmod{10}$
+$7^3 \equiv 3 \pmod{10}$
+$7^4 \equiv 1 \pmod{10}$
+Davr uzunligi 4 ga teng. $2026 = 4 \cdot 506 + 2$ bo'lgani uchun:
+$7^{2026} \equiv 7^2 \equiv 9 \pmod{10}$.
+U holda $N = 7^{2026} + 3 \equiv 9 + 3 = 12 \equiv 2 \pmod{10}$.
+Qoldiq 2 ga teng.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D lies on AB, point E lies on AC such that DE is parallel to BC. Area of ADE = 18 cm^2, area of quadrilateral DBCE = 32 cm^2. Length of segment AD = 6 cm.</diagram_spec>
+<problem>ABC uchburchakda AB tomonda D nuqta va AC tomonda E nuqta shunday olindiki, DE kesma BC tomonga parallel. Agar ADE uchburchakning yuzi $18\text{ cm}^2$, DBCE to'rtburchakning yuzi $32\text{ cm}^2$ hamda $AD = 6\text{ cm}$ bo'lsa, $BD$ kesma uzunligini toping (cm da).</problem>
+<solution>1. ABC uchburchakning umumiy yuzi: $S_{ABC} = S_{ADE} + S_{DBCE} = 18 + 32 = 50\text{ cm}^2$.
+2. $DE \parallel BC$ bo'lgani uchun $\triangle ADE \sim \triangle ABC$.
+3. Yuzlar nisbati o'xshashlik katsientining kvadratiga teng:
+$\left(\dfrac{AD}{AB}\right)^2 = \dfrac{S_{ADE}}{S_{ABC}} = \dfrac{18}{50} = \dfrac{9}{25}$.
+4. Bundan $\dfrac{AD}{AB} = \dfrac{3}{5}$ kelib chiqadi.
+5. $AD = 6$ cm ekanidan $AB = 6 \cdot \dfrac{5}{3} = 10\text{ cm}$.
+6. $BD = AB - AD = 10 - 6 = 4\text{ cm}$.</solution>
+<answer>4</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>1 dan 100 gacha bo'lgan (1 va 100 ham kiradi) natural sonlar orasida 2 ga ham, 3 ga ham bo'linmaydigan, lekin 5 ga bo'linadigan nechta son bor?</problem>
+<choices>A) 6  B) 7  C) 10  D) 13</choices>
+<solution>1 dan 100 gacha 5 ga bo'linadigan sonlar $5k$ ko'rinishida bo'lib, bu yerda $k \in \{1, 2, \dots, 20\}$ (jami 20 ta son).
+1) $5k$ soni 2 ga bo'linmasligi uchun $k$ toq son bo'lishi kerak. 1 dan 20 gacha toq sonlar: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 (10 ta son).
+2) $5k$ soni 3 ga bo'linmasligi uchun $k$ soni 3 ga bo'linmasligi kerak.
+Yuqoridagi toq sonlar ichida 3 ga bo'linadiganlarini chiqarib tashlaymiz: 3, 9, 15 (3 ta son).
+Qolgan sonlar: 1, 5, 7, 11, 13, 17, 19 (7 ta son).
+Mos sonlar: 5, 25, 35, 55, 65, 85, 95. Jami 7 ta.</solution>
+<answer>B</answer>
+</example>
+</problem_set>

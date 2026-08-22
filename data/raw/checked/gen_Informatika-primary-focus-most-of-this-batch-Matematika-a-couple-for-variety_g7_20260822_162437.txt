@@ -1,0 +1,146 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $a + b = 10$ va $a^2 + b^2 = 58$ bo'lsa, $a^3 + b^3$ ifodaning qiymatini toping.</problem>
+<choices>A) 340  B) 370  C) 410  D) 430</choices>
+<solution>$(a+b)^2 = a^2 + 2ab + b^2$ ayniyatdan foydalanamiz: $10^2 = 58 + 2ab \implies 100 - 58 = 2ab \implies ab = 21$. So'ng $a^3 + b^3 = (a+b)(a^2 - ab + b^2) = 10 \cdot (58 - 21) = 10 \cdot 37 = 370$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasida berilgan $110101_2$ sonining o'nlik sanoq sistemasidagi qiymatini toping.</problem>
+<choices>A) 51  B) 53  C) 55  D) 57</choices>
+<solution>Ikkilik sanoq sistemasidagi sonni o'nlik sanoq sistemasiga o'tkazamiz: $110101_2 = 1\cdot 2^5 + 1\cdot 2^4 + 0\cdot 2^3 + 1\cdot 2^2 + 0\cdot 2^1 + 1\cdot 2^0 = 32 + 16 + 0 + 4 + 0 + 1 = 53$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel dasturida A1=12, A2=18 va A3=30 katakchalar berilgan. D3 katakchaga `=SUM(A1:A3)/COUNT(A1:A3)` formulasi kiritilsa, unda qanday sonli natija hosil bo'ladi?</problem>
+<solution>SUM(A1:A3) aks ettirgan yig'indi: $12 + 18 + 30 = 60$. COUNT(A1:A3) funksiyasi son kiritilgan kataklar sonini hisoblaydi, ya'ni 3. Bo me'yoriy formula natijasi: $60 / 3 = 20$.</solution>
+<answer>20</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point H lies on side BC such that AH is perpendicular to BC (altitude). Point L lies on side BC such that AL is the angle bisector of angle BAC. Angle ABC = 76 degrees, angle ACB = 32 degrees.</diagram_spec>
+<problem>$ABC$ uchburchakda $\angle B = 76^\circ$ va $\angle C = 32^\circ$ ga teng. $AH$ — uchburchakning balandligi, $AL$ esa $A$ burchakning bissektrisasi bo'lsa, $\angle HAL$ burchakning kattaligini toping.</problem>
+<choices>A) 22°  B) 18°  C) 24°  D) 38°</choices>
+<solution>Uchburchak ichki burchaklari yig'indisi $180^\circ$ bo'lgani uchun $\angle A = 180^\circ - (76^\circ + 32^\circ) = 72^\circ$. $AL$ bissektrisa bo'lgani uchun $\angle BAL = 72^\circ / 2 = 36^\circ$. To'g'ri burchakli $ABH$ uchburchakdan $\angle BAH = 90^\circ - 76^\circ = 14^\circ$. U holda $\angle HAL = \angle BAL - \angle BAH = 36^\circ - 14^\circ = 22^\circ$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Mantiqiy o'zgaruvchilar $A = \text{Rost}\ (1)$, $B = \text{Yolg'on}\ (0)$, $C = \text{Rost}\ (1)$ bo'lsin. Quyidagi mantiqiy ifodaning qiymatini toping: $(A \text{ AND } B) \text{ OR } (\text{NOT } B \text{ AND } \text{NOT } C) \text{ OR } (A \text{ AND } \text{NOT } B)$</problem>
+<choices>A) Rost (1)  B) Yolg'on (0)  C) Faqat A ga bog'liq  D) Natija aniqlanmagan</choices>
+<solution>Amallarni ketma-ket bajaramiz:
+1) $A \text{ AND } B = 1 \text{ AND } 0 = 0$;
+2) $\text{NOT } B = 1$, $\text{NOT } C = 0 \implies \text{NOT } B \text{ AND } \text{NOT } C = 1 \text{ AND } 0 = 0$;
+3) $A \text{ AND } \text{NOT } B = 1 \text{ AND } 1 = 1$;
+4) $0 \text{ OR } 0 \text{ OR } 1 = 1$ (Rost).</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Algoritm bajarilishi natijasida $x$ va $y$ o'zgaruvchilarning qiymati quyidagicha o'zgaradi. Boshlang'ich qiymatlar: $x = 5$, $y = 2$.
+Sikl 4 marta takrorlanadi:
+  1) $x = x + y$
+  2) $y = y + 3$
+Sikl to'liq yakunlangach, $x$ o'zgaruvchining qiymati nechaga teng bo'ladi?</problem>
+<solution>Sikl qadamlarini hisoblaymiz:
+1-qadam: $x = 5 + 2 = 7$, $y = 2 + 3 = 5$
+2-qadam: $x = 7 + 5 = 12$, $y = 5 + 3 = 8$
+3-qadam: $x = 12 + 8 = 20$, $y = 8 + 3 = 11$
+4-qadam: $x = 20 + 11 = 31$, $y = 11 + 3 = 14$
+Sikl oxirida $x = 31$ bo'ladi.</solution>
+<answer>31</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Birinchi tasvir o'lchami $1024 \times 512$ piksel bo'lib, u monoxrom (2 ta rang, har bir piksel 1 bit). Ikkinchi tasvir o'lchami $512 \times 256$ piksel bo'lib, 256 rangli palitradan foydalanadi. Ikkinchi tasvirning axborot hajmi birinchi tasvirning axborot hajmidan necha marta katta?</problem>
+<choices>A) 2 marta  B) 4 marta  C) 8 marta  D) Teng (1 marta)</choices>
+<solution>Birinchi tasvir hajmi: $V_1 = 1024 \times 512 \times 1 \text{ bit} = 2^{10} \times 2^9 = 2^{19} \text{ bit}$.
+256 ta rangni kodlash uchun $N = 256 = 2^8 \implies 8 \text{ bit}$ kerak.
+Ikkinchi tasvir hajmi: $V_2 = 512 \times 256 \times 8 \text{ bit} = 2^9 \times 2^8 \times 2^3 = 2^{20} \text{ bit}$.
+Hajmlar nisbati: $V_2 / V_1 = 2^{20} / 2^{19} = 2$. Demak, 2 marta katta.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>To'rtlik sanoq sistemasida yozilgan va tarkibida '0' raqami qatnashmagan barcha 4 xonali sonlar sonini toping.</problem>
+<solution>To'rtlik sanoq sistemasida raqamlar $\{0, 1, 2, 3\}$ to'plamidan olinadi. '0' raqami qatnashmasligi kerak bo'lgani uchun har bir xona uchun $\{1, 2, 3\}$ raqamlaridan foydalanish mumkin (3 ta tanlov). 4 xonali son bo'lgani uchun jami usullar soni: $3 \times 3 \times 3 \times 3 = 3^4 = 81$.</solution>
+<answer>81</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$\dfrac{1}{x} + \dfrac{1}{y} = \dfrac{1}{6}$ tenglamani qanoatlantiradigan $x \le y$ shartni bajaruvchi barcha natural $(x, y)$ juftliklar sonini toping.</problem>
+<choices>A) 3  B) 4  C) 5  D) 9</choices>
+<solution>Tenglamani almashtiramiz: $6(x+y) = xy \implies xy - 6x - 6y + 36 = 36 \implies (x-6)(y-6) = 36$.
+$x$ va $y$ natural sonlar bo'lgani uchun $x-6$ va $y-6$ ko'paytmasi 36 bo'lgan butun sonlar bo'ladi. $x \le y$ shartdan $x-6 \le y-6$ kelib chiqadi.
+36 ning musbat ko'paytuvchilar juftliklari ($u \le v$):
+1) $(1, 36) \implies x=7, y=42$
+2) $(2, 18) \implies x=8, y=24$
+3) $(3, 12) \implies x=9, y=18$
+4) $(4, 9) \implies x=10, y=15$
+5) $(6, 6) \implies x=12, y=12$
+Manfiy ko'paytuvchilar olinganda $y \le 0$ bo'lib, natural yechim hosil bo'lmaydi. Demak, jami 5 ta juftlik bor.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Kompyuterning IP manzili `192.168.1.130` va tarmoq niqobi (subnet mask) `255.255.255.192` bo'lsa, ushbu kompyuter joylashgan tarmoq manzilini toping.</problem>
+<choices>A) 192.168.1.0  B) 192.168.1.128  C) 192.168.1.64  D) 192.168.1.192</choices>
+<solution>Tarmoq manzilini topish uchun IP manzil va tarmoq niqobi o'rtasida bitli kon'yunksiya (AND) amali bajariladi.
+Dastlabki 3 ta oktet o'zgarmasdan 192.168.1 bo'lib qoladi. Oxirgi oktetni ikkilikka o'tkazamiz:
+$130 = 10000010_2$
+$192 = 11000000_2$
+$10000010_2 \text{ AND } 11000000_2 = 10000000_2 = 128_{10}$.
+Demak, tarmoq manzili: `192.168.1.128`.</solution>
+<answer>B</answer>
+</example>

@@ -1,0 +1,140 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $101110_2$ sonidan $1101_2$ soni ayirilganda hosil bo'lgan natijani o'nlik sanoq sistemasida toping.</problem>
+<choices>A) 31  B) 33  C) 35  D) 29</choices>
+<solution>$101110_2 = 32 + 8 + 4 + 2 = 46_{10}$. $1101_2 = 8 + 4 + 1 = 13_{10}$. Ayirma: $46 - 13 = 33$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel elektron jadvalida A1=12, B1=5, C1=8 katak qiymatlari berilgan. `=IF(AND(A1>10; B1<C1); A1-B1+C1; A1+B1-C1)` formulaning natijasini toping.</problem>
+<choices>A) 9  B) 15  C) 20  D) 12</choices>
+<solution>AND(12>10; 5<8) sharti Rost (TRUE) bo'ladi, chunki ikkala tengsizlik ham mantiqan to'g'ri. Shuning uchun IF funksiyasi ikkinchi parametrdagi ifodani hisoblaydi: A1 - B1 + C1 = 12 - 5 + 8 = 15.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi algoritm bajarilgach, $x$ va $y$ o'zgaruvchilarining qiymatlari yig'indisi ($x+y$) nechaga teng bo'ladi?
+1. $x = 2$, $y = 10$, $k = 1$
+2. Toki $k \le 4$ bo'lguncha takrorlang:
+   $x = x + k$
+   $y = y - x$
+   $k = k + 1$</problem>
+<choices>A) -6  B) 0  C) 2  D) -12</choices>
+<solution>Qadamlar bo'yicha tahlil qilamiz:
+- $k=1$: $x = 2+1 = 3$, $y = 10-3 = 7$, $k=2$
+- $k=2$: $x = 3+2 = 5$, $y = 7-5 = 2$, $k=3$
+- $k=3$: $x = 5+3 = 8$, $y = 2-8 = -6$, $k=4$
+- $k=4$: $x = 8+4 = 12$, $y = -6-12 = -18$, $k=5$
+Sikl tugaydi. Yakuniy qiymatlar $x = 12$, $y = -18$. Yig'indi: $x + y = 12 + (-18) = -6$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Kitob 32 sahifadan iborat. Har bir sahifada 64 ta satr va har bir satrda 64 ta belgi bor. Agar belgilarni kodlash uchun ASCII jadvalidan (1 belgi = 1 bayt) foydalanilgan bo'lsa, ushbu kitobdagi axborot hajmi necha kilobayt (KB) bo'ladi?</problem>
+<solution>Jami belgilar soni $32 \times 64 \times 64 = 2^5 \times 2^6 \times 2^6 = 2^{17}$ ta belgi. 1 belgi = 1 bayt bo'lgani uchun jami hajm $2^{17}$ bayt. Kilobaytga o'tkazish uchun $2^{10}$ ga bo'lamiz: $2^{17} / 2^{10} = 2^7 = 128$ KB.</solution>
+<answer>128</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with sides AB=13, BC=14, AC=15. Height AD is drawn from vertex A perpendicular to BC, meeting BC at point D.</diagram_spec>
+<problem>Tomonlari $AB = 13$, $BC = 14$ va $AC = 15$ bo'lgan $ABC$ uchburchak berilgan. $A$ uchidan $BC$ tomonga $AD$ balandlik tushirilgan. $BD$ kesmaning uzunligini toping.</problem>
+<choices>A) 5  B) 9  C) 4  D) 6</choices>
+<solution>$BD = x$ bo'lsin, u holda $DC = 14 - x$. $\triangle ABD$ va $\triangle ADC$ to'g'ri burchakli uchburchaklardan Pifagor teoremasiga ko'ra: $AD^2 = 13^2 - x^2 = 15^2 - (14-x)^2$. Tenglamani yechamiz: $169 - x^2 = 225 - (196 - 28x + x^2) \implies 169 = 29 + 28x \implies 28x = 140 \implies x = 5$. Shunday qilib, $BD = 5$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$\dfrac{n^2 + 4n + 25}{n + 2}$ ifodaning qiymati butun son bo'ladigan barcha butun $n$ sonlarining yig'indisini toping.</problem>
+<solution>Ifoda ko'rinishini o'zgartiramiz: $\dfrac{n^2 + 4n + 25}{n + 2} = \dfrac{(n+2)^2 + 21}{n + 2} = n + 2 + \dfrac{21}{n + 2}$. Kasr butun son bo'lishi uchun $n+2$ soni 21 ning bo'luvchisi bo'lishi kerak. 21 ning barcha butun bo'luvchilari: $\pm 1, \pm 3, \pm 7, \pm 21$. $k = n+2$ desak, $n = k - 2$ bo'ladi. Barcha $k$ lar yig'indisi 0 ga teng. Demak, barcha $n$ lar yig'indisi $\sum (k - 2) = \sum k - 8 \cdot 2 = 0 - 16 = -16$.</solution>
+<answer>-16</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Fayl uzatish tezligi 256 Kbit/s ($1\text{ Kbit} = 1024\text{ bit}$) bo'lgan tarmoq orqali 1,5 Megabayt ($1\text{ MB} = 1024\text{ KB}$, $1\text{ KB} = 1024\text{ Bayt}$) hajmli fayl necha sekundda to'liq uzatiladi?</problem>
+<choices>A) 24  B) 32  C) 48  D) 64</choices>
+<solution>Fayl hajmini bitlarga o'tkazamiz: $1{,}5 \text{ MB} = 1{,}5 \times 1024 \times 1024 \text{ Bayt} = 1{,}5 \times 8 \times 2^{20} \text{ bit} = 12 \times 2^{20} \text{ bit}$. Tarmoq tezligi: $256 \text{ Kbit/s} = 256 \times 1024 \text{ bit/s} = 2^8 \times 2^{10} = 2^{18} \text{ bit/s}$. Vaqt: $T = \dfrac{12 \times 2^{20}}{2^{18}} = 12 \times 2^2 = 48$ sekund.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Uchta $A, B, C$ mantiqiy o'zgaruvchilar uchun $F(A, B, C) = (A \lor \neg B) \land (\neg A \lor C) \land (B \lor C)$ mantiqiy ifoda berilgan. Haqiqiylik jadvalining nechta qatorida $F(A, B, C)$ ning qiymati **Rost** (1) bo'ladi?</problem>
+<choices>A) 2  B) 3  C) 4  D) 5</choices>
+<solution>Ifoda 1 bo'lishi uchun barcha uchta qavs bir vaqtda 1 bo'lishi kerak.
+1) Agar $C = 0$ bo'lsa: $(\neg A \lor 0) = \neg A$, demak $A = 0$; $(B \lor 0) = B$, demak $B = 1$. Lekin u holda birinchi qavs $(0 \lor 0) = 0$ bo'lib qoladi. Demak, $C=0$ bo'lganda yechim yo'q.
+2) Agar $C = 1$ bo'lsa: ikkinchi va uchinchi qavslar har doim 1 bo'ladi. Birinchi qavs $(A \lor \neg B)$ 1 bo'lishi uchun $(A, B)$ juftligi $(0,0), (1,0), (1,1)$ bo'lishi kerak.
+Shuning uchun $(A, B, C)$ ning 3 ta holatida: $(0,0,1), (1,0,1), (1,1,1)$ ifoda Rost bo'ladi.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$\{1, 2, 3, 4, 5\}$ raqamlar to'plamidan raqamlari takrorlanmaydigan va 5 ga qoldiqsiz bo'linadigan nechta uch xonali son tuzish mumkin?</problem>
+<choices>A) 12  B) 16  C) 20  D) 24</choices>
+<solution>Son 5 ga bo'linishi uchun uning oxirgi raqami 5 bo'lishi kerak (to'plamda 0 yo'q). Birlar xonasi uchun 1 ta tanlov bor (5). Yuzlar xonasi uchun qolgan $\{1, 2, 3, 4\}$ raqamlardan 4 ta tanlov, o'nlar xonasi uchun qolgan 3 ta tanlov bor. Jami uch xonali sonlar soni: $4 \times 3 \times 1 = 12$ ta.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>8 ta elementdan iborat $A = [4, 7, 2, 9, 5, 1, 8, 3]$ massiv ustida quyidagi algoritm bajarildi:
+$i$ o'zgaruvchi 1 dan 7 gacha ortib boradi: agar $A[i] > A[i+1]$ bo'lsa, $A[i]$ va $A[i+1]$ elementlarning o'rinlari almashtiriladi (swap).
+Ushbu sikl to'liq bajarilgandan so'ng, massivning eng oxirgi elementi $A[8]$ va eng birinchi elementi $A[1]$ ning ayirmasi ($A[8] - A[1]$) nechaga teng bo'ladi?</problem>
+<solution>Algoritm qadamlarini ketma-ket bajaramiz:
+- $i=1$: $A[1]=4, A[2]=7 \implies 4<7$, almashtirilmaydi. Massiv: $[4, 7, 2, 9, 5, 1, 8, 3]$
+- $i=2$: $A[2]=7, A[3]=2 \implies 7>2$, swap: $[4, 2, 7, 9, 5, 1, 8, 3]$
+- $i=3$: $A[3]=7, A[4]=9 \implies 7<9$, almashtirilmaydi. Massiv: $[4, 2, 7, 9, 5, 1, 8, 3]$
+- $i=4$: $A[4]=9, A[5]=5 \implies 9>5$, swap: $[4, 2, 7, 5, 9, 1, 8, 3]$
+- $i=5$: $A[5]=9, A[6]=1 \implies 9>1$, swap: $[4, 2, 7, 5, 1, 9, 8, 3]$
+- $i=6$: $A[6]=9, A[7]=8 \implies 9>8$, swap: $[4, 2, 7, 5, 1, 8, 9, 3]$
+- $i=7$: $A[7]=9, A[8]=3 \implies 9>3$, swap: $[4, 2, 7, 5, 1, 8, 3, 9]$
+Natijaviy massivda $A[1] = 4$ va $A[8] = 9$. Ayirma: $A[8] - A[1] = 9 - 4 = 5$.</solution>
+<answer>5</answer>
+</example>

@@ -1,0 +1,140 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$10^{2026} - 2026$ ayirmani hisoblaganda hosil bo'lgan sonning raqamlari yig'indisini toping.</problem>
+<choices>A) 18225  B) 18234  C) 18216  D) 18207</choices>
+<solution>$10^{2026} - 2026$ ayirmaning oxirgi 4 ta raqami $10000 - 2026 = 7974$ bo'ladi. Oldingi $2026 - 4 = 2022$ ta raqami esa 9 lardan iborat. Raqamlar yig'indisi: $2022 \cdot 9 + (7 + 9 + 7 + 4) = 18198 + 27 = 18225$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with AB = AC. Point D lies on side BC such that AD = BD. Point E lies on side AC such that DE is parallel to AB. Angle C = 40 degrees.</diagram_spec>
+<problem>Teng yonli $ABC$ uchburchakda ($AB = AC$) $C$ burchak $40^\circ$ ga teng. $BC$ tomonda $D$ nuqta shunday olindiki, bunda $AD = BD$ tenglik bajarildi. $D$ nuqtadan $AB$ tomonga parallel qilib o'tkazilgan to'g'ri chiziq $AC$ tomonni $E$ nuqtada kesib o'tadi. $\angle ADE$ ning qiymatini toping.</problem>
+<choices>A) 30°  B) 40°  C) 50°  D) 60°</choices>
+<solution>$AB = AC$ bo'lgani uchun $\angle B = \angle C = 40^\circ$. $AD = BD$ bo'lgani uchun $\triangle ABD$ teng yonli, demak $\angle BAD = \angle B = 40^\circ$. Uchburchakning tashqi burchagi xossasiga ko'ra $\angle ADC = \angle BAD + \angle B = 80^\circ$. $DE \parallel AB$ bo'lgani uchun mos burchaklar teng: $\angle CDE = \angle B = 40^\circ$. U holda $\angle ADE = \angle ADC - \angle CDE = 80^\circ - 40^\circ = 40^\circ$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Mantiqiy o'zgaruvchilar $A = 1$ (rost), $B = 0$ (yolg'on) va $C = 1$ (rost) qiymatlarga ega. Quyidagi mantiqiy ifodaning qiymatini toping: $(A \text{ AND } \text{NOT } B) \text{ OR } (\text{NOT } A \text{ AND } C)$</problem>
+<choices>A) Rost (1)  B) Yolg'on (0)  C) Aniqlab bo'lmaydi  D) Xatolik</choices>
+<solution>1) $\text{NOT } B = \text{NOT } 0 = 1$. Birinchi qavs: $A \text{ AND } 1 = 1 \text{ AND } 1 = 1$. 2) $\text{NOT } A = \text{NOT } 1 = 0$. Ikkinchi qavs: $0 \text{ AND } C = 0 \text{ AND } 1 = 0$. 3) Yakuniy amal: $1 \text{ OR } 0 = 1$ (Rost).</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$n^2 + 14n - 15$ ifodaning qiymati biror natural sonning kvadrati bo'ladigan barcha natural $n$ sonlarining yig'indisini toping.</problem>
+<solution>Tenglamani tuzamiz: $n^2 + 14n - 15 = k^2$, bunda $k \in \mathbb{N}$. To'la kvadratga ajratamiz: $(n+7)^2 - 64 = k^2 \implies (n+7)^2 - k^2 = 64 \implies (n+7-k)(n+7+k) = 64$. $n, k$ natural sonlar bo'lgani uchun ikkala ko'paytuvchi ham bir xil juftlikka ega bo'lgan musbat juft sonlar bo'lishi kerak ($n+7+k > n+7-k > 0$). 64 ning bunday ko'paytuvchilar juftliklari: 1) $n+7+k = 32$ va $n+7-k = 2 \implies 2(n+7) = 34 \implies n = 10, k = 15$. 2) $n+7+k = 16$ va $n+7-k = 4 \implies 2(n+7) = 20 \implies n = 3, k = 6$. 3) $n+7+k = 8$ va $n+7-k = 8 \implies n = 1, k = 0$ ($k$ natural son emas). Shunday qilib, natural $n$ ning qiymatlari $n = 10$ va $n = 3$. Ularning yig'indisi: $10 + 3 = 13$.</solution>
+<answer>13</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq tizimidagi $110110_2$ va sakkizlik sanoq tizimidagi $65_8$ sonlarining o'nlik sanoq tizimidagi yig'indisini toping.</problem>
+<choices>A) 107  B) 119  C) 101  D) 113</choices>
+<solution>Sonlarni o'nlik sanoq tizimiga o'tkazamiz: $110110_2 = 1\cdot2^5 + 1\cdot2^4 + 0\cdot2^3 + 1\cdot2^2 + 1\cdot2^1 + 0\cdot2^0 = 32 + 16 + 0 + 4 + 2 + 0 = 54_{10}$. $65_8 = 6\cdot8^1 + 5\cdot8^0 = 48 + 5 = 53_{10}$. Yig'indi: $54 + 53 = 107$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>5 ta har xil kitobni 3 ta o'quvchiga shunday tarqatish kerakki, har bir o'quvchi kamida bitta kitob olsin. Kitoblarni nechta turli usulda tarqatish mumkin?</problem>
+<solution>Kiritish-chiqarish prinsipi (inklyuziya-ekslyuziya) bo'yicha: 5 ta kitobni 3 o'quvchiga cheklovlarsiz tarqatish usullari $3^5 = 243$ ta. Kamida bitta o me'yoriy o'quvchi kitobsiz qoladigan usullar soni: $\binom{3}{1} \cdot 2^5 - \binom{3}{2} \cdot 1^5 = 3 \cdot 32 - 3 \cdot 1 = 96 - 3 = 93$. Barcha o'quvchilar kamida bitta kitob oladigan usullar soni: $243 - 93 = 150$.</solution>
+<answer>150</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida quyidagi algoritm bajarildi:
+- `x` ga 1 qiymat berildi
+- `y` ga 0 qiymat berildi
+- `takrorla 4 marta`:
+    - `y` = `y + x`
+    - `x` = `x * 2`
+Algoritm bajarilgandan so'ng `y` ning qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 15  B) 31  C) 16  D) 7</choices>
+<solution>Siklni qadam-baqadam kuzatamiz:
+Boshlang'ich: x = 1, y = 0.
+1-takrorlash: y = 0 + 1 = 1, x = 1 * 2 = 2.
+2-takrorlash: y = 1 + 2 = 3, x = 2 * 2 = 4.
+3-takrorlash: y = 3 + 4 = 7, x = 4 * 2 = 8.
+4-takrorlash: y = 7 + 8 = 15, x = 8 * 2 = 16.
+Yakuniy qiymat y = 15.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ali, Vali va G'ani ismli uchta bola mos ravishda qizil, ko'k va yashil rangli ko'ylak kiyishgan (har bir bola har xil rang kiygan). Ular quyidagicha fikr bildirishdi:
+- Ali: "Mening ko'ylagim qizil emas."
+- Vali: "Mening ko'ylagim yashil emas."
+- G'ani: "Ali qizil ko'ylak kiygan."
+Agar ularning fikrlaridan faqat bittasi to'g'ri bo me'yoriy (rost) bo'lsa, Vali qanday rangli ko'ylak kiygan?</problem>
+<choices>A) Yashil  B) Qizil  C) Ko'k  D) Aniqlab bo'lmaydi</choices>
+<solution>Ali va G'anining fikrlari bir-biriga qarama-qarshi: Ali "qizil emas" deydi, G'ani esa "Ali qizil kiygan" deydi. Shuning uchun bu ikki fikrning biri albatta ROST, ikkinchisi YOLG'ON bo'ladi. Masala shartiga ko'ra faqat bitta rost fikr bor, demak Valining "Mening ko'ylagim yashil emas" degan fikri albatta YOLG'ON bo'lishi shart. Bundan Vali yashil rangli ko'ylak kiygani kelib chiqadi.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$P(x) = x^3 + ax^2 + bx + c$ ko'phad uchun $P(1) = 4$, $P(2) = 7$ va $P(3) = 12$ ekani ma'lum. $P(5) - P(-1)$ ayirmaning qiymatini toping.</problem>
+<choices>A) 72  B) 68  C) 80  D) 64</choices>
+<solution>E'tibor beraylik: $1^2 + 3 = 4$, $2^2 + 3 = 7$, $3^2 + 3 = 12$. Demak, $P(x) - (x^2 + 3)$ ko'phadning ildizlari 1, 2 va 3 dir. $P(x)$ uchinchi darajali va bosh koeffitsiyenti 1 bo'lgani uchun: $P(x) - (x^2 + 3) = (x - 1)(x - 2)(x - 3)$, ya'ni $P(x) = (x - 1)(x - 2)(x - 3) + x^2 + 3$.
+Endi qiymatlarni hisoblaymiz:
+$P(5) = (4)(3)(2) + 5^2 + 3 = 24 + 25 + 3 = 52$.
+$P(-1) = (-2)(-3)(-4) + (-1)^2 + 3 = -24 + 1 + 3 = -20$.
+$P(5) - P(-1) = 52 - (-20) = 72$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x + \dfrac{1}{x} = 4$ bo'lsa, $x^4 + \dfrac{1}{x^4}$ ifodaning qiymatini toping.</problem>
+<solution>Tenglikning ikkala tarafini kvadratga oshiramiz:
+$\left(x + \dfrac{1}{x}\right)^2 = 4^2 \implies x^2 + 2 + \dfrac{1}{x^2} = 16 \implies x^2 + \dfrac{1}{x^2} = 14$.
+Yana bir marta kvadratga oshiramiz:
+$\left(x^2 + \dfrac{1}{x^2}\right)^2 = 14^2 \implies x^4 + 2 + \dfrac{1}{x^4} = 196 \implies x^4 + \dfrac{1}{x^4} = 194$.</solution>
+<answer>194</answer>
+</example>

@@ -1,0 +1,165 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$10110_2 + 1101_2$ ikkilik sanoq sistemasidagi yig'indining 8-lik (sakkizlik) sanoq sistemasidagi qiymatini toping.</problem>
+<choices>A) 43  B) 35  C) 51  D) 37</choices>
+<solution>$10110_2 = 22_{10}$ va $1101_2 = 13_{10}$. Ularning yig'indisi: $22 + 13 = 35_{10}$. Natijani 8-lik sanoq sistemasiga o'tkazamiz: $35 = 4 \cdot 8^1 + 3 \cdot 8^0 = 43_8$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Besh xonali $71x4y$ soni 36 ga qoldiqsiz bo'linadi. $x+y$ ning olishi mumkin bo'lgan eng katta qiymatini toping ($x$ va $y$ — raqamlar).</problem>
+<choices>A) 6  B) 12  C) 15  D) 18</choices>
+<solution>Son 36 ga bo'linishi uchun bir vaqtda 4 ga va 9 ga bo'linishi kerak. 4 ga bo'linish alomatiga ko'ra, oxirgi ikki raqamdan tuzilgan $4y$ soni 4 ga bo'linishi lozim, ya'ni $y \in \{0, 4, 8\}$. 9 ga bo'linish alomatiga ko'ra, raqamlar yig'indisi $7+1+x+4+y = 12+x+y$ soni 9 ga bo'linishi kerak.
+1) $y=0$ bo'lsa, $12+x$ 9 ga bo'linadi $\Rightarrow x=6$, bunda $x+y=6$.
+2) $y=4$ bo'lsa, $16+x$ 9 ga bo'linadi $\Rightarrow x=2$, bunda $x+y=6$.
+3) $y=8$ bo'lsa, $20+x$ 9 ga bo'linadi $\Rightarrow x=7$, bunda $x+y=15$.
+Eng katta qiymat 15 ga teng.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$F = (A \lor \neg B) \land (\neg A \lor C)$ mantiqiy ifoda berilgan. $A, B, C$ mantiqiy o'zgaruvchilarning nechta turli qiymatlar to'plamida (rostlik jadvalida) $F$ ning qiymati 1 (rost) bo'ladi?</problem>
+<choices>A) 3  B) 4  C) 5  D) 6</choices>
+<solution>Mantiqiy o'zgaruvchilar $A, B, C$ uchun jami $2^3 = 8$ ta kombinatsiya mavjud. Har birini tekshiramiz:
+1) (0,0,0): $(0 \lor 1) \land (1 \lor 0) = 1 \land 1 = 1$
+2) (0,0,1): $(0 \lor 1) \land (1 \lor 1) = 1 \land 1 = 1$
+3) (0,1,0): $(0 \lor 0) \land (1 \lor 0) = 0 \land 1 = 0$
+4) (0,1,1): $(0 \lor 0) \land (1 \lor 1) = 0 \land 1 = 0$
+5) (1,0,0): $(1 \lor 1) \land (0 \lor 0) = 1 \land 0 = 0$
+6) (1,0,1): $(1 \lor 1) \land (0 \lor 1) = 1 \land 1 = 1$
+7) (1,1,0): $(1 \lor 0) \land (0 \lor 0) = 1 \land 0 = 0$
+8) (1,1,1): $(1 \lor 0) \land (0 \lor 1) = 1 \land 1 = 1$
+Jami 4 ta kombinatsiyada $F = 1$ qiymat oladi.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel jadvalida A1 = 15 va A2 = 25 qiymat berilgan. Kataklarga quyidagi formulalar kiritildi:
+B1 katakka: `=A1*3 - A2`
+B2 katakka: `=AVERAGE(A1:B1)`
+C1 katakka: `=IF(B1 >= B2; B1*2 - B2; B2*2 - B1)`
+C1 katakdagi natijaviy qiymatni toping.</problem>
+<solution>Formulalarni ketma-ket hisoblaymiz:
+1) B1 = 15 * 3 - 25 = 45 - 25 = 20.
+2) B2 = AVERAGE(15; 20) = (15 + 20) / 2 = 17,5.
+3) C1 katakdagi IF sharti: B1 >= B2 (20 >= 17,5) Mantiqiy ROST. Bajariladigan formula: B1*2 - B2 = 20 * 2 - 17,5 = 40 - 17,5 = 22,5.</solution>
+<answer>22,5</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D lies on side BC. Segment AD is drawn. Side length AD equals AC. Angle BAD = 30 degrees, Angle ADC = 70 degrees.</diagram_spec>
+<problem>ABC uchburchakning BC tomonida D nuqta olingan. Agar $AD = AC$, $\angle BAD = 30^\circ$ va $\angle ADC = 70^\circ$ bo'lsa, $\angle B$ burchakning kattaligini toping.</problem>
+<choices>A) 30°  B) 35°  C) 40°  D) 45°</choices>
+<solution>$\triangle ADC$ teng yonli ($AD = AC$), shuning uchun $\angle ADC = \angle ACD = 70^\circ$. Uchburchakning tashqi burchagi haqidagi teoremaga ko'ra, $\angle ADC$ burchak $\triangle ABD$ uchburchakning D uchidagi tashqi burchagidir: $\angle ADC = \angle B + \angle BAD$. Qiymatlarni qo'ysak: $70^\circ = \angle B + 30^\circ \Rightarrow \angle B = 40^\circ$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida sprayt boshlang'ich $(x: 0, y: 0)$ koordinatada turibdi va yo'nalishi 90 daraja (o'ngga). Sprayt quyidagi takrorlash blokini 4 marta bajaradi:
+— 20 qadam yurish
+— o'ngga 90 daraja burilish
+— 10 qadam yurish
+— chapga 90 daraja burilish
+Ushbu sikl tugagandan so'ng spraytning yakuniy $(x, y)$ koordinatalarini toping.</problem>
+<choices>A) (80, -40)  B) (80, 40)  C) (40, -80)  D) (20, -10)</choices>
+<solution>Har bir takrorlashda:
+1) 90° (o'ngga) yo'nalishda 20 qadam: x ga +20 qo'shiladi.
+2) O'ngga 90° burilib (180° - pastga), 10 qadam: y dan 10 ayriladi.
+3) Chapga 90° burilib, yana dastlabki 90° yo'nalishga qaytadi.
+Bir takrorlash natijasida koordinata $(x+20, y-10)$ bo'ladi. 4 marta takrorlangach: $x = 0 + 4 \cdot 20 = 80$, $y = 0 + 4 \cdot (-10) = -40$. Yakuniy koordinata: (80, -40).</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Elektron kitob 512 sahifadan iborat. Har bir sahifada 32 ta satr, har bir satrda esa 64 ta belgi bor. Matn Unicode kodirovkasida saqlangan bo'lib, har bir belgi 16 bit hajm egallaydi. Ushbu fayl arxivator yordamida siqilganda, uning hajmi 37,5% ga kamaydi. Siqilgan fayl hajmini Kilobaytlarda (KB) toping (1 KB = 1024 bayt).</problem>
+<solution>Jami belgilar soni: $512 \cdot 32 \cdot 64 = 2^9 \cdot 2^5 \cdot 2^6 = 2^{20}$ ta belgi.
+16 bit = 2 bayt. Siqilishdan oldingi hajm: $2^{20} \cdot 2 = 2^{21}$ bayt.
+Kilobaytga o'tkazamiz: $2^{21} / 1024 = 2^{21} / 2^{10} = 2^{11} = 2048$ KB.
+37,5% ga kamaygach, qolgan hajm $100\% - 37,5\% = 62,5\%$ (ya'ni $\frac{5}{8}$) qismini tashkil etadi.
+Siqilgan fayl hajmi: $2048 \cdot \frac{5}{8} = 1280$ KB.</solution>
+<answer>1280</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Katakli doshada robot $(1, 1)$ katakdan $(4, 4)$ katakka harakatlanishi kerak. Robot faqat o'ngga (R) yoki pastga (D) bir katak surilishi mumkin. Biroq $(2, 3)$ katakda to'siq bor va robot u katakka kirishi mumkin emas. Robot $(1, 1)$ dan $(4, 4)$ katakka nechta turli yo'l bilan borishi mumkin?</problem>
+<choices>A) 11  B) 12  C) 9  D) 14</choices>
+<solution>1) To'siqsiz jami yo'llar soni: Robot $(1,1)$ dan $(4,4)$ ga borish uchun 3 marta o'ngga va 3 marta pastga yurishi kerak. Jami yo'llar: $C(3+3, 3) = C(6, 3) = 20$.
+2) Taqiqlangan $(2, 3)$ katak orqali o'tuvchi yo'llar:
+- $(1,1)$ dan $(2,3)$ ga: 1 pastga, 2 o'ngga $\Rightarrow C(3, 1) = 3$ ta yo'l.
+- $(2,3)$ dan $(4,4)$ ga: 2 pastga, 1 o'ngga $\Rightarrow C(3, 1) = 3$ ta yo'l.
+To'siq orqali o'tadigan yo'llar: $3 \cdot 3 = 9$ ta.
+3) Mumkin bo'lgan yo'llar soni: $20 - 9 = 11$ ta.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$\{1, 2, 3, \dots, 15\}$ to'plamdan ikkita har xil $a$ va $b$ sonlar tanlab olindi. Ularning ko'paytmasi $a \cdot b$ soni 3 ga qoldiqsiz bo'linadigan usullar sonini toping.</problem>
+<solution>15 ta sonni 3 ga bo'linish alomatiga ko'ra ajratamiz:
+- 3 ga bo'linadiganlar: $\{3, 6, 9, 12, 15\}$ — 5 ta son.
+- 3 ga bo'linmaydiganlar: 10 ta son.
+Barcha 2 ta sonni tanlash usullari: $C(15, 2) = \frac{15 \cdot 14}{2} = 105$.
+Ikkala son ham 3 ga bo'linmaydigan guruhdan tanlanadigan usullar: $C(10, 2) = \frac{10 \cdot 9}{2} = 45$.
+Ko'paytmasi 3 ga bo'linadigan usullar soni: $105 - 45 = 60$.</solution>
+<answer>60</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Kompyuter tarmog'ida IPv4 manzili ikkilik ko'rinishda berilgan: `11000000.10101000.00000001.00001010`. Ushbu IP manzilning standart o'nlik (nuqta bilan ajratilgan) ko'rinishini toping.</problem>
+<choices>A) 192.168.1.10  B) 192.168.0.10  C) 128.168.1.10  D) 192.160.1.10</choices>
+<solution>Har bir 8 bitli baytni (oktetni) o'nlik sanoq sistemasiga o'tkazamiz:
+1) $11000000_2 = 128 + 64 = 192$
+2) $10101000_2 = 128 + 32 + 8 = 168$
+3) $00000001_2 = 1$
+4) $00001010_2 = 8 + 2 = 10$
+Natija: 192.168.1.10.</solution>
+<answer>A</answer>
+</example>

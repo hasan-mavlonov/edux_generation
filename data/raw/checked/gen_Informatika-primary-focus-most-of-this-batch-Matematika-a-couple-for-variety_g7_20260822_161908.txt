@@ -1,0 +1,178 @@
+<problem_item>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $10110_2$ soni va sakkizlik sanoq sistemasidagi $37_8$ soni yig'indisini o'n oltilik (HEX) sanoq sistemasida tasvirlang.</problem>
+<choices>A) 35  B) 2D  C) 3B  D) 45</choices>
+<solution>Avval har bir sonni o'nlik sanoq sistemasiga o'tkazamiz:
+$10110_2 = 1\cdot2^4 + 0\cdot2^3 + 1\cdot2^2 + 1\cdot2^1 + 0\cdot2^0 = 16 + 0 + 4 + 2 + 0 = 22_{10}$.
+$37_8 = 3\cdot8^1 + 7\cdot8^0 = 24 + 7 = 31_{10}$.
+Ularning yig'indisi: $22 + 31 = 53_{10}$.
+Endi $53_{10}$ ni o'n oltilik sanoq sistemasiga o'tkazamiz: $53 = 3\cdot16 + 5$, ya'ni $35_{16}$.</solution>
+<answer>A</answer>
+</problem_item>
+
+<problem_item>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Mantiqiy o'zgaruvchilar $A = 1$ (Rost), $B = 0$ (Yolg'on) va $C = 0$ (Yolg'on) qiymatlariga ega. Quyidagi mantiqiy ifodalardan qaysi birining qiymati Rost (1) bo'ladi?</problem>
+<choices>A) NOT(A) OR (B AND C)  B) (A AND NOT(B)) AND NOT(C)  C) NOT(A OR B) OR C  D) (A OR B) AND C</choices>
+<solution>O'zgaruvchilar qiymatlarini har bir variantga qo'yib tekshiramiz:
+A) NOT(1) OR (0 AND 0) = 0 OR 0 = 0 (Yolg'on)
+B) (1 AND NOT(0)) AND NOT(0) = (1 AND 1) AND 1 = 1 AND 1 = 1 (Rost)
+C) NOT(1 OR 0) OR 0 = NOT(1) OR 0 = 0 OR 0 = 0 (Yolg'on)
+D) (1 OR 0) AND 0 = 1 AND 0 = 0 (Yolg'on)
+Demak, faqat B variantning qiymati Rost bo'ladi.</solution>
+<answer>B</answer>
+</problem_item>
+
+<problem_item>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Elektron jadvalda A1:A5 kataklarda mos ravishda 4, 11, 7, 15, 9 sonlari yozilgan. B1:B5 kataklarga esa mos ravishda `=A1*2`, `=A2+3`, `=A3*3`, `=A4-5`, `=A5+1` formulalari kiritildi. Agar C1 katakka `=СУММЕСЛИ(B1:B5; ">=10")` (yoki `=SUMIF(B1:B5, ">=10")`) formulasi kiritilsa, C1 katakda qanday natija hosil bo'ladi?</problem>
+<solution>Avval B1:B5 kataklardagi qiymatlarni hisoblaymiz:
+B1 = 4 * 2 = 8
+B2 = 11 + 3 = 14
+B3 = 7 * 3 = 21
+B4 = 15 - 5 = 10
+B5 = 9 + 1 = 10
+B kataklardagi qiymatlar to'plami: {8, 14, 21, 10, 10}.
+`SUMIF(B1:B5, ">=10")` funksiyasi B1:B5 diapozonidagi 10 ga teng yoki undan katta bo'lgan barcha sonlar yig'indisini hisoblaydi:
+14 + 21 + 10 + 10 = 55.</solution>
+<answer>55</answer>
+</problem_item>
+
+<problem_item>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida sprayt boshlang'ich nuqtada (0, 0) koordinatada va yuqoriga qaragan holatda turibdi. Spraytga quyidagi buyruqlar ketma-ketligi berildi:
+`takrorla 5 marta:`
+`  10 qadam yur`
+`  o'ngga 90 darajaga buril`
+Sikl to'liq bajarilgandan so'ng, sprayt boshlang'ich nuqtasidan qancha masofada bo'ladi?</problem>
+<choices>A) 0  B) 10  C) 50  D) 20</choices>
+<solution>Sikl har bir qadamini tahlil qilamiz:
+1-takrorlash: (0,10) ga boradi, o'ngga buriladi.
+2-takrorlash: (10,10) ga boradi, o'ngga buriladi.
+3-takrorlash: (10,0) ga boradi, o'ngga buriladi.
+4-takrorlash: (0,0) boshlang'ich nuqtaga qaytadi va yuqoriga qaragan holatga keladi.
+5-takrorlash: yana (0,10) nuqtaga boradi.
+Natijada sprayt (0,10) nuqtada to'xtaydi. Boshlang'ich nuqta (0,0) dan ushbu nuqtagacha bo'lgan masofa 10 ga teng.</solution>
+<answer>B</answer>
+</problem_item>
+
+<problem_item>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Hajmi 1,5 Mbayt bo'lgan fayl axborot uzatish kanali orqali 512 Kbit/s tezlik bilan uzatilmoqda. Fayl uzatish necha soniya davom etadi? (1 Mbayt = 1024 Kbayt, 1 Kbayt = 8 Kbit deb oling).</problem>
+<solution>Fayl hajmini Kbit birligiga o'tkazamiz:
+1,5 Mbayt = 1,5 · 1024 Kbayt = 1536 Kbayt.
+1536 Kbayt = 1536 · 8 Kbit = 12288 Kbit.
+Uzatish vaqtini topish uchun fayl hajmini uzatish tezligiga bo'lamiz:
+t = 12288 Kbit / 512 Kbit/s = 24 soniya.</solution>
+<answer>24</answer>
+</problem_item>
+
+<problem_item>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Kompyuterning IP manzili `192.168.1.132` va tarmoq niqobi (subnet mask) `255.255.255.224` deb berilgan. Ushbu tarmoqning tarmoq manzili (Network Address) oxirgi baytining o'nlik sanoq sistemasidagi qiymatini toping.</problem>
+<choices>A) 128  B) 132  C) 0  D) 96</choices>
+<solution>Tarmoq manzilini topish uchun IP manzil va tarmoq niqobining har bir bayti o'rtasida mantiqiy AND (VA) amali bajariladi.
+IP manzilning oxirgi bayti: 132 = $10000100_2$.
+Niqobning oxirgi bayti: 224 = $11100000_2$.
+Ikkilik ko'rinishda AND amali:
+  10000100
+AND 11100000
+------------
+  10000000
+Natijada $10000000_2 = 128_{10}$ hosil bo'ladi.
+Demak, tarmoq manzilining oxirgi bayti 128 ga teng.</solution>
+<answer>A</answer>
+</problem_item>
+
+<problem_item>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $a - \dfrac{1}{a} = 4$ bo'lsa, $a^3 - \dfrac{1}{a^3}$ ifodaning qiymatini toping.</problem>
+<choices>A) 52  B) 64  C) 76  D) 88</choices>
+<solution>Qisqa ko'paytirish formulasidan foydalanamiz:
+$(a - \dfrac{1}{a})^3 = a^3 - 3\cdot a \cdot \dfrac{1}{a}(a - \dfrac{1}{a}) - \dfrac{1}{a^3} = a^3 - \dfrac{1}{a^3} - 3(a - \dfrac{1}{a})$.
+Tenglikdan $a^3 - \dfrac{1}{a^3}$ ni topsak:
+$a^3 - \dfrac{1}{a^3} = (a - \dfrac{1}{a})^3 + 3(a - \dfrac{1}{a})$.
+Berilgan qiymatni qo'yamiz: $a^3 - \dfrac{1}{a^3} = 4^3 + 3\cdot4 = 64 + 12 = 76$.</solution>
+<answer>C</answer>
+</problem_item>
+
+<problem_item>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D is on BC such that AD is perpendicular to BC. Point E is on AC such that DE is parallel to AB. Angle B = 65 degrees, Angle C = 35 degrees.</diagram_spec>
+<problem>ABC uchburchakda $\angle B = 65^\circ$ va $\angle C = 35^\circ$. A uchidan BC tomonga AD balandlik tushirilgan. AC tomonda E nuqta shunday olindiki, DE to'g'ri chizig'i AB tomonga parallel bo'ldi. $\angle ADE$ burchakning kattaligini toping.</problem>
+<choices>A) 15°  B) 25°  C) 35°  D) 45°</choices>
+<solution>DE || AB bo'lgani uchun, mos burchaklar tengligidan $\angle CDE = \angle B = 65^\circ$ bo'ladi.
+AD balandlik bo'lgani uchun $\angle ADC = 90^\circ$.
+Chizmadan ko'rinib turibdiki, $\angle ADC = \angle ADE + \angle CDE$.
+Demak, $90^\circ = \angle ADE + 65^\circ \implies \angle ADE = 90^\circ - 65^\circ = 25^\circ$.</solution>
+<answer>B</answer>
+</problem_item>
+
+<problem_item>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$n^2 + 5n + 25$ ifoda biror butun sonning kvadrati (to'liq kvadrat) bo'ladigan eng kichik natural $n$ sonini toping.</problem>
+<solution>Ifodani to'liq kvadratlar bilan solishtiramiz.
+$(n+2)^2 = n^2 + 4n + 4$. Natural $n \ge 1$ uchun $n^2 + 5n + 25 > n^2 + 4n + 4 = (n+2)^2$.
+Endi $n^2 + 5n + 25 = (n+k)^2$ tenglikni $k \ge 3$ holatlar uchun ko'rib chiqamiz:
+1) Agar $k = 4$ bo'lsa: $(n+4)^2 = n^2 + 8n + 16$.
+$n^2 + 5n + 25 = n^2 + 8n + 16 \implies 3n = 9 \implies n = 3$.
+Tekshiramiz: $3^2 + 5\cdot3 + 25 = 9 + 15 + 25 = 49 = 7^2$ (to'liq kvadrat).
+2) Smallest natural $n$ ni izlayotganimiz uchun $n=1$ va $n=2$ ni tekshiramiz:
+$n=1 \implies 1+5+25 = 31$ (kvadrat emas).
+$n=2 \implies 4+10+25 = 39$ (kvadrat emas).
+Demak, eng kichik natural son $n = 3$.</solution>
+<answer>3</answer>
+</problem_item>
+
+<problem_item>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Mantiqiy sxemaga uchta kirish signali uzatiladi: $A = 1$, $B = 1$, $C = 1$. Sxema ikki bosqichdan iborat:
+1) $A$ va $B$ signallari XOR (istisno etuvchi YOKI) mantiqiy elementiga uzatiladi.
+2) XOR elementining chiqish signali va $C$ signali AND (VA) mantiqiy elementiga uzatiladi.
+Mantiqiy sxemaning yakuniy chiqish signalining qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 0  B) 1  C) Aniqlab bo'lmaydi  D) 2</choices>
+<solution>1-bosqich: XOR elementi kirishida $A=1$ va $B=1$. XOR amali bir xil kirish signallarida 0 (Yolg'on) qiymat beradi. Demak, XOR natijasi = 0.
+2-bosqich: AND elementi kirishida XOR natijasi (0) va $C=1$ keladi. AND amali 0 va 1 uchun 0 qiymat qaytaradi.
+Natijada sxemaning chiqishi 0 ga teng bo'ladi.</solution>
+<answer>A</answer>
+</problem_item>

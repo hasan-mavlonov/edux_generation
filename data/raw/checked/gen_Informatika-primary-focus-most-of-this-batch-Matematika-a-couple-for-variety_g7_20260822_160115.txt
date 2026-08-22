@@ -1,0 +1,148 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasida berilgan $11011_2$ va $1011_2$ sonlarining yig'indisini o'nlik sanoq sistemasida toping.</problem>
+<choices>A) 36  B) 38  C) 40  D) 42</choices>
+<solution>$11011_2$ sonini o'nlik sanoq sistemasiga o'tkazamiz: $16 + 8 + 0 + 2 + 1 = 27_{10}$. $1011_2$ sonini o'nlik sanoq sistemasiga o'tkazamiz: $8 + 0 + 2 + 1 = 11_{10}$. Ularning yig'indisi: $27 + 11 = 38$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$A = 1$, $B = 0$, $C = 1$ mantiqiy qiymatlari berilgan bo'lsa, $F = (A \text{ AND } \text{NOT } B) \text{ OR } (\text{NOT } A \text{ AND } C)$ mantiqiy ifodaning qiymatini toping (0 yoki 1 ko'rinishida yozing).</problem>
+<solution>1) $\text{NOT } B = \text{NOT } 0 = 1$.
+2) $A \text{ AND } \text{NOT } B = 1 \text{ AND } 1 = 1$.
+3) $\text{NOT } A = \text{NOT } 1 = 0$.
+4) $\text{NOT } A \text{ AND } C = 0 \text{ AND } 1 = 0$.
+5) $F = 1 \text{ OR } 0 = 1$.</solution>
+<answer>1</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi takrorlanish algoritmi bajarilgach, $x$ o'zgaruvchining yakuniy qiymati nechaga teng bo'ladi?
+
+$x = 0$
+$i = 1$ dan $4$ gacha takrorlang:
+    $j = 1$ dan $i$ gacha takrorlang:
+        $x = x + i \cdot j$</problem>
+<choices>A) 50  B) 60  C) 65  D) 70</choices>
+<solution>Har bir $i$ va $j$ uchun $i \cdot j$ qiymatlari $x$ ga qo'shiladi:
+- $i=1$: $j=1 \implies x = 0 + 1\cdot1 = 1$
+- $i=2$: $j=1 \implies x = 1 + 2\cdot1 = 3$; $j=2 \implies x = 3 + 2\cdot2 = 7$
+- $i=3$: $j=1 \implies x = 7 + 3\cdot1 = 10$; $j=2 \implies x = 10 + 3\cdot2 = 16$; $j=3 \implies x = 16 + 3\cdot3 = 25$
+- $i=4$: $j=1 \implies x = 25 + 4\cdot1 = 29$; $j=2 \implies x = 29 + 4\cdot2 = 37$; $j=3 \implies x = 37 + 4\cdot3 = 49$; $j=4 \implies x = 49 + 4\cdot4 = 65$.
+Natija: 65.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel elektron jadvalida $A1=12$, $A2=8$, $B1=5$, $B2=15$ qiymatlari berilgan. Agar $C1$ katakchaga `=SUM(A1:B2)-AVERAGE(A1:A2)` formulasi kiritilsa, $C1$ da qanday natija aks etadi?</problem>
+<choices>A) 20  B) 25  C) 30  D) 35</choices>
+<solution>`SUM(A1:B2)` bloki yig'indisi: $12 + 8 + 5 + 15 = 40$. `AVERAGE(A1:A2)` sonli o'rtacha qiymati: $(12 + 8) / 2 = 10$. Natijada $C1 = 40 - 10 = 30$ hosil bo'ladi.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Hajmi 1,5 Megabayt (MB) bo'lgan fayl uzatish tezligi 512 Kilobit/sekund (Kbit/s) bo'lgan aloqa kanali orqali uzatilmoqda. Faylni to'liq uzatish uchun necha sekund vaqt talab etiladi? (1 MB = 1024 KB, 1 Bayt = 8 bit deb olinsin)</problem>
+<choices>A) 12  B) 16  C) 24  D) 32</choices>
+<solution>1,5 MB hajmni Kbit birligiga o'tkazamiz: $1,5 \text{ MB} = 1,5 \cdot 1024 \text{ KB} = 1536 \text{ KB}$. $1536 \text{ KB} \cdot 8 \text{ bit/Bayt} = 12288 \text{ Kbit}$.
+Vaqt: $t = \dfrac{12288 \text{ Kbit}}{512 \text{ Kbit/s}} = 24 \text{ sekund}$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Uzunligi 6 bitdan iborat bo'lgan va ketma-ket ikkita '1' raqami qatnashmaydigan barcha ikkilik kodlar sonini toping.</problem>
+<solution>$a_n$ — uzunligi $n$ bo'lgan shartni qanoatlantiruvchi ikkilik kodlar soni bo'lsin.
+Agar kod '0' bilan boshlansa, qolgan $(n-1)$ ta o'rin uchun $a_{n-1}$ ta usul bor.
+Agar kod '1' bilan boshlansa, ikkinchi raqam albatta '0' bo'ladi va qolgan $(n-2)$ ta o'rin uchun $a_{n-2}$ ta usul bor.
+Rekurrent munosabat: $a_n = a_{n-1} + a_{n-2}$.
+Boshlang'ich qiymatlar: $a_1 = 2$ ('0', '1'), $a_2 = 3$ ('00', '01', '10').
+Ketma-ket hisoblaymiz: $a_3 = 5$, $a_4 = 8$, $a_5 = 13$, $a_6 = 21$.</solution>
+<answer>21</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkita ketma-ket toq natural sonning ko'paytmasiga 1 qo'shilsa, 576 hosil bo'ladi. Ushbu ikkala toq sonning yig'indisini toping.</problem>
+<choices>A) 44  B) 46  C) 48  D) 50</choices>
+<solution>Ketma-ket toq sonlarni $(2k-1)$ va $(2k+1)$ deb olsak, ularning ko'paytmasiga 1 qo'shilsa: $(2k-1)(2k+1) + 1 = 4k^2 - 1 + 1 = 4k^2$.
+$4k^2 = 576 \implies k^2 = 144 \implies k = 12$.
+Sonlar: $2(12)-1 = 23$ va $2(12)+1 = 25$. Ularning yig'indisi: $23 + 25 = 48$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D lies on the extension of AB past B, forming exterior angle CBD = 130 degrees. Interior angle bisector of angle A and interior angle bisector of angle C intersect at point O inside triangle ABC.</diagram_spec>
+<problem>$ABC$ uchburchakning $B$ uchidagi tashqi burchagi $130^\circ$ ga teng. Ushbu uchburchakning $A$ va $C$ burchaklarining ichki bissektrisalari $O$ nuqtada kesishadi. $\angle AOC$ burchakning kattaligini toping.</problem>
+<choices>A) 105°  B) 115°  C) 125°  D) 130°</choices>
+<solution>$B$ uchidagi ichki burchak $\angle B = 180^\circ - 130^\circ = 50^\circ$. $ABC$ uchburchak ichki burchaklari yig'indisidan: $\angle A + \angle C = 180^\circ - 50^\circ = 130^\circ$.
+$O$ nuqta bissektrisalar kesishgan nuqta bo'lgani uchun: $\angle OAC + \angle OCA = \dfrac{\angle A + \angle C}{2} = \dfrac{130^\circ}{2} = 65^\circ$.
+$AOC$ uchburchakdan: $\angle AOC = 180^\circ - 65^\circ = 115^\circ$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x + \dfrac{1}{x} = 3$ bo'lsa, $x^5 + \dfrac{1}{x^5}$ ifodaning qiymatini toping.</problem>
+<solution>1) $x^2 + \dfrac{1}{x^2} = \left(x + \dfrac{1}{x}\right)^2 - 2 = 3^2 - 2 = 7$.
+2) $x^3 + \dfrac{1}{x^3} = \left(x + \dfrac{1}{x}\right)^3 - 3\left(x + \dfrac{1}{x}\right) = 3^3 - 3 \cdot 3 = 18$.
+3) Ikkala tenglikni ko'paytiramiz: $\left(x^2 + \dfrac{1}{x^2}\right)\left(x^3 + \dfrac{1}{x^3}\right) = x^5 + \dfrac{1}{x^5} + \left(x + \dfrac{1}{x}\right)$.
+4) Qiymatlarni qo'yamiz: $7 \cdot 18 = x^5 + \dfrac{1}{x^5} + 3 \implies 126 = x^5 + \dfrac{1}{x^5} + 3 \implies x^5 + \dfrac{1}{x^5} = 123$.</solution>
+<answer>123</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $21_x \cdot 13_x = 313_x$ tenglik o'rinli bo'lsa, $x$ sanoq sistemasining asosini toping.</problem>
+<choices>A) 5  B) 6  C) 7  D) 8</choices>
+<solution>Berilgan sonlarni $x$ asosli pozitsion sistema ko'rinishida yozamiz:
+$21_x = 2x + 1$, $13_x = x + 3$, $313_x = 3x^2 + x + 3$.
+Tenglamani tuzamiz: $(2x + 1)(x + 3) = 3x^2 + x + 3$.
+Qavslarni ochamiz: $2x^2 + 7x + 3 = 3x^2 + x + 3 \implies x^2 - 6x = 0$.
+$x > 3$ bo'lgan natural son bo'lgani uchun $x = 6$ hosil bo'ladi.</solution>
+<answer>B</answer>
+</example>

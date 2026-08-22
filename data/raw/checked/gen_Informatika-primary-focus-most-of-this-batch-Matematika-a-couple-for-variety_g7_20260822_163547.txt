@@ -1,0 +1,162 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar ikkilik sanoq tizimidagi $X = 11011_2$ va o'n oltilik sanoq tizimidagi $Y = 1A_{16}$ sonlari berilgan bo'lsa, $X + Y$ yig'indining o'nlik sanoq tizimidagi qiymatini toping.</problem>
+<choices>A) 51  B) 53  C) 55  D) 57</choices>
+<solution>$X = 11011_2 = 1\cdot2^4 + 1\cdot2^3 + 0\cdot2^2 + 1\cdot2^1 + 1\cdot2^0 = 16 + 8 + 0 + 2 + 1 = 27_{10}$.
+$Y = 1A_{16} = 1\cdot16^1 + 10\cdot16^0 = 16 + 10 = 26_{10}$.
+Yig'indi: $X + Y = 27 + 26 = 53_{10}$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $a - \dfrac{2}{a} = 4$ bo'lsa, $a^2 + \dfrac{4}{a^2}$ ifodaning qiymatini toping.</problem>
+<choices>A) 16  B) 18  C) 20  D) 24</choices>
+<solution>Tenglikning ikkala tarafini kvadratga oshiramiz:
+$\left(a - \dfrac{2}{a}\right)^2 = 4^2 \implies a^2 - 2 \cdot a \cdot \dfrac{2}{a} + \dfrac{4}{a^2} = 16 \implies a^2 - 4 + \dfrac{4}{a^2} = 16 \implies a^2 + \dfrac{4}{a^2} = 20$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Uchta mantiqiy o'zgaruvchi berilgan: $A = \text{Rost}\ (1)$, $B = \text{Yolg'on}\ (0)$, $C = \text{Rost}\ (1)$. Quyidagi mantiqiy ifodalarning qaysi biri YOLG'ON (0) qiymatga ega?</problem>
+<choices>A) $(A \land B) \lor C$  B) $\text{NOT}(A) \lor (B \land C)$  C) $(A \lor B) \land C$  D) $A \land \text{NOT}(B \land C)$</choices>
+<solution>Variantlarni tekshiramiz:
+A) $(1 \land 0) \lor 1 = 0 \lor 1 = 1$ (Rost)
+B) $\text{NOT}(1) \lor (0 \land 1) = 0 \lor 0 = 0$ (Yolg'on)
+C) $(1 \lor 0) \land 1 = 1 \land 1 = 1$ (Rost)
+D) $1 \land \text{NOT}(0 \land 1) = 1 \land \text{NOT}(0) = 1 \land 1 = 1$ (Rost)</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida quyidagi algoritm bajarildi:
+`s` ga 0 qiymat berilsin
+`k` ga 1 qiymat berilsin
+`takrorla 5 marta:`
+  `s = s + k * 2`
+  `k = k + 1`
+Algoritm bajarilgandan so'ng `s` o'zgaruvchisining qiymati nechaga teng bo'ladi?</problem>
+<solution>Aylanmalarni ketma-ket hisoblaymiz:
+1-takrorlash: $s = 0 + 1 \cdot 2 = 2$, $k = 2$
+2-takrorlash: $s = 2 + 2 \cdot 2 = 6$, $k = 3$
+3-takrorlash: $s = 6 + 3 \cdot 2 = 12$, $k = 4$
+4-takrorlash: $s = 12 + 4 \cdot 2 = 20$, $k = 5$
+5-takrorlash: $s = 20 + 5 \cdot 2 = 30$, $k = 6$
+Natijada $s = 30$ bo'ladi.</solution>
+<answer>30</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Sinfda 25 ta o'quvchi bor. Ulardan 15 nafari matematika to'garagiga, 12 nafari informatika to'garagiga qatnashadi. 5 nafar o'quvchi ikkala to'garakka ham qatnashmaydi. Nechta o'quvchi faqat informatika to'garagiga qatnashadi?</problem>
+<choices>A) 3  B) 5  C) 7  D) 8</choices>
+<solution>Kamida bitta to'garakka qatnashadigan o'quvchilar soni: $25 - 5 = 20$.
+Ikkala to'garakka ham qatnashadigan o'quvchilar sonini $x$ deb olsak: $15 + 12 - x = 20 \implies 27 - x = 20 \implies x = 7$.
+Faqat informatika to'garagiga qatnashadiganlar: $12 - 7 = 5$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel jadvalida $A1=10$, $A2=20$, $B1=5$, $B2=15$ kataklarda sonlar joylashgan. C1 katakka `=SUM(A1:B2) - AVERAGE(A1:A2)` formulasi kiritildi. C1 katakda qanday natija hosil bo'ladi?</problem>
+<choices>A) 35  B) 40  C) 25  D) 50</choices>
+<solution>`SUM(A1:B2)` diaponidagi sonlar yig'indisi: $10 + 20 + 5 + 15 = 50$.
+`AVERAGE(A1:A2)` o'rtacha qiymati: $(10 + 20) / 2 = 15$.
+Natija: $50 - 15 = 35$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with side AB = AC. Point D lies on segment AC such that segment AD = BD and segment BD = BC.</diagram_spec>
+<problem>ABC teng yonli uchburchakda $AB = AC$. AC tomonda D nuqta shunday tanlanganki, $AD = BD$ va $BD = BC$ tengliklar bajariladi. $\angle ABC$ burchakning kattaligini toping.</problem>
+<choices>A) 36°  B) 54°  C) 72°  D) 108°</choices>
+<solution>$\angle A = x$ bo'lsin.
+$\triangle ABD$ teng yonli ($AD = BD$), shuning uchun $\angle ABD = \angle A = x$.
+Tashqi burchak xossasiga ko'ra $\angle BDC = \angle A + \angle ABD = 2x$.
+$\triangle BCD$ teng yonli ($BD = BC$), shuning uchun $\angle C = \angle BDC = 2x$.
+$\triangle ABC$ teng yonli ($AB = AC$), shuning uchun $\angle ABC = \angle C = 2x$.
+$\triangle ABC$ burchaklari yig'indisi: $x + 2x + 2x = 180^\circ \implies 5x = 180^\circ \implies x = 36^\circ$.
+U holda $\angle ABC = 2x = 72^\circ$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Fayl tarmoq orqali 512 kilobit/soniya tezlikda uzatilmoqda. Hajmi 3 Megabayt bo'lgan faylni to'liq uzatish uchun necha soniya vaqt talab etiladi?</problem>
+<solution>Fayl hajmini kilobitga o'tkazamiz:
+$3 \text{ MB} = 3 \cdot 1024 \text{ KB} = 3 \cdot 1024 \cdot 8 \text{ Kb} = 24576 \text{ Kb}$.
+Vaqt $t = \dfrac{\text{Hajm}}{\text{Tezlik}} = \dfrac{24576 \text{ Kb}}{512 \text{ Kb/s}} = 48 \text{ soniya}$.</solution>
+<answer>48</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Uzunligi 8 bit bo'lgan ikkilik satrlardan nechtasida ketma-ket kelgan ikkita '1' raqami MAVJUD EMAS (ya'ni hech qaysi ikkita '1' yonma-yon kelmaydi)?</problem>
+<choices>A) 34  B) 55  C) 89  D) 128</choices>
+<solution>Uzunligi $n$ bo'lgan shartni qanoatlantiruvchi ikkilik satrlar soni $a_n$ bo'lsin.
+$a_1 = 2$ ("0", "1")
+$a_2 = 3$ ("00", "01", "10")
+Recurrent munosabat: $a_n = a_{n-1} + a_{n-2}$ (Fibonachchi ketma-ketligi).
+Ketma-ket hisoblaymiz:
+$a_3 = 5$, $a_4 = 8$, $a_5 = 13$, $a_6 = 21$, $a_7 = 34$, $a_8 = 55$.
+Demak, uzunligi 8 bit bo'lgan bunday satrlar soni 55 ta.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Uch xonali $\overline{abc}$ soni o'zining raqamlari yig'indisi $a+b+c$ ga bo'linganda bo'linma 11 ga va qoldiq 0 ga teng bo'lsa, $a+b+c$ yig'indini toping.</problem>
+<choices>A) 11  B) 15  C) 18  D) 22</choices>
+<solution>Shartga ko'ra: $100a + 10b + c = 11(a + b + c)$.
+Qavslarni ochib soddalashtiramiz:
+$100a + 10b + c = 11a + 11b + 11c \implies 89a = 10c + b$.
+$10c + b$ ifoda ikkita raqamdan tuzilgan $\overline{cb}$ sonini ifodalaydi va $\overline{cb} \le 99$.
+Shuning uchun $89a \le 99 \implies a = 1$.
+U holda $10c + b = 89 \implies c = 8, b = 9$.
+Izlanayotgan son $\overline{abc} = 198$.
+Raqamlar yig'indisi: $a + b + c = 1 + 9 + 8 = 18$.</solution>
+<answer>C</answer>
+</example>

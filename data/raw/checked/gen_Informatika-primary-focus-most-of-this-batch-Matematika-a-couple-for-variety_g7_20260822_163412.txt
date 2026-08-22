@@ -1,0 +1,161 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $11011_2$ soniga $101_2$ soni qo'shilsa, hosil bo'lgan yig'indi o'nlik sanoq sistemasida nechaga teng bo'ladi?</problem>
+<choices>A) 30  B) 32  C) 34  D) 28</choices>
+<solution>Ikkilik sonlarni o'nlik sanoq sistemasiga o'tkazamiz:
+$11011_2 = 1 \cdot 2^4 + 1 \cdot 2^3 + 0 \cdot 2^2 + 1 \cdot 2^1 + 1 \cdot 2^0 = 16 + 8 + 0 + 2 + 1 = 27_{10}$.
+$101_2 = 1 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0 = 4 + 0 + 1 = 5_{10}$.
+Yig'indi: $27 + 5 = 32_{10}$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Mantiqiy o'zgaruvchilar uchun $A = 1$ (Rost), $B = 0$ (Yolg'on) va $C = 1$ (Rost) qiymatlari berilgan. Quyidagi mantiqiy ifodalardan qaysi birining qiymati **Rost** (1) bo'ladi?</problem>
+<choices>A) (A AND B) OR (NOT A)  B) (NOT A OR B) AND C  C) (A AND NOT B) AND (NOT C)  D) (A OR B) AND (NOT B AND C)</choices>
+<solution>Har bir variantni berilgan qiymatlar bilan tekshiramiz:
+A) $(1 \text{ AND } 0) \text{ OR } (\text{NOT } 1) = 0 \text{ OR } 0 = 0$.
+B) $(\text{NOT } 1 \text{ OR } 0) \text{ AND } 1 = (0 \text{ OR } 0) \text{ AND } 1 = 0 \text{ AND } 1 = 0$.
+C) $(1 \text{ AND } \text{NOT } 0) \text{ AND } (\text{NOT } 1) = (1 \text{ AND } 1) \text{ AND } 0 = 1 \text{ AND } 0 = 0$.
+D) $(1 \text{ OR } 0) \text{ AND } (\text{NOT } 0 \text{ AND } 1) = 1 \text{ AND } (1 \text{ AND } 1) = 1 \text{ AND } 1 = 1$.
+Demak, D varianti rost qiymat beradi.</solution>
+<answer>D</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Bir maxsus alfavitda 64 ta belgi bor. Ushbu alfavitda yozilgan hamda har biri 150 ta belgidan iborat bo'lgan 4 sahifalik matnning axborot hajmini baytlarda toping.</problem>
+<solution>1. Alfavitda 64 ta belgi borligi sababli, har bir belgini kodlash uchun $N = 2^i \implies 64 = 2^6$, ya'ni $i = 6$ bit talab qilinadi.
+2. Jami belgilar soni: $4 \text{ sahifa} \times 150 \text{ belgi/sahifa} = 600$ ta belgi.
+3. Jami axborot hajmi bitlarda: $600 \times 6 = 3600$ bit.
+4. Baytlarga o'tkazamiz: $3600 / 8 = 450$ bayt.</solution>
+<answer>450</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel jadvalining kataklariga quyidagi qiymatlar kiritilgan: A1=15, A2=25, A3=20. Agar B1 katakchasiga `=SUM(A1:A3)/COUNT(A1:A3)` formulasi yozilsa, B1 katakda qanday natija hosil bo'ladi?</problem>
+<choices>A) 15  B) 20  C) 30  D) 60</choices>
+<solution>`SUM(A1:A3)` funksiyasi A1, A2, A3 kataklardagi sonlar yig'indisini hisoblaydi: $15 + 25 + 20 = 60$.
+`COUNT(A1:A3)` funksiyasi son o'z ichiga olgan kataklar sonini hisoblaydi: $3$.
+Bo'lish amali bajariladi: $60 / 3 = 20$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida quyidagi algoritm bajarildi:
+1. `x` o'zgaruvchisiga `5` qiymat berildi.
+2. `y` o'zgaruvchisiga `2` qiymat berildi.
+3. `4 marta takrorlash`:
+   - `x` ning qiymatini `x + y` ga o'zgartirish
+   - `y` ning qiymatini `y + 3` ga o'zgartirish
+Algoritm to'liq bajarilgandan so'ng `x` o'zgaruvchisining oxirgi qiymatini toping.</problem>
+<solution>Takrorlanish jarayonini bosqichma-bosqich kuzatamiz:
+Boshlang'ich holat: $x = 5$, $y = 2$.
+1-takrorlash: $x = 5 + 2 = 7$, $y = 2 + 3 = 5$.
+2-takrorlash: $x = 7 + 5 = 12$, $y = 5 + 3 = 8$.
+3-takrorlash: $x = 12 + 8 = 20$, $y = 8 + 3 = 11$.
+4-takrorlash: $x = 20 + 11 = 31$, $y = 11 + 3 = 14$.
+Jarayon yakunida $x$ o'zgaruvchisining qiymati 31 ga teng bo'ladi.</solution>
+<answer>31</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x + y = 7$ va $x^2 + y^2 = 25$ bo'lsa, $(x - y)^2$ ifodaning qiymatini toping.</problem>
+<choices>A) 1  B) 4  C) 9  D) 16</choices>
+<solution>Bizga ma'lumki, $(x + y)^2 = x^2 + 2xy + y^2$.
+Qiymatlarni qo'yamiz: $7^2 = 25 + 2xy \implies 49 = 25 + 2xy \implies 2xy = 24$.
+Endi $(x - y)^2$ ifodani ochamiz:
+$(x - y)^2 = x^2 - 2xy + y^2 = (x^2 + y^2) - 2xy = 25 - 24 = 1$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D lies on segment BC. AD is the angle bisector of angle A. Angle B = 70 degrees, angle C = 40 degrees. Angle ADC = x.</diagram_spec>
+<problem>ABC uchburchakda AD kesma $A$ burchakning bissektrisasi hisoblanadi ($D$ nuqta $BC$ tomonida yotadi). Agar $\angle B = 70^\circ$ va $\angle C = 40^\circ$ bo'lsa, $\angle ADC$ burchakning kattaligini toping.</problem>
+<choices>A) 95°  B) 100°  C) 105°  D) 110°</choices>
+<solution>1. ABC uchburchakning ichki burchaklari yig'indisi $180^\circ$ ga teng:
+$\angle A = 180^\circ - (\angle B + \angle C) = 180^\circ - (70^\circ + 40^\circ) = 70^\circ$.
+2. AD bissektrisa bo'lgani uchun: $\angle DAC = \dfrac{\angle A}{2} = \dfrac{70^\circ}{2} = 35^\circ$.
+3. ADC uchburchakdan $\angle ADC$ burchakni topamiz:
+$\angle ADC = 180^\circ - (\angle DAC + \angle C) = 180^\circ - (35^\circ + 40^\circ) = 105^\circ$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$N = 2^4 \cdot 3^2 \cdot 5^1$ sonining 6 ga karrali (bo'linadigan) bo'lgan barcha natural bo'luvchilari sonini toping.</problem>
+<choices>A) 12  B) 16  C) 24  D) 30</choices>
+<solution>$N$ sonining natural bo'luvchisi 6 ga bo'linishi uchun uning tub ko'paytuvchilarga ajralishida kamida bitta $2$ va kamida bitta $3$ qatnashishi kerak.
+Bunday bo'luvchilarni $d = 6 \cdot k$ ko'rinishida yozish mumkin, bunda $k$ soni $\dfrac{N}{6}$ sonining natural bo'luvchisidir.
+$\dfrac{N}{6} = \dfrac{2^4 \cdot 3^2 \cdot 5^1}{2^1 \cdot 3^1} = 2^3 \cdot 3^1 \cdot 5^1$.
+Ushbu sonning natural bo me'yoriy bo'luvchilar soni uning darajalariga 1 qo'shib ko'paytirish orqali topiladi:
+$(3 + 1) \cdot (1 + 1) \cdot (1 + 1) = 4 \cdot 2 \cdot 2 = 16$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Kompyuterning IP-manzili `192.168.1.10` va tarmoq niqobi (subnet mask) `255.255.255.0` qilib sozlangam. Ushbu tarmoqqa tegishli bo'lgan tarmoq manzili (network address) va eshittirish manzili (broadcast address) juftligini toping.</problem>
+<choices>A) 192.168.1.1 va 192.168.1.254  B) 192.168.1.0 va 192.168.1.255  C) 192.168.0.0 va 192.168.255.255  D) 192.168.1.0 va 192.168.1.254</choices>
+<solution>Tarmoq niqobi `255.255.255.0` bo'lganligi sababli, dastlabki 3 bayt (`192.168.1`) tarmoq qismini, oxirgi bayt esa tugun (host) qismini bildiradi.
+- Tarmoq manzili (network address) tugun qismidagi barcha bitlar 0 bo'lganda hosil bo'ladi: `192.168.1.0`.
+- Eshittirish manzili (broadcast address) tugun qismidagi barcha bitlar 1 bo'lganda hosil bo'ladi: `192.168.1.255`.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>1 dan 100 gacha bo'lgan natural sonlar (1 va 100 ham kiradi) orasida 3 ga ham, 5 ga ham bo'linmaydigan nechta son bor?</problem>
+<solution>Inclusion-Exclusion (qo'shish va ayirish) tamoyilidan foydalanamiz:
+1. 1 dan 100 gacha jami 100 ta natural son bor.
+2. 3 ga bo'linadigan sonlar soni: $\lfloor 100 / 3 \rfloor = 33$ ta.
+3. 5 ga bo'linadigan sonlar soni: $\lfloor 100 / 5 \rfloor = 20$ ta.
+4. 3 ga ham, 5 ga ham (ya'ni 15 ga) bo'linadigan sonlar soni: $\lfloor 100 / 15 \rfloor = 6$ ta.
+5. 3 ga yoki 5 ga bo'linadigan sonlar jami: $33 + 20 - 6 = 47$ ta.
+6. 3 ga ham, 5 ga ham bo'linmaydigan sonlar soni: $100 - 47 = 53$ ta.</solution>
+<answer>53</answer>
+</example>

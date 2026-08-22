@@ -1,0 +1,166 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $1101_2 + 1011_2 - 101_2$ ifodaning o'nlik sanoq sistemasidagi qiymatini toping.</problem>
+<choices>A) 18  B) 19  C) 20  D) 21</choices>
+<solution>Har bir sonni o'nlik sanoq sistemasiga o'tkazamiz: $1101_2 = 13$, $1011_2 = 11$, $101_2 = 5$. Ifodani hisoblaymiz: $13 + 11 - 5 = 19$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>A = Rost (1), B = Yolg'on (0), C = Rost (1) bo'lsin. Qaysi mantiqiy ifodaning qiymati Yolg'on (0) bo'ladi?</problem>
+<choices>A) (A YOKI B) VA C  B) EMAS(A) YOKI (B VA C)  C) A VA (B YOKI C)  D) EMAS(B) VA C</choices>
+<solution>A) (1 YOKI 0) VA 1 = 1 VA 1 = 1.
+B) EMAS(1) YOKI (0 VA 1) = 0 YOKI 0 = 0 (Yolg'on).
+C) 1 VA (0 YOKI 1) = 1 VA 1 = 1.
+D) EMAS(0) VA 1 = 1 VA 1 = 1.
+Demak, B variantining qiymati Yolg'on bo'ladi.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel jadvalida A1=12, B1=4, A2=6, B2=2 sonlari joylashgan. C1 katakka `=SUM(A1:B1) - AVERAGE(A2:B2)` formulasi kiritildi. C1 katakdagi natijani toping.</problem>
+<solution>SUM(A1:B1) formulasi A1 va B1 kataklar yig'indisini hisoblaydi: 12 + 4 = 16.
+AVERAGE(A2:B2) formulasi A2 va B2 kataklarning o'rta arifmetigini hisoblaydi: (6 + 2) / 2 = 4.
+C1 katakdagi natija: 16 - 4 = 12.</solution>
+<answer>12</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida $x$ o'zgaruvchisiga 5 qiymati berildi. So'ngra "takrorla 4 marta: $x = x \cdot 2 - 3$" takrorlash bloki bajarildi. Takrorlash tugagach, $x$ o'zgaruvchining qiymati qancha bo'ladi?</problem>
+<choices>A) 19  B) 29  C) 35  D) 67</choices>
+<solution>Boshlang'ich qiymat: $x = 5$.
+1-qadam: $x = 5 \cdot 2 - 3 = 7$.
+2-qadam: $x = 7 \cdot 2 - 3 = 11$.
+3-qadam: $x = 11 \cdot 2 - 3 = 19$.
+4-qadam: $x = 19 \cdot 2 - 3 = 35$.
+Yakuniy qiymat: 35.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Fayl hajmi 1,5 Mbaytga teng. U tarmoq orqali sekundiga 768 Kbit tezlik bilan uzatilmoqda. Ushbu faylni to'liq uzatish uchun qancha sekund vaqt talab etiladi? (1 Mbayt = 1024 Kbayt, 1 Kbayt = 8 Kbit deb olinsin).</problem>
+<choices>A) 12  B) 16  C) 20  D) 32</choices>
+<solution>Fayl hajmini kilobitga o'tkazamiz:
+1,5 Mbayt = $1,5 \cdot 1024$ Kbayt = 1536 Kbayt.
+1536 Kbayt = $1536 \cdot 8$ Kbit = 12288 Kbit.
+Uzatish vaqti $t = \dfrac{12288\text{ Kbit}}{768\text{ Kbit/s}} = 16$ sekund.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Faqat 0, 1, 2, 3 raqamlaridan tashkil topgan hamda barcha raqamlari har xil bo'lgan 4 xonali sonlar to'rtlik sanoq sistemasida yozilgan. Ushbu barcha sonlar yig'indisini o'nlik sanoq sistemasida toping.</problem>
+<solution>To'rtlik sanoq sistemasidagi 4 xonali son $d_3 d_2 d_1 d_0$ ko'rinishida bo'ladi.
+Birinchi xona $d_3 \in \{1, 2, 3\}$ (3 ta tanlov), chunki son 0 bilan boshlanolmaydi.
+Qolgan xonalar tegishlicha 3, 2, 1 ta tanlovga ega. Jami $3 \cdot 3 \cdot 2 \cdot 1 = 18$ ta son bor.
+
+Har bir xonadagi raqamlar yig'indisini o'nlik sanoq sistemasida hisoblaymiz:
+- $d_3$ o'rnida 1, 2, 3 raqamlarining har biri $18 / 3 = 6$ martadan keladi. Sum($d_3$) = $6 \cdot (1 + 2 + 3) = 36$.
+- $d_2, d_1, d_0$ xonalari uchun: $d_3=1$ bo'lganda qolgan raqamlar $\{0,2,3\}$ yig'indisi $2 \cdot 5 = 10$; $d_3=2$ bo'lganda $\{0,1,3\}$ yig'indisi $2 \cdot 4 = 8$; $d_3=3$ bo'lganda $\{0,1,2\}$ yig'indisi $2 \cdot 3 = 6$.
+Jami Sum($d_2$) = Sum($d_1$) = Sum($d_0$) = $10 + 8 + 6 = 24$.
+
+O'nlik sanoq sistemasidagi umumiy yig'indi:
+$N = 4^3 \cdot \text{Sum}(d_3) + 4^2 \cdot \text{Sum}(d_2) + 4^1 \cdot \text{Sum}(d_1) + 4^0 \cdot \text{Sum}(d_0)$
+$N = 64 \cdot 36 + 16 \cdot 24 + 4 \cdot 24 + 1 \cdot 24 = 2304 + 21 \cdot 24 = 2304 + 504 = 2808$.</solution>
+<answer>2808</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$a$ va $b$ natural sonlar bo'lib, $a^2 - b^2 = 19$ tenglikni qanoatlantiradi. $a \cdot b$ ko'paytmaning qiymatini toping.</problem>
+<choices>A) 80  B) 90  C) 100  D) 180</choices>
+<solution>Kvadratlar ayirmasi formulasidan: $(a-b)(a+b) = 19$.
+19 tub son bo'lgani va $a, b \in \mathbb{N}$ bo'lgani uchun:
+$a - b = 1$ va $a + b = 19$.
+Tenglamalar sistemasini qo'shib yuborsak: $2a = 20 \implies a = 10$.
+U holda $b = 9$.
+Ko'paytma: $a \cdot b = 10 \cdot 9 = 90$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with point D on side AC. Segment BD is drawn. Triangle ABD is isosceles with AB = BD and angle ABD = 40 degrees. Triangle BDC is isosceles with BD = DC.</diagram_spec>
+<problem>$ABC$ uchburchakning $AC$ tomonida $D$ nuqta olingan. $AB = BD$ va $BD = DC$ tengliklar bajariladi. Agar $\angle ABD = 40^\circ$ bo'lsa, $\angle ACB$ burchakni toping.</problem>
+<choices>A) 25°  B) 30°  C) 35°  D) 40°</choices>
+<solution>1) $\triangle ABD$ teng yonli ($AB = BD$), shuning uchun $\angle BDA = \angle BAD = (180^\circ - 40^\circ) / 2 = 70^\circ$.
+2) $D$ nuqta $AC$ kesmada yotgani uchun $\angle BDC$ va $\angle BDA$ qo'shni burchaklardir: $\angle BDC = 180^\circ - 70^\circ = 110^\circ$.
+3) $\triangle BDC$ teng yonli ($BD = DC$), shuning uchun $\angle ACB = \angle DCB = (180^\circ - 110^\circ) / 2 = 35^\circ$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>1 dan 300 gacha bo'lgan natural sonlar (300 ning o'zi ham kiradi) orasida 2 ga ham, 3 ga ham, 5 ga ham bo'linmaydigan nechta son bor?</problem>
+<solution>Kiritish-chiqarish (Eyler) prinsipidan foydalanamiz.
+1 dan 300 gacha bo'lgan sonlar to'plamida:
+- 2 ga bo'linadiganlar: $300 / 2 = 150$ ta
+- 3 ga bo'linadiganlar: $300 / 3 = 100$ ta
+- 5 ga bo'linadiganlar: $300 / 5 = 60$ ta
+- 2 va 3 ga (6 ga) bo'linadiganlar: $300 / 6 = 50$ ta
+- 2 va 5 ga (10 ga) bo'linadiganlar: $300 / 10 = 30$ ta
+- 3 va 5 ga (15 ga) bo'linadiganlar: $300 / 15 = 20$ ta
+- 2, 3 va 5 ga (30 ga) bo'linadiganlar: $300 / 30 = 10$ ta.
+
+Kamida birontasiga bo'linadigan sonlar soni:
+$150 + 100 + 60 - 50 - 30 - 20 + 10 = 220$ ta.
+
+Hech biriga bo'linmaydigan sonlar soni: $300 - 220 = 80$ ta.</solution>
+<answer>80</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ushbu $F = (A\text{ VA }B) \text{ YOKI } (A\text{ VA }\text{EMAS}(B)) \text{ YOKI } (\text{EMAS}(A)\text{ VA }B)$ mantiqiy ifodasi quyidagilardan qaysi biriga teng kuchli?</problem>
+<choices>A) A VA B  B) A YOKI B  C) EMAS(A) YOKI EMAS(B)  D) A</choices>
+<solution>Mantiqiy algebra qonunlaridan foydalanib soddalashtiramiz:
+1) Dastlabki ikki hadni guruhlaymiz:
+$(A\text{ VA }B) \text{ YOKI } (A\text{ VA }\text{EMAS}(B)) = A\text{ VA }(B\text{ YOKI }\text{EMAS}(B)) = A\text{ VA } 1 = A$.
+2) Hosil bo'lgan natijani uchinchi had bilan birlashtiramiz:
+$A \text{ YOKI } (\text{EMAS}(A)\text{ VA }B) = (A \text{ YOKI }\text{EMAS}(A)) \text{ VA } (A \text{ YOKI } B) = 1 \text{ VA } (A \text{ YOKI } B) = A \text{ YOKI } B$.</solution>
+<answer>B</answer>
+</example>

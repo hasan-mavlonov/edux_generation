@@ -1,0 +1,148 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x = 2025$ va $y = 3$ bo'lsa, $(x-2y)^2 + 4xy - (x+y)(x-y)$ ifodaning qiymatini toping.</problem>
+<choices>A) 45  B) 90  C) 2025  D) 0</choices>
+<solution>Ifodani soddalashtiramiz: $(x-2y)^2 + 4xy - (x+y)(x-y) = (x^2 - 4xy + 4y^2) + 4xy - (x^2 - y^2) = x^2 + 4y^2 - x^2 + y^2 = 5y^2$. $y=3$ bo'lgani uchun qiymat $5 \cdot 3^2 = 45$ bo'ladi.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>O'nlik sanoq sistemasidagi 43 sonining ikkilik sanoq sistemasidagi tasvirini toping.</problem>
+<choices>A) 101011₂  B) 101101₂  C) 110011₂  D) 100111₂</choices>
+<solution>43 sonini 2 ga ketma-ket bo'lib qoldiqlarni aniqlaymiz: 43 = 2·21+1, 21 = 2·10+1, 10 = 2·5+0, 5 = 2·2+1, 2 = 2·1+0, 1 = 2·0+1. Qoldiqlarni oxiridan boshlab yozsak: 101011₂.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with angles A = 70 degrees, C = 30 degrees. BD is the interior angle bisector of angle B with D on AC. Segment DE is drawn parallel to BC with E on AB.</diagram_spec>
+<problem>ABC uchburchakda ∠A = 70° va ∠C = 30°. B burchakning BD bissektrisasi o'tkazilgan (D nuqta AC tomonda). D nuqta orqali BC tomonga parallel qilib DE kesma o'tkazilgan (E nuqta AB tomonda). ∠BDE burchakning daraja o'lchovini toping.</problem>
+<choices>A) 30°  B) 40°  C) 50°  D) 70°</choices>
+<solution>ABC uchburchakning burchaklari yig'indisidan ∠B = 180° - 70° - 30° = 80°. BD bissektrisa bo'lgani uchun ∠DBC = 80° / 2 = 40°. DE || BC bo'lgani uchun ∠BDE va ∠DBC ichki almashinuvchi burchaklar bo'ladi, ya'ni ∠BDE = ∠DBC = 40°.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$A, B, C$ mantiqiy o'zgaruvchilarining nechta turli qiymatlar to'plamida (rostlik jadvali satrlarida) $(A \lor B) \land \neg(A \land C)$ mantiqiy ifodasi Rost (1) qiymat qabul qiladi?</problem>
+<choices>A) 3  B) 4  C) 5  D) 6</choices>
+<solution>Uchta o'zgaruvchi uchun jami $2^3 = 8$ ta holat mavjud. Ifoda Rost bo'lishi uchun $A \lor B = 1$ va $A \land C = 0$ bo'lishi kerak. 
+1) $A \lor B = 0$ bo'ladigan 2 ta holat: (0,0,0) va (0,0,1) da ifoda Yolg'on. 
+2) $A \land C = 1$ bo'ladigan 2 ta holat: (1,0,1) va (1,1,1) da ifoda Yolg'on. 
+Qolgan 4 ta holatda: (0,1,0), (0,1,1), (1,0,0), (1,1,0) ifoda Rost qiymat oladi.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>4 ga va 9 ga qoldiqsiz bo'linadigan eng kichik $\overline{3a4b}$ to'rt xonali sonni toping.</problem>
+<solution>4 ga bo'linish belgisi bo'yicha $\overline{4b}$ soni 4 ga bo'linishi kerak, ya'ni $b \in \{0, 4, 8\}$. 
+9 ga bo'linish belgisi bo'yicha raqamlar yig'indisi $3 + a + 4 + b = 7 + a + b$ soni 9 ga bo'linishi kerak. 
+Eng kichik to'rt xonali sonni hosil qilish uchun yuzlar xonasi $a$ imkon qadar kichik bo'lishi lozim:
+1) $b = 0 \implies 7 + a$ 9 ga bo'linadi $\implies a = 2$. Son: 3240.
+2) $b = 4 \implies 11 + a$ 9 ga bo'linadi $\implies a = 7$. Son: 3744.
+3) $b = 8 \implies 15 + a$ 9 ga bo'linadi $\implies a = 3$. Son: 3348.
+Bu sonlarning eng kichigi 3240 bo'ladi.</solution>
+<answer>3240</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$\dfrac{1}{x} + \dfrac{1}{y} = \dfrac{1}{12}$ tenglamani qanoatlantiruvchi natural sonlar $(x, y)$ juftliklari nechta?</problem>
+<choices>A) 12  B) 13  C) 15  D) 16</choices>
+<solution>Tenglikni $12(x+y) = xy$ ko'rinishida yozib, ko'paytuvchilarga ajratamiz: $xy - 12x - 12y + 144 = 144 \implies (x-12)(y-12) = 144$. $x, y > 0$ bo'lgani uchun $x-12$ va $y-12$ ko'paytmasi 144 ga teng bo'lgan musbat bo'luvchilar bo'lishi kerak. 144 ning kanonik yoyilmasi $144 = 2^4 \cdot 3^2$. Musbat bo'luvchilar soni $(4+1)(2+1) = 15$ ta. Demak, 15 ta turli $(x, y)$ natural juftlik mavjud.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi algoritm bajarilgandan so'ng $a$ o'zgaruvchisining qiymatini toping:
+a := 0
+b := 1
+takrorla i = 1 dan 5 gacha:
+    takrorla j = 1 dan i gacha:
+        a := a + b
+    b := b + 2</problem>
+<solution>Har bir $i$ qadami uchun:
+- $i=1$: ichki sikl 1 marta bajariladi, $a = 0 + 1 = 1$, so'ng $b = 3$.
+- $i=2$: ichki sikl 2 marta bajariladi, $a = 1 + 2 \cdot 3 = 7$, so'ng $b = 5$.
+- $i=3$: ichki sikl 3 marta bajariladi, $a = 7 + 3 \cdot 5 = 22$, so'ng $b = 7$.
+- $i=4$: ichki sikl 4 marta bajariladi, $a = 22 + 4 \cdot 7 = 50$, so'ng $b = 9$.
+- $i=5$: ichki sikl 5 marta bajariladi, $a = 50 + 5 \cdot 9 = 95$, so'ng $b = 11$.
+Yakuniy qiymat: 95.</solution>
+<answer>95</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>O'quvchilar to'garagida o'g'il bolalar va qizlar bor. Agar to'garakdan 5 ta o'g'il bola ketganida, o'g'il bolalar sonining qizlar soniga nisbati 1:2 bo'lar edi. Agar to'garakdan 10 ta qiz ketganida esa bu nisbat 3:2 bo'lar edi. Dastlab to'garakda jami nechta o'quvchi bo'lgan?</problem>
+<solution>O'g'il bolalar sonini B, qizlar sonini G deylik.
+1) (B-5)/G = 1/2 => G = 2B - 10.
+2) B/(G-10) = 3/2 => 2B = 3G - 30.
+G ning o'rniga 2B - 10 ni qo'yamiz:
+2B = 3(2B - 10) - 30 => 2B = 6B - 60 => 4B = 60 => B = 15.
+U holda G = 2·15 - 10 = 20.
+Jami o'quvchilar soni: B + G = 15 + 20 = 35.</solution>
+<answer>35</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>|x² − 5x + 4| + |x² − 5x + 6| = 2 tenglamani qanoatlantiruvchi barcha x haqiqiy sonlar to'plami kesmalar birlashmasidan iborat. Ushbu kesmalar uzunliklarining yig'indisini toping.</problem>
+<choices>A) 1  B) 2  C) 3  D) 4</choices>
+<solution>t = x² − 5x + 5 belgilash kiritaylik. U holda tenglama |t − 1| + |t + 1| = 2 ko'rinishiga keladi. Sonlar o'qida 1 va -1 nuqtalargacha bo'lgan masofalar yig'indisi 2 ga teng bo'lishi uchun −1 ≤ t ≤ 1 bo'lishi kerak.
+Demak, −1 ≤ x² − 5x + 5 ≤ 1:
+1) x² − 5x + 5 ≥ −1 => x² − 5x + 6 ≥ 0 => x ∈ (−∞, 2] ∪ [3, ∞).
+2) x² − 5x + 5 ≤ 1 => x² − 5x + 4 ≤ 0 => x ∈ [1, 4].
+Kesishmasi: x ∈ [1, 2] ∪ [3, 4]. Kesmalar uzunliklari yig'indisi: (2−1) + (4−3) = 1 + 1 = 2.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Excel elektron jadvalining C2 katakchasiga =A2*$B$1 formulasi kiritilgan. Ushbu formula D4 katakchaga nusxalab o'tkazilsa, D4 katakchadagi formula qanday ko'rinishda bo'ladi?</problem>
+<choices>A) =B4*$B$1  B) =B2*$C$3  C) =A4*$B$1  D) =B4*$C$3</choices>
+<solution>C2 katakchadan D4 katakchaga o'tishda ustun 1 ta o'ngga (C→D), satr 2 ta pastga (2→4) siljiydi. Nisbiy murojaat A2 o'zgarib B4 ga aylanadi. Absolyut murojaat $B$1 esa o'zgarmasdan qoladi. Natijada formula =B4*$B$1 bo'ladi.</solution>
+<answer>A</answer>
+</example>

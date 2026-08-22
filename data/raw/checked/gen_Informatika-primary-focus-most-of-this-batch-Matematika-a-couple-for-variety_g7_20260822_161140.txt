@@ -1,0 +1,142 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $11011_2$ va $1011_2$ sonlarining yig'indisini o'n oltilik (HEX) sanoq sistemasida tasvirlang.</problem>
+<choices>A) 1A  B) 26  C) 2E  D) 36</choices>
+<solution>Sonlarni o'nlik sanoq sistemasiga o'tkazib hisoblaymiz: $11011_2 = 16 + 8 + 0 + 2 + 1 = 27_{10}$ va $1011_2 = 8 + 0 + 2 + 1 = 11_{10}$. Ularning yig'indisi: $27 + 11 = 38_{10}$. Endi 38 sonini 16-lik (HEX) sistemaga o'tkazamiz: $38 = 2 \cdot 16^1 + 6 \cdot 16^0 = 26_{16}$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x - \dfrac{1}{x} = 4$ bo'lsa, $x^3 - \dfrac{1}{x^3}$ ifodaning qiymatini toping.</problem>
+<choices>A) 52  B) 64  C) 76  D) 88</choices>
+<solution>Kublar ayirmasi ayniyatidan foydalanamiz: $a^3 - b^3 = (a-b)^3 + 3ab(a-b)$. Bu yerda $a=x$ va $b=\dfrac{1}{x}$ desak, $a \cdot b = 1$ bo'ladi. U holda $x^3 - \dfrac{1}{x^3} = \left(x - \dfrac{1}{x}\right)^3 + 3 \cdot 1 \cdot \left(x - \dfrac{1}{x}\right) = 4^3 + 3 \cdot 4 = 64 + 12 = 76$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$A = \text{Rost (1)}$, $B = \text{Yolg'on (0)}$, $C = \text{Rost (1)}$ mantiqiy qiymatlari berilgan. Quyidagi mantiqiy ifodaning natijasini toping: $\text{NOT}(A \text{ AND } B) \text{ AND } (B \text{ OR } \text{NOT } C) \text{ OR } (\text{NOT } B \text{ AND } C)$</problem>
+<choices>A) Yolg'on (0)  B) Rost (1)  C) Aniqlab bo'lmaydi  D) Xatolik</choices>
+<solution>Ifodani bosqichma-bosqich hisoblaymiz:
+1) $A \text{ AND } B = 1 \text{ AND } 0 = 0 \implies \text{NOT}(0) = 1$.
+2) $\text{NOT } C = 0 \implies B \text{ OR } \text{NOT } C = 0 \text{ OR } 0 = 0$.
+3) Chap qism: $1 \text{ AND } 0 = 0$.
+4) O'ng qism: $\text{NOT } B = 1 \implies 1 \text{ AND } 1 = 1$.
+5) Yakuniy birlashtirish: $0 \text{ OR } 1 = 1$ (Rost).</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel elektron jadvalida quyidagi qiymatlar va formulalar kiritilgan: A1 katakda 2048, B1 katakda 4. C1 katakchasiga `=A1/B1` formulasi va D1 katakchasiga `=SUM(A1:C1)/2` formulasi kiritildi. D1 katagida qanday son hosil bo'ladi?</problem>
+<solution>C1 katak qiymati: $C1 = A1 / B1 = 2048 / 4 = 512$. 
+`SUM(A1:C1)` funksiyasi A1, B1 va C1 kataklardagi sonlar yig'indisini hisoblaydi: $2048 + 4 + 512 = 2564$. 
+D1 katakdagi formula ushbu yig'indini 2 ga bo'ladi: $2564 / 2 = 1282$.</solution>
+<answer>1282</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida quyidagi algoritm bajarilmoqda:
+1. `x` ga 2 qiymati berilsin
+2. `y` ga 0 qiymati berilsin
+3. `takrorla 5 marta` bloqi ichida:
+    - `y` ni `y + x` ga o'zgartir
+    - `x` ni `x * 2 - 1` ga o'zgartir
+Sikl to'liq tugagach, `y` o'zgaruvchisining qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 31  B) 36  C) 57  D) 63</choices>
+<solution>Sikl qadamlarini ketma-ket kuzatamiz:
+Boshlanishda: x = 2, y = 0.
+1-takrorlash: y = 0 + 2 = 2, x = 2·2 - 1 = 3.
+2-takrorlash: y = 2 + 3 = 5, x = 3·2 - 1 = 5.
+3-takrorlash: y = 5 + 5 = 10, x = 5·2 - 1 = 9.
+4-takrorlash: y = 10 + 9 = 19, x = 9·2 - 1 = 17.
+5-takrorlash: y = 19 + 17 = 36, x = 17·2 - 1 = 33.
+Sikl yakunida `y` ning qiymati 36 bo'ladi.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D lies on segment BC such that AD is perpendicular to BC (altitude). Point E lies on segment BC such that AE is the internal angle bisector of angle BAC. Angle B at vertex B is 75 degrees, angle C at vertex C is 35 degrees.</diagram_spec>
+<problem>$ABC$ uchburchakda $AD$ balandlik va $AE$ bissektrisa o'tkazilgan. Agar $\angle B = 75^\circ$ va $\angle C = 35^\circ$ bo'lsa, balandlik va bissektrisa orasidagi $\angle DAE$ burchakni toping.</problem>
+<choices>A) 15°  B) 20°  C) 25°  D) 30°</choices>
+<solution>Uchburchakning ichki burchaklar yig'indisi $180^\circ$ ga teng: $\angle A = 180^\circ - (75^\circ + 35^\circ) = 70^\circ$. $AE$ bissektrisa bo'lgani uchun $\angle BAE = \angle A / 2 = 35^\circ$. To'g'ri burchakli $\Delta ABD$ uchburchakdan $\angle BAD = 90^\circ - \angle B = 90^\circ - 75^\circ = 15^\circ$. Demak, $\angle DAE = \angle BAE - \angle BAD = 35^\circ - 15^\circ = 20^\circ$. Uslubiy formula bo'yicha ham: $\angle DAE = \dfrac{|\angle B - \angle C|}{2} = \dfrac{|75^\circ - 35^\circ|}{2} = 20^\circ$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Har bir belgisi 16-bitli UNICODE kodirovkasida yozilgan matn faylining hajmi 3 Kilobaytga teng. Agar ushbu matn tarkibidagi barcha belgilar soni o'zgartirilmasdan, matn 8-bitli ASCII kodirovkasiga o'tkazilsa va matn oxiriga yana 512 ta ASCII belgisi qo'shilsa, yangi fayl hajmi necha Bayt bo me'yorga keladi?</problem>
+<solution>1) Faylning dastlabki hajmi: $3 \text{ KB} = 3 \cdot 1024 = 3072 \text{ Bayt}$.
+2) UNICODE kodirovkasida 1 ta belgi 16 bit = 2 Bayt joy egallaydi. Demak, matndagi belgilar soni: $N = 3072 / 2 = 1536$ ta.
+3) Belgilar soni o'zgarmagan holda 8-bitli ASCII (1 belgi = 1 Bayt) kodirovkasiga o'tkazilganda matn hajmi 1536 Bayt bo'ladi.
+4) Unga yana 512 ta ASCII belgisi qo'shilsa: $1536 + 512 = 2048 \text{ Bayt}$ hosil bo'ladi.</solution>
+<answer>2048</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$N = 720$ sonining barcha natural bo'luvchilari orasidan 6 ga karrali bo'lgan bo'luvchilar sonini toping.</problem>
+<choices>A) 12  B) 16  C) 20  D) 30</choices>
+<solution>$N = 720$ sonini tub ko'paytuvchilarga ajratamiz: $720 = 2^4 \cdot 3^2 \cdot 5^1$. 6 ga karrali bo'luvchilar $6 \cdot k$ ko'rinishida bo'ladi. Demak, $k$ soni $720 / 6 = 120$ sonining natural bo'luvchisi bo'lishi kerak. $120$ sonini tub ko'paytuvchilarga ajratsak: $120 = 2^3 \cdot 3^1 \cdot 5^1$. 120 ning natural bo'luvchilari soni formulasiga ko'ra: $(3+1)(1+1)(1+1) = 4 \cdot 2 \cdot 2 = 16$ ta.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Kompyuter xotirasidagi 1 Megabayt (MB) necha Baytga teng?</problem>
+<choices>A) 1000 Bayt  B) 1024 Bayt  C) 1048576 Bayt  D) 8388608 Bayt</choices>
+<solution>Axborot o'lchov birliklari nisbatiga ko'ra: $1 \text{ KB} = 1024 \text{ Bayt}$, $1 \text{ MB} = 1024 \text{ KB} = 1024 \cdot 1024 \text{ Bayt} = 1048576 \text{ Bayt}$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikki kirishli `XOR` (istisnoli YOKI) mantiqiy elementining kirishlariga $A = 1$ va $B = 1$ signallari berildi. Ushbu elementning chiqishidagi signal `NAND` (YOKI-EMAS) elementining ikkala kirishiga uzatilsa, yakuniy chiqish qiymati qanday bo'ladi?</problem>
+<choices>A) 0  B) 1  C) Aniqlab bo'lmaydi  D) Yuqori qarshilik</choices>
+<solution>1) $A=1$ va $B=1$ bo'lganda `XOR` elementining chiqishi: $1 \oplus 1 = 0$ bo'ladi.
+2) Ushbu 0 signali `NAND` elementining ikkala kirishiga berilsa: $\text{NAND}(0, 0) = \text{NOT}(0 \text{ AND } 0) = \text{NOT}(0) = 1$ bo'ladi.</solution>
+<answer>B</answer>
+</example>

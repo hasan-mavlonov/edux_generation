@@ -1,0 +1,183 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>2-lik sanoq sistemasida berilgan $110101_2$ va 16-lik sanoq sistemasida berilgan $1F_{16}$ sonlarining yig'indisini 10-lik sanoq sistemasida toping.</problem>
+<choices>A) 84  B) 78  C) 86  D) 92</choices>
+<solution>Sonlarni 10-lik sanoq sistemasiga o'tkazamiz:
+$110101_2 = 1\cdot2^5 + 1\cdot2^4 + 0\cdot2^3 + 1\cdot2^2 + 0\cdot2^1 + 1\cdot2^0 = 32 + 16 + 0 + 4 + 0 + 1 = 53_{10}$.
+$1F_{16} = 1\cdot16^1 + 15\cdot16^0 = 16 + 15 = 31_{10}$.
+Ularning yig'indisi: $53 + 31 = 84$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$A, B, C$ mantiqiy o'zgaruvchilar berilgan. $(A \lor \neg B) \land (\neg A \lor C) \land (B \lor \neg C)$ mantiqiy ifoda $A, B, C$ o'zgaruvchilarning nechta turlicha qiymatlar to'plamida **Rost** (1) qiymat oladi?</problem>
+<choices>A) 1  B) 2  C) 3  D) 4</choices>
+<solution>Berilgan mantiqiy ifodani ko'rib chiqamiz:
+$(A \lor \neg B)$ ifoda $B \implies A$ deganidir.
+$(\neg A \lor C)$ ifoda $A \implies C$ deganidir.
+$(B \lor \neg C)$ ifoda $C \implies B$ deganidir.
+Ushbu uchta shart bir vaqtda bajarilishi uchun $A \implies C \implies B \implies A$ bo'lishi kerak, ya'ni $A = B = C$ tenglik bajarilishi shart.
+$A, B, C$ o'zgaruvchilar uchun jami $2^3 = 8$ ta qiymatlar to'plami mavjud. Ulardan faqat 2 tasida barcha o'zgaruvchilar teng bo'ladi:
+1) $A=0, B=0, C=0$
+2) $A=1, B=1, C=1$
+Demak, ifoda 2 ta to'plamda Rost qiymat oladi.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi siklik algoritm bajarilgandan so'ng `s` o'zgaruvchisining oxirgi qiymatini toping:
+
+`a = 1`
+`b = 100`
+`s = 0`
+`takrorla (a < b) bo'lguncha:`
+`    s = s + a`
+`    a = a * 2`
+`    b = b - 10`</problem>
+<solution>Algoritm qadamlarini ketma-ket kuzatamiz:
+Boshlang'ich holat: a = 1, b = 100, s = 0.
+1-qadam: a < b (1 < 100 — Rost) -> s = 0 + 1 = 1, a = 2, b = 90.
+2-qadam: a < b (2 < 90 — Rost) -> s = 1 + 2 = 3, a = 4, b = 80.
+3-qadam: a < b (4 < 80 — Rost) -> s = 3 + 4 = 7, a = 8, b = 70.
+4-qadam: a < b (8 < 70 — Rost) -> s = 7 + 8 = 15, a = 16, b = 60.
+5-qadam: a < b (16 < 60 — Rost) -> s = 15 + 16 = 31, a = 32, b = 50.
+6-qadam: a < b (32 < 50 — Rost) -> s = 31 + 32 = 63, a = 64, b = 40.
+7-qadam: a < b (64 < 40 — Yolg'on) -> sikl to'xtaydi.
+Natijada `s` ning qiymati 63 ga teng bo'ladi.</solution>
+<answer>63</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel elektron jadvalining A1, B1, C1 kataklarida mos ravishda 12, 8 va 4 sonlari joylashgan. `=SUM(A1:C1)/AVERAGE(A1:C1)` formulasi kiritilsa, katakda qanday natija hosil bo'ladi?</problem>
+<choices>A) 3  B) 8  C) 12  D) 24</choices>
+<solution>`SUM(A1:C1)` kataklardagi sonlar yig'indisini hisoblaydi: $12 + 8 + 4 = 24$.
+`AVERAGE(A1:C1)` ushbu sonlarning o'rta arifmetigini hisoblaydi: $24 / 3 = 8$.
+Formulaning qiymati: $24 / 8 = 3$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Kombinatsiyali qulfda 5 ta g'ildirakcha bor va har bir g'ildirakchada 0 dan 9 gacha raqamlar hamda A, B, C, D, E, F harflari (jami 16 ta turli belgi) tasvirlangan. Qulfning barcha mumkin bo'lgan parollaridan birini ikkilik sanoq sistemasida unikal (takrorlanmas) kodlash uchun eng kamida necha bit axborot talab qilinadi?</problem>
+<choices>A) 16 bit  B) 20 bit  C) 80 bit  D) 5 bit</choices>
+<solution>Har bir g'ildirakchada 16 ta turli holat bo me'yori bor. 5 ta g'ildirakcha yordamida hosil qilish mumkin bo'lgan barcha parollar soni:
+$N = 16^5 = (2^4)^5 = 2^{20}$.
+$2^{20}$ ta har xil kombinatsiyadan birini unikal kodlash uchun zarur bo'lgan minimal bitlar soni:
+$I = \log_2(2^{20}) = 20$ bit.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida sprayt quyidagi komandalar ketma-ketligini bajaradi:
+
+1. Qalamni tushir
+2. 10 marta takrorla:
+      100 qadam yur
+      144 darajaga o'ngga buril
+
+Ushbu algoritm to'liq bajarilishi davomida sprayt jami necha darajaga buriladi?</problem>
+<solution>Sikl 10 marta takrorlanadi. Har bir takrorlanishda sprayt 144 darajaga buriladi.
+Jami burilish burchagi: $10 \cdot 144^\circ = 1440^\circ$.</solution>
+<answer>1440</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$x$ va $y$ musbat butun sonlar bo'lib, $x^2 - y^2 = 31$ tenglikni qanoatlantiradi. $x \cdot y$ ko'paytmaning qiymatini toping.</problem>
+<choices>A) 225  B) 240  C) 256  D) 480</choices>
+<solution>Kvadratlar ayirmasi formulasidan foydalanamiz:
+$(x - y)(x + y) = 31$.
+31 tub son bo'lgani uchun va $x, y > 0$ shartidan $x + y > x - y > 0$ kelib chiqadi.
+Shuning uchun:
+$x - y = 1$
+$x + y = 31$
+Ushbu tenglamalar sistemasini qo'shsak: $2x = 32 \implies x = 16$.
+Aygandak: $y = 16 - 1 = 15$.
+Ko'paytma: $x \cdot y = 16 \cdot 15 = 240$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Isosceles triangle ABC with AB = AC = 10 cm and BC = 12 cm. Segment AD is the altitude from A to BC, with D on BC. Point E lies on AD such that AE : ED = 3 : 1.</diagram_spec>
+<problem>Teng yonli $ABC$ uchburchakda $AB = AC = 10$ cm va $BC = 12$ cm. $AD$ — $BC$ tomonga tushirilgan balandlik ($D \in BC$). $AD$ kesmada $E$ nuqta shunday olinganki, $AE : ED = 3 : 1$ nisbat o'rinli. $EBC$ uchburchakning yuzini toping ($cm^2$ da).</problem>
+<choices>A) 12  B) 16  C) 24  D) 18</choices>
+<solution>Teng yonli uchburchakda $AD$ balandlik bir vaqtning o'zida mediana bo'ladi, shuning uchun $BD = DC = 6$ cm.
+Pifagor teoremasiga ko'ra $ABD$ to'g'ri burchakli uchburchakdan:
+$AD = \sqrt{AB^2 - BD^2} = \sqrt{10^2 - 6^2} = 8$ cm.
+$AE : ED = 3 : 1$ bo'lgani uchun $ED = \dfrac{1}{4} AD = \dfrac{1}{4} \cdot 8 = 2$ cm.
+$EBC$ uchburchakning yuzi:
+$S = \dfrac{1}{2} \cdot BC \cdot ED = \dfrac{1}{2} \cdot 12 \cdot 2 = 12\text{ cm}^2$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>1 dan 100 gacha bo'lgan barcha natural sonlar orasidan ixtiyoriy ravishda $n$ ta son tanlab olindi. Tanlangan sonlar orasida yig'indisi 101 ga teng bo'lgan kamida bitta juftlik albatta topilishi uchun $n$ ning eng kichik qiymati nechaga teng bo'lishi kerak?</problem>
+<choices>A) 50  B) 51  C) 52  D) 67</choices>
+<solution>Yig'indisi 101 ga teng bo'lgan juftliklarni tuzib chiqamiz:
+(1, 100), (2, 99), (3, 98), ..., (50, 51).
+Jami 50 ta bunday juftlik bor.
+Dirixle prinsipiga ko'ra, agar biz 50 ta son tanlasak, har bir juftlikdan bittadan son olishimiz mumkin (masalan, 1 dan 50 gacha) va hech qaysi ikkita sonning yig'indisi 101 bo'lmaydi.
+Lekin 51 ta son tanlansa, kamida ikkita son albatta bir juftlikka tegishli bo'lib qoladi va ularning yig'indisi 101 ga teng bo'ladi.
+Demak, eng kichik $n = 51$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>4 ta o'zgaruvchili $F(A, B, C, D) = (A \land B) \lor (\neg C \land D)$ mantiqiy funksiyasining rostlik jadvalida nechta satrda funksiya qiymati **0 (yolg'on)** ga teng bo'ladi?</problem>
+<solution>4 ta o'zgaruvchi uchun rostlik jadvalida jami $2^4 = 16$ ta satr bor.
+Funksiya qiymati 1 (rost) bo'ladigan satrlar sonini hisoblaymiz:
+$F = 1$ bo'lishi uchun $(A \land B = 1)$ yoki $(\neg C \land D = 1)$ bo'lishi kerak.
+1) $A \land B = 1$ bo'lganda: $A=1, B=1$, $C$ va $D$ ixtiyoriy bo'lishi mumkin ($2^2 = 4$ ta holat).
+2) $\neg C \land D = 1$ bo'lganda: $C=0, D=1$, $A$ va $B$ ixtiyoriy bo'lishi mumkin ($2^2 = 4$ ta holat).
+3) Ikkala shart bir vaqtda bajarilganda ($A=1, B=1, C=0, D=1$): 1 ta holat.
+Kiritish-chiqarish (Inclusion-Exclusion) dastasiga ko'ra, $F=1$ bo'ladigan satrlar soni: $4 + 4 - 1 = 7$ ta.
+Demak, $F=0$ (yolg'on) bo'ladigan satrlar soni: $16 - 7 = 9$ ta.</solution>
+<answer>9</answer>
+</example>

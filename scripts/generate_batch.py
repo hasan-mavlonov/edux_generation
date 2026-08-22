@@ -18,12 +18,16 @@ GRADE = 7
 DIFFICULTY_MIX = "spread across 0.9, 1.5, and 2.6 — don't cluster on one tier"
 FORMAT_MIX = "mostly mcq, but include 2-3 open format"
 TOPIC_VARIETY = "algebra, number theory, combinatorics, geometry (with diagram_spec), logic gates, number systems, basic Excel/Scratch"
-MODEL = "gemini-3.1-pro-preview"
+# Pro is the default (better creative/reasoning quality for novel problem generation).
+# Override to gemini-3.6-flash for ~3x cheaper generation -- worth testing on one
+# small batch first, since a higher solve_check reject rate could offset some of
+# the savings (more rounds needed to reach the same verified count).
+MODEL = os.environ.get("EDUX_GEN_MODEL", "gemini-3.6-flash")
 # --------------------------------------------------------
 
-REPO_ROOT = Path(__file__).resolve().parent.parent  # works no matter which directory you run this from
+REPO_ROOT = Path(__file__).resolve().parent.parent
 
-client = genai.Client()  # reads GEMINI_API_KEY from the environment automatically
+client = genai.Client()
 
 template = (REPO_ROOT / "prompts" / "generation_prompt_v1.md").read_text(encoding="utf-8")
 
@@ -45,8 +49,6 @@ response = client.models.generate_content(
 
 print(response.text)
 
-# filename now encodes subjects + grade, and lands in pending/ until solve_check.py
-# moves it to checked/ -- so `ls data/raw/pending` always shows what's left to verify
 subjects_slug = re.sub(r"[^A-Za-z0-9]+", "-", SUBJECTS).strip("-")
 pending_dir = REPO_ROOT / "data" / "raw" / "pending"
 pending_dir.mkdir(parents=True, exist_ok=True)

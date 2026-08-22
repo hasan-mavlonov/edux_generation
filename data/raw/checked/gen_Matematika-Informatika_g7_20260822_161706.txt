@@ -1,0 +1,174 @@
+<problem_item>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x + y = 5$ va $x^2 + y^2 = 17$ bo'lsa, $x^4 + y^4$ ning qiymatini toping.</problem>
+<choices>A) 257  B) 273  C) 289  D) 225</choices>
+<solution>Avval $xy$ ko'paytmani topamiz: $(x+y)^2 = x^2 + 2xy + y^2 \implies 5^2 = 17 + 2xy \implies 2xy = 8 \implies xy = 4$.
+U holda $x^4 + y^4 = (x^2 + y^2)^2 - 2(xy)^2 = 17^2 - 2 \cdot 4^2 = 289 - 32 = 257$.</solution>
+<answer>A</answer>
+</problem_item>
+
+<problem_item>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasida berilgan $11011_2$ va $10101_2$ sonlarining yig'indisi o'nlik sanoq sistemasida nechaga teng?</problem>
+<choices>A) 42  B) 46  C) 48  D) 52</choices>
+<solution>Sonlarni o'nlik sanoq sistemasiga o'tkazamiz:
+$11011_2 = 16 + 8 + 0 + 2 + 1 = 27_{10}$
+$10101_2 = 16 + 0 + 4 + 0 + 1 = 21_{10}$
+Ularning yig'indisi: $27 + 21 = 48$.</solution>
+<answer>C</answer>
+</problem_item>
+
+<problem_item>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$n!$ ko'paytmaning oxirida ketma-ket aniq 4 ta nol bo'ladigan eng kichik natural $n$ sonini toping.</problem>
+<solution>$n!$ soni oxiridagi nollar soni $n$ sonining 5 ga bo'linuvchi darajalari yig'indisi bilan aniqlanadi: $\lfloor n/5 \rfloor + \lfloor n/25 \rfloor + \dots$.
+$n = 20$ bo'lganda: $\lfloor 20/5 \rfloor = 4$ ta nol hosil bo'ladi ($20!$ oxirida 4 ta nol bor). Aniq 4 ta nol beruvchi eng kichik natural son $n = 20$ dir.</solution>
+<answer>20</answer>
+</problem_item>
+
+<problem_item>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with AB = AC. Point D lies on segment BC such that AD = BD. Angle C = 40 degrees.</diagram_spec>
+<problem>ABC teng yonli uchburchakda $AB = AC$ va $\angle C = 40^\circ$. $BC$ tomonda $D$ nuqta shunday tanlanganki, $AD = BD$ bo'ladi. $\angle CAD$ burchakning kattaligini toping.</problem>
+<choices>A) 40°  B) 50°  C) 60°  D) 70°</choices>
+<solution>$AB = AC$ bo'lgani uchun $\angle B = \angle C = 40^\circ$. Uchburchak ichki burchaklari yig'indisiga ko'ra $\angle BAC = 180^\circ - (40^\circ + 40^\circ) = 100^\circ$.
+$ABD$ uchburchakda $AD = BD$ bo'lgani uchun u ham teng yonli va $\angle BAD = \angle B = 40^\circ$.
+U holda $\angle CAD = \angle BAC - \angle BAD = 100^\circ - 40^\circ = 60^\circ$.</solution>
+<answer>C</answer>
+</problem_item>
+
+<problem_item>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$A, B, C$ mantiqiy o'zgaruvchilarning nechta turli (rost/yolg'on) qiymatlar uchligida $(A \lor \neg B) \land (B \lor \neg C)$ ifodaning qiymati rost (1) bo'ladi?</problem>
+<choices>A) 3  B) 4  C) 5  D) 6</choices>
+<solution>Ifoda rost bo'lishi uchun ikkala qavs ham 1 bo'lishi kerak.
+1) $A \lor \neg B = 0$ bo'ladigan holat faqat $A=0, B=1$. Bu holat $C$ ning 2 ta qiymati uchun 2 ta uchlikni taqiqlaydi: $(0,1,0)$ va $(0,1,1)$.
+2) $B \lor \neg C = 0$ bo'ladigan holat faqat $B=0, C=1$. Bu holat $A$ ning 2 ta qiymati uchun 2 ta uchlikni taqiqlaydi: $(0,0,1)$ va $(1,0,1)$.
+Taqiqlangan uchliklar jami 4 ta. Jami $2^3 = 8$ ta uchlikdan 4 tasini ayirsak, $8 - 4 = 4$ ta mos uchlik qoladi: $(0,0,0), (1,0,0), (1,1,0), (1,1,1)$.</solution>
+<answer>B</answer>
+</problem_item>
+
+<problem_item>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Barcha raqamlari har xil bo'lgan va 5 ga bo'linadigan nechta to'rt xonali natural son mavjud?</problem>
+<choices>A) 896  B) 952  C) 1008  D) 980</choices>
+<solution>To'rt xonali son $ABCD$ ko'rinishida bo'lsin ($A \neq 0$). Son 5 ga bo'linishi uchun oxirgi raqam $D \in \{0, 5\}$ bo'lishi kerak.
+1-holat: $D = 0$ bo'lsa.
+$A$ uchun 1 dan 9 gacha 9 ta tanlov bor.
+$B$ uchun 0 va $A$ dan tashqari 8 ta tanlov bor.
+$C$ uchun $0, A, B$ dan tashqari 7 ta tanlov bor.
+Jami: $9 \cdot 8 \cdot 7 = 504$ ta son.
+
+2-holat: $D = 5$ bo'lsa.
+$A$ uchun 0 va 5 dan tashqari 8 ta tanlov bor ($A \neq 0$).
+$B$ uchun 5 va $A$ dan tashqari 8 ta tanlov bor (0 bo'lishi mumkin).
+$C$ uchun 5, $A, B$ dan tashqari 7 ta tanlov bor.
+Jami: $8 \cdot 8 \cdot 7 = 448$ ta son.
+
+Barcha holatlar yig'indisi: $504 + 448 = 952$.</solution>
+<answer>B</answer>
+</problem_item>
+
+<problem_item>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$x^2 - 7[x] + 10 = 0$ tenglamaning nechta haqiqiy ildizi bor? (bunda $[x]$ — $x$ sonining butun qismi)</problem>
+<solution>Belgilaymiz: $[x] = n \in \mathbb{Z}$.
+U holda $x^2 = 7n - 10$, bundan $x = \sqrt{7n - 10}$ ($7n - 10 \ge 0$ bo'lishi shart, ya'ni $n \ge 2$).
+Butun qism ta'rifiga ko'ra: $n \le x < n + 1 \implies n \le \sqrt{7n - 10} < n + 1$.
+1) $n^2 \le 7n - 10 \implies n^2 - 7n + 10 \le 0 \implies (n-2)(n-5) \le 0 \implies 2 \le n \le 5$.
+2) $7n - 10 < (n+1)^2 \implies n^2 - 5n + 11 > 0$, bu tengsizlik barcha $n$ uchun o'rinli.
+Demak, $n$ faqat $2, 3, 4, 5$ qiymatlarni qabul qilishi mumkin.
+Har bir $n$ uchun $x = \sqrt{7n - 10}$ mos keladi:
+- $n = 2 \implies x = 2$
+- $n = 3 \implies x = \sqrt{11}$
+- $n = 4 \implies x = \sqrt{18}$
+- $n = 5 \implies x = 5$
+Barcha 4 ta ildiz haqiqiy va har xil. Tenglama 4 ta haqiqiy ildizga ega.</solution>
+<answer>4</answer>
+</problem_item>
+
+<problem_item>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi algoritm bajarilgandan so'ng $S$ o'zgaruvchisining qiymati nechaga teng bo'ladi?
+
+`S = 0`
+`i = 1`
+`TAKRORLA Toki i <= 20:`
+`  AGAR (i MOD 3 == 0) YOKI (i MOD 5 == 0) BO'LSA:`
+`    S = S + i`
+`  i = i + 1`
+`OXIRI`</problem>
+<choices>A) 78  B) 93  C) 98  D) 108</choices>
+<solution>Algoritm 1 dan 20 gacha bo'lgan natural sonlar ichidan 3 ga yoki 5 ga bo'linadiganlarining yig'indisini hisoblaydi.
+3 ga bo'linadiganlar: 3, 6, 9, 12, 15, 18.
+5 ga bo'linadiganlar: 5, 10, 15, 20.
+Birlashmasi (har bir son bir marta olinadi): 3, 5, 6, 9, 10, 12, 15, 18, 20.
+Yig'indi: $3 + 5 + 6 + 9 + 10 + 12 + 15 + 18 + 20 = 93$.</solution>
+<answer>B</answer>
+</problem_item>
+
+<problem_item>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$2^{2026}$ sonini 5 ga bo'lgandagi qoldiqni toping.</problem>
+<choices>A) 1  B) 2  C) 3  D) 4</choices>
+<solution>2 ning darajalarini 5 ga bo'lgandagi qoldiqlarning davriyligini tekshiramiz:
+$2^1 \equiv 2 \pmod 5$
+$2^2 \equiv 4 \pmod 5$
+$2^3 \equiv 3 \pmod 5$
+$2^4 \equiv 1 \pmod 5$
+Davriylik uzunligi 4 ga teng.
+Daraja ko'rsatkichi $2026 = 4 \cdot 506 + 2$ bo'lgani uchun:
+$2^{2026} \equiv 2^2 \equiv 4 \pmod 5$.
+Demak, qoldiq 4 ga teng.</solution>
+<answer>D</answer>
+</problem_item>
+
+<problem_item>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>O'lchami $512 \times 512$ pikselli va 256 xil rang palletasidan foydalanilgan tasvir xotirada qancha kilobayt (KB) joy egallaydi?</problem>
+<solution>256 xil rangni kodlash uchun $i = \log_2(256) = 8$ bit = 1 bayt xotira kerak bo'ladi.
+Piksellar soni: $512 \times 512 = 262144$ piksel.
+Tasvir hajmi baytlarda: $262144 \times 1 = 262144$ bayt.
+Kilobaytlarga o'tkazish uchun 1024 ga bo'lamiz: $262144 / 1024 = 256$ KB.</solution>
+<answer>256</answer>
+</problem_item>

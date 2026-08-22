@@ -1,0 +1,173 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>2-lik sanoq sistemasida berilgan $110101_2$ sonini 16-lik (o'n oltilik) sanoq sistemasiga o'tkazing.</problem>
+<choices>A) 35₁₆  B) 65₁₆  C) D1₁₆  D) 3B₁₆</choices>
+<solution>2-lik sanoq sistemasidagi sonni 16-lik sanoq sistemasiga o'tkazish uchun uni o'ngdan chapga qarab 4 tadan raqamli guruhlarga (tetradalarga) ajratamiz:
+110101₂ = 0011 0101₂.
+0011₂ = 3₁₆
+0101₂ = 5₁₆
+Demak, 110101₂ = 35₁₆.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x - \dfrac{1}{x} = 5$ bo'lsa, $x^2 + \dfrac{1}{x^2}$ ifodaning qiymatini toping.</problem>
+<choices>A) 23  B) 25  C) 27  D) 29</choices>
+<solution>Berilgan tenglikning ikkala tarafini kvadratga oshiramiz:
+$\left(x - \dfrac{1}{x}\right)^2 = 5^2 \implies x^2 - 2 \cdot x \cdot \dfrac{1}{x} + \dfrac{1}{x^2} = 25 \implies x^2 - 2 + \dfrac{1}{x^2} = 25$.
+Minus 2 ni o'ng tarafga o'tkazsak: $x^2 + \dfrac{1}{x^2} = 25 + 2 = 27$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>A, B va C mantiqiy o'zgaruvchilar mos ravishda A = Rost (1), B = Yolg'on (0), C = Rost (1) qiymatlarga ega. Quyidagi mantiqiy ifodalarning qaysi biri ROST (1) qiymat qaytaradi?</problem>
+<choices>A) (A AND B) OR NOT C  B) (B OR C) AND NOT A  C) (A XOR B) AND (B OR C)  D) NOT(A OR C)</choices>
+<solution>Har bir variantni berilgan qiymatlar bilan hisoblaymiz:
+A) (1 AND 0) OR NOT 1 = 0 OR 0 = 0 (Yolg'on)
+B) (0 OR 1) AND NOT 1 = 1 AND 0 = 0 (Yolg'on)
+C) (1 XOR 0) AND (0 OR 1) = 1 AND 1 = 1 (Rost)
+D) NOT(1 OR 1) = NOT(1) = 0 (Yolg'on)
+To'g'ri javob: C.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida `x` o'zgaruvchisiga 2, `y` o'zgaruvchisiga 0 qiymati berildi. So'ngra "5 marta takrorlash" sikli ishga tushirildi. Sikl ichida quyidagi amallar ketma-ket bajariladi:
+1) `y` ning qiymatiga `x` qo'shiladi;
+2) `x` ning qiymati 3 ga oshiriladi.
+Sikl to'liq tugagandan so'ng `y` o'zgaruvchisining qiymati nechaga teng bo'ladi?</problem>
+<solution>Sikl qadamlarini ketma-ket hisoblaymiz:
+Boshlang'ich holat: x = 2, y = 0
+1-takrorlash: y = 0 + 2 = 2; x = 2 + 3 = 5
+2-takrorlash: y = 2 + 5 = 7; x = 5 + 3 = 8
+3-takrorlash: y = 7 + 8 = 15; x = 8 + 3 = 11
+4-takrorlash: y = 15 + 11 = 26; x = 11 + 3 = 14
+5-takrorlash: y = 26 + 14 = 40; x = 14 + 3 = 17
+Sikl tugagach, y = 40 bo'ladi.</solution>
+<answer>40</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. AD is height from A to BC, so angle ADC = 90 degrees. Point E lies on AC such that DE is perpendicular to AC (angle DEC = 90 degrees). Angle ABC = 62 degrees, angle ACB = 38 degrees.</diagram_spec>
+<problem>ABC uchburchakda AD balandlik o'tkazilgan. D nuqtadan AC tomonga DE perpendikulyar tushirilgan. Agar ∠ABC = 62° va ∠ACB = 38° bo'lsa, ∠ADE burchak nimaga teng?</problem>
+<choices>A) 38°  B) 52°  C) 28°  D) 62°</choices>
+<solution>AD ⊥ BC bo'lgani uchun ADC to'g'ri burchakli uchburchakdir (∠ADC = 90°).
+Ushbu uchburchakda ∠C = 38° bo'lgani uchun ∠DAC = 90° − 38° = 52° bo'ladi.
+ADE to'g'ri burchakli uchburchakda (chunki DE ⊥ AC, ya'ni ∠AED = 90°) ∠DAC = 52° bo'lsa, ∠ADE = 90° − 52° = 38° kelib chiqadi.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Tizimda parollar faqat 4 ta turli belgidan ('A', 'B', 'C', 'D') tashkil topadi. Parolning uzunligi 6 ta belgiga teng va ketma-ket bir xil belgilar kelishi taqiqlangan (masalan, 'ABABCA' to'g'ri parol, lekin 'AABCDC' yaroqsiz parol). Ushbu shartni qanoatlantiruvchi barcha mumkin bo'lgan parollar sonini toping.</problem>
+<solution>6 ta o'rindan iborat parolni tuzamiz:
+1-belgi uchun 4 ta tanlov bor (A, B, C, D).
+2-belgi 1-belgi bilan bir xil bo'lishi mumkin emas, shuning uchun 3 ta tanlov qoladi.
+3-belgi 2-belgi bilan bir xil bo'lishi mumkin emas, shuning uchun 3 ta tanlov qoladi.
+Xuddi shunday, 4-, 5- va 6-belgilarning har biri uchun oldingi belgidan farqli 3 tadan tanlov mavjud.
+Jami parollar soni: $4 \cdot 3 \cdot 3 \cdot 3 \cdot 3 \cdot 3 = 4 \cdot 3^5 = 4 \cdot 243 = 972$.</solution>
+<answer>972</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel jadvalida quyidagi qiymatlar kiritilgan: A1=3, A2=7, A3=4, A4=9. B1 katakka `=IF(A1>5; A1*2; A1+5)` formulasi kiritildi va u B2:B4 kataklarga nusxalandi. Natijada B1:B4 diapazondagi barcha qiymatlar yig'indisi (`=SUM(B1:B4)`) nechaga teng bo'ladi?</problem>
+<choices>A) 49  B) 46  C) 52  D) 43</choices>
+<solution>Har bir katakdagi formula va natijani hisoblaymiz:
+B1 katak (A1=3): 3 > 5 shart Yolg'on, shuning uchun A1+5 = 3+5 = 8.
+B2 katak (A2=7): 7 > 5 shart Rost, shuning uchun A2*2 = 7*2 = 14.
+B3 katak (A3=4): 4 > 5 shart Yolg'on, shuning uchun A3+5 = 4+5 = 9.
+B4 katak (A4=9): 9 > 5 shart Rost, shuning uchun A4*2 = 9*2 = 18.
+B1:B4 diapazon yig'indisi: 8 + 14 + 9 + 18 = 49.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Faylning hajmi 2,5 Megabaytga (MB) teng. Ushbu fayl hajmi necha Kilobayt (KB) bo'ladi?</problem>
+<choices>A) 2500 KB  B) 2560 KB  C) 2048 KB  D) 250 KB</choices>
+<solution>1 MB = 1024 KB ekanligidan foydalanamiz:
+2,5 MB = 2,5 · 1024 KB = 2560 KB.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$n$ ning nechta butun qiymatida $\dfrac{3n + 17}{n + 2}$ kasrning qiymati butun son bo'ladi?</problem>
+<solution>Kasrning butun qismini ajratib olamiz:
+$\dfrac{3n + 17}{n + 2} = \dfrac{3(n + 2) + 11}{n + 2} = 3 + \dfrac{11}{n + 2}$.
+Bu ifoda butun son bo'lishi uchun $n + 2$ soni 11 ning bo'luvchisi bo'lishi kerak.
+11 tub son bo'lgani uchun uning butun bo me'yoriy bo'luvchilari: 1, -1, 11, -11 (jami 4 ta).
+Har bir bo'luvchiga mos $n$ qiymatlarini topamiz:
+1) $n + 2 = 1 \implies n = -1$
+2) $n + 2 = -1 \implies n = -3$
+3) $n + 2 = 11 \implies n = 9$
+4) $n + 2 = -11 \implies n = -13$
+Demak, $n$ ning 4 ta butun qiymatida kasr qiymati butun son bo'ladi.</solution>
+<answer>4</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi algoritm bajarilgach, `s` o'zgaruvchisining yakuniy qiymatini aniqlang:
+
+`s = 0`
+`i = 1`
+`toki i <= 10 takrorla:`
+`    agar i mod 3 == 0 bo'lsa:`
+`        s = s + i`
+`    i = i + 1`
+
+(bunda `i mod 3` — `i` ni 3 ga bo'lgandagi qoldiq)</problem>
+<choices>A) 18  B) 27  C) 15  D) 30</choices>
+<solution>`i` o'zgaruvchisi 1 dan 10 gacha qiymatlarni oladi.
+Shart `i mod 3 == 0` faqat `i` soni 3 ga qoldiqsiz bo'linganda bajariladi.
+1 dan 10 gacha bo'lgan sonlar orasida 3 ga bo'linadiganlari: 3, 6, 9.
+Shuning uchun `s` o'zgaruvchisiga ushbu sonlar qo'shiladi:
+`s` = 3 + 6 + 9 = 18.</solution>
+<answer>A</answer>
+</example>

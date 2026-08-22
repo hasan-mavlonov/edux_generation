@@ -1,0 +1,181 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Uchta $A = 10110_2$, $B = 27_8$ va $C = 15_{16}$ sonlari berilgan. Ushbu sonlarni o'sish tartibida joylashtiring.</problem>
+<choices>A) C, A, B  B) A, B, C  C) C, B, A  D) A, C, B</choices>
+<solution>Barcha sonlarni o'nlik sanoq sistemasiga o'tkazamiz:
+$A = 10110_2 = 1\cdot 2^4 + 0\cdot 2^3 + 1\cdot 2^2 + 1\cdot 2^1 + 0\cdot 2^0 = 16 + 4 + 2 = 22_{10}$
+$B = 27_8 = 2\cdot 8^1 + 7\cdot 8^0 = 16 + 7 = 23_{10}$
+$C = 15_{16} = 1\cdot 16^1 + 5\cdot 16^0 = 16 + 5 = 21_{10}$
+Chunki $21 < 22 < 23$, demak $C < A < B$. O'sish tartibida: C, A, B.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel dasturida B2 katakchada `=A$1 + $C1` formulasi yozilgan. Ushbu katakcha B3 katakchaga nusxalandi (kopiya qilindi). B3 katakchadagi formula qanday ko'rinishda bo'ladi?</problem>
+<choices>A) =A$1 + $C2  B) =A$2 + $C2  C) =B$1 + $C2  D) =A$1 + $C1</choices>
+<solution>B2 katakchadan B3 katakchaga nusxalashda ustun o'zgarmaydi, satr indeksi 1 ga ortadi (2-satrdan 3-satrga).
+`A$1` formulasida satr absolyut (`$1`), shuning uchun u o'zgarmaydi: `A$1`.
+`$C1` formulasida ustun absolyut (`$C`), satr esa nisbiy (`1`), shuning uchun satr 1 ga ortadi: `$C2`.
+Natijada B3 katakchadagi formula `=A$1 + $C2` ko'rinishida bo'ladi.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$F(A, B, C) = (A \lor \neg B) \land (B \lor C)$ mantiqiy ifoda berilgan. $A, B, C$ mantiqiy o'zgaruvchilarining nechta turlicha qiymatlar to'plamida ushbu ifodaning qiymati ROST (1) ga teng bo'ladi?</problem>
+<solution>$A, B, C$ o'zgaruvchilar uchun jami $2^3 = 8$ ta qiymatlar to'plami mavjud.
+Ifodani tahlil qilamiz: $(A \lor \neg B) \land (B \lor C) = 1$.
+1-holat: $B = 0$ bo'lsin.
+U holda $A \lor \neg B = A \lor 1 = 1$ bo'ladi.
+$B \lor C = 0 \lor C = C$ bo'ladi. Tenglik 1 bo'lishi uchun $C = 1$ bo'lishi shart.
+$A$ esa 0 yoki 1 bo'lishi mumkin. To'plamlar: $(0, 0, 1)$ va $(1, 0, 1)$ — 2 ta qiymat.
+
+2-holat: $B = 1$ bo'lsin.
+U holda $B \lor C = 1 \lor C = 1$ bo'ladi.
+$A \lor \neg B = A \lor 0 = A$ bo'ladi. Tenglik 1 bo'lishi uchun $A = 1$ bo'lishi shart.
+$C$ esa 0 yoki 1 bo'lishi mumkin. To'plamlar: $(1, 1, 0)$ va $(1, 1, 1)$ — 2 ta qiymat.
+
+Jami mos keladigan to'plamlar soni: $2 + 2 = 4$.</solution>
+<answer>4</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Kitob 32 sahifadan iborat. Har bir sahifada 64 ta satr va har bir satrda 64 ta belgi bor. Ushbu kitob matni Unicode (har bir belgi 16 bit bilan kodlanadi) tizimida saqlanganda xotiradan qancha kilobayt (KB) joy egallaydi?</problem>
+<choices>A) 128 KB  B) 256 KB  C) 512 KB  D) 64 KB</choices>
+<solution>Jami belgilar sonini topamiz: $32 \cdot 64 \cdot 64 = 2^5 \cdot 2^6 \cdot 2^6 = 2^{17}$ ta belgi.
+Har bir belgi 16 bit = 2 bayt = $2^1$ bayt joy oladi.
+Jami hajmi baytlarda: $2^{17} \cdot 2^1 = 2^{18}$ bayt.
+Kilobaytlarga o'tkazamiz ($1 \text{ KB} = 2^{10} \text{ bayt}$):
+$2^{18} / 2^{10} = 2^8 = 256 \text{ KB}$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida quyidagi algoritm bajarildi:
+- `x` ga 1 qiymat berilsin
+- `y` ga 0 qiymat berilsin
+- `takrorla 5 marta:`
+    - `y` ga `y + x` qiymat berilsin
+    - `x` ga `x * 2 + 1` qiymat berilsin
+
+Algoritm to'liq bajarilgach, `y` o'zgaruvchisining qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 26  B) 31  C) 57  D) 63</choices>
+<solution>Boshlang'ich holat: $x = 1, y = 0$.
+Qadamlar bo'yicha kuzatamiz:
+1-takrorlash: $y = 0 + 1 = 1$, $x = 1 \cdot 2 + 1 = 3$.
+2-takrorlash: $y = 1 + 3 = 4$, $x = 3 \cdot 2 + 1 = 7$.
+3-takrorlash: $y = 4 + 7 = 11$, $x = 7 \cdot 2 + 1 = 15$.
+4-takrorlash: $y = 11 + 15 = 26$, $x = 15 \cdot 2 + 1 = 31$.
+5-takrorlash: $y = 26 + 31 = 57$, $x = 31 \cdot 2 + 1 = 63$.
+
+Natijada $y = 57$ bo'ladi.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Kompyuterning IP-manzili `192.168.10.74` va tarmoq niqobi `255.255.255.224` berilgan. Ushbu tarmoqdagi foydalanuvchilar (xostlar) uchun ajratilishi mumkin bo'lgan eng katta IP-manzilning oxirgi bayti (to'rtinchi soni) nechaga teng?</problem>
+<solution>Tarmoq niqobining oxirgi bayti 224 ($11100000_2$).
+Ikkilik ko'rinishdagi xost bitlari soni 5 ta, demak har bir kichik tarmoqda $2^5 = 32$ ta manzil bor.
+Subnetlar 32 ning karralari bo'yicha bo'linadi: 0, 32, 64, 96, ...
+74 soni 64 va 95 oralig'ida joylashgan.
+- Tarmoq manzili: `192.168.10.64`
+- Translyatsiya (broadcast) manzili: `192.168.10.95`
+Kompyuterlarga berilishi mumkin bo'lgan manzillar diapazoni: `192.168.10.65` dan `192.168.10.94` gacha.
+Eng katta IP-manzilning oxirgi bayti 94 ga teng.</solution>
+<answer>94</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x + \dfrac{1}{x} = 5$ bo'lsa, $x^4 + \dfrac{1}{x^4}$ ifodaning qiymatini toping.</problem>
+<choices>A) 525  B) 527  C) 529  D) 531</choices>
+<solution>Tenglikning ikkala tarafini kvadratga oshiramiz:
+$\left(x + \dfrac{1}{x}\right)^2 = x^2 + 2 + \dfrac{1}{x^2} = 25 \implies x^2 + \dfrac{1}{x^2} = 23$.
+
+Yana bir marta kvadratga oshiramiz:
+$\left(x^2 + \dfrac{1}{x^2}\right)^2 = x^4 + 2 + \dfrac{1}{x^4} = 23^2 = 529 \implies x^4 + \dfrac{1}{x^4} = 527$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Altitude AD is perpendicular to BC with point D on BC. Altitude BE is perpendicular to AC with point E on AC. AD and BE intersect at point H (orthocenter). Angle ACB = 55 degrees.</diagram_spec>
+<problem>ABC uchburchakda AD va BE balandliklar H nuqtada kesishadi. Agar ∠ACB = 55° bo'lsa, ∠AHB burchakning kattaligini toping.</problem>
+<choices>A) 115°  B) 125°  C) 135°  D) 145°</choices>
+<solution>CDHE to'rtburchakni ko'rib chiqamiz. unda ∠CDH = 90° va ∠CEH = 90°.
+To'rtburchakning ichki burchaklari yig'indisi 360° bo'lgani uchun:
+∠DHE = 360° - (90° + 90° + 55°) = 125°.
+∠AHB va ∠DHE burchaklar vertikal burchaklar bo'lgani uchun ular o'zaro teng: ∠AHB = ∠DHE = 125°.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>O'rtadagi raqami qolgan ikkala raqamidan ham strictly katta bo'lgan (ya'ni $a < b$ va $b > c$) nechta uch xonali $\overline{abc}$ natural son mavjud?</problem>
+<choices>A) 216  B) 240  C) 288  D) 300</choices>
+<solution>Uch xonali $\overline{abc}$ sonida birinchi raqam $a \in \{1, \dots, 9\}$, $b \in \{0, \dots, 9\}$ va $c \in \{0, \dots, 9\}$.
+Shartlar: $a < b$ va $c < b$. Shuning uchun $b \ge 2$ bo'lishi kerak.
+Har bir $b$ qiymati uchun:
+- $a$ uchun $1$ dan $b-1$ gacha $b-1$ ta tanlov bor;
+- $c$ uchun $0$ dan $b-1$ gacha $b$ ta tanlov bor.
+Jami mos keladigan sonlar yig'indisi:
+$\sum_{b=2}^{9} (b-1)b = 1\cdot2 + 2\cdot3 + 3\cdot4 + 4\cdot5 + 5\cdot6 + 6\cdot7 + 7\cdot8 + 8\cdot9$
+$= 2 + 6 + 12 + 20 + 30 + 42 + 56 + 72 = 240$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Mantiqiy elementlardan tashkil topgan sxemada chiqish signali $Y = (A \land \neg B) \lor (B \land \neg C) \lor (C \land \neg A)$ formula bilan berilgan. Agar $A = 1, B = 0, C = 1$ bo'lsa, $Y$ chiqish signalining qiymatini toping (0 yoki 1).</problem>
+<solution>O'zgaruvchilar qiymatlarini formulaga qo'yamiz:
+$A = 1, B = 0, C = 1 \implies \neg A = 0, \neg B = 1, \neg C = 0$.
+1-qism: $A \land \neg B = 1 \land 1 = 1$.
+2-qism: $B \land \neg C = 0 \land 0 = 0$.
+3-qism: $C \land \neg A = 1 \land 0 = 0$.
+Natija: $Y = 1 \lor 0 \lor 0 = 1$.</solution>
+<answer>1</answer>
+</example>

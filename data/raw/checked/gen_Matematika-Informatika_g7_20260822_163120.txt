@@ -1,0 +1,125 @@
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x + \dfrac{1}{x} = 5$ bo'lsa, $x^3 + \dfrac{1}{x^3}$ ifodaning qiymatini toping.</problem>
+<choices>A) 110  B) 125  C) 140  D) 115</choices>
+<solution>$x^3 + \dfrac{1}{x^3} = \left(x + \dfrac{1}{x}\right)^3 - 3\left(x + \dfrac{1}{x}\right) = 5^3 - 3\cdot 5 = 125 - 15 = 110$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D lies on segment BC such that AD = AC. Angle ABC = 40 degrees, angle BAD = 20 degrees.</diagram_spec>
+<problem>ABC uchburchakning BC tomonida D nuqta olingan bo'lib, $AD = AC$ tenglik bajariladi. Agar $\angle ABC = 40^\circ$ va $\angle BAD = 20^\circ$ bo'lsa, $\angle ACB$ burchakni toping.</problem>
+<choices>A) 50°  B) 60°  C) 70°  D) 80°</choices>
+<solution>$\triangle ABD$ da tashqi burchak xossasiga ko'ra $\angle ADC = \angle ABC + \angle BAD = 40^\circ + 20^\circ = 60^\circ$. $AD = AC$ bo'lgani uchun $\triangle ADC$ teng yonli, demak $\angle ACB = \angle ADC = 60^\circ$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$10110_2 + 1F_{16}$ yig'indining o'nlik (10-lik) sanoq tizimidagi qiymatini toping.</problem>
+<choices>A) 43  B) 51  C) 53  D) 55</choices>
+<solution>$10110_2 = 16 + 4 + 2 = 22_{10}$. $1F_{16} = 1\cdot 16 + 15 = 31_{10}$. Yig'indi: $22 + 31 = 53$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$\dfrac{1}{x} + \dfrac{1}{y} = \dfrac{1}{12}$ tenglikni qanoatlantiruvchi barcha natural $(x, y)$ juftliklar sonini toping.</problem>
+<solution>Tenglamani $(x-12)(y-12) = 144$ ko'rinishga keltiramiz. $x, y$ natural sonlar bo'lgani uchun $x-12 > 0$ va $y-12 > 0$. Shuning uchun juftliklar soni $144 = 2^4 \cdot 3^2$ sonining natural bo'luvchilari soniga teng. $d(144) = (4+1)(2+1) = 15$.</solution>
+<answer>15</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Mantiqiy ifoda berilgan: $(A \text{ AND } \text{NOT } B) \text{ OR } (B \text{ AND } C)$. Agar $A = 1$ (Rost), $B = 0$ (Yolg'on), $C = 1$ (Rost) bo'lsa, ushbu ifodaning qiymatini toping.</problem>
+<choices>A) 1  B) 0  C) Aniqlab bo'lmaydi  D) Xatolik</choices>
+<solution>$\text{NOT } B = \text{NOT } 0 = 1$. Birinchi qavs: $1 \text{ AND } 1 = 1$. Ikkinchi qavs: $0 \text{ AND } 1 = 0$. Yakuniy natija: $1 \text{ OR } 0 = 1$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>5 ta har xil kitobni 3 ta o'quvchiga shunday tarqatish kerakki, har bir o'quvchi kamida bittadan kitob olsin. Kitoblarni necha xil usulda tarqatish mumkin?</problem>
+<choices>A) 120  B) 150  C) 243  D) 90</choices>
+<solution>Qo'shish va ayirish tamoyiliga ko'ra: $3^5 - \binom{3}{1} 2^5 + \binom{3}{2} 1^5 = 243 - 3\cdot 32 + 3\cdot 1 = 243 - 96 + 3 = 150$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel elektron jadvalida kataklarning qiymatlari berilgan: A1=4, A2=8, A3=12, B1=2, B2=5, B3=3. C1 katakchaga `=SUMIF(A1:A3; ">5"; B1:B3) + AVERAGE(A1:A3)` formulasi kiritilsa, unda qanday natija hosil bo'ladi?</problem>
+<solution>`SUMIF(A1:A3; ">5"; B1:B3)` funksiyasi A1:A3 oralig'ida 5 dan katta bo'lgan A2 (8) va A3 (12) ga mos B2 (5) va B3 (3) qiymatlarni qo'shadi: $5 + 3 = 8$. `AVERAGE(A1:A3)` esa $(4+8+12)/3 = 8$ ni beradi. Yig'indi: $8 + 8 = 16$.</solution>
+<answer>16</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$S = \dfrac{1}{1 \cdot 3} + \dfrac{1}{3 \cdot 5} + \dfrac{1}{5 \cdot 7} + \dots + \dfrac{1}{19 \cdot 21}$ yig'indining qiymatini toping.</problem>
+<choices>A) 10/21  B) 20/21  C) 19/21  D) 5/21</choices>
+<solution>$\dfrac{1}{(2k-1)(2k+1)} = \dfrac{1}{2}\left(\dfrac{1}{2k-1} - \dfrac{1}{2k+1}\right)$ ayniyatdan foydalanamiz. Yig'indi: $S = \dfrac{1}{2}\left(1 - \dfrac{1}{21}\right) = \dfrac{1}{2} \cdot \dfrac{20}{21} = \dfrac{10}{21}$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Sinfda 30 ta o'quvchi bor. Ularning 18 tasi matematika to'garagiga, 14 tasi fizika to'garagiga qatnashadi. 5 ta o'quvchi esa hech qaysi to'garakka qatnashmaydi. Nechta o'quvchi faqat matematika to'garagiga qatnashadi?</problem>
+<solution>Kamida bitta to'garakka qatnashadigan o'quvchilar soni: $30 - 5 = 25$. Ikkala to'garakka ham qatnashadiganlar soni: $18 + 14 - 25 = 7$. Faqat matematika to'garagiga qatnashadiganlar soni: $18 - 7 = 11$.</solution>
+<answer>11</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch muhitida quyidagi buyruqlar ketma-ketligi bajarildi:
+1. X ga 1 qiymat berilsin
+2. 4 marta takrorlansin:
+     X ga (X * 2 + 1) qiymat berilsin
+Dastur bajarilgach, X o'zgaruvchining qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 15  B) 31  C) 63  D) 29</choices>
+<solution>Boshlang'ich: X = 1.
+1-takrorlash: X = 1 * 2 + 1 = 3;
+2-takrorlash: X = 3 * 2 + 1 = 7;
+3-takrorlash: X = 7 * 2 + 1 = 15;
+4-takrorlash: X = 15 * 2 + 1 = 31.</solution>
+<answer>B</answer>
+</example>

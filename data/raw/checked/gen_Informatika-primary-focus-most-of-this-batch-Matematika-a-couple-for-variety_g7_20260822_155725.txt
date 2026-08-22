@@ -1,0 +1,186 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$10110_2 + 15_8$ yig'indining $10$-lik sanoq sistemasidagi qiymatini toping.</problem>
+<choices>A) 35  B) 37  C) 41  D) 33</choices>
+<solution>Sonlarni 10-lik sanoq sistemasiga o'tkazamiz:
+$10110_2 = 1\cdot 2^4 + 0\cdot 2^3 + 1\cdot 2^2 + 1\cdot 2^1 + 0\cdot 2^0 = 16 + 0 + 4 + 2 + 0 = 22_{10}$.
+$15_8 = 1\cdot 8^1 + 5\cdot 8^0 = 8 + 5 = 13_{10}$.
+Yig'indi: $22 + 13 = 35_{10}$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$A, B, C$ mantiqiy o'zgaruvchilar berilgan. $F(A, B, C) = (A \lor \neg B) \land (\neg A \lor C) \land (B \lor \neg C)$ mantiqiy ifoda $(A, B, C)$ ning nechta turli qiymatlar to'plamida ROST (1) qiymat oladi?</problem>
+<choices>A) 2  B) 3  C) 4  D) 1</choices>
+<solution>Mantiqiy amallar xossasidan foydalanamiz:
+$(A \lor \neg B) \equiv (B \implies A)$, 
+$(\neg A \lor C) \equiv (A \implies C)$, 
+$(B \lor \neg C) \equiv (C \implies B)$.
+Ushbu uchta shart bir vaqtda rost bo'lishi uchun $B \implies A \implies C \implies B$ zanjiri bajarilishi, ya'ni $A = B = C$ bo'lishi zarur va yetarli.
+Demak, $(A, B, C)$ to'plam faqat ikkita holatda ROST bo'ladi: $(0, 0, 0)$ va $(1, 1, 1)$. Jami 2 ta to'plam.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi takrorlash algoritmi ijro etilgandan so'ng `b` o'zgaruvchisining yakuniy qiymatini toping:
+
+```text
+a = 2
+b = 5
+takrorla 12 marta:
+    b = b + a
+    a = a + 4
+```</problem>
+<solution>Sikl 12 marta takrorlanadi. Har bir $k$-qadamda ($k = 1, 2, \dots, 12$) $b$ ga qo'shiladigan $a$ ning qiymati arifmetik progressiyani hosil qiladi:
+$k=1$ da $a = 2$,
+$k=2$ da $a = 6$,
+$k=3$ da $a = 10$, ...,
+$k=12$ da $a = 2 + 4 \cdot 11 = 46$.
+12 ta qadamda $b$ ga qo'shilgan barcha $a$ qiymatlarining yig'indisi:
+$S = \dfrac{2 + 46}{2} \cdot 12 = 24 \cdot 12 = 288$.
+Boshlang'ich $b = 5$ bo'lgani uchun yakuniy qiymat: $b = 5 + 288 = 293$.</solution>
+<answer>293</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel elektron jadvalida kataklarga quyidagi qiymatlar kiritilgan: A1=4, A2=12, B1=3, B2=5. Agar C1 katakka `=A1*B2 + A2/B1` formulasi kiritilsa, C1 katakda qanday natija hosil bo'ladi?</problem>
+<choices>A) 24  B) 28  C) 16  D) 32</choices>
+<solution>Formuladagi o'zgaruvchilar o'rniga berilgan qiymatlarni qo'yamiz:
+`= 4 * 5 + 12 / 3`.
+Amallar tartibiga ko'ra: ko'paytirish $4 \cdot 5 = 20$, bo'lish $12 / 3 = 4$.
+Natija: $20 + 4 = 24$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Bitta kitob 64 sahifadan iborat. Har bir sahifada 32 ta satr va har bir satrda 64 ta belgi bor. Agar ushbu kitob UNICODE kodirovkasida (har bir belgi 2 bayt hajm egallaydi) saqlangan bo'lsa, kitobning axborot hajmi necha kilobayt (KB) bo'ladi?</problem>
+<solution>Jami belgilar soni: $N = 64 \times 32 \times 64 = 2^6 \times 2^5 \times 2^6 = 2^{17}$ ta belgi.
+UNICODE kodlanishida har bir belgi 2 bayt:
+Jami hajm baytlarda: $V = 2^{17} \times 2 = 2^{18}$ bayt.
+Kilobaytlarga o'tkazamiz ($1 \text{ KB} = 2^{10} \text{ bayt}$):
+$V = \dfrac{2^{18}}{2^{10}} = 2^8 = 256 \text{ KB}$.</solution>
+<answer>256</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Kompyuter tarmog'ida 6 ta tugun (A, B, C, D, E, F) mavjud. B, C, D, E, F tugunlardan mos ravishda 5, 4, 4, 3, 1 ta aloqa kanali chiqadi. A tugundan nechta aloqa kanali chiqishini toping (har qanday ikki tugun orasida ko'pi bilan bitta kanal bo'lishi mumkin).</problem>
+<choices>A) 2  B) 3  C) 4  D) 5</choices>
+<solution>Tarmog'ni graf ko'rinishida tahlil qilamiz:
+1) B tugunining darajasi 5, demak u qolgan barcha 5 ta tugunga (A, C, D, E, F) ulangan.
+2) F tugunining darajasi 1 bo'lib, u faqat B bilan ulangan. Demak, F boshqa hech qaysi tugunga ulana olmaydi.
+3) C tugunining darajasi 4. F bilan ulanmagani uchun, u B va qolgan 3 ta tugunga (A, D, E) ulangan bo'lishi shart.
+4) D tugunining darajasi 4. F bilan ulanmagani uchun, u ham B, C va qolgan 2 ta tugunga (A, E) ulangan bo me'yor.
+5) E tugunining darajasi 3. U B, C, D tugunlariga ulangan (3 ta aloqa), demak uning tumani to'ldi va u A bilan ulanmagan.
+6) A tuguniga ulangan tugunlarni sanaymiz: B (1-qadamdan), C (3-qadamdan), D (4-qadamdan). E va F u bilan ulanmagan.
+Demak, A tugundan chiqadigan aloqa kanallari soni 3 ga teng.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with side AB on left, AC on right, BC as base. Point D lies on side AC, point E lies on side AB such that segment DE is parallel to side BC. Line segment BD is drawn from vertex B to point D as the angle bisector of angle B. Lengths indicated: AE = 7 cm, AB = 12 cm, AD = 8 cm.</diagram_spec>
+<problem>ABC uchburchakning AC tomonida D nuqta, AB tomonida E nuqta shunday olinganki, DE kesma BC tomonga parallel. BD kesma B burchakning bissektrisasi hisoblanadi. Agar AE = 7 cm, AB = 12 cm va AD = 8 cm bo'lsa, ADE uchburchakning perimetrini toping.</problem>
+<choices>A) 18  B) 20  C) 22  D) 24</choices>
+<solution>1) $DE \parallel BC$ bo'lgani uchun, almashinuvchi burchaklar teng: $\angle EDB = \angle DBC$.
+2) BD bissektrisa bo'lgani uchun $\angle EBD = \angle DBC$, bundan $\angle EDB = \angle EBD$ kelib chiqadi.
+3) Demak, EBD uchburchak teng yonli: $ED = EB$.
+4) $EB = AB - AE = 12 - 7 = 5 \text{ cm}$. Shuning uchun $ED = 5 \text{ cm}$.
+5) ADE uchburchakning perimetri: $P = AE + ED + AD = 7 + 5 + 8 = 20 \text{ cm}$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x + \dfrac{1}{x} = 4$ bo'lsa, $x^3 + \dfrac{1}{x^3} - 2\left(x^2 + \dfrac{1}{x^2}\right)$ ifodaning qiymatini toping.</problem>
+<choices>A) 24  B) 28  C) 32  D) 36</choices>
+<solution>1) $x + \dfrac{1}{x} = 4$ ning ikkala tarafini kvadratga oshiramiz:
+$\left(x + \dfrac{1}{x}\right)^2 = 16 \implies x^2 + 2 + \dfrac{1}{x^2} = 16 \implies x^2 + \dfrac{1}{x^2} = 14$.
+
+2) Kublar yig'indisi formulasidan foydalanamiz:
+$x^3 + \dfrac{1}{x^3} = \left(x + \dfrac{1}{x}\right)^3 - 3\left(x + \dfrac{1}{x}\right) = 4^3 - 3\cdot 4 = 64 - 12 = 52$.
+
+3) Berilgan ifodaga qo'yamiz:
+$52 - 2 \cdot 14 = 52 - 28 = 24$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$N$ uch xonali natural sonni 7 ga bo'lganda qoldiq 4 ga, 9 ga bo'lganda qoldiq 5 ga, 11 ga bo'lganda esa qoldiq 6 ga teng bo'ladi. Ushbu shartni qanoatlantiruvchi eng kichik $N$ uch xonali sonning raqamlari yig'indisini toping.</problem>
+<solution>Berilgan shartlarni qoldiqlar tenglamasi ko'rinishida yozamiz:
+$N \equiv 4 \pmod 7 \implies 2N \equiv 8 \equiv 1 \pmod 7$,
+$N \equiv 5 \pmod 9 \implies 2N \equiv 10 \equiv 1 \pmod 9$,
+$N \equiv 6 \pmod{11} \implies 2N \equiv 12 \equiv 1 \pmod{11}$.
+
+Demak, $2N - 1$ soni 7, 9 va 11 ga qoldiqsiz bo'linadi.
+$\text{EKUK}(7, 9, 11) = 7 \cdot 9 \cdot 11 = 693$.
+Shuning uchun $2N - 1 = 693k$ ($k \in \mathbb{N}$).
+Eng kichik musbat qiymat $k=1$ da erishiladi:
+$2N - 1 = 693 \implies 2N = 694 \implies N = 347$.
+$N = 347$ soni uch xonali son. Uning raqamlari yig'indisi: $3 + 4 + 7 = 14$.</solution>
+<answer>14</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Uzunligi 6 ga teng bo'lgan, tarkibida ketma-ket ikkita '1' raqami qatnashmaydigan barcha ikkilik (faqat '0' va '1' lardan tashkil topgan) kodlar sonini toping.</problem>
+<choices>A) 18  B) 21  C) 24  D) 32</choices>
+<solution>Uzunligi $n$ bo'lgan shunday ikkilik ketma-ketliklar sonini $a_n$ deb belgilaymiz.
+- Uzunligi $n$ bo'lib, '0' bilan tugaydigan kodlar soni $a_{n-1}$ ga teng (oldiga istalgan to'g'ri kodni qo'yish mumkin).
+- Uzunligi $n$ bo'lib, '1' bilan tugaydigan kodlar undan oldin '0' turishini talab qiladi (ya'ni '01' bilan tugaydi), ularning soni $a_{n-2}$ ga teng.
+Shunday qilib, rekurrent munosabat: $a_n = a_{n-1} + a_{n-2}$ (Fibonachchi ketma-ketligi).
+Dastlabki qiymatlar:
+$a_1 = 2$ ('0', '1'),
+$a_2 = 3$ ('00', '01', '10'),
+$a_3 = 2 + 3 = 5$,
+$a_4 = 3 + 5 = 8$,
+$a_5 = 5 + 8 = 13$,
+$a_6 = 8 + 13 = 21$.
+Demak, uzunligi 6 bo'lgan bunday kodlar soni 21 ta.</solution>
+<answer>B</answer>
+</example>

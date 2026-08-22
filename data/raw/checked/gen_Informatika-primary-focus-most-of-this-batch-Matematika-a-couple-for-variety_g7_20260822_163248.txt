@@ -1,0 +1,135 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasidagi $11011_2$ va $10101_2$ sonlarining yig'indisini o'nlik sanoq sistemasida toping.</problem>
+<choices>A) 48  B) 52  C) 42  D) 50</choices>
+<solution>$11011_2 = 16 + 8 + 0 + 2 + 1 = 27_{10}$ va $10101_2 = 16 + 0 + 4 + 0 + 1 = 21_{10}$. Ularning yig'indisi: $27 + 21 = 48$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$A=1$, $B=0$, $C=1$ mantiqiy o'zgaruvchilar berilgan. Quyidagi mantiqiy ifodaning qiymatini aniqlang: $\text{NOT}(A \text{ AND } B) \text{ AND } (B \text{ OR } C)$.</problem>
+<choices>A) Rost (1)  B) Yolg'on (0)  C) Aniqlab bo'lmaydi  D) Xatolik</choices>
+<solution>1) $A \text{ AND } B = 1 \text{ AND } 0 = 0$. 2) $\text{NOT}(0) = 1$. 3) $B \text{ OR } C = 0 \text{ OR } 1 = 1$. 4) So'nggi amal: $1 \text{ AND } 1 = 1$ (Rost).</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Hajmi 1,5 Megabayt bo'lgan fayl sekundiga 512 Kilobayt tezlik bilan uzatilsa, ushbu faylni to'liq uzatish uchun necha sekund vaqt talab etiladi? (1 Megabayt = 1024 Kilobayt deb oling).</problem>
+<solution>Fayl hajmini Kilobaytlarga o'tkazamiz: $1{,}5 \text{ MB} = 1{,}5 \cdot 1024 \text{ KB} = 1536 \text{ KB}$. Uzatish vaqti $t = \dfrac{1536 \text{ KB}}{512 \text{ KB/s}} = 3$ sekund.</solution>
+<answer>3</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida quyidagi algoritm kiritildi:
+1. $a \leftarrow 2$
+2. $b \leftarrow 5$
+3. takrorla 4 marta:
+   $a \leftarrow a + b$
+   $b \leftarrow b + 2$
+Sikl bajarilishi yakunlangach, $a$ o'zgaruvchisining qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 34  B) 28  C) 45  D) 32</choices>
+<solution>Qadamma-qadam hisoblaymiz:
+Boshlang'ich: $a = 2, b = 5$.
+1-takrorlash: $a = 2 + 5 = 7$, $b = 5 + 2 = 7$.
+2-takrorlash: $a = 7 + 7 = 14$, $b = 7 + 2 = 9$.
+3-takrorlash: $a = 14 + 9 = 23$, $b = 9 + 2 = 11$.
+4-takrorlash: $a = 23 + 11 = 34$, $b = 11 + 2 = 13$.
+Yakuniy qiymat $a = 34$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel jadvalida A1=3, A2=5, B1=4, B2=2 qiymatlar berilgan. C1 katakchaga `=$A1*B1+B$2` formulasi kiritildi va u C2 katakchaga nusxalandi. C2 katakchadagi natijani toping.</problem>
+<choices>A) 12  B) 14  C) 22  D) 10</choices>
+<solution>C1 katakchadagi `=$A1*B1+B$2` formulasi C2 ga nusxalanganda: ustun o'zgarmaydi, qator indeksi 1 ga ortadi. Nisbiy murojaat $B1 \rightarrow B2$ ga va $A1 \rightarrow A2$ ga o'zgaradi, absolyut qator murojaati $B$2 o'zgarmasdan qoladi. C2 katakchadagi formula: `=$A2*B2+B$2`. Natija: $5 \cdot 2 + 2 = 12$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>IP-manzil 4 ta son (bayt)dan iborat. Agar IP-manzildagi barcha 4 ta son bir-biridan farqli (har xil) va ularning har biri $2^k$ ($0 \le k \le 7$, $k$ — butun son) ko'rinishida bo'lsa, nechta shunday turli IP-manzil tuzish mumkin?</problem>
+<solution>$2^k$ ko'rinishidagi mumkin bo'lgan qiymatlar soni 8 ta ($2^0, 2^1, \dots, 2^7$). 4 ta o'rin uchun ushbu 8 ta turli sondan o'rinlashtirishlar sonini topamiz: $P(8, 4) = 8 \cdot 7 \cdot 6 \cdot 5 = 1680$.</solution>
+<answer>1680</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi ko'paytmaning qiymatini toping:
+$$\left(1 - \frac{1}{2}\right) \cdot \left(1 - \frac{1}{3}\right) \cdot \left(1 - \frac{1}{4}\right) \cdots \left(1 - \frac{1}{2025}\right)$$</problem>
+<choices>A) 1/2025  B) 1/2024  C) 2024/2025  D) 2/2025</choices>
+<solution>Har bir qavsni soddalashtiramiz: $\frac{1}{2} \cdot \frac{2}{3} \cdot \frac{3}{4} \cdots \frac{2024}{2025}$. Qisqartirishlardan so'ng faqat birinchi kasrning surati va oxirgi kasrning maxraji qoladi: $\frac{1}{2025}$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Right-angled triangle ABC with right angle at C. Altitude CD is drawn from C to the hypotenuse AB. Angle CAD = 35 degrees.</diagram_spec>
+<problem>To'g'ri burchakli $ABC$ uchburchakda ($\angle C = 90^\circ$) gipotenuza $AB$ ga $CD$ balandlik tushirilgan. Agar $\angle CAD = 35^\circ$ bo'lsa, $\angle BCD$ burchakning kattaligini toping.</problem>
+<choices>A) 35°  B) 55°  C) 45°  D) 65°</choices>
+<solution>To'g'ri burchakli $ABC$ uchburchakda $\angle B = 90^\circ - \angle A = 90^\circ - 35^\circ = 55^\circ$. To'g'ri burchakli $BCD$ uchburchakda esa $\angle BCD = 90^\circ - \angle B = 90^\circ - 55^\circ = 35^\circ$ bo'ladi.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$N = 2^4 \cdot 3^2 \cdot 5^1$ sonining natural bo'luvchilari orasidan 6 ga karrali bo'lganlarining sonini toping.</problem>
+<solution>6 ga bo'linadigan har qanday bo'luvchi $6 \cdot k = 2^1 \cdot 3^1 \cdot k$ ko'rinishida bo me'yorlanadi. $N$ sonini 6 ga bo'lamiz: $\dfrac{N}{6} = 2^{4-1} \cdot 3^{2-1} \cdot 5^1 = 2^3 \cdot 3^1 \cdot 5^1$. Usbu natijaviy sonning natural bo'luvchilari soni: $(3+1)(1+1)(1+1) = 4 \cdot 2 \cdot 2 = 16$ ta.</solution>
+<answer>16</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Beshta kompyuter (A, B, C, D, E) o'rtasidagi ma'lumot uzatish vaqti (sekundlarda) quyidagicha: A-B: 2 s, A-C: 5 s, B-C: 1 s, B-D: 4 s, C-D: 2 s, C-E: 7 s, D-E: 3 s. A kompyuterdan E kompyuterga ma'lumot uzatish uchun eng kam qancha vaqt talab etiladi?</problem>
+<choices>A) 8  B) 9  C) 10  D) 7</choices>
+<solution>A dan chiquvchi eng qisqa yo'llarni hisoblaymiz:
+A -> B = 2 s
+A -> B -> C = 2 + 1 = 3 s
+A -> B -> C -> D = 3 + 2 = 5 s
+A -> B -> C -> D -> E = 5 + 3 = 8 s.
+Boshqa barcha yo'llar (masalan, A-B-C-E = 10 s, A-B-D-E = 9 s) uzoqroq vaqt oladi. Demak, eng kam vaqt 8 sekund.</solution>
+<answer>A</answer>
+</example>

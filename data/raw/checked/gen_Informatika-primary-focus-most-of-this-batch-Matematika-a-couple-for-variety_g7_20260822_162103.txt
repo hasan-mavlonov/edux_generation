@@ -1,0 +1,151 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasida berilgan $1011011_2$ sonini o'naltiylik (HEX) sanoq sistemasiga o'tkazing.</problem>
+<choices>A) 5B  B) 511  C) 2B  D) 5A</choices>
+<solution>Ikkilik sonni o'ngdan chapga qarab 4 tadan raqamli guruhlarga (tetradalarga) ajratamiz: 0101_2 va 1011_2. 16-lik tizimda 0101_2 = 5 va 1011_2 = 11 = B bo'ladi. Demak, 1011011_2 = 5B_16.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel elektron jadvalida A1=12, B1=5, C1=8 bo'lsin. `=AGAR(A1-B1>C1; A1*B1; C1+B1)` formulasi kiritilsa, katakchada qanday natija hosil bo'ladi?</problem>
+<choices>A) 60  B) 13  C) 7  D) 20</choices>
+<solution>Shartni tekshiramiz: A1 - B1 = 12 - 5 = 7. C1 = 8. Shart 7 > 8 YOLG'ON (FALSE) bo'ladi. Shuning uchun AGAR funksiyasi ikkinchi (yolg'on uchun) qiymatni hisoblaydi: C1 + B1 = 8 + 5 = 13.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Kitob 32 sahifadan iborat. Har bir sahifada 64 ta satr va har bir satrda 64 ta belgi bor. Agar kitobdagi matn KOI-8 kodirovkasida (har bir belgi 1 bayt) saqlangan bo'lsa, ushbu kitobning axborot hajmi necha kilobayt (KB) bo'ladi?</problem>
+<solution>Jami belgilar soni V = 32 · 64 · 64 = 2^5 · 2^6 · 2^6 = 2^17 belgi. Har bir belgi 1 bayt bo'lgani uchun jami hajm 2^17 bayt. Kilobaytga o'tkazish uchun 1024 = 2^10 ga bo'lamiz: 2^17 / 2^10 = 2^7 = 128 KB.</solution>
+<answer>128</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Logic circuit: Inputs A and B are connected to an AND gate. The output of the AND gate and input C are connected to an OR gate. The output of the OR gate goes into a NOT gate, producing output Y. Values assigned: A=1, B=1, C=0.</diagram_spec>
+<problem>Mantiqiy sxemada A va B kirish signallari MANTIQIY VA (AND) elementiga uzatilgan. Uning chiqishi hamda C kirish signali MANTIQIY YOKI (OR) elementiga berilgan. OR elementining chiqishi esa MANTIQIY EMAS (NOT) inverteri orqali Y chiqishini hosil qiladi. Agar A=1, B=1 va C=0 bo'lsa, Y chiqishidagi mantiqiy qiymatni toping.</problem>
+<choices>A) 1  B) 0  C) Aniqlab bo'lmaydi  D) 2</choices>
+<solution>1) AND elementining chiqishi: 1 AND 1 = 1. 2) OR elementining chiqishi: 1 OR 0 = 1. 3) NOT elementining chiqishi: NOT(1) = 0. Demak, Y = 0.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch muhitida x = 1 va y = 0 boshlang'ich qiymatlar berildi. So'ngra quyidagi takrorlash buyrug'i bajarildi:
+"5 marta takrorla:"
+  y = y + x
+  x = x * 2 + 1
+Sikl to'liq bajarilgandan so'ng y o'zgaruvchisining qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 31  B) 57  C) 26  D) 63</choices>
+<solution>Qadamlar bo'yicha hisoblaymiz:
+Boshlanishida: x = 1, y = 0.
+1-qadam: y = 0 + 1 = 1, x = 1 · 2 + 1 = 3.
+2-qadam: y = 1 + 3 = 4, x = 3 · 2 + 1 = 7.
+3-qadam: y = 4 + 7 = 11, x = 7 · 2 + 1 = 15.
+4-qadam: y = 11 + 15 = 26, x = 15 · 2 + 1 = 31.
+5-qadam: y = 26 + 31 = 57, x = 31 · 2 + 1 = 63.
+Sikl oxirida y = 57.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Arxiv fayllarini kodlash uchun 6 xonali ikkilik ketma-ketliklar (masalan, 010110) ishlatiladi. Agar yonma-yon ikkita '1' raqami qatnashgan kodi yaroqsiz deb topilsa, nechta yaroqli (yaroqsiz bo'lmagan) 6 xonali ikkilik kod mavjud?</problem>
+<solution>Ikkita yonma-yon '1' raqami bo'lmagan n xonali ikkilik ketma-ketliklar sonini F_n deylik.
+n=1 uchun: "0", "1" (2 ta).
+n=2 uchun: "00", "01", "10" (3 ta).
+Umumiy holda F_n = F_{n-1} + F_{n-2} rekurrent munosabat o'rinli (Fibonachchi ketma-ketligi):
+F_3 = 2 + 3 = 5,
+F_4 = 3 + 5 = 8,
+F_5 = 5 + 8 = 13,
+F_6 = 8 + 13 = 21.
+Demak, 21 ta yaroqli kod mavjud.</solution>
+<answer>21</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar a + b = 5 va a² + b² = 17 bo'lsa, (a − b)² ifodaning qiymatini toping.</problem>
+<choices>A) 9  B) 16  C) 4  D) 1</choices>
+<solution>Ayniyatdan foydalanamiz: (a+b)² = a² + 2ab + b² → 5² = 17 + 2ab → 25 = 17 + 2ab → 2ab = 8.
+U holda (a-b)² = a² - 2ab + b² = 17 - 8 = 9.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>N = 7²⁰²⁶ + 3²⁰²⁶ sonini 10 ga bo'lgandagi qoldiqni toping.</problem>
+<solution>Darajalarning oxirgi raqami (10 ga bo'lingandagi qoldiq) davriyligini aniqlaymiz:
+7 ning darajalari: 7¹ ≡ 7, 7² ≡ 9, 7³ ≡ 3, 7⁴ ≡ 1 (mod 10) — davr uzunligi 4.
+2026 = 4 · 506 + 2 bo'lgani uchun 7²⁰²⁶ ≡ 7² ≡ 9 (mod 10).
+3 ning darajalari: 3¹ ≡ 3, 3² ≡ 9, 3³ ≡ 7, 3⁴ ≡ 1 (mod 10) — davr uzunligi 4.
+3²⁰²⁶ ≡ 3² ≡ 9 (mod 10).
+Natijada N ≡ 9 + 9 = 18 ≡ 8 (mod 10). Qoldiq 8 ga teng.</solution>
+<answer>8</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with angle A = 40 degrees, angle B = 80 degrees, angle C = 60 degrees. Point D lies on segment BC such that AD is the angle bisector of angle A. Point E lies on segment AC such that AE = AB.</diagram_spec>
+<problem>ABC uchburchakda ∠A = 40°, ∠B = 80° va ∠C = 60°. A burchakning bissektrisasi BC tomonni D nuqtada kesib o'tadi. AC tomonda AE = AB shartni qanoatlantiruvchi E nuqta olindi. ∠ADE burchakning kattaligini toping.</problem>
+<choices>A) 70°  B) 80°  C) 60°  D) 100°</choices>
+<solution>1) AD bissektrisa bo'lgani uchun ∠BAD = ∠CAD = 20°.
+2) ΔABD ichki burchaklari yig'indisidan: ∠ADB = 180° - (80° + 20°) = 80°.
+3) ΔABD teng yonli bo'lib chiqdi, chunki ∠ABD = ∠ADB = 80°, bundan AB = AD.
+4) Masala shartiga ko'ra AE = AB, demak AE = AD.
+5) ΔADE ham teng yonli uchburchak (AE = AD) va uning uchidagi burchagi ∠EAD = 20°.
+6) Shuning uchun asosidagi burchak ∠ADE = (180° - 20°) / 2 = 80°.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Sinfda 28 ta o'quvchi bor. Ularning 18 tasi shaxmat togaragiga, 15 tasi esa shashka togaragiga qatnashadi. Agar 4 ta o'quvchi ikkala togarakning hech biriga qatnashmasa, faqat shaxmat togaragiga qatnashadigan o'quvchilar sonini toping.</problem>
+<choices>A) 9  B) 6  C) 12  D) 5</choices>
+<solution>1) Kamida bitta togarakka qatnashadigan o'quvchilar soni: 28 - 4 = 24.
+2) Inkluziya-ekskluziya formulasiga ko'ra: N(Shaxmat ∪ Shashka) = N(Shaxmat) + N(Shashka) - N(Ikkala).
+24 = 18 + 15 - N(Ikkala) → N(Ikkala) = 33 - 24 = 9.
+3) Faqat shaxmatga qatnashadiganlar: 18 - 9 = 9 kishi.</solution>
+<answer>A</answer>
+</example>

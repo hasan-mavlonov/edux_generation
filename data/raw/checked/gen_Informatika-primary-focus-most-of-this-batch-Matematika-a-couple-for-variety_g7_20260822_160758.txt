@@ -1,0 +1,151 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$101101_2 + 11011_2$ yig'indisini 16-lik (HEX) sanoq sistemasida tasvirlang.</problem>
+<choices>A) 48  B) 3E  C) 4A  D) 58</choices>
+<solution>Sonlarni 10-lik sanoq sistemasiga o'tkazamiz: $101101_2 = 32 + 8 + 4 + 1 = 45_{10}$, $11011_2 = 16 + 8 + 2 + 1 = 27_{10}$. Yig'indi: $45 + 27 = 72_{10}$. Endi $72_{10}$ ni 16-lik sistemaga o'tkazamiz: $72 = 4 \cdot 16 + 8$, demak natija $48_{16}$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>O'zgaruvchilarning $A = \text{Rost (1)}$, $B = \text{Yolg'on (0)}$, $C = \text{Rost (1)}$ qiymatlarida qaysi mantiqiy ifodaning qiymati YOLG'ON (0) bo'ladi?</problem>
+<choices>A) (A AND B) OR C  B) NOT(A AND C) OR B  C) (A OR B) AND NOT(B)  D) (A AND NOT(B)) AND C</choices>
+<solution>Variantlarni birma-bir tekshiramiz:
+A) (1 AND 0) OR 1 = 0 OR 1 = 1 (Rost)
+B) NOT(1 AND 1) OR 0 = NOT(1) OR 0 = 0 OR 0 = 0 (Yolg'on)
+C) (1 OR 0) AND NOT(0) = 1 AND 1 = 1 (Rost)
+D) (1 AND NOT(0)) AND 1 = (1 AND 1) AND 1 = 1 (Rost)
+Demak, B variantdagi ifoda qiymati Yolg'on bo'ladi.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Excel elektron jadvalida A1=12, A2=18, B1=5, B2=15 katakchalari berilgan. C1 katakchaga `=SUM(A1:B2) - AVERAGE(A1:A2)*2` formulasi kiritilsa, unda qanday natija hosil bo'ladi?</problem>
+<solution>`SUM(A1:B2)` bloki A1, A2, B1, B2 katakchalar yig'indisini hisoblaydi: 12 + 18 + 5 + 15 = 50. `AVERAGE(A1:A2)` A1 va A2 ning o'rta arifmetik qiymatini hisoblaydi: (12 + 18) / 2 = 15. Keyin 15 * 2 = 30. Natija: 50 - 30 = 20.</solution>
+<answer>20</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch muhitida $x = 5$ va $y = 0$ boshlang'ich qiymatga ega. Quyidagi takrorlash bloki bajarildi:
+"takrorla 4 marta:
+    $y = y + x$
+    $x = x + 3$"
+Algoritm to'liq bajarilgach, $y$ o'zgaruvchisining qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 38  B) 35  C) 42  D) 50</choices>
+<solution>Har bir qadamni kuzatamiz:
+1-qadam: y = 0 + 5 = 5, x = 5 + 3 = 8
+2-qadam: y = 5 + 8 = 13, x = 8 + 3 = 11
+3-qadam: y = 13 + 11 = 24, x = 11 + 3 = 14
+4-qadam: y = 24 + 14 = 38, x = 14 + 3 = 17
+Takrorlanish tugagach y = 38 bo'ladi.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>16-bitli UNICODE kodirovkasida yozilgan "Olimpiada-2026" matnining axborot hajmi necha baytga teng? (Tirnoq belgilari hisobga olinmaydi)</problem>
+<choices>A) 14  B) 28  C) 112  D) 224</choices>
+<solution>"Olimpiada-2026" matnida jami 14 ta belgi bor (9 ta harf, 1 ta chiziqcha, 4 ta raqam). UNICODE kodirovkasida har bir belgi 16 bit = 2 bayt joy oladi. Jami hajm: 14 · 2 = 28 bayt.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Faqat 0 va 1 raqamlaridan tashkil topgan, uzunligi 6 ga teng bo'lgan va ketma-ket ikkita 1 raqami qatnashmagan barcha ikkilik ketma-ketliklar sonini toping.</problem>
+<solution>Uzunligi $n$ bo'lgan va ketma-ket ikkita 1 bo'lmagan ketma-ketliklar soni $a_n$ bo'lsin.
+$n=1$ uchun: 0, 1 ($a_1 = 2$).
+$n=2$ uchun: 00, 01, 10 ($a_2 = 3$).
+$a_n = a_{n-1} + a_{n-2}$ rekurrent munosabat o'rinli (Fibonachchi ketma-ketligi siljishi):
+$a_3 = 2 + 3 = 5$,
+$a_4 = 3 + 5 = 8$,
+$a_5 = 5 + 8 = 13$,
+$a_6 = 8 + 13 = 21$.
+Uzunligi 6 bo'lgan shunday ketma-ketliklar soni 21 ga teng.</solution>
+<answer>21</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x + \dfrac{1}{x} = 5$ bo'lsa, $x^2 + \dfrac{1}{x^2}$ ning qiymatini toping.</problem>
+<choices>A) 23  B) 25  C) 27  D) 21</choices>
+<solution>Tenglikning ikkala tarafini kvadratga oshiramiz:
+$\left(x + \dfrac{1}{x}\right)^2 = 5^2 \implies x^2 + 2 \cdot x \cdot \dfrac{1}{x} + \dfrac{1}{x^2} = 25 \implies x^2 + 2 + \dfrac{1}{x^2} = 25 \implies x^2 + \dfrac{1}{x^2} = 23$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Right-angled triangle ABC with angle C = 90 degrees. D lies on hypotenuse AB such that CD is perpendicular to AB. Angle CAB at vertex A is 35 degrees.</diagram_spec>
+<problem>To'g'ri burchakli ABC uchburchakda (∠C = 90°), gipotenuzaga CD balandlik tushirilgan. Agar ∠CAB = 35° bo'lsa, ∠BCD burchak darajasini toping.</problem>
+<choices>A) 35°  B) 55°  C) 45°  D) 65°</choices>
+<solution>To'g'ri burchakli ABC uchburchakda ∠B = 90° - ∠A = 90° - 35° = 55°. To'g'ri burchakli BCD uchburchakda (∠CDB = 90°) ∠BCD = 90° - ∠B = 90° - 55° = 35°.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>$n$ ning nechta natural qiymatida $\dfrac{3n + 23}{n + 2}$ ifodaning qiymati natural son bo'ladi?</problem>
+<solution>Kasrning butun qismini ajratamiz:
+$\dfrac{3n + 23}{n + 2} = \dfrac{3(n + 2) + 17}{n + 2} = 3 + \dfrac{17}{n + 2}$.
+Natija natural son bo'lishi uchun $n + 2$ soni 17 ning bo'luvchisi bo'lishi kerak. 17 — tub son, uning natural bo'luvchilari 1 va 17.
+$n$ natural son ($n \ge 1$) bo'lgani uchun $n + 2 \ge 3$.
+Shuning uchun $n + 2 = 17 \implies n = 15$.
+$n + 2 = 1$ tenglama $n = -1$ beradi, bu natural son emas.
+Demak, $n$ ning faqat 1 ta natural qiymati ($n = 15$) mos keladi.</solution>
+<answer>1</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$F(A, B, C) = (A \text{ AND } B) \text{ OR } (A \text{ AND } \text{NOT}(B)) \text{ OR } (A \text{ AND } C)$ mantiqiy ifodasi quyidagilardan qaysi biriga teng kuchli (ekvivalent)?</problem>
+<choices>A) A  B) A AND B  C) A OR C  D) B AND C</choices>
+<solution>Mantiqiy algebra qonunlaridan foydalanib soddalashtiramiz:
+$F = A \text{ AND } (B \text{ OR } \text{NOT}(B)) \text{ OR } (A \text{ AND } C)$.
+$B \text{ OR } \text{NOT}(B) = 1$ bo'lgani uchun:
+$F = (A \text{ AND } 1) \text{ OR } (A \text{ AND } C) = A \text{ OR } (A \text{ AND } C)$.
+Yutilish qonuniga ko'ra $A \text{ OR } (A \text{ AND } C) = A$.
+Natija: A.</solution>
+<answer>A</answer>
+</example>

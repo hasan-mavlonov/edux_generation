@@ -1,0 +1,161 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Bilmasvoy matnli hujjat tayyorladi. Hujjatda jami 512 ta belgi mavjud bo'lib, ularning barchasi Unicode (16 bitli) standartida kodlangan. Ushbu hujjat kompyuter xotirasida qancha kilobayt (KB) joy egallaydi?</problem>
+<choices>A) 0,5 KB  B) 1 KB  C) 2 KB  D) 8 KB</choices>
+<solution>Unicode standartida har bir belgi 16 bit = 2 bayt joy egallaydi. Jami 512 ta belgi xotirada: 512 · 2 = 1024 bayt joy oladi. 1024 bayt esa 1 KB ga teng.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>A va B mantiqiy o'zgaruvchilar berilgan. Quyidagi mantiqiy ifoda A va B ning qanday qiymatlarida ROST (TRUE) bo'ladi?
+`NOT (A AND B) AND (A OR B)`</problem>
+<choices>A) A va B ikkalasi ham ROST bo'lganda  B) A va B ikkalasi ham YOLG'ON bo'lganda  C) A va B larning faqat biri ROST, ikkinchisi YOLG'ON bo'lganda  D) A va B ning har qanday qiymatlarida doimo ROST bo'ladi</choices>
+<solution>`NOT (A AND B)` ifodasi A va B bir vaqtda 1 bo'lmagan barcha hollarda rost bo'ladi. `(A OR B)` esa kamida bittasi 1 bo'lganda rost bo'ladi. Ushbu ikki shartning bir vaqtda bajarilishi (AND amali) A va B larning biri 1 va ikkinchisi 0 bo'lgan holatga (XOR amaliga) mos keladi.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi algoritm bajarilgandan so'ng `y` o'zgaruvchisining yakuniy qiymatini toping:
+1. `x = 13`
+2. `y = 1`
+3. Takrorlash (`x > 1` bo'lguncha):
+   - Agar `x` juft bo'lsa: `x = x / 2`
+   - Aks holda: `x = 3 * x + 1`
+   - `y = y + 1`
+4. Yakunlash.</problem>
+<solution>Sikl qadamlarini tartib bilan kuzatamiz:
+1) x = 13 (toq) -> x = 40, y = 2
+2) x = 40 (juft) -> x = 20, y = 3
+3) x = 20 (juft) -> x = 10, y = 4
+4) x = 10 (juft) -> x = 5, y = 5
+5) x = 5 (toq) -> x = 16, y = 6
+6) x = 16 (juft) -> x = 8, y = 7
+7) x = 8 (juft) -> x = 4, y = 8
+8) x = 4 (juft) -> x = 2, y = 9
+9) x = 2 (juft) -> x = 1, y = 10
+x = 1 bo'lgach, x > 1 shart bajarilmaydi va takrorlash to'xtaydi. `y` ning qiymati 10 ga teng bo'ladi.</solution>
+<answer>10</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Elektron jadvalda (MS Excel) C2 katakchaga `=A$1 + $B2` formulasi yozilgan. Ushbu katakchadan nusxa olinib, D4 katakchaga qo'yilsa (past), D4 katakchadagi formula qanday ko'rinishda bo'ladi?</problem>
+<choices>A) `=B$1 + $B4`  B) `=B$3 + $B4`  C) `=A$3 + $C4`  D) `=B$1 + $C4`</choices>
+<solution>C2 dan D4 ga o'tishda ustun 1 ta o'ngga (C -> D), satr 2 ta pastga (2 -> 4) suriladi.
+1) `A$1` dagi ustun nisbiy bo'lgani uchun A -> B ga o'zgaradi, satr esa $1 absolut bo'lgani uchun o'zgarmaydi: `B$1`.
+2) `$B2` dagi ustun $B absolut bo'lgani uchun o'zgarmaydi, satr esa nisbiy bo'lgani uchun 2 -> 4 ga o'zgaradi: `$B4`.
+Natijada D4 katakchada `=B$1 + $B4` formulasi hosil bo'ladi.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikkilik sanoq sistemasida berilgan $110101_2$ sonining o'nlik sanoq sistemasidagi qiymatini toping.</problem>
+<choices>A) 43  B) 51  C) 53  D) 55</choices>
+<solution>Ikkilik sonni o'nlik sanoq sistemasiga o'tkazamiz:
+$110101_2 = 1 \cdot 2^5 + 1 \cdot 2^4 + 0 \cdot 2^3 + 1 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0 = 32 + 16 + 0 + 4 + 0 + 1 = 53$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Yopiq lokal tarmoqda ma'lumot uzatuvchi yo'naltirilgan tugunlar berilgan.
+A tugundan B va C tugunlarga;
+B tugundan D va E tugunlarga;
+C tugundan E va F tugunlarga;
+D tugundan G tugunga;
+E tugundan G va H tugunlarga;
+F tugundan H tugunga;
+G va H tugunlarning har biridan X yakuniy serverga aloqa yo'llari mavjud.
+A tugundan X serverga ma'lumot uzatishning nechta turli yo'li mavjud?</problem>
+<solution>Har bir tugundan X serverga boradigan yo'llar sonini oxiridan boshlab hisoblaymiz:
+- G dan X ga: 1 ta yo'l (G-X)
+- H dan X ga: 1 ta yo'l (H-X)
+- D dan X ga: D-G-X = 1 ta yo'l
+- E dan X ga: E-G-X va E-H-X = 2 ta yo'l
+- F dan X ga: F-H-X = 1 ta yo'l
+- B dan X ga: D (1) + E (2) = 3 ta yo'l
+- C dan X ga: E (2) + F (1) = 3 ta yo'l
+- A dan X ga: B (3) + C (3) = 6 ta yo'l.</solution>
+<answer>6</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem> Ketma-ket 100 ta 7 raqami yozilishi natijasida hosil bo'lgan $N = \underbrace{77...7}_{100\text{ ta}}$ sonini 9 ga bo'lgandagi qoldiqni toping.</problem>
+<choices>A) 2  B) 4  C) 5  D) 7</choices>
+<solution>Har qanday natural sonning 9 ga bo'lingandagi qoldigi uning raqamlari yig'indisining 9 ga bo'lingandagi qoldig'iga teng. $N$ sonining raqamlari yig'indisi $100 \cdot 7 = 700$. 700 sonining raqamlari yig'indisi $7 + 0 + 0 = 7$. Demak, $N$ sonini 9 ga bo'lganda 7 qoldiq qoladi.</solution>
+<answer>D</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Isosceles triangle ABC with AB = AC and angle A = 40 degrees. Point D is on side AC such that BD = BC. Line segment DE is parallel to BC, with E lying on side AB.</diagram_spec>
+<problem>ABC teng yonli uchburchakda AB = AC va ∠BAC = 40°. AC tomonida D nuqta shunday tanlanganki, BD = BC tenglik bajariladi. D nuqtadan o'tib, BC tomonga parallel bo'lgan to'g'ri chiziq AB tomonni E nuqtada kesib o'tadi. ∠BDE burchakning kattaligini toping.</problem>
+<choices>A) 30°  B) 40°  C) 50°  D) 70°</choices>
+<solution>1) ABC teng yonli uchburchakda asosdagi burchaklar: ∠B = ∠C = (180° − 40°)/2 = 70°.
+2) BDC uchburchakda BD = BC bo'lgani uchun u ham teng yonli: ∠BDC = ∠C = 70°. Shuning uchun ∠DBC = 180° − (70° + 70°) = 40°.
+3) DE || BC bo'lgani uchun ∠BDE va ∠DBC burchaklar ichki almashinuvchi burchaklar hisoblanadi, demak ∠BDE = ∠DBC = 40°.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x + \dfrac{1}{x} = 5$ bo'lsa, $x^2 + \dfrac{1}{x^2}$ ifodaning qiymatini toping.</problem>
+<solution>$x + \dfrac{1}{x} = 5$ tenglikning ikkala tarafini kvadratga oshiramiz:
+$\left(x + \dfrac{1}{x}\right)^2 = 5^2 \implies x^2 + 2\cdot x\cdot \dfrac{1}{x} + \dfrac{1}{x^2} = 25 \implies x^2 + 2 + \dfrac{1}{x^2} = 25 \implies x^2 + \dfrac{1}{x^2} = 23$.</solution>
+<answer>23</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>4 ta kompyuterdan iborat to'liq (har bir kompyuter qolgan barcha kompyuterlar bilan bevosita kabel orqali bog'langan) tarmoq mavjud. Agar ushbu tarmoqqa yana 2 ta yangi kompyuter qo'shilsa va tarmoq yana to'liq holatga keltirilsa, jami nechta yangi kabel qo'shish kerak bo'ladi?</problem>
+<choices>A) 5  B) 9  C) 11  D) 15</choices>
+<solution>$n$ ta kompyuterdan iborat to'liq tarmoqda (mesh topologiyasida) kabellar soni $\dfrac{n(n-1)}{2}$ formula bilan hisoblanadi.
+1) 4 ta kompyuter uchun: $\dfrac{4 \cdot 3}{2} = 6$ ta kabel bo'lgan.
+2) 6 ta kompyuter uchun: $\dfrac{6 \cdot 5}{2} = 15$ ta kabel kerak.
+Qo'shimcha kerak bo'ladigan kabellar soni: $15 - 6 = 9$ ta.</solution>
+<answer>B</answer>
+</example>

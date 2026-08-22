@@ -1,0 +1,149 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>16-lik sanoq sistemasidagi $2F_{16}$ va 8-lik sanoq sistemasidagi $57_8$ sonlarining yig'indisini 10-lik sanoq sistemasida toping.</problem>
+<choices>A) 84  B) 94  C) 104  D) 98</choices>
+<solution>Sonlarni 10-lik sanoq sistemasiga o'tkazamiz: $2F_{16} = 2 \cdot 16^1 + 15 \cdot 16^0 = 32 + 15 = 47$. $57_8 = 5 \cdot 8^1 + 7 \cdot 8^0 = 40 + 7 = 47$. Yig'indi: $47 + 47 = 94$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida $x$ o'zgaruvchisiga 5 qiymat berildi va "takrorla 4 marta: $x = x \cdot 2 - 3$" bloki bajarildi. Dastur bajarilishi yakunlangach, $x$ ning qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 35  B) 67  C) 19  D) 29</choices>
+<solution>Har bir takrorlanishda $x$ ning o'zgarishini kuzatamiz:
+Boshlang'ich: $x = 5$.
+1-takrorlash: $x = 5 \cdot 2 - 3 = 7$.
+2-takrorlash: $x = 7 \cdot 2 - 3 = 11$.
+3-takrorlash: $x = 11 \cdot 2 - 3 = 19$.
+4-takrorlash: $x = 19 \cdot 2 - 3 = 35$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel elektron jadvalida $A1=15$, $A2=25$, $B1=10$ va $B2=40$ qiymatlar berilgan. C1 katakka `=A1+$B$1*2` formulasi kiritildi va u C2 katakka nusxalandi. C2 katakda hosil bo'ladigan qiymatni toping.</problem>
+<solution>C1 katakdagi `=A1+$B$1*2` formulasi C2 katakka nusxalanganda, nisbiy murojaat A1 bir qator pastga surilib A2 ga aylanadi. Mutlaq murojaat $B$1 esa o'zgarmasdan qoladi. Natijada C2 katakdagi formula `=A2+$B$1*2` bo'ladi. Qiymatlarni qo'yamiz: $25 + 10 \cdot 2 = 25 + 20 = 45$.</solution>
+<answer>45</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$A$, $B$ va $C$ mantiqiy o'zgaruvchilar berilgan. Agar $A = 1$ (Rost), $B = 0$ (Yolg'on) va $C = 1$ (Rost) bo'lsa, $\neg (A \land B) \land (B \lor \neg C)$ mantiqiy ifodaning qiymatini toping.</problem>
+<choices>A) 1 (Rost)  B) 0 (Yolg'on)  C) Aniqlab bo'lmaydi  D) Xatolik</choices>
+<solution>Bosqichma-bosqich hisoblaymiz:
+1) $A \land B = 1 \land 0 = 0$.
+2) $\neg(A \land B) = \neg 0 = 1$.
+3) $\neg C = \neg 1 = 0$.
+4) $B \lor \neg C = 0 \lor 0 = 0$.
+5) Yakuniy natija: $1 \land 0 = 0$ (Yolg'on).</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Faylning hajmi 1,5 Megabayt (MB) ga teng. Ushbu fayl sekundiga 512 Kilobit (Kbit) tezlikda uzatilsa, uzatish uchun necha sekund vaqt ketadi? (1 MB = 1024 KB, 1 KB = 8 Kbit deb oling).</problem>
+<choices>A) 12  B) 24  C) 32  D) 48</choices>
+<solution>Fayl hajmini Kilobitga o'tkazamiz:
+$1,5 \text{ MB} = 1,5 \cdot 1024 \text{ KB} = 1536 \text{ KB}$.
+$1536 \text{ KB} \cdot 8 = 12288 \text{ Kbit}$.
+Vaqtni topamiz: $t = \dfrac{12288 \text{ Kbit}}{512 \text{ Kbit/s}} = 24 \text{ sekund}$.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi algoritm bajarilishi natijasida $S$ o'zgaruvchisining qiymati nechaga teng bo'ladi?
+
+$S = 0$, $N = 1$
+Modomiki $N \le 100$ bo'lar ekan:
+    Agar ($N \bmod 3 = 1$) va ($N \bmod 5 = 2$) bo'lsa:
+        $S = S + N$
+    $N = N + 1$</problem>
+<solution>$N \bmod 3 = 1$ va $N \bmod 5 = 2$ shartlarni qanoatlantiruvchi eng kichik natural son $N = 7$. $3$ va $5$ ning eng kichik umumiy karralisi 15 bo'lgani uchun, ushbu shartni qanoatlantiruvchi sonlar $15k + 7$ ko'rinishida bo'ladi.
+1 dan 100 gacha bo'lgan diapozonda ushbu sonlar: 7, 22, 37, 52, 67, 82, 97.
+Ularning yig'indisi: $S = 7 + 22 + 37 + 52 + 67 + 82 + 97 = 364$.</solution>
+<answer>364</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x + \dfrac{1}{x} = 4$ bo'lsa, $x^4 + \dfrac{1}{x^4}$ ifodaning qiymatini toping.</problem>
+<choices>A) 194  B) 196  C) 212  D) 192</choices>
+<solution>Tenglikning ikkala tarafini kvadratga oshiramiz:
+$\left(x + \dfrac{1}{x}\right)^2 = 4^2 \implies x^2 + 2 + \dfrac{1}{x^2} = 16 \implies x^2 + \dfrac{1}{x^2} = 14$.
+Yana bir marta kvadratga oshiramiz:
+$\left(x^2 + \dfrac{1}{x^2}\right)^2 = 14^2 \implies x^4 + 2 + \dfrac{1}{x^4} = 196 \implies x^4 + \dfrac{1}{x^4} = 194$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC. Point D lies on segment BC. AD = BD and AC = CD. Angle BAC = 75 degrees.</diagram_spec>
+<problem>$ABC$ uchburchakning $BC$ tomonida $D$ nuqta olingan. Agar $AD = BD$, $AC = CD$ va $\angle BAC = 75^\circ$ bo'lsa, $\angle ACB$ burchakning kattaligini toping.</problem>
+<choices>A) 60°  B) 70°  C) 80°  D) 85°</choices>
+<solution>$AD = BD$ bo'lgani uchun $\triangle ABD$ teng yonli, ya'ni $\angle BAD = \angle ABD = \beta$. $\angle ADC$ ushbu uchburchakning tashqi burchagi bo'lib, $\angle ADC = 2\beta$ ga teng.
+$AC = CD$ bo'lgani uchun $\triangle ADC$ teng yonli, ya'ni $\angle DAC = \angle ADC = 2\beta$.
+Demak, $\angle BAC = \angle BAD + \angle DAC = \beta + 2\beta = 3\beta = 75^\circ \implies \beta = 25^\circ$.
+$\triangle ADC$ da ichki burchaklar yig'indisi: $\angle ACB = 180^\circ - (\angle DAC + \angle ADC) = 180^\circ - 4\beta = 180^\circ - 100^\circ = 80^\circ$.</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>1 dan 300 gacha bo'lgan natural sonlar orasida 2 ga ham, 3 ga ham, 5 ga ham bo'linmaydigan nechta son bor?</problem>
+<solution>Kiritish-chiqarish prinsipi yoki Eyler funksiyasidan foydalanamiz. $300 = 2^2 \cdot 3 \cdot 5^2$ bo'lgani uchun 1 dan 300 gacha bo'lgan sonlar orasida 2, 3 va 5 ga bo'linmaydigan sonlar soni:
+$\phi(300) = 300 \cdot \left(1 - \dfrac{1}{2}\right) \cdot \left(1 - \dfrac{1}{3}\right) \cdot \left(1 - \dfrac{1}{5}\right) = 300 \cdot \dfrac{1}{2} \cdot \dfrac{2}{3} \cdot \dfrac{4}{5} = 80$.</solution>
+<answer>80</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$A$, $B$ va $C$ kirish signallariga ega mantiqiy sxemada $A$ va $B$ signallari XOR (istisno etuvchi YOKI) elementiga uzatiladi. XOR elementining chiqishi hamda $C$ signalining inkor qiymati ($\neg C$) AND (mantiqiy VA) elementiga uzatiladi. Sxemaning yakuniy chiqishi qachon 1 (Rost) ga teng bo'ladi?</problem>
+<choices>A) A va B har xil, C = 0 bo'lganda  B) A va B bir xil, C = 1 bo'lganda  C) A = 1, B = 1, C = 0 bo'lganda  D) A = 0, B = 0, C = 1 bo'lganda</choices>
+<solution>Sxema mantiqiy ifodasi: $(A \oplus B) \land \neg C$.
+Ushbu ifoda 1 (Rost) bo'lishi uchun ikkala ko'paytuvchi ham 1 bo'lishi kerak:
+1) $A \oplus B = 1 \implies A$ va $B$ signallari har xil (biri 1, ikkinchisi 0) bo'lishi kerak.
+2) $\neg C = 1 \implies C = 0$ bo'lishi kerak.
+Demak, $A$ va $B$ har xil hamda $C = 0$ bo'lganda chiqish 1 bo'ladi.</solution>
+<answer>A</answer>
+</example>

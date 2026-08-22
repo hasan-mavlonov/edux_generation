@@ -1,0 +1,172 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$100_{10}$ o'nlik sanoq sistemasidagi son ikki-lik sanoq sistemasida yozilganda, uning tarkibidagi biriklar (1 lar) soni nechta bo'ladi?</problem>
+<choices>A) 2  B) 3  C) 4  D) 5</choices>
+<solution>$100_{10}$ sonini ikkilik sanoq sistemasiga o'tkazamiz: $100 = 64 + 32 + 4 = 2^6 + 2^5 + 2^2 = 1100100_2$. Hosil bo'lgan ikkilik koddagi 1 lar soni 3 ta.</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida $x$ o'zgaruvchining boshlang'ich qiymati 15 ga teng. Quyidagi takrorlash komandasi 4 marta bajarildi:
+"agar x mod 2 = 0 bo'lsa, x = x / 2 aks holda x = 3 * x + 1"
+Takrorlash yakunlangach, $x$ ning qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 35  B) 70  C) 23  D) 46</choices>
+<solution>
+Bosqichma-bosqich hisoblaymiz:
+1-qadam: x = 15 (toq) -> x = 3 · 15 + 1 = 46
+2-qadam: x = 46 (juft) -> x = 46 / 2 = 23
+3-qadam: x = 23 (toq) -> x = 3 · 23 + 1 = 70
+4-qadam: x = 70 (juft) -> x = 70 / 2 = 35.
+</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Ovozli fayl stereo (2 kanalli) rejimda, 40 kHz chastota va 16 bitli chuqurlik bilan yozib olindi. Agar ushbu ovozli faylning davomiyligi 25 soniya bo'lsa, uning hajmi necha megabayt (MB) bo'ladi? ($1\text{ MB} = 1\,000\,000\text{ bayt}$ deb olinsin).</problem>
+<solution>
+1) 1 soniyadagi axborot hajmi: $40\,000 \text{ Hz} \times 16 \text{ bit} \times 2 \text{ kanal} = 1\,280\,000 \text{ bit} = 160\,000 \text{ bayt}$.
+2) 25 soniyadagi umumiy hajm: $160\,000 \text{ bayt} \times 25 = 4\,000\,000 \text{ bayt}$.
+3) Megabaytga o'tkazamiz: $4\,000\,000 / 1\,000\,000 = 4 \text{ MB}$.
+</solution>
+<answer>4</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel jadvalida A1 catakda 12, A2 katakda 8 va A3 katakda 20 soni yozilgan. Agar B1 katakka `=IF(SUM(A1:A3)>35, AVERAGE(A1:A2), MAX(A1:A3))` formulasi kiritilsa, B1 katakda qanday natija hosil bo'ladi?</problem>
+<choices>A) 10  B) 20  C) 40  D) 12</choices>
+<solution>
+1) `SUM(A1:A3) = 12 + 8 + 20 = 40`.
+2) `40 > 35` shart ROST (TRUE) bo'lgani uchun `AVERAGE(A1:A2)` qismi bajariladi.
+3) `AVERAGE(A1:A2) = (12 + 8) / 2 = 10`.
+</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Biror $N$ asosli sanoq sistemasida $34_N + 45_N = 123_N$ tenglik o'rinli bo'lsa, ushbu sanoq sistemasining asosi $N$ ni toping.</problem>
+<solution>
+Sonlarni o'nlik sanoq sistemasiga o'tkazib tenglama tuzamiz:
+$(3N + 4) + (4N + 5) = 1 \cdot N^2 + 2 \cdot N + 3$
+$7N + 9 = N^2 + 2N + 3$
+$N^2 - 5N - 6 = 0$
+Kvadrat tenglamani ko'paytuvchilarga ajratamiz: $(N - 6)(N + 1) = 0$.
+Sanoq sistemasi asosi musbat va 1 dan katta bo'lgani uchun $N = 6$.
+</solution>
+<answer>6</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$1 \le x \le 30$ shartni qanoatlantiruvchi butun $x$ sonlar orasida `(x mod 3 = 0) AND NOT (x mod 5 = 0)` mantiqiy ifodasining qiymati ROST (TRUE) bo'ladigan $x$ sonlar nechta?</problem>
+<choices>A) 10  B) 8  C) 6  D) 9</choices>
+<solution>
+1 dan 30 gacha bo'lgan sonlar orasida 3 ga bo me'yorda bo'linadigan sonlar 10 ta: 3, 6, 9, 12, 15, 18, 21, 24, 27, 30.
+Ular orasidan 5 ga bo'linadiganlarini (15 va 30) chiqarib tashlaymiz, chunki `NOT (x mod 5 = 0)` sharti bajarilishi kerak.
+Qolgan sonlar: 3, 6, 9, 12, 18, 21, 24, 27 — jami 8 ta.
+</solution>
+<answer>B</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$A = [4, 7, 2, 9, 5]$ massiv berilgan (elementlar indeksatsiyasi 0 dan boshlanadi, ya'ni $A[0]=4, A[1]=7, \dots$). Quyidagi algoritm bajarildi:
+$i$ ning 1 dan 4 gacha bo'lgan qiymatlari uchun:
+  $A[i] = A[i] + A[i-1]$
+Algoritm yakunlangach, $A[4]$ elementining qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 27  B) 14  C) 22  D) 25</choices>
+<solution>
+Qadam-baqadam $A$ massiv elementlari qiymatini o'zgarishini kuzatamiz:
+$i=1: A[1] = 7 + 4 = 11$
+$i=2: A[2] = 2 + 11 = 13$
+$i=3: A[3] = 9 + 13 = 22$
+$i=4: A[4] = 5 + 22 = 27$.
+</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$2^{2026} + 3^{2026}$ yig'indini 5 ga bo'lgandagi qoldiqni toping.</problem>
+<choices>A) 1  B) 2  C) 3  D) 4</choices>
+<solution>
+Darajalarning 5 ga bo'lingandagi qoldiqlarini tahlil qilamiz:
+$2^1 \equiv 2, 2^2 \equiv 4, 2^3 \equiv 3, 2^4 \equiv 1 \pmod 5$.
+$2026 = 4 \cdot 506 + 2$ bo'lgani uchun $2^{2026} \equiv 2^2 \equiv 4 \pmod 5$.
+
+$3^1 \equiv 3, 3^2 \equiv 4, 3^3 \equiv 2, 3^4 \equiv 1 \pmod 5$.
+$2026 = 4 \cdot 506 + 2$ bo'lgani uchun $3^{2026} \equiv 3^2 \equiv 4 \pmod 5$.
+
+Yig'indi qoldig'i: $4 + 4 = 8 \equiv 3 \pmod 5$.
+</solution>
+<answer>C</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Triangle ABC with angles B = 70 degrees and C = 50 degrees. Point D lies on segment BC such that AD is perpendicular to BC. Point E lies on segment BC between D and C such that AE is the internal angle bisector of angle BAC.</diagram_spec>
+<problem>ABC uchburchakda $\angle B = 70^\circ$ va $\angle C = 50^\circ$. A uchidan AD balandlik va AE bissektrisa o'tkazilgan. $\angle DAE$ burchakning kattaligini toping.</problem>
+<choices>A) 10°  B) 15°  C) 20°  D) 25°</choices>
+<solution>
+1) ABC uchburchakning ichki burchaklari yig'indisi $180^\circ$ ga teng: $\angle BAC = 180^\circ - (70^\circ + 50^\circ) = 60^\circ$.
+2) AE bissektrisa bo'lgani uchun $\angle BAE = 60^\circ / 2 = 30^\circ$.
+3) ABD to'g'ri burchakli uchburchakdan $\angle BAD = 90^\circ - 70^\circ = 20^\circ$.
+4) Izlanayotgan burchak: $\angle DAE = \angle BAE - \angle BAD = 30^\circ - 20^\circ = 10^\circ$.
+</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Raqamlari $a < b < c < d$ shartni qanoatlantiruvchi nechta to'rt xonali $\overline{abcd}$ natural sonlar mavjud?</problem>
+<solution>
+Raqamlar qat'iy o'sib borishi shartidan $a \ge 1$ ekani kelib chiqadi (ya'ni 0 raqami ishlatilishi mumkin emas, aks holda u eng kichik raqam bo'lib birinchi o'rinda kelishi kerak edi).
+Shuning uchun $\{1, 2, 3, 4, 5, 6, 7, 8, 9\}$ to'plamdan ixtiyoriy 4 ta har xil raqam tanlansa, ulardan faqat bitta usulda $a < b < c < d$ tartibida to'rt xonali son tuzish mumkin.
+Bunday sonlar soni 9 ta raqamdan 4 tasini tanlash kombinatsiyalari soniga teng:
+$C_9^4 = \dfrac{9 \cdot 8 \cdot 7 \cdot 6}{4 \cdot 3 \cdot 2 \cdot 1} = 126$.
+</solution>
+<answer>126</answer>
+</example>

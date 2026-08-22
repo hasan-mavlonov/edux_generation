@@ -1,0 +1,145 @@
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Fayl hajmi 3 KiB ga teng. Ushbu faylga yana necha bayt ma'lumot qo'shilsa, uning umumiy hajmi 4096 baytga teng bo'ladi?</problem>
+<choices>A) 1024  B) 1000  C) 2048  D) 512</choices>
+<solution>1 KiB = 1024 bayt. Demak, 3 KiB = 3 · 1024 = 3072 bayt. Fayl hajmi 4096 bayt bo'lishi uchun yetishmayotgan hajm: 4096 − 3072 = 1024 bayt.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$A$, $B$ va $C$ mantiqiy mulohazalar berilgan. $A = \text{Rost}$, $B = \text{Yolg'on}$, $C = \text{Rost}$ bo'lganda, quyidagi mantiqiy ifodaning qiymatini toping: $(A \text{ AND NOT } B) \text{ OR } (\text{NOT } A \text{ AND } C \text{ AND } B)$.</problem>
+<choices>A) Rost  B) Yolg'on  C) Aniqlab bo'lmaydi  D) Xatolik</choices>
+<solution>Mulohazalarning qiymatlarini o'rniga qo'yamiz ($A=1$, $B=0$, $C=1$):
+1) $A \text{ AND NOT } B = 1 \text{ AND NOT } 0 = 1 \text{ AND } 1 = 1 (\text{Rost})$.
+2) $\text{NOT } A \text{ AND } C \text{ AND } B = \text{NOT } 1 \text{ AND } 1 \text{ AND } 0 = 0 \text{ AND } 1 \text{ AND } 0 = 0 (\text{Yolg'on})$.
+3) Birinchi va ikkinchi qismlarni OR bilan birgashtiramiz: $1 \text{ OR } 0 = 1 (\text{Rost})$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>MS Excel jadvalida $A1=12$, $A2=28$, $A3=15$ va $A4=40$ qiymatlar kiritilgan. D3 katakchaga `=AGAR(SUMMA(A1:A2)>35; A4*2-A3; A1+A2+A3)` formulasi kiritilsa, D3 katakda qanday natija hosil bo'ladi?</problem>
+<solution>Mantiqiy shartni hisoblaymiz: $\text{SUMMA}(A1:A2) = A1 + A2 = 12 + 28 = 40$. $40 > 35$ shart ROST (TRUE) bo'ladi. Shart bajarilgani uchun AGAR funksiyasining birinchi ifodasi ishlaydi: $A4 \cdot 2 - A3 = 40 \cdot 2 - 15 = 80 - 15 = 65$.</solution>
+<answer>65</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Ikklik sanoq tizimidagi $1101_2$ va $1011_2$ sonlarining yig'indisini o'nlik sanoq tizimida toping.</problem>
+<solution>Ikklik sonlarni o'nlik sanoq tizimiga o'tkazamiz:
+$1101_2 = 1\cdot 2^3 + 1\cdot 2^2 + 0\cdot 2^1 + 1\cdot 2^0 = 8 + 4 + 0 + 1 = 13_{10}$.
+$1011_2 = 1\cdot 2^3 + 0\cdot 2^2 + 1\cdot 2^1 + 1\cdot 2^0 = 8 + 0 + 2 + 1 = 11_{10}$.
+O'nlik sanoq tizimidagi yig'indi: $13 + 11 = 24$.</solution>
+<answer>24</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Scratch dasturida $x$ o'zgaruvchiga 5 qiymati berildi. So'ngra "3 marta takrorla: [$x = x \cdot 2 - 1$]" tsikl bloki bajarildi. Tsikl yakunlangach, $x$ o'zgaruvchining qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 33  B) 31  C) 35  D) 29</choices>
+<solution>Tsikl qadamlarini ketma-ket hisoblaymiz:
+Boshlang'ich qiymat: $x = 5$.
+1-qadam: $x = 5 \cdot 2 - 1 = 9$.
+2-qadam: $x = 9 \cdot 2 - 1 = 17$.
+3-qadam: $x = 17 \cdot 2 - 1 = 33$.
+Tsikl 3 marta bajarilgach $x = 33$ bo'ladi.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Maktab kutubxonasidagi har bir kitobga 6 xonali maxsus kod beriladi. Kodning dastlabki 2 ta belgisi ingliz alifbosining bosh harflari ($A, B, C, D$) dan biri, oxirgi 4 ta belgisi esa $0$ dan $9$ gacha bo'lgan raqamlardan iborat. Belgilar takrorlanishi mumkin bo'lsa, ushbu usulda eng ko'pi bilan nechta har xil kitobni kodlash mumkin?</problem>
+<choices>A) 160000  B) 144000  C) 240000  D) 100000</choices>
+<solution>Kombinatorika ko'paytirish qoidasiga ko'ra:
+Birinchi 2 xona har birida 4 tadan imkoniyat bor ($A, B, C, D$): $4 \cdot 4 = 16$.
+Oxirgi 4 xona har birida 10 tadan imkoniyat bor ($0$ dan $9$ gacha raqamlar): $10 \cdot 10 \cdot 10 \cdot 10 = 10000$.
+Jami har xil kodlar soni: $16 \cdot 10000 = 160000$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Modem orqali ma'lumot uzatish tezligi $512\text{ Kbit/s}$ ga teng. Hajmi $3\text{ MB}$ bo'lgan faylni ushbu modem orqali yuklab olish uchun necha sekund vaqt ketadi? ($1\text{ MB} = 1024\text{ KB}$, $1\text{ KB} = 8\text{ Kbit}$)</problem>
+<choices>A) 48  B) 36  C) 64  D) 24</choices>
+<solution>Avval fayl hajmini kilobitlarga o'tkazamiz:
+$3\text{ MB} = 3 \cdot 1024\text{ KB} = 3072\text{ KB}$.
+$3072\text{ KB} = 3072 \cdot 8\text{ Kbit} = 24576\text{ Kbit}$.
+Ketgan vaqt: $t = \dfrac{24576\text{ Kbit}}{512\text{ Kbit/s}} = 48\text{ s}$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $2^{x+2} + 2^x = 160$ bo'lsa, $3^{x-1}$ ning qiymatini toping.</problem>
+<choices>A) 81  B) 27  C) 243  D) 9</choices>
+<solution>Tenglamadan $2^x$ ni qavsdan tashqariga chiqaramiz:
+$2^x(2^2 + 1) = 160 \implies 2^x \cdot 5 = 160 \implies 2^x = 32$.
+$32 = 2^5$ bo'lgani uchun $x = 5$.
+So'ralgan ifodani hisoblaymiz: $3^{x-1} = 3^{5-1} = 3^4 = 81$.</solution>
+<answer>A</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>true</has_diagram>
+<diagram_spec>Right triangle ABC with right angle at C. Leg AC = 12, leg BC = 16. D is the midpoint of hypotenuse AB. Point E lies on BC such that DE is perpendicular to AB.</diagram_spec>
+<problem>$ABC$ to'g'ri burchakli uchburchakda $\angle C = 90^\circ$, $AC = 12$ va $BC = 16$. $AB$ gipotenuzasining o'rtasi $D$ nuqta. $BC$ katetda $E$ nuqta shunday tanlanganki, $DE \perp AB$ bo'ladi. $BE$ kesmaning uzunligini toping.</problem>
+<solution>Pifagor teoremasiga ko'ra $AB = \sqrt{12^2 + 16^2} = \sqrt{144 + 256} = 20$.
+$D$ nuqta $AB$ ning o'rtasi bo'lgani uchun $BD = \dfrac{AB}{2} = 10$.
+$\triangle BDE$ va $\triangle BCA$ to'g'ri burchakli uchburchaklarda $\angle B$ burchak umumiy.
+Demak, $\triangle BDE \sim \triangle BCA$ (o'xshashlik alomatiga ko'ra).
+Mos tomonlar nisbatidan: $\dfrac{BD}{BC} = \dfrac{BE}{BA} \implies \dfrac{10}{16} = \dfrac{BE}{20} \implies BE = \dfrac{10 \cdot 20}{16} = 12.5$.</solution>
+<answer>12.5</answer>
+</example>
+
+<example>
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ixtiyoriy natural $n$ soni uchun $n^3 + 11n$ ifodaning qiymati har doim quyidagi sonlardan qaysi biriga qoldiqsiz bo'linadi?</problem>
+<choices>A) 6  B) 12  C) 8  D) 9</choices>
+<solution>Ifodani quyidagicha shakllantiramiz:
+$n^3 + 11n = n^3 - n + 12n = n(n^2 - 1) + 12n = (n-1)n(n+1) + 12n$.
+$(n-1)n(n+1)$ — uchta ketma-ket kelgan natural sonlar ko'paytmasi bo'lgani uchun har doim $3! = 6$ ga bo'linadi.
+$12n$ ham 6 ga bo'linadi.
+Ikkala qo'shiluvchi ham 6 ga bo'lingani uchun, ularning yig'indisi har doim 6 ga bo'linadi. $n=2$ da $2^3 + 11\cdot 2 = 30$ bo'lib, u 12 ga bo me'yoran bo'linmaydi, demak javob 6.</solution>
+<answer>A</answer>
+</example>
