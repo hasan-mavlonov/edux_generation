@@ -1,0 +1,202 @@
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Agar $x + \frac{1}{x} = 5$ bo'lsa, $x^4 + \frac{1}{x^4}$ ifodaning qiymatini toping.</problem>
+<choices>A) 23  B) 26  C) 30  D) 25</choices>
+<solution>$x + \frac{1}{x} = 5$ bo'lsa, ikkinchi darajali qisqa ko'paytuvchini o'tkazamiz:
+$(x + \frac{1}{x})^2 = x^2 + 2 \cdot x \cdot \frac{1}{x} + \frac{1}{x^2} \implies 5^2 = x^2 + 2 + \frac{1}{x^2} \implies x^2 + \frac{1}{x^2} = 25 - 2 = 23$.
+Endi uning kvadratini hosil qilamiz:
+$(x^2 + \frac{1}{x^2})^2 = x^4 + 2 \cdot x^2 \cdot \frac{1}{x^2} + \frac{1}{x^4} \implies 23^2 = x^4 + 2 + \frac{1}{x^4}$.
+Ikkala tarafni 2 ga ayiramiz:
+$x^4 + \frac{1}{x^4} = 529 - 2 = 527$.
+Demak, javob 527 bo'ladi.</solution>
+<answer>527</answer>
+
+<think>
+
+</think>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Ushbu ketma-ketlikning qonuniyatiga ko'ra $a_1=1$ va $a_2=2$ bo'lgan holda, barcha $n \ge 3$ uchun $a_n = a_{n-1} + a_{n-2}$ turli sonlar ketma-ketligi (Fibonachchi ketma-ketligi) hosil bo'ladi. Agar $a_k = 2023$ bo'lsa, $k$ ning qiymatini toping.</problem>
+<solution>Fibonachchi ketma-ketligining elementlarini o'zgaruvchilarga o'tkazamiz:
+$a_1 = 1$, $a_2 = 2$,
+$a_3 = a_1 + a_2 = 1 + 2 = 3$,
+$a_4 = a_2 + a_3 = 2 + 3 = 5$,
+$a_5 = a_3 + a_4 = 3 + 5 = 8$,
+$a_6 = a_4 + a_5 = 5 + 8 = 13$,
+$a_7 = a_5 + a_6 = 8 + 13 = 21$,
+$a_8 = a_6 + a_7 = 13 + 21 = 34$,
+$a_9 = a_7 + a_8 = 21 + 34 = 55$,
+$a_{10} = a_8 + a_9 = 34 + 55 = 89$,
+$a_{11} = a_9 + a_{10} = 55 + 89 = 144$,
+$a_{12} = a_{10} + a_{11} = 89 + 144 = 233$,
+$a_{13} = a_{11} + a_{12} = 144 + 233 = 377$,
+$a_{14} = a_{12} + a_{13} = 233 + 377 = 610$,
+$a_{15} = a_{13} + a_{14} = 377 + 610 = 987$,
+$a_{16} = a_{14} + a_{15} = 610 + 987 = 1597$,
+$a_{17} = a_{15} + a_{16} = 987 + 1597 = 2584$.
+Ketma-ketlik elementlari o'rtasidagi ayirmalar 2023 ga teng bo'lganligi shart. $2584 - 233 = 2351$
+
+<think>
+
+</think>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<problem>ABC uchburchakda AC = BC teng yonli uchburchak. AB tomonda D nuqta olingan. ADC uchburchakning ichki burchagi 25°, BCD uchburchakning ichki burchagi 35° ga teng. ABD uchburchakning B nuqtadagi ichki burchagini toping.</problem>
+<choices>A) 10°  B) 20°  C) 30°  D) 40°</choices>
+<solution>AB = BC bo'lgani uchun ABC uchburchak teng yonli, demak ∠B = ∠A.
+∠ACD = ∠ADC - ∠BCD = 25° - 35° = -10°, bu shunday o'girish mumkin emas, demak D nuqta C va A nuqtalar orasida joylashgan.
+D nuqta C va A orasida bo'lgani uchun AC = AD bo'ladi.
+ADC uchburchak teng yonli, demak ∠C = ∠ADC = 25°.
+B nuqtadan AD ga parallel tushirilgan to'g'ri to'rtburchak (BDE) yuzidan ∠ADE = ∠B = 35°.
+ADE uchburchak da ∠A + ∠ADE + ∠ADE = 180°. ∠A + 2·35° = 180° ⇒ ∠A = 110°.
+ABC uchburchakda ∠A = ∠B = 110° bo'lgani uchun ∠C = 180° - 2·110° = -40°, shunday yechim ham mumkin emas.
+Shartlarni qanoqlash uchun D nuqta A va B orasida bo'lishi kerak. Bu holda ∠BCD = 35°, ∠ADC = 25°, ∠ACD = ∠ADC - ∠BCD = 25° - 35° = -10° qilib yuz beradi.
+Shunday o'girish mumkin emas, demak D nuqta C va A orasida joylashgan. ADC uchburchak teng yonli, ∠ADC = ∠C = 25°.
+D nuqta A va B orasida bo'lgani uchun B nuqtadan AD ga parallel tushirilgan to'g'ri to'rtburchak (BDE) yuzidan ∠ADE = ∠B = 35°.
+ADE uchburchakda ∠A + ∠ADE + ∠ADE = 180°. ∠A
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<problem>1 dan 100 gacha bo'lgan barcha natural sonlar yig'indisini qo'shsak, qanday son hosil bo'ladi? Ushbu sonning raqamlari yig'indisini toping.</problem>
+<solution>1 dan 100 gacha bo'lgan sonlar yig'indisi: S = (100·101)/2 = 5050.
+5050 sonining raqamlari yig'indisi: 5 + 0 + 5 + 0 = 10.</solution>
+<answer>10</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>mcq</format>
+<has_diagram>true</has_diagram>
+<problem>4 ta ota va 4 ta ona yig'indi yugurish uchun to'g'ri to'rtburchak shakllarda qizil, qizil-ko'k va ko'k yig'indi bir-biriga o'rinli ravishda qiziqishga turish uchun qat'iy turli joylarda tashlagan. Ushbu yig'indilardan nechta turli usulda har ikki tomonda 2 ta ota va 2 ta ona turishini ta'minlaydigan yig'indi kombinatsiyasi mavjud?</problem>
+<choices>A) 24  B) 48  C) 72  D) 120</choices>
+<solution>Har bir ota va ona qiziqish uchun 4 ta yugurish to'rtburchak (har birida 4 ta joy) bor. Ikkita tomonda 2 ta ota va 2 ta ona kelishi uchun, bitta tomonda 2 ta ota va 2 ta ona o'rnini, ikkinchi tomonda esa qolgan 2 ta ota va 2 ta onani qiziqishlar beradi. To'rtta ota yig'indisini to'rtta joydan ikkita o'rnini tanlash (4C2) va onalardan ham (4C2) tanlash. Ikkita tomonda yig'indilar birlashtirilishi uchun 2 ta tomonda turli ota-onalar orasidan tanlagan yig'indilar orasidan 2 ta o'rinni o'rnastirish kiritish kerak (2! ta usul). Demak, jami turli kombinatsiyalar soni: 4C2 * 4C2 * 2! = 6 * 6 * 2 = 72 ta.</solution>
+<answer>C</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>2.6</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi ifodaning qiymatini toping: $\left(\frac{1}{a} + \frac{1}{b}\right)^2 - \left(\frac{1}{a} - \frac{1}{b}\right)^2$ ($a \ne 0$ va $b \ne 0$ bo'lsin).</problem>
+<solution>Formula yig'indining kvadrati va ayirmasi kvadratining aynan ayirmasi: $(x + y)^2 - (x - y)^2 = 4xy$. Bunday formula hisobga olsak, $x = \frac{1}{a}$ va $y = \frac{1}{b}$ bo'lgandagi ifodani hisoblaymiz: $4 \cdot \frac{1}{a} \cdot \frac{1}{b} = \frac{4}{ab}$.</solution>
+<answer>$\frac{4}{ab}$</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>100 kg muzdan 20% su yig'indisi bor bo'lgan muz to'liq yegirilgandan so'ng, yegirilgan muzning 30% qismi to'liq yegiriladi. Yegirilgan muzning jami massasini toping.</problem>
+<choices>A) 28 kg  B) 30 kg  C) 32 kg  D) 34 kg</choices>
+<solution>1) Muz yegirilgandan so'ng qolgan muzining massasi: 100 kg - 20% = 80 kg.
+2) Yegirilgan muzning massasi: 100 kg - 80 kg = 20 kg.
+3) 20 kg muzdan 30% qismi yegiriladi: 20 kg * 30% = 6 kg.
+4) Jami yegirilgan muzning massasi: 20 kg + 6 kg = 26 kg.</solution>
+<answer>A</answer>
+
+<subject>Matematika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>$a^2 + b^2 + c^2 - ab - bc - ca$ ifodaning qiymatini hisoblang, agar $a + b + c = 1$ va $ab + bc + ca = -1$ berilgan.</problem>
+<choices>A) 1  B) 2  C) 3  D) 4</choices>
+<solution>Identsiyani qulay ravishda yozamiz:
+$a^2 + b^2 + c^2 - ab - bc - ca = \frac{1}{2}[(a - b)^2 + (b - c)^2 + (c - a)^2]$
+Bu ifodaning qiymati 0 dan katta bo'lgan bo'lib, tenglik faqat $a = b = c$ bo'lganda 0 ga teng. Ushbu shart qismi $a + b + c = 1$ va $ab + bc + ca = -1$ usulida yechilsa, o'zgaruvchilarning har biri $a = b = c = \frac{1}{3}$ bo'ladi. Endi $a^2 + b^2 + c^2$ ning qiymatini topamiz:
+$(a^2 + b^2 + c^2) = \frac{1}{3^2} + \frac{1}{3^2} + \frac{1}{3^2} = 3 \cdot \frac{1}{9} = \frac{1}{3}$.
+$ab + bc + ca = -1$ tenglamadan $ab + bc + ca = 3 \cdot \frac{1}{3} \cdot \frac{1}{3} = \frac{1}{3}$, bu esa berilgan $-1$ qiymatga teng emas. Shuning uchun identsiyani qo'llash yechim yo'q. Bunday holda ifodaning qiymati $a^2 + b^2 + c^2 - ab - bc - ca = (a + b + c)^2 - 3(ab + bc + ca) = 1^2 - 3 \cdot (-1) = 1 + 3 = 4$ ga teng.</solution>
+<answer>D</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Avvalgi ixtiyoriy xil qilib turilgan 4 ta son 0 yoki 1 qiymatlari bo'lishi mumkin. Ular orasidan eng kamida biri 1 ga teng bo'lishi uchun, eng kamida necha mantiqiy AND elementi (qismiylashi oriti) ishlagani kerak?</problem>
+<choices>A) 1  B) 2  C) 3  D) 4</choices>
+<solution>Har bir qiymat 0 bo'lgan holatlar (0, 0, 0, 0) kabi yana biror soni 0ga teng bo'lgan 3 ta holatdan iborat. Ularni bir-biriga qo'shish orqali eng kamida biri 1 bo'lishi uchun 4 ta AND elementi ishlagan bo'lishi kerak.</solution>
+<answer>D</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>16 ta turli raqamli kodlangan yordam bilan yuzga keladigan sonlar orasidan turlicha sonlar yozish mumkin. Bu yerdan 512 ta son yozildi. Yuzga keladigan sonlar orasida nechta son yuzga kelmaslikka qarshi (yuzga keladigan sonlarga teng emas) yozilgan?</problem>
+<solution>512 ta son yozildi. Jami turlicha yuzga keladigan sonlar soni 16 ta turli raqamdan tuziladi, ya'ni 16^3=4096 ta son. Yuzga keladigan sonlar orasidan yozilgan sonlar soni 4096 - 512 = 3584 ta. Demak, yuzga kelmaslikka qarshi (yuzga keladigan sonlarga teng emas) yozilgan sonlar soni 512 ta bo'lib, yuzga keladigan sonlar orasidan 512 ta son yozilgan.</solution>
+<answer>512</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Ikki o'zingizdan chiqarilgan pseudocode algoritm berilgan:
+x = 1
+y = 1
+d = 1
+takrorla 5 marta:
+    d = d + x
+    x = y
+    y = d
+Algoritm yakunida y o'zgaruvchisining qiymati nechaga teng bo'ladi?</problem>
+<choices>A) 13  B) 21  C) 34  D) 55</choices>
+<solution>Algoritmda 5 marta takrorlanishi sababli, 5 ta takrorlash bosqichini tekshiramiz:
+1-takrorlash: d = 1+1 = 2; x = 1; y = 2.
+2-takrorlash: d = 2+1 = 3; x = 2; y = 3.
+3-takrorlash: d = 3+2 = 5; x = 3; y = 5.
+4-takrorlash: d = 5+3 = 8; x = 5; y = 8.
+5-takrorlash: d = 8+5 = 13; x = 8; y = 13.
+Natijada y = 13 ga teng bo'ladi.</solution>
+<answer>A</answer>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>open</format>
+<has_diagram>false</has_diagram>
+<problem>A1=12, A2=14, A3=28, A4=15, A5=20 bo'lib, B1=4, B2=5, B3=6, B4=7, B5=8. C1=SUM(A1:A5) va C2=SUM(A1:A5)*B1 formulalarining qiymatini toping.</problem>
+<solution>C1=SUM(A1:A5) yig'indi: 12+14+28+15+20=89. C2=SUM(A1:A5)*B1=89*4=356.</solution>
+<answer>89</answer>
+
+<think>
+
+</think>
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>0.9</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Kompyuter ekranida yashirilgan har bir rangni $R, G, B$ (qizil, yengil yashil, yengil ko'k) standart kodlash (RGB) sistemasida $0$ dan $255$ gacha bo'lgan sonlar orasidan 1 ta qiymat beradi. Qizil, yengil yashil va yengil ko'k ranglarining 3 ta o'zaro farqli qiymatli kombinatsiyalaridan qaysi qatorda o'zgaruvchilarning qiymatlari o'zaro to'la 256 ta yaroqli rangni (tarmoq) hosil qiladi?</problem>
+<choices>A) $R=128, G=0, B=0$; $R=129, G=0, B=0$; $R=130, G=0, B=0$  B) $R=127, G=0, B=0$; $R=127, G=1, B=0$; $R=127, G=2, B=0$  C) $R=0, G=0, B=0$; $R=0, G=1, B=0$; $R=0, G=2, B=0$  D) $R=0, G=0, B=0$; $R=1, G=1, B=1$; $R=2, G=2, B=2$</choices>
+<solution>Har bir ranglar uchun $0$ dan $255$ gacha $256$ ta qiymat mavjud. 3 ta rangning bitta qo'shiluvchi qiymatlarining kombinatsiyalari soni $256 \cdot 256 \cdot 256 = 256^3$ ta. 256^3 = $256 \cdot 256 \cdot 256 = 256 \cdot (256 \cdot 256) = 256 \cdot 65536 = 16777216$ ta ranglar mavjud. Shunday qilib, 256 ta yaroqli rangni hosil qilish uchun har bir rangning qiymati o'zaro bir xil bo'lishi kerak ($R=G=B=0$ dan $R=G=B=255$ gacha). 3 ta o'zaro farqli rangning 256 ta qiymatdan biri o'zgaruvchilarga berilishi uchun har bir rang $256$ ta qiymatdan biror birini olishi kerak. Yechim: $R=0, G=0, B=
+
+<subject>Informatika</subject>
+<grade>7</grade>
+<difficulty>1.5</difficulty>
+<format>mcq</format>
+<has_diagram>false</has_diagram>
+<problem>Quyidagi bitlar o'zgarishini tahlil qiling: 100111012 (ikkilik sanoq sistemasida) va 110001112 yig'indisini toping. Natijani 16-lik sanoq sistemasida yozing.</problem>
+<choices>A) 2516  B) 5316  C) 5716  D) 2916</choices>
+<solution>Ikkilik sanoq sistemasidagi sonlarni o'nlik sanoq sistemasiga o'tkazamiz:
+10011101₂ = 1·2⁷ + 0·2⁶ + 0·2⁵ + 1·2⁴ + 1·2³ + 1·2² + 0·2¹ + 1·2⁰ = 128 + 16 + 8 + 4 + 1 = 157₁₀.
+11000111₂ = 1·2⁷ + 1·2⁶ + 0·2⁵ + 0·2⁴ + 0·2³ + 1·2² + 1·2¹ + 1·2⁰ = 128 + 64 + 4 + 2 + 1 = 199₁₀.
+Yig'indi: 157 + 199 = 356₁₀.
+Endi 16-lik sanoq sistemasiga o'tkazamiz: 356 / 16 = 22 (qoldiq 4). 22 / 16 = 1 (qoldiq 6). 1 / 16 = 0 (qoldiq 1).
+Demak, 356₁₀ = 164₁₆ (16-lik sanoq sistemasida).</solution>
+<answer>C</answer>

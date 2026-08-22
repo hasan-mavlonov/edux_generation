@@ -26,7 +26,7 @@ from scripts.build_dataset import SYSTEM_PROMPT
 
 # --- adjust these ---
 BASE_MODEL = "/root/autodl-tmp/models/models/Qwen--Qwen3-4B/snapshots/master"
-ADAPTER_PATH = str(REPO_ROOT / "checkpoints" / "v1")  # match --output_dir from training
+ADAPTER_PATH = str(REPO_ROOT / "checkpoints" / "v2")  # match --output_dir from training
 N_PER_REQUEST = 1
 # ---------------------
 
@@ -84,7 +84,7 @@ def main():
         with torch.no_grad():
             out = model.generate(
                 **inputs,
-                max_new_tokens=400,
+                max_new_tokens=700,
                 temperature=0.7,
                 do_sample=True,
                 pad_token_id=tokenizer.pad_token_id or tokenizer.eos_token_id,
